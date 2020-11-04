@@ -1,0 +1,343 @@
+Advances in Neural Information 
+Processing Systems I 
+David S. Touretzky (Carnegie Mellon University) 
+Morgan Kaufmann Publishers 
+2929 Campus Drive 
+Suite 260 
+San Mateo, CA 94403 
+Editor Bruce M. Spatz 
+Coordinating Editor Beverly Kennon-Kelley 
+Production Manager Shirley Jowell 
+Production Assistant Elizabeth Myhr 
+Cover Designer Jo Jackson 
+Compositor Kennon-Kelley Graphic Design 
+Library of Congreta Cataloging-in Publication Data 
+Advances in neural information processing systems I / edited by David 
+Touretzky 
+p. cm. 
+Includes bibliographies and index. 
+ISBN 1-558-60015-9: $33.95 
+1. Neural circuitry--Congresses. 
+I. Touretzky, David S. 
+QP363.3.A43 1989 
+006.3--dc19 
+So 
+2. Neural computers--Congresses. 
+89-1844 
+CIP 
+ISBN 1-558-60015-9 
+MORGAN KAUFMANN PUBLISHERS, INC. 
+Editorial Office: 
+2929 Campus Drive 
+San Mateo, CA 94403 
+Order from: 
+P.O. Box 50490 
+Palo Alto, CA 94303-9953 
+¸ 1989 by Morgan Kaufmann Publishers, Inc. 
+All rights reserved. 
+No part of this publication may be reproduced, stored in a retrieval system, or transmitted in 
+any form or by any means electronic, mechanical, recording, or otherwisc without the prior 
+permission of the publisher. 
+Preface 
+This volume contains the collected papers of the 1988 IEEE Conference on Neural 
+Information Processing Systems - Natural and Synthetic. The program commit- 
+tee's selections represent some of the world's best research on neural modeling, 
+including recent work from Europe, Japan, Israel, and the Soviet Union. The in- 
+terdisciplinary nature of the field is well-reflected in this collection. Where else can 
+biologists who simulate neural circuits by computer (Part III) meet circuit designers 
+emulating biological structures in silicon (Part V)? Physicists, psychologists, and 
+computer scientists report many interesting studies of the computational properties 
+of networks, propose new learning algorithms, and illuminate relationships between 
+neural networks and other computing architectures (Parts I and IV). Applications, 
+too, are represented here (Part II), with special emphasis on speech recognition. 
+The briefest glance at the subject index in the back of the book should suffice to 
+convince anyone that neural networks is not a coherent field. It is a turbulent conflu- 
+ence of ideas and technologies, with many exciting and unpredictable developments 
+ahead. As the old Chinese saying goes, we live in interesting times. 
+The history of the NIPS conference is also interesting. In 1985 a conference called 
+"Neural Networks for Computing" was held in Santa Barbara. The following year 
+it moved to Snowbird, Utah, and became the first Snowbird Meeting on Neural 
+Networks for Computing. The proceedings of the 1986 meeting were published 
+by the American Institute of Physics as AIP conference proceedings number 151, 
+"Neural Networks for Computing," edited by John Denker. John reported that 
+about 160 people attended, up from 60 the year before. 
+Interest in neural networks increased so rapidly that by 1987 the community had 
+outgrown its original meeting format. Snowbird became a small, invitation-only 
+meeting, and is still held every April. A moderate-sized public conference was 
+planned for November in Boulder. This was to be the first NIPS conference. At 
+the last minute it was moved to Denver, where larger facilities were available. At- 
+tendance was around six hundred. The collected papers, again published by the 
+American Institute of Physics, were called "Neural Information Processing Sys- 
+tems." Dana Anderson was the editor. 
+In 1988 the second NIPS conference was held in Denver, and again roughly six 
+hundred people attended. The collected papers, which you now hold in your hand, 
+form the first volume of a new series, Advances in Neural Information Processing 
+Systems, that will be published annually by Morgan Kaufmann. 
+I would like to thank the other members of the NIPS organizing committee: 
+Terry Sejnowski (general chairman), Scott Kirkpatrick (program chairman), Cliff 
+Lau (treasurer), Jawad Salehi (publicity chairman), Kristina Johnson (local ar- 
+rangements), Howard Wachtel (workshop coordinator), Ed Posner (IEEE liaison), 
+Larry Jackel (physics liason), and Jim Bower (neurobiology liaison). 
+As editor my namq goes on the cover of the book, but the real credit goes to 
+the entire program committee: Josh Alspector, Dana Anderson, Pierre Baldi, Dana 
+Ballard, Jim Bower, John Denker, Charles Elbaurn, Walter Freeman, Lee Giles, 
+Ralph Linsker, Richard Lippman, Jay McClelland, John Moody, Tommy Poggio, 
+Danny Sabbah, Jay Sage, Allen Selverston, Richard Thompson, David van Essen, 
+Santosh Venkatesh, Hugh Wilson, and yours truly, with Scott Kirkpatrick as chair. 
+My student, Chris McConnell, did most of the work on the subject index. Thank 
+you, all. Scott and I would also like to extend special thanks to our secretaries, 
+Gina Davey and Pain Scott, respectively. 
+Finally, hats off to the folks at Morgan Kaufmann for getting the first volume 
+of this series into print so quickly and economically: Mike Morgan, Bruce Spatz, 
+Shirley Jowell, Jennifer Ballentine, and Elizabeth Myhr. See you all next year! 
+February, 1989 
+David S. Touretzky 
+Carnegie Mellon 
+111 
+CONTENTS 
+PART I: LEARNING AND GENERAIJZATION 
+Constraints on Adaptive Networks for Modeling Human Generalization 
+Mark A. Gluck, M. Payel and Van Henkla ............................................................ 2 
+An Optimality Principle for Unsupervised Learning 
+Terence D. Sanger .................................................................................................. 11 
+Associative Learning via Inhibitory Search 
+David H. Ackley ..................................................................................................... 20 
+"Fast Learning in Multi-Resolution Hierarchies' 
+John Moody ........................................................................................................... 29 
+Efficient Parallel Learning Algorithms for Neural Networks 
+Alan H. Kramer and A. Sangiovanni-Vincentelli ............................................... 40 
+Mapping Classifier Systems Into Neural Networks 
+Lawrence Davis. .................................................................................................... 49 
+Self Organizing Neural Networks for the Identification Problem 
+Manoel Fernando Tenorio and Wei-Tsih Lea ..................................................... 57 
+Linear Learning: Landscapes and Algorithms 
+Pierre Baldi ........................................................................................................... 65 
+Learning by Choice of Internal Representations 
+Tal Grossman, Ronny Meir and Eytan Domany ................................................ 73 
+What Size Net Gives Valid Generalization? 
+Eric B. Baum and David Haussler. ..................................................................... 81 
+Optimization by Mean Field Annealing 
+Griff Bilbro, Reinhold Mann, Thomas IC Miller, Wesley E. Snyder, 
+David E. Van den Bout and Mark Whita ............................................................ 91 
+Connectionist Learning of Expert Preferences by Comparison Training 
+Gerald Tesaura ..................................................................................................... 99 
+Skeletonization: A Technique for Trimming the Fat from a Network via 
+Relevance Assessment 
+Michael C. Mozer and Paul Smolensky. ............................................................ 107 
+The Boltzmann Perceptron Network: A Multi-Layered Feed-Forward Network 
+Equivalent to the Boltzmann Machine 
+Eyal Yair and Allen Gersho ............................................................................... 116 
+Adaptive Neural Net Preprocessing for Signal Detection in Non-Gaussian Noise 
+Richard P. Lippmann and Paul Beckmar ....................................................... 124 
+Training Multilayer Perceptrons with the Extended Kalman Algorithm 
+Sharad Singhal and Lance Wu ......................................................................... 133 
+GEMINI: Gradient Estimation Through Matrix Inversion After Noise Injection 
+Yann. Le Cun, Conrad C. Galland and Geoffrey E. Hinton .............................. 141 
+Fixed Point Analysis for Recurrent Networks 
+Patrice Y. Sirnard, Mary B. Ottaway and Dana H. Ballard. ........................... 149 
+Scaling and Generalization in Neural Networks: A Case Study 
+Subutai Ahmad and Gerald Tesauro ................................................................ 160 
+Does the Neuron earn  Like the Synapse? 
+Raoul Tawel ........................................................................................................ 169 
+Comparing Biases for Minimal Network Construction with Back-Propagation 
+Stephen Jos Hanson and Lorien Y. Pratt ........................................................ 177 
+An Application of the Principle of Maximum Information Preservation to 
+Linear Systems 
+Ralph Linsker. ..................................................................................................... 186 
+Learning with Temporal Derivatives in Pulse-Coded Neuronal Systems 
+David B. Parker, Mark Gluck and Eric S. Reifsnider ...................................... 195 
+PART II: APPLICATION 
+Applications of Error Back-Propagation to Phonetic Classification 
+Hong C. Leung and Victor W. Zue ...................................................................... 206 
+Consonant Recognition by Modular Construction of Large Phonemic 
+Time-Delay Neural Networks 
+Alex Waibel .......................................................................................................... 215 
+Use of Multi-Layered Networks for Coding Speech with Phonetic Features 
+Yoshua Bengio, Regis Cardin, Renato De Mori and Piero CosL ...................... 224 
+Speech Production Using A Neural Network with a Cooperative Learning 
+Mechanism 
+Mitsuo Komura and Akio Tanaka ...................................................................... 232 
+Temporal Representations in a Connectionist Speech System 
+Erich J. Smythe ................................................................................................... 240 
+A Connectionist Expert System that Actually Works 
+Richard Fozzard, Gary Bradshaw and Louis Ceci. .......................................... 248 
+An Information Theoretic Approach to Rule-Based Connectionist Expert Systems 
+Rodney M. Goodman, John W. Miller and Padhraic Smyth ........................... 256 
+Neural Approach for TV Image Compression Using a Hopfield Type Network 
+Martine NailIon and Jean-Bernard Theeten .................................................... 264 
+Neural Net Receivers in Multiple-Access Communications 
+Bernd-Peter Paris, Geoffrey Orsak, Mahesh Varanasi and 
+Behnaam Aazhang .............................................................................................. 272 
+Performance of Synthetic Neural Network Classification of Noisy Radar Signals 
+S.C. Ahalt, F. D. Garber, I. Jouny and A. IC Krishnamurthy ........................ 281 
+Neural Analog Diffusion-Enhancement Layer and Spatio-Temporal 
+Grouping in Early Vision 
+Allen M. Waxman, Michael Seibert, Robert Cunningham and Jian Wu ........ 289 
+A Network for Image Segmentation Using Color 
+Anya Hurlbert and Tomaso Poggio ................................................................... 297 
+ALVINN: An Autonomous Land Vehicle in a Neural Network 
+Dean A. Pomerleau ............................................................................................. 305 
+Neural Network Star Pattern Recognition for Spacecraft Attitude 
+Determination and Control 
+Phillip Alvelda, A. Miguel San Martin ............................................................. 314 
+lqeural Network Recognizer for Hand-Written Zip Code Digits 
+J. S. Denker, W. R. Gardner, H. P. Graf, D. Henderson, R. E. Howard, 
+W. Hubbard, L. D. Jackel, H. S. Baird and I. Guyon ...................................... 323 
+Neural Networks that Learn to Discriminate Similar Kanji Characters 
+Yoshihiro Mori and Kazuhiko Yokosawa .......................................................... 332 
+Backpropagation and Its Application to Handwritten Signature Verification 
+Timothy S. Wilkinson, Dorothy ,4. Mighell and Joseph W. Goodman ............ 340 
+Further Explorations in Visually-Guided Reaching: Making MURPHY Smarter 
+Bartlett W. Mel ................................................................................................... 348 
+Using Backpropagation with Temporal Windows to Learn the Dynamics 
+of the CMU Direct-Drive Arm II 
+ICY. Goldberg and B. A. Pearlmutter ............................................................... 356 
+PART III: NEUROBIOLOGY 
+Neuronal Maps for Sensory-Motor Control in the Barn Owl 
+C. D. Spence, J. C. Pearson, J. J. Gelfand, R. M. Peterson and 
+W. E. Sullivan ..................................................................................................... 366 
+Models of Ocular Dominance Column Formation: Analytical and 
+Computational Results 
+Kenneth D. Miller, Joseph B. Keller and Michael P: Stryker ......................... 375 
+Modeling Small Oscillating Biological Networks in Analog VLSI 
+Sylvie Ryckebusch, James M. Bower, and Carver Mead ................................. 384 
+Storing Covariance by the Associative Long-Term Potentiation and 
+Depression of Synaptic Strengths in the Hippocampus 
+Patric K. Stanton and Terrence J. Sejnowski ................................................... 394 
+Modeling the Olfactory BulbsCoupled Nonlinear Oscillators 
+Zhaoping Li and J. J. Hopfield .......................................................................... 402 
+Neural Control of Sensory Acquisition: The Vestibulo-Ocular Reflex 
+Michael G. Paulin, Mark E. Nelson and James M. Bower. ............................. 410 
+Computer Modeling of Associative Learning 
+Daniel L. Alkon, Francis Quek and Thomas P. Vogl ........................................ 419 
+Simulation and Measurement of the Electric Fields Generated by Weakly 
+Electric Fish 
+Brian Rasnow, Christopher Assad, Mark E. Nelson and James M. Bower .... 436 
+A Model for Resolution Enhancement (Hyperacuity) in Sensory Representation 
+Jun Zhang and John P. Miller .......................................................................... 444 
+Theory of Self-Organization of Cortical Maps 
+Shigeru Tanaka .................................................................................................. 451 
+A Bifurcation Theory Approach to the Programming of Periodic Attractors 
+in Network Models of Olfactory Cortex 
+Bill Baird. ............................................................................................................ 459 
+Learning the Solution to the Aperture Problem for Pattern Motion with a 
+Hebb Rule 
+Martin I. Sereno .................................................................................................. 468 
+A Computationally Robust Anatomical Model for Retinal Directional 
+Selectivity 
+Norberto M. Grzywacz and Franklin R. Arethor. .............................................. 477 
+GENESIS: A System for Simulating Neural Networks 
+Matthew A Wilson, Upinder S. Bhalla, John D. Uhley and 
+James M. Bower .................................................................................................. 485 
+PART IV: STRUCTURED NETWORKS 
+Training a 3-Node Neural Network is NP-Complete 
+Avrim Blum and Ronald L. Rivest. .................................................................... 494 
+Links Between Markov Models and Multilayer Percepttons 
+H. Bourlard and C. J. Welleken ....................................................................... 502 
+Convergence and Pattern-Stabilization in the Boltzmann Machine 
+Moshe Karo and Roger Cheng ............................................................................ 511 
+A Back-Propagation Algorithm with Optimal Use of Hidden Units 
+Yves Chauvin ....................................................................................................... 519 
+Implications of Recursive Distributed Representations 
+Jordan B. Pollack ................................................................................................ 527 
+A Massively Parallel Self-Tuning Context-Free Parser 
+Eugene Santos Jr ................................................................................................. 537 
+Dynamic, Non-Local Role Bindings and Inferencing in a Localist Network 
+for Natural Language Understanding 
+Trent E. Lange and Michael G. Dyer ................................................................ 545 
+Spreading Activation over Distributed Microfeatures 
+James Hendler .................................................................................................... 553 
+A Model of Neural Oscillator for a Unified Submodule 
+tL B. Kirillov, G. N. Borisyuk, R M. Borisyuk, Ye. I. Kovalenko, 
+V. I. Makarenko, V. A Chulaevsky and V. I. Kryukov .................................... 560 
+Dynamics of Analog Neural Networks with Time Delay 
+C. M. Marcus and t M. Westervelt .................................................................. 568 
+Heterogeneous Neural Networks for Adaptive Behavior in Dynamic 
+Environments 
+Randall D. Beer, Hillel J. Chiel and Leon S. Sterlin ...................................... 577 
+Statistical Prediction with Kanerva's Sparse Distributed Memory 
+David Rogers ........................................................................................................ 586 
+Range Image Restoration Using Mean Field Annealing 
+Griff L. Bilbro and Wesley E. Snyder. ................................................................. 594 
+Automatic Local Annealing 
+Jared Leinbach ................................................................................................... 602 
+"NeurolocatoF', A Model of Attention 
+V. I. Kryukov ....................................................................................................... 610 
+Neural Networks for Model Matching and Perceptual Organization 
+Eric Mjolsness, Gene Gindi and P. Anandan .................................................... 618 
+Analyzing the Energy Landscapes of Distributed Winner-Take-All Networks 
+David S. Touretzky. ............................................................................................. 626 
+On the K-Winners-Take-All Network 
+E. Majani, R. Erlanson and Y. Abu-Mostafc ................................................... 634 
+Learning Sequential Structure in Simple Recurrent Networks 
+David Servan-Schreiber, Axel Cleeremans and James L. McClelland ........... 643 
+An Adaptive Network That Learns Sequences of Transitions 
+C. L. Winter ......................................................................................................... 653 
+PART V: IMPLEMENTATION 
+A Passive Shared Element Analog Electrical Cochlea 
+David Feld, Joe Eisenberg and Edwin Lewis. ................................................... 662 
+Programmable Analog Pulse-Firing Neural Networks 
+Alister Hamilton, Alan F. Murray and Lionel Tarassenko .............................. 671 
+A Low-Power CMOS Circuit Which Emulates Temporal Electrical Properties 
+of Neurons 
+Jack L. Meador and Clint S. Cole ...................................................................... 678 
+An Analog VLSI Chip for Thin-Plate Surface Interpolation 
+John G. Harris .................................................................................................... 687 
+Analog Implementation of Shunting Neural Networks 
+Bahram Nabet, Robert B. Darling and Robert B. Pinter. ................................. 695 
+Winner-Take-All Networks of O(N) Complexity 
+J. Lazzaro, S. Ryckebusch, M. A. Mahowald and C. A. Mead ........................ 703 
+A Programmable Analog Neural Computer and Simulator 
+Paul Mueller, Jan Van der Spiegel, David Blackman, Timothy Chiu, 
+Thomas Clare, Joseph Dao, Christopher Donham, Tzu-pu Hsieh and 
+Marc Loinaz ......................................................................................................... 712 
+An Electronic Photoreceptor Sensitive to Small Changes in Intensity 
+T. Delbr'dck and C. A. Mead ............................................................................. 720 
+Digital Realisation of Self-Organising Maps 
+Martin J. Johnson, Nigel M. Allinson and Kevin J. Moon. .............................. 728 
+An Analog Self-Organizing Neural Network Chip 
+James R. Mann and Sheldon Gilbert ................................................................ 739 
+Performance of a Stochastic Learning Microchip 
+Joshua Alspector, Bhusan Gupta and Robert B. Allen .................................... 748 
+Adaptive Neural Networks Using MOS Charge Storage 
+D. B. Schwartz, R. E. Howard and W. E. Hubbard. ......................................... 761 
+A Self-Learning Neural Network 
+A- Hartstein and R. H. Koch. .............................................................................. 769 
+Training a Limited-Interconnect, Synthetic Neural IC 
+M. R. Walker, S. Haghighi, A- Afghan and L. A. Akers ................................... 777 
+Electronic Receptors for Tactile/Haptic Sensing 
+Andreas G. Andreou. ........................................................................................... 785 
+APPENDIX: SUMMARS OF INVITED T.AI,KS 
+Neural Architecture 
+Valentino Braitenberg ......................................................................................... 794 
+Song Learning in Birds 
+M. Konishi ........................................................................................................... 795 
+Speech Recognition: Statistical and Neural Information Processing Approaches 
+John S. Bridle ..................................................................................................... 796 
+Cricket Wind Detection 
+John P. Miller. ..................................................................................................... 802 
+Author Index .............................................................................................................. 809 
+Subject Index .............................................................................................................. $13 
+Part I 
+Learning and Generalization 
+Other Titles of iiterest from Morgan Kaufmann Publishers 
+PROCEEDINGS OF THE 1988 CONNECTIONIST MODELS 
+SUMMER SCHOOL 
+Edited by David S. Touretzky, Geoffrey Hinton and 
+Terrence Sejnowski 
+PROCEEDINGS OF THE 1988 WORKSHOP ON COMPUTATIONAL 
+LEARNING THEORY 
+Edited by David Haussler and Leonard Pitt 
+PROBABILISTIC REASONING IN INTELLIGENT SYSTEMS: 
+NETWORKS OF PLAUSIBLE INFERENCE 
+by Judea Pearl 
+READINGS IN COGNITIVE SCIENCE: A PERSPECTIVE FROM 
+PSYCHOLOGY AND ARTIFICIAL INTELLIGENCE 
+Edited by Allan Collins and Edward Smith 
+SEMANTIC NETWORKS: AN EVIDENTIAL FORMALIZATION 
+AND ITS CONNECTIONIST REALIZATION 
+by Lokendra Shastri 
+(Research Notes in Artificial Intelligence Series) 
+GENETIC ALGORITHMS AND SIMULATED ANNEALING 
+by Lawrence Davis 
+(Research Notes in Artificial Intelligence Series) 

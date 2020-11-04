@@ -1,0 +1,359 @@
+Connectivity Versus Entropy 
+Yaser S. Abu-Mostafa 
+1 
+
+Stochastic Learning Networks and their Electronic Implementation 
+Joshua Alspector, Robert B. Allen, Victor Hu, and Srinagesh Satyanarayana 
+9 
+
+Learning on a General Network 
+Amir F. Atiya 
+22 
+
+An Artificial Neural Network for Spatio-Temporal Bipolar Patterns: Application to Phoneme Classification 
+Les E. Atlas, Toshiteru Homma, and Robert J. Marks II 
+31 
+
+On Properties of Networks of Neuron-Like Elements 
+Pierre Baldi and Santosh S. Venkatesh 
+41 
+
+Supervised Learning of Probability Distributions by Neural Networks 
+Eric B. Baum and Frank Wilczek 
+52 
+
+Centric Models of the Orientation Map in Primary Visual Cortex 
+William Baxter and Bruce Dow 
+62 
+
+Analysis and Comparison of Different Learning Algorithms for Pattern Association Problems 
+J. Bernasconi 
+72 
+
+Simulations Suggest Information Processing Roles for the Diverse Currents in Hippocampal Neurons 
+Lyle J. Borg-Graham 
+82 
+
+Optimal Neural Spike Classification 
+James M. Bower and Amir F. Atiya 
+95 
+
+Neural Networks for Template Matching: Application to Real-Time Classification of the Action Potentials of Real Neurons 
+James M. Bower, Yiu-fai Wong, and Jashojiban Banik 
+103 
+
+A Computer Simulation of Olfactory Cortex with Functional Implications for Storage and Retrieval of Olfactory Information 
+James M. Bower and Matthew A. Wilson 
+114 
+
+Neural Network Implementation Approaches for the Connection Machine 
+Nathan H. Brown, Jr. 
+127 
+
+On the Power of Neural Networks for Solving Hard Problems 
+Jehoshua Bruck and Joseph W. Goodman 
+137 
+
+Speech Recognition Experiments with Perceptrons 
+David J. Burr 
+144 
+
+Presynaptic Neural Information Processing 
+L. Richard Carley 
+154 
+
+Mathematical Analysis of Learning Behavior of Neuronal Models 
+John Y. Cheung and Massoud Omidvar 
+164 
+
+A Neural Network Classifier Based on Coding Theory 
+Tzi-Dar Chiueh and Rodney Goodman 
+174 
+
+The Capacity of the Kanerva Associative Memory is Exponential 
+P. A. Chou 
+184 
+
+Phase Transitions in Neural Networks 
+Joshua Chover 
+192 
+
+New Hardware for Massive Neural Networks 
+D. D. Coon and A. G. U. Perera 
+201 
+
+High Density Associative Memories 
+Amir Dembo and Ofer Zeitouni 
+211 
+
+Network Generality, Training Required, and Precision Required 
+John S. Denker and Ben S. Wittner 
+219 
+
+'Ensemble' Boltzmann Units have Collective Computational Properties like those of Hopfield and Tank Neurons 
+Mark Derthick and Joe Tebelskis 
+223 
+
+High Order Neural Networks for Efficient Associative Memory Design 
+G. Dreyfus, I. Guyon, J.P. Nadal, and L. Personnaz 
+233 
+
+The Sigmoid Nonlinearity in Prepyriform Cortex 
+Frank H. Eeckman 
+242 
+
+Hierarchical Learning Control--An Approach with Neuron-Like Associative Memories 
+E. Ersu and H. Tolle 
+249 
+
+On Tropistic Processing and Its Applications 
+Manuel F. Fernandez 
+262 
+
+Correlational Strength and Computational Algebra of Synaptic Connections Between Neurons 
+Eberhard E. Fetz 
+270 
+
+The Hopfield Model with Multi-Level Neurons 
+Michael Fleisher 
+278 
+
+Cycles: A Simulation Tool for Studying Cyclic Neural Networks 
+Michael T. Gately 
+290 
+
+Temporal Patterns of Activity in Neural Networks 
+Paolo Gaudiano 
+297 
+
+Encoding Geometric Invariances in Higher-Order Neural Networks 
+C. Lee Giles, R. D. Griffin, and T. Maxwell 
+301 
+
+Probabilistic Characterization of Neural Model Computations 
+Richard M. Golden 
+310 
+
+Partitioning of Sensory Data by a Cortical Network 
+Richard Granger, Jos6 Ambros-Ingerson, Howard Henry, and Gary Lynch 
+317 
+
+The Connectivity Analysis of Simple Association 
+Dan Hammerstrom 
+338 
+
+Minkowski-r Back-Propagation: Learning in Connectionist Models with Non-Euclidian Error Signals 
+Stephen J. Hanson and David J. Burr 
+348 
+
+Learning Representations by Recirculation 
+Geoffrey E. Hinton and James L. McClelland 
+358 
+
+Schema for Motor Control Utilizing a Network Model of the Cerebellum 
+James C. Houk 
+367 
+
+Experimental Demonstrations of Optical Neural Computers 
+Ken Hsu, David Brady, and Demetri Psaltis 
+377 
+
+Neural Net and Traditional Classifiers 
+William Y. Huang and Richard P. Lippmann 
+387 
+
+An Optimization Network for Matrix Inversion 
+Ju-Seog Jang, Soo-Young Lee, and Sang-Yung Shin 
+397 
+
+How the Catfish Tracks Its Prey: An Interactive 'Pipelined' Processing System May Direct Foraging via Reticulospinal Neurons 
+Jagmeet S. Kanwal 
+402 
+
+Capacity for Patterns and Sequences in Kanerva's SDM as Compared to Other Associative Memory Models 
+James D. Keeler 
+412 
+
+Computing Motion Using Resistive Networks 
+Christof Koch, Jin Luo, Carver Mead, and James Hutchinson 
+422 
+
+Performance Measures for Associative Memories that Learn and Forget 
+Anthony Kuh 
+432 
+
+How Neural Nets Work 
+Alan Lapedes and Robert Farbet 
+442 
+
+Distributed Neural Information Processing in the Vestibulo-Ocular System 
+Clifford Lau and Vicente Honrubia 
+457 
+
+Spontaneous and Information-Triggered Segments of Series of Human Brain Electric Field Maps 
+Dietrich Lehmann, D. Brandeis, A. Horst, H. Ozaki, and I. Pal 
+467 
+
+Optimization with Artificial Neural Network Systems: A Mapping Principle and a Comparison to Gradient Based Methods 
+Harrison MonFook Leong 
+474 
+
+Towards an Organizing Principle for a Layered Perceptual Network 
+Ralph Linsker 
+485 
+
+Reflexive Associative Memories 
+Hendricus G. Loos 
+495 
+
+Connecting to the Past 
+Bruce MacDonald 
+505 
+
+Microelectronic Implementations of Connectionist Neural Networks 
+Stuart Mackie, Hans P. Graf, Daniel B. Schwartz, and John S. Denker 
+515 
+
+Basins of Attraction for Electronic Neural Networks 
+Charles M. Marcus and R. M. Westervelt 
+524 
+
+The Performance of Convex Set Projection Based Neural Networks 
+Robert J. Marks II, Les E. Atlas, Seho Oh, and James A. Ritcey 
+534 
+
+MURPHY: A Robot that Learns by Doing 
+Bartlett W. Mel 
+544 
+
+Stability Results for Neural Networks 
+A. N. Michel, J. A. Farrell, and W. Porod 
+554 
+
+Programmable Synaptic Chip for Electronic Neural Networks 
+Alexander Moopenn, H. Langenbacher, A. P. Thakoor, and S. K. Khanna 
+564 
+
+Bit-Serial Neural Networks 
+Alan F. Murray, Anthony V. W. Smith, and Zoe F. Butler 
+573 
+
+Phasor Neural Networks 
+Andr6 J. Noest 
+584 
+
+A Trellis-Structured Neural Network 
+Thomas Petsche and Bradley W. Dickinson 
+592 
+
+Generalization of Backpropagation to Recurrent and Higher Order Neural Networks 
+Fernando J. Pineda 
+602 
+
+Constrained Differential Optimization 
+John C. Platt and Alan H. Bart 
+612 
+
+Learning a Color Algorithm from Examples 
+Tomaso A. Poggio and Anya C. Hurlbert 
+622 
+
+Static and Dynamic Error Propagation Networks with Application to Speech Coding 
+A. J. Robinson and F. Fallside 
+632 
+
+Learning by State Recurrence Detection 
+Bruce E. Rosen, James M. Goodwin, and Jacques J. Vidal 
+642 
+
+Scaling Properties of Coarse-Coded Symbol Memories 
+Ronald Rosenfeld and David S. Touretzky 
+652 
+
+An Adaptive and Heterodyne Filtering Procedure for the Imaging of Moving Objects 
+F. H. Schuling, H. A. K. Mastebroek, and W. H. Zaagman 
+662 
+
+Pattern Class Degeneracy in an Unrestricted Storage Density Memory 
+Christopher L. Scofield, Douglas L. Reilly, Charles Elbaum, and Leon N. Cooper 
+674 
+
+A Mean Field Theory of Layer IV of Visual Cortex and Its Application to Artificial Neural Networks 
+Christopher L. Scofield 
+683 
+
+Teaching Artificial Neural Systems to Drive: Manual Training Techniques for Autonomous Systems 
+J. F. Shepanski and S. A. Macy 
+693 
+
+Discovering Structure from Motion in Monkey, Man and Machine 
+Ralph M. Siegel 
+701 
+
+Time-Sequential Self-Organization of Hierarchical Neural Networks 
+Ronald H. Silverman and Andrew S. Noetzel 
+709 
+
+A Computer Simulation of Cerebral Neocortex: Computational Capabilities of Nonlinear Neural Networks 
+Alexander Singer and John P. Donoghue 
+715 
+
+Analysis of Distributed Representation of Constituent Structure in Connectionist Systems 
+Paul Smolensky 
+730 
+
+Spatial Organization of Neural Networks: A Probabilistic Modeling Approach 
+Andreas Stafylopatis, M. Dikaiakos, and D. Kontoravdis 
+740
+
+A Dynamical Approach to Temporal Pattern Processing 
+W. Scott Stornetta, Tad Hogg, and Bernardo A. Huberman 
+750 
+
+A Novel Net that Learns Sequential Decision Process 
+G. Z. Sun, Y. C. Lee, and H. H. Chen 
+760 
+
+Self-Organization of Associative Database and Its Applications 
+Hisashi Suzuji and Suguru Arimoto 
+767 
+
+A Neural-Network Solution to the Concentrator Assignment Problem 
+Gene A. Tagliarini and Edward W. Page 
+775 
+
+Using Neural Networks to Improve Cochlear Implant Speech Perception 
+Manoel F. Tenorio 
+783 
+
+A 'Neural' Network that Learns to Play Backgammon 
+Gerald Tesauro and T. J. Sejnowski 
+794 
+
+Introduction to a System for Implementing Neural Net Connections on SIMD Architectures 
+Sherryl Tomboulian 
+804 
+
+Neuromorphic Networks Based on Sparse Optical Orthogonal Codes 
+Mario P. Vecchi and Jawad A. Salehi 
+814 
+
+Synchronization in Neural Nets 
+Jacques J. Vidal and John Haggerty 
+824 
+
+Invariant Object Recognition Using a Distributed Associative Memory 
+Harry Wechsler and George Lee Zimmerman 
+830 
+
+Learning in Networks of Nondeterministic Adaptive Logic Elements 
+Richard C. Windecker 
+840
+
+Strategies for Teaching Layered Networks Classification Tasks 
+Ben S. Wittner and John S. Denker 
+850 
+
+A Method for the Design of Stable Lateral Inhibition Networks that is Robust in the Presence of Circuit Parasitics 
+John L. Wyatt, Jr. and D. L. Standley 
+860 

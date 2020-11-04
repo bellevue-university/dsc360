@@ -1,0 +1,91 @@
+Connectionist Modeling and 
+Parallel Architectures 
+Joachim Diederich 
+Ah Chung Tsoi 
+Neurocomputing Research Centre 
+School of Computing Science 
+Queensland University of Technology 
+Brisbane Q 4001 Australia 
+Department of Electrical and 
+Computer Engineering 
+University of Queensland 
+St Lucia, Queensland 4072, Australia 
+The introduction of specialized hardware platforms for connectionist modeling 
+("connectionist supercomputer") has created a number of research topics. Some of 
+these issues are controversial, e.g. the efficient implementation of incremental learn- 
+ing techniques, the need for the dynamic recoffiguration of networks and possible 
+programming enviromnents for these maclfines. 
+Joachim Diederich, Queensland University of Technology (Brisbane), started with 
+a brief introduction to connectionist modeling and parallel machines. Neural network 
+modeling can be done on various levels of abstraction. On a low level of abstraction, 
+a simulator can support the definition and simulation of "compartmental models," 
+chemical synapses, dendritic trees etc., i.e. explicit computational models of single 
+neurons. These models have been built by use of SPICE (UC Berkeley) and Genesis 
+(Caltech). On a higher level of abstraction, the Rochester Connectionist Simulator 
+(RCS; Ufiversity of Rochester) and ICSIM (ICSI Berkeley) allow the definition of 
+unit types and complex comectivity patterns. On a very high level of abstraction, 
+simulators like tlearn (UCSD) allow the easy realization of pre-defined network archi- 
+tectures (feedforward networks) and learning algorithms such as backpropagation. 
+Ben Gomes, International Computer Science Institute (Berkeley) introduced the 
+Connectionist Supercomputer 1. The CNS-1 is a multiprocessor system designed for 
+moderate precision fixed point operations used extensively in comectionist network 
+calculations. Custom VLSI digital processors employ an on-chip vector coprocessor 
+unit tailored for neural network calculations and controlled by RISC scalar CPU. One 
+processor and associated commercial DRAM comprise a node, which is comected in a 
+mesh topology with other nodes to establish a MIMD array. One edge of the commu- 
+nications mesh is reserved for attaching various I/O devices, which connect via a cus- 
+tom network adaptor clfip. The CNS-1 operates as a compute server and one I/O port 
+is used for comecting to a host workstation. 
+Users with mainstream connectionist applications can use CNSim, an object-oriented, 
+graphical high-level interface to the CNS-1 environment. Those with more compli- 
+cated applications can use one of several high-level programming languages (C, C++, 
+1178 
+Connectionist Modeling and Parallel Architectures 
+Sather), and access a complete set of hand-coded assembler subroutine libraries for 
+connectionist applications. Simulation, debugging and profiling tools will be avail- 
+able to aid both types of users. Additional tools are available for the systems pro- 
+grammer to code at a low levd for maximum performance. Access to the I/O-level 
+processor and network functions are provided, along with the evaluation tools needed 
+to complement the process. 
+Urs Muller, Swiss Federal Institute of Technology (Ziidch) introduced MUSIC: A 
+high performance neural network simulation tool on a multiprocessor. MUSIC 
+(Multiprocessor System with Intelligent Communication), a 64 processor system, 
+rims backpropagation at a speed of 247 million counection updates per second using 
+32 bit floating-point precision. Thus the system reaches supercomputer speed (3.8 
+gflops peak), it still can be used as a personal desk-top computer at a researchers own 
+disposal: The complete system consumes less than 800 Watt and fits into a 19 inch 
+rack. 
+Fin Martin, Intel Corporation, introduced "Nil000," an RBF processor which ac- 
+cepts 40,000 patterns per second. Input patterns of 256 dimensions by 5 bits are 
+transferred from the host to the Nil000 and compared with the chip's "memory" of 
+1024 stored reference patterns, in parallel. A custom 16 bit on-chip microcontroller 
+runs at 20 MIPS and controls all the programming and algorithm functions. RBF's 
+are considered an advancement over traditional template matciting algorithms and back 
+propagation. 
+Paul Murtagh and Ah Chung Tsoi, Ufiversity of Queensland (St. Lucia) de- 
+scribed a recoffigurable VLSI Systolic Array for artificial neural networks. After a 
+brief review of some of the most common neural network architectures, e.g., multi- 
+layer perceptron, Hopfield net, Boltzmann machine, Ah Chung Tsoi showed that the 
+traifing algorithms of these networks can be written in a unified manner. This ratified 
+traifing algodtlm is then shown to be implementable in a systolic array fashion. The 
+individual processor can be designed accordingly. Each processor incorporates func- 
+tionality recoffiguration to allow a number of neural network models to be imple- 
+mented. The arclfitecture also incorporates recoffiguration for fault tolerance and pro- 
+cessor arrangement. Each processor occupies very litfie silicon area with 16 proces- 
+sors being able to fit onto a 10 x 10 nm2 die. 
+Glinther Palm and Franz Kurfess introduced "Neural Associative Memories." 
+Despite having processing elements which are thousands of times faster than the neu- 
+rons in the brain, moderu computers still cannot match quite a few processing capa- 
+bilities of the brain, many of which we even consider trivial (such as recognizing 
+faces or voices, or following a conversation). A common principle for those capabili- 
+ties lies in the use of correlations between patterns in order to identify patterns which 
+are similar. Looking at the brain as an ifformation processing mechanism with -- 
+probably muong others -- associative processing capabilities together with the con- 
+verse view of associative memories as certain types of artificial neural networks initi- 
+ated a number of interesting results. These range from theoretical considerations to in- 
+sights in the functioning of neurons, as well as parallel hardware implementations of 
+neural associative memories. The talk discussed some implementation aspects and 
+presented a few applications. 
+Finally, Ernst Niebur, California Institute of Technology (Pasadena) presented his 
+work on biologically realistic modeling on SIMD maclfines (No abstract available). 
+1179 

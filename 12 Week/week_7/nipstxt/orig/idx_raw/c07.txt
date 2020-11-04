@@ -1,0 +1,890 @@
+ADVANCES IN NEURAL INFORMATION 
+PROCESSING SYSTEMS 7 
+ADVANCES IN NEURAL INFORMATION PROCESSING SYSTEMS 
+Published by Morgan-Kaufmann 
+NIPS-1 
+Advances tn Neural Information Processing Systems: Proceedings of the 1988 Conference, 
+David Touretzky, ed., 1989 
+NIPS-2 
+Advances tn Neural Information Processing Systems: Proceedings of the 1989 Conference, 
+David Touretzky, ed., 1990 
+NIPS-3 
+Advances in Neural Information Processing Systems: Proceedings of the 1990 Conference, 
+Richard P. Lippmann, John E. Moody, and David S. Touretzky, eds., 1991 
+Advances in Neural Information Processing Systems: Proceedings of the 1991 Conference, 
+John E. Moody, Steve J. Hanson, and Richard P. Lippmann, eds., 1992 
+NIPS-5 
+Advances m Neural Information Processing Systems: Proceedings of the 1992 Conference, 
+Stephen Jose Hanson, Jack D. Cowan, and C. Lee Giles, eds., 1993 
+NIPS-6 
+Advances tn Neural Information Processing Systems: Proceedings of the 1993 Conference, 
+Jack D. Cowan, Gerald Tesauro, and Joshua Alspector, eds., 1994 
+Published by The MIT Press 
+Advances in Neural Information Processing Systems: Proceedings of the 1994 Conference, 
+Gerald Tesauro, David Touretzky, and Todd Leen, eds., 1995 
+ADVANCES IN NEURAL INFORMAON 
+PROCESSING SYSTEMS 7 
+Edited by 
+Gerald Tesauro, David Touretzky, Todd Leen 
+The MIT Press 
+Cambridge, Massachusetts 
+London, England 
+¸ 1995 Massachusetts Institute of Technology 
+All rights reserved. No part of this book may be reproduced in any form by any electronic or mechanical 
+means (including photocopying, recording, or information storage and retrieval) without permission in 
+writing from the publisher. 
+This book was printed and bound in the United States of America. 
+ISSN 1049-5258 
+ISBN 0-262-20104-6 
+Contents 
+Preface 
+Contributors 
+PART I 
+COGNITIVE SCIENCE 
+DIRECTION SELECTIVITY IN PRIMARY VISUAL CORTEX USING 
+MASSIVE INTRACORTICAL CONNECTIONS 
+Humbert Suarez, Christof Koch, Rodney Douglas 
+ON THE COMPUTATIONAL UTIL1TY OF CONSCIOUSNESS 
+Donald Mathis, Michael C. Mozer 
+CATASTROPHIC INTERFERENCE IN HUMAN MOTOR LEARNING 
+Tom Brashers-Krug, Reza Shadmehr, Emanuel Todorov 
+GRAMMAR LEARNING BY A SELF-ORGANIZING NETWORK 
+Michiro Negishi 
+PATrERNS OF DAMAGE IN NEURAL NETWORKS: THE EFFECTS OF 
+LESION AREA, SHAPE AND NUMBER 
+Eytan Ruppin, James A. Reggia 
+FORWARD DYNAMIC MODELS IN HUMAN MOTOR CONTROL: 
+PSYCHOPHYSICAL EVIDENCE 
+Daniel M. Wolpert, Zoubin Ghahramani, Michael I. Jordan 
+A SOLVABLE CONNECYIONIST MODEL OF IMMEDIATE RECAII. OF 
+ORDERED LISTS 
+Nell Burgess 
+xvii 
+3 
+II 
+19 
+Con ten ts 
+PART II 
+NEUROSCIENCE 
+A MODEL FOR CHEMOSENSORY RF_L'EPTION 
+Rainer Malaka, Thomas Ragg, Martin Hammer 
+THE ELECTRONIC TRANSFORMATION: A TOOL FOR 
+REI .ATING NEURONAL FORM TO FUNCTION 
+Nicholas Carneyale, Kenneth Y. Tsai, Brenda J. Claiborne, Thomas H. 
+A MODEL OF THE HIPPOCAMPUS COMBINING SELF-ORGANIZATION 
+AND ASSOCIATIVE MEMORY FUNCTION 
+Michael E. Hasselmo, Eric Schnell, Joshua Berke, Edi Barkai 
+MODEL OF BIOLOGICAL NEURON AS A TEMPORAL NEURAL NETWORK 
+Sean D. Murphy, Edward W. Kairiss 
+A CRITICAL COMPARISON OF MODELS FOR ORIENTATION AND 
+OCULAR DOMINANCE COLUMNS IN THE STRIATE CORTEX 
+E. Erwin, K. Obermayer, K. Schulten 
+A NOVEL REINFORCEMENT MODEL OF BIRDSONG VOCALIZATION 
+LEARNING 
+Kenji Doya, Terrence J. Sejnowski 
+OCULAR DOMINANCE AND PATTERNED LATERAL CONNFL-TIONS IN A 
+SELF-ORGANIZING MODEL OFTHE PRIMARY VISUAL CORTEX 
+Joseph Sirosh, Risto Miikkulainen 
+ANATOMICAL ORIGIN AND COMPUTATIONAL ROLE OF DIVERSITY IN 
+THE RESPONSE PROPERTIES OF CORTICAL NEURONS 
+Kalanit Grill Spector, Shimon Edelman, Rafael Malach 
+REINFORCEMENT LEARNING PREDICTS THE SITE OF PLASTICITY FOR 
+AUDITORY REMAPPING IN THE BARN OWL 
+Alexandre Pouget, Cedric Deffayet, Terrence J. Sejnowski 
+MORPHOGENESIS OF THE LATERAL GENICULATE NUCLEUS: 
+HOW SINGULARITIES  GLOBAL STRUCTURE 
+Svilen Tzonev, Klaus Schulten, Joseph G. Malpeli 
+A COMPUTATIONAL MODEL OF PREFRONTAL CORTEX FUNCTION 
+Todd S. Braver, Jonathan D. Cohen, David Servan-Schreiber 
+Brown 
+61 
+69 
+77 
+85 
+93 
+lol 
+lO9 
+117 
+125 
+133 
+141 
+Contents vii 
+A NEURAL MODEL OF DELUSIONS AND HAI JUCINATIONS IN 
+SCHIZOPHRENIA 
+Eytan Ruppin, James A. Reggia, David Horn 
+SPATIAL REPRESENTATIONS IN THE PARIETAL CORTEX MAY 
+USE BASIS FUNCTIONS 
+Alexandre Pouget, Terrence J. Sejnowski 
+GROUPING COMPONENTS OF THREE-DIMENSIONAL MOVING OBJECTS 
+IN AREA MST OF VISUAL CORTEX 
+Richard S. Zemel, Terrence J. Sejnowski 
+A MODEL OF THE NEURAL BASIS OF THE RAT'S SENSE OF DIRECTION 
+William Skaggs, James J. Knierim, Hemant & Kudrimoti, Bruce L. McNaughton 
+149 
+157 
+165 
+173 
+PART III 
+LEARNING THEORY AND DYNAMICS 
+ON THE COMPUTATIONAL COMPLEXITY OF ORKS OF SPIKING 
+NEURONS 
+Wolfgang Maass 
+Hoo OPTIMAL TRAINING ALGORITHMS AND THEIR RELATION 
+TO BACKPROPAGATION 
+Babak Hassibi, Thomas Kailath 
+SYNCHRONY AND DESYNCHRONY IN NEURAL OSCILLATOR ORKS 
+DeLiang Wang, David Tennan 
+LEARNING IN LARGE LINEAR PERCEPTRONS AND WHY THE 
+THERMODYNAMIC LIMIT IS RELEVANT TO THE REAL WORLD 
+Peter Sollich 
+GENERALISATION IN FEEDFORWARD ORKS 
+Adam Kowalczyk, Herman Ferra 
+FROM DATA DISTRIBUTIONS TO REGULARIZATION IN INVARIANT 
+I.EARNING 
+Todd Leen 
+NEURAL NETWORK ENSEMBLES, CROSS VALIDATION, AND ACTIVE 
+LEARNING 
+Anders Krogh, Jesper Vedelsby 
+LIMITS ON LEARNING MACHINE ACCURACY IMPOSED BY DATA QUAL1TY 
+Corinna Cortes, L. D. Jackel, Wan-Ping Chiang 
+183 
+191 
+199 
+207 
+215 
+223 
+231 
+239 
+viii Contents 
+HIGHER ORDER STATISTICAL DECORREIATION W1THOUT 
+INFORMATION LOSS 
+Gustavo Deco, Wilfried Brauer 
+247 
+HYPERPARAMETERS, EVIDENCE AND GENERALISATION FOR AN 
+UNREALISABLE RULE 
+Glenn Marion, David Saad 
+255 
+TEMPORAL DYNAMICS OF GENERALIZATION IN NEURAL NETWORKS 
+Changfeng Wang, Santosh S. Venkatesh 
+263 
+STOCHASTIC DYNAMICS OF THREE-STATE NEURAL NEI'WORKS 
+Toru Ohira, Jack D. Cowan 
+271 
+LEARNING STOCHASTIC PERCEPTRONS UNDER K-BLOCKING 
+DISTRIBUTIONS 
+Mario Marchand, Saeed Hadjifaradji 
+279 
+LEARNING FROM QUERIES FOR MAXIMUM INFORMATION GAIN 
+IN IMPERFECTLY LEARNABLE PROBLEMS 
+Peter Sollich, David Saad 
+287 
+BIAS, VARIANCE AND THE COMBINATION OF LEAST SQUARES 
+ESTIMATORS 
+Ronny Meir 
+295 
+ON-LINE LEARNING OF DICHOTOMIES 
+N. Barkai, H. S. Seung, H. Sompolinsky 
+303 
+DYNAMIC MODELLING OF CHAOTIC TIME SERIES W1TH NEURAL NETWORKS 
+Jose Principe, Jyh-Ming Kuo 
+311 
+A RIGOROUS ANALYSIS OF LINSKER-TYPE HEBBIAN LEARNING 
+Jianfeng Feng, H. Pan, V. P. Roychowdhury 
+319 
+SAMPLE SIZE REQUIREMENTS FOR FEEDFORWARD NEURAL NETWORKS 
+Michael Turmon, Terrence L. Fine 
+327 
+ASYMPTOTICS OF GRADIENT-BASED NEURAL NETWORK TRAINING 
+ALGORITHMS 
+Sayandev Mukherjee, Terrence L. Fine 
+335 
+Contents ix 
+PART IV 
+REINFORCEMENT LEARNING 
+REINFORCEMENT LEARNING ALGORITHM FOR PARTIALLY OBSERVABLE 
+MARKOV DECISION PROBLEMS 
+Tommi Jaakkola, Satinder P. Singh, Michael 1. Jordan 
+ADVANTAGE UPDATING APPLIED TO A DIFFERENTIAL GAME 
+Mance E. Harmon, Leemon C. Baird III, A. Harry Klopf 
+REINFORCEMENT LEARNING W1TH SOFT STATE AGGREGATION 
+Satinder Singh, Tommi Jaakkola, Michael I. Jordan 
+GENERALIZATION IN REINFORCEMENT LEARNING: SAFELY 
+APPROXIMATING THE VALUE FUNCTION 
+Justin Boyan, Andrew W. Moore 
+INSTANCE-BASED STATE IDENTIFICATION FOR REINFORCEMENT 
+LEARNING 
+R. Andrew McCallum 
+HNDING STRUCTURE IN REINFORCEMENT LEARN1NG 
+Sebastian Thrun, Anton Schwartz 
+REINFORCEMENT LEARNING METHODS FOR CONTINUOUS-TIME 
+MARKOV DECISION PROBLEMS 
+Steven Bradtke, Michael O. Duff 
+AN ACTOR/CRmC ALGORITHM THAT IS EQUIVALENT TO Q-LEARNING 
+Robert Crites, Andrew G. Barto 
+PART V 
+ALGORITHMS AND ARCHITECTURES 
+FINANCIAL APPLICATIONS OF LEARNING FROM HINTS 
+Yaser S. Abu-Mostafa (Invited Paper) 
+COMBINING ESTIMATORS USING NON-CONSTANT WEIGHTING FUNCTIONS 
+Volker Tresp, Michiaki Taniguchi 
+AN INPUT OUTPUT HMM ARC 
+Yoshua Bengio, Paolo Frasconi 
+BOLTZMANN CHAINS AND HIDDEN MARKOV MODELS 
+Lawrence K. Saul, Michael I. Jordan 
+345 
+353 
+361 
+369 
+377 
+385 
+393 
+401 
+411 
+419 
+427 
+435 
+x Contents 
+BAYESIAN QUERY CONSTRUCTION FOR NEURAL NETWORK MODELS 
+Gerhard Paass, JOrg Kindermann 
+443 
+USING A SALIENCY MAP FOR ACTIVE SPATIAL SEIJECTIVE AT'FENTION: 
+IMPLEMENTATION &INITIAL RESULTS 
+Shumeet Baluja, Dean A. Pomerleau 
+451 
+MULTIDIMENSIONAL SCALING AND DATA CLUSTERING 
+Thomas Hofmann, Joachim Buhmann 
+459 
+A NON-LINEAR INFORMATION MAXIMISATION ALGORITHM THAT 
+PERFORMS BLIND SEPARATION 
+Anthony J. Bell, Terrence J. Sejnowski 
+467 
+PLASTICITY-MEDIATED COMPEIITIVE LEARNING 
+Nicol Schraudolph, Terrence J. Sejnowski 
+475 
+PHASE-SPACE LEARNING 
+Fu-Sheng Tsung, Garrison W. Cottrell 
+481 
+LEARNING LOCAL ERROR BARS FOR NONLINEAR REGRESSION 
+David A. Nix, Andreas S. Weigend 
+489 
+DYNAMIC CELL STRUCTURES 
+]6rg Bruske, Gerald Sommer 
+497 
+EXTRACFING RULES FROM ARTIFICIAL NEURAL ORKS WITH 
+DISTRIBUTED REPRESENTATIONS 
+Sebastian Thrun 
+505 
+CAPAClTY AND INFORMATION EFFICIENCY OF A BRAIN-LIKE 
+ASSOCIATIVE NET 
+Bruce Graham, David Willshaw 
+513 
+BOOSTING THE PERFORMANCE OF RBF NETWORKS WITH DYNAMIC 
+DECAY ADJUSTMENT 
+Michael R. Berthold, Jay Diamond 
+521 
+SIMPLIFYING NEURAL NETS BY DISCOVERING FLAT MINIMA 
+Sepp Hochreiter, Jiirgen Schmidhuber 
+529 
+LEARNING WITH PRODUCT UN1TS 
+Laurens Leerink, C. Lee Giles, Bill G. Horne, Marwan A. Jabri 
+537 
+DETERMINISTIC ANNEALING VARIANT OFTHE EM ALGORITHM 
+Naonori Ueda, Ryohei Nakano 
+545 
+Contents x i 
+DIFFUSION OF CRED1T IN MARKOVIAN MODELS 
+Yoshua Bengio, Paolo Frasconi 
+553 
+FACTORIAL LEARNING BY CLUSTERING FEATURES 
+Joshua B. Tenenbaum, Emmanuel V. Todorov 
+561 
+INTERIOR POINT IMPLEMENTATIONS OF ALTERNATING MINIMIZATION 
+TRAINING 
+Michael Lemmon, Peter T. Szymanski 
+569 
+SARDNET: A SELF-ORGANIZING FEATURE MAP FOR SEQUENCES 
+Daniel L. James, Risto Miikkulainen 
+577 
+CONVERGENCE PROPERTIES OF THE K-MEANS ALGORITHMS 
+Ldon Bottou, Yoshua Bengio 
+585 
+ACIIVE LEARNING FOR FUNCTION APPROXIMATION 
+Kah Kay Sung, Partha Niyogi 
+593 
+ANALYSIS OF UNSTANDARDIZED CONTRIBUTIONS IN CROSS 
+CONNECTED NETWORKS 
+Thomas R. Shultz, Yuriko Oshirna-Takane, Yoshio Takane 
+601 
+TEMPLATE-BASED ALGORITHMS FOR CONNECTIONIST RULE EXTRACTION 
+Jay A. Alexander, Michael C. Mozer 
+609 
+FACTORIAL LEARNING AND THE EM ALGORITHM 
+Zoubin Ghahramani 
+617 
+A GROWING NEURAL GAS NEI'WORK LEARNS TOPOLOGIES 
+Bernd Fritzke 
+625 
+AN ALTERNATIVE MODEL FOR MIXTURF OF EXPERTS 
+Lei Xu, Michael I. Jordan, Geoffrey E. Hinton 
+633 
+ESTIMATING CONDITIONAL PROBABILITY DENSroES FOR PERIODIC 
+VARIABLES 
+Chris M. Bishop, Claire Legleye 
+641 
+EFFECTS OF NOISE ON CONVERGENCE AND GENERALIZATION 
+IN RECURRENT NETWORKS 
+Karo Jim, Bill G. Horne, C. Lee Giles 
+649 
+LEARNING MANY RELATED TASKS AT THE SAME TIME 
+WITH BACKPROPAGATION 
+Rich Caruana 
+657 
+xii Contents 
+A RAPID GRAPH-BASED METHOD FOR ARBITRARY 
+TRANSFORMATION-INVARIANT PATFERN CLASSIFICATION 
+Alessandro Sperduti, David G. Stork 
+665 
+RECURRENT NETWORKS: SECOND ORDER PROPERTIES AND PRUNING 
+Morten With Pedersen, Lars Kai Hansen 
+673 
+CLASSIFYING WITH GAUSSIAN MIXTURES AND CLUSTERS 
+Nanda Kambhatla, Todd K. Leen 
+681 
+EFFICIENT METHODS FOR DEALING WITH MISSING DATA 
+IN SUPERVISED LEARNING 
+Volker Tresp, Ralph Neuneier, Subutai Ahmad 
+689 
+AN EXPERIMENTAL COMPARISON OF RECURRENT NEURAL NETWORKS 
+Bill G. Hore, C. Lee Giles 
+697 
+ACTIVE LEARNING wrrH STATISTICAL MODELS 
+David Cohn, Zoubin Ghahramani, Michael I. Jordon 
+705 
+LEARNING WITH PREKNOWLEDGE: CLUSTERING WITH FOINT AND 
+GRAPH MATCHING DISTANCE MEASURES 
+Steven Gold, Anand Rangarajan, Eric Mjolsness 
+713 
+DIRECT MULTI-STEP TIME SERIES PREDICTION USING TD(3) 
+Peter Kazlas, Andreas S. Weigend 
+721 
+PART VI 
+IMPLEMENTATIONS 
+ICEG MORPHOLOGY CLASSIFICATION USING AN ANALOGUE VLSI 
+NEURAL NETWORK 
+Richard Coggins, Marwan Jabri, Barry Flower, Stephen Pickard 
+731 
+A SILICON AXON 
+Bradley A. Minch, Paul Hasler, Chris Diorio, Carver Mead 
+739 
+THE NIlOO0: HIGH SPEED PARALLEL VLSI FOR IMPLEMENTING 
+MULTILAYER PERCEPTRONS 
+Michael P. Perrone, Leon N. Cooper 
+747 
+A REAL TIME CLUSTERING CMOS NEURAL ENGINE 
+T. Serrano-Gotarredona, B. Linares-Barranco, J. L. Huertas 
+755 
+Contents xiii 
+PULSESTREAM SYNAPSES WITH NON-VOLATILE ANALOGUE 
+AMORPHOUS-SILICON MEMORIES 
+A. J. Holmes, A. F. Murray, S. Churcher, J. Hajto, M. J. Rose 
+A LAGRANGIAN FORMULATION FOR OPTICAL BACKPROPAGATION 
+TRAINING IN KERR-TYPE OPTICAL NETWORKS 
+James E. Steck, Steven R. Skinner, Alvaro A. Cruz-Cabrara, 
+Elizabeth C. Behrman 
+A CHARGE-BASED CMOS PARALLEL ANALOG VECTOR QUANTIZER 
+Gert Cauwenberghs, Volnei Pedroni 
+AN AUD1TORY LOCALIZATION AND COORDINATE TRANSFORM CHIP 
+Timothy Horiuchi 
+AN ANALOG NEURAL NETWORK INSPIRED BY FRACFAL BLOCK CODING 
+Fernando Pineda, Andreas G. Andreou 
+A STUDY OF PARALLEL PERTURBATIVE GRADIENT DESCENT 
+D. Lippe, J. Alspector 
+IMPLEMENTATION OF NEURAL HARDWARE WrFH THE NEURAL VLSI 
+OF URAN IN APPLICATIONS WrFH REDUCED REPRESENTATIONS 
+H-Song Han, Hwang-Soo Lee, Ki-Chul Kim 
+SINGLE TRANSISTOR LEARNING SYNAPSES 
+Paul Hasler, Chris Diotio, Bradley A. Minch, Carver Mead 
+PART VII 
+SPEECH AND SIGNAL PROCESSING 
+PATIERN PLAYBACK IN THE '90S 
+Malcolm Slaney (Invited Paper) 
+NON-LINEAR PREDICTION OF ACOUSTIC VECTORS USING 
+HIERARCHICAL MIXTURES OF EXPERTS 
+S. R. Waterhouse, A. J. Robinson 
+GLOVE-TALKII: MAPPING HAND GESTURES TO SPEFœH USING 
+NEURAL NEIORKS 
+S. Sidney Fels, Geoffrey Hinton 
+VISUAL SPEECH RECOGNITION WITH STOCHASTIC NETWORKS 
+Javier Movellan 
+763 
+771 
+779 
+787 
+795 
+803 
+811 
+817 
+827 
+835 
+843 
+851 
+xi v Contents 
+HIERARCHICAL MIXTURES OF EXPERTS METHODOLOGY 
+APPLIED TO CONTINUOUS SPEECH RECOGNITION 
+Ying Zhao, Richard Schwartz, Jason Sroka, John Makhoul 
+859 
+CONNECTIONIST SPEAKER NORMALIZATION W1TH GENERALIZED 
+RESOURCE ALLOCATING NETWORKS 
+Cesare Furlanello, Diego Giuliani, Edmondo Trentin 
+867 
+USING VOICE TRANSFORMATIONS TO CREATE ADDmONAL 
+TRAINING TALKERS FOR WORD SPOTrING 
+Eric I. Chang, Richard P. Lippmann 
+875 
+A COMPARISON OF DISCRETE-TIME OPERATOR MODELS FOR NONLINEAR 
+SYSTEM IDENTIFICATION 
+Andrew D. Back, Ah Chung Tsoi 
+883 
+PART VIII 
+VISUAL PROCESSING 
+LEARNING SACCADIC EYE MOVEMENTS USING MULTISCAI.E 
+SPATIAL FILTERS 
+Rajesh P. N. Rao, Dana H. Ballard 
+893 
+A CONVOLUTIONAL NEURAL NETWORK HAND TRACKER 
+Steven J. Nowlan, John C. Platt 
+901 
+CORREI.ATION AND INTERPOrTION NETWORKS FOR REAL-TIME 
+EXPRF_3SION ANALYSIS/SYNTHF_3IS 
+Trevor Darrell, Irfan Essa, Alex Pentland 
+909 
+LEARNING DIRECTION IN GLOBAL MOTION: TWO CLASSES OF 
+PSYCHOPHYSICAI J .Y-MOTIVATED MODELS 
+V. Sundareswaran, Lucia M. Vaina 
+917 
+ASSOCIATIVE DECORREI.ATION DYNAMICS: A THEORY OF 
+SELF-ORGANIZATION AND OFHMIZATION IN FEEDBACK NETWORKS 
+Dawei W. Dong 
+925 
+JPMAX: LEARNING TO RECOGNIZE MOVING OBJECTS AS A MODEL- 
+FITTING PROBLEM 
+Suzanna Becker 
+933 
+PCA-PYRAMIDS FOR IMAGE COMPRESSION 
+Horst Bischof, Kurt Hornik 
+941 
+Contents x v 
+UNSUPERVISED CLASSIFICATION OF 3D OBJECFS FROM 2D VIEWS 
+Satoshi Suzuki, Hiroshi Ando 
+NEW ALGORITHMS FOR 2D AND 3D POINT MATCHING: 
+POSE ESTIMATION AND CORRESPONDENCE 
+Steven Gold, Chien Ping Lu, Anand Rangarajan, 
+Suguna Pappu, Eric Mjolsness 
+USING A NEURAL NETTO INSTANTlATE A DEFORMABLE MODEL 
+Christopher K. I. Williams, Michael D. Revow, Geoffrey E. Hinton 
+NONLINEAR IMAGE INTERPOLATION USING MANIFOLD LEARNING 
+Christoph Bregler, Stephen M. Omohundro 
+COARSE-TO-FINE IMAGE SEARCH USING NEURAL NETWORKS 
+Clay D. Spence, John C. Pearson, Jim Bergen 
+PART IX 
+APPLICATIONS 
+TRANSFORMATION INVARIANT AUTOASSOCIATION WITH 
+APPLICATION TO HANDWRrITEN CHARACTER RECOGNITION 
+Holger Schwenk, Maurice Milgram 
+LEARNING PROTOTYPE MODELS FOR TANGENT DISTANCE 
+Trevor Hastie, Patrice Simard, Eduard Sickinger 
+REAL-TIME CONTROL OF TOKAMAK PLASMA USING NEURAL NETWORKS 
+Chris M. Bishop, Paul S. Haynes, Mike E. U. Smith, Tom N. Todd, 
+David L. Trotman, Colin G. Windsor 
+RECOGNIZING HANDWRrITEN DIG1TS USING MIXTURES OF LINEAR MODELS 
+Geoffrey E. Hinton, Michael Revow, Peter Dayan 
+OFFIMAL MOVEMENT PRIMITIVES 
+Terence Sanger 
+AN INTEGRATED ARCHrfECrURE OF ADAFHVE NEURAL 
+NETWORK CONTROL FOR DYNAMIC SYSTEMS 
+Liu Ke, Robert L. Tokar, Brian D. McVey 
+A CONNECIIONIST TECHNIQUE FOR ACCELERATED TEXTUAL INPUT: 
+LETIING A NETWORK DO THE TYPING 
+Dean Pomerleau 
+949 
+957 
+965 
+973 
+981 
+991 
+999 
+1007 
+1015 
+1023 
+1031 
+1039 
+x v i Con ten ts 
+PREDICTIVE CODING W1TH NEURAL NETS: 
+TEXT COMPRESSION 
+Jiirgen Schmidhuber, Stefan Hell 
+APPLICATION TO 
+1047 
+PREDICTING THE RISK OF COMPLICATIONS IN CORONARY 
+ARTERY BYPASS OPERATIONS USING NEURAL NETWORKS 
+Richard P. Lippmann, Linda Kukolich, David Shahian 
+1055 
+COMPARING THE PREDICTION ACCURACY OF ARTIFICIAL NEURAL 
+ORKS AND OTHER STATISTICAL MODELS FOR BREAST CANCER 
+SURVIVAL 
+Harry B. Burke, David B. Rosen, Philip H. Goodman 
+1063 
+LEARNING TO PLAY THE GAME OF CHESS 
+Sebastian Thrun 
+1069 
+A MIXTURE MODEL SYSTEM FOR MEDICAL AND MACHINE DIAGNOSIS 
+Magnus Stensmo, Terrence J. Sejnowski 
+1077 
+INFERRING GROUND TRUTH FROM SUBJF_L-VE LABELLING OF VENUS 
+IMAGES 
+Padhraic Smyth, Usama Fayyad, Michael Burl, Pietro Perona, Pierre Baldi 
+1085 
+THE USE OF DYNAMIC WRITING INFORMATION IN A CONNECTIONIST 
+ON-LINE CURSIVE HANDWRITING RECOGNITION SYSTEM 
+Stefan Manke, Michael Finke, Alex Waibel 
+1093 
+ADAPTIVE ELASTIC INPUT FIELD FOR RECOGNITION IMPROVEMENT 
+Minoru Asogawa 
+11Ol 
+PAIRWISE NEURAL NETWORK CLASSIFIERS WITH PROBABILISTIC OUTPUTS 
+David Price, Stefan Knerr, Ldon Personnaz, Gdrard Dreyfus 
+1109 
+INTERFERENCE IN LEARNING INTERNAL MODELS OF INVERSE 
+DYNAMICS IN HUMANS 
+Reza Shadmehr, Tom Brashers-Krug, Ferdinando Mussa-lvaldi 
+1117 
+COMPUTATIONAL STRUCTURE OF COORDINATE TRANSFORMATIONS: 
+A GENERALIZATION STUDY 
+Zoubin Ghahramani, Daniel M. Wolpert, Michael I. Jordan 
+1125 
+Author Index 
+Keyword Index 
+1133 
+1137 
+Preface 
+This volume contains the collected papers summarizing the talks and posters presented at 
+the eighth annual conference on Neural Information Processing Systems (NIPS), held in 
+Denver, Colorado, from Nov. 28 to Dec. 1, 1994. The previous six volumes of Advances 
+in NIPS were published by Morgan Kaufmann Publishers, San Francisco, California, 
+while the proceedings of the first NIPS conference in 1987 were published by the 
+American Institute of Physics. These volumes have been influential, and the high quality 
+of papers in them has been matched by the high quality of the production. We are pleased 
+that this volume is being published by MIT Press, which maintains the same exacting 
+standards. 
+NIPS is the longest running annual meeting devoted to neural networks and neural 
+information processing. Over the years it has consistently presented research that is 
+technically sound as well as topically fresh and exciting. This year's meeting certainly 
+lived up to the standards set by previous meetings. In fact, two major procedural changes 
+were implemented this year which we believe have resulted in even stronger technical 
+presentations. First, the submissions format was changed from extended abstracts to full 
+8-page papers. This gave the program committee and reviewers a better basis for making 
+their acceptance decisions. Only about 1 out of 3 submitted papers was accepted for 
+presentation at the conference. Second, detailed reviewer comments were returned to the 
+submitting authors. Reviewer feedback was valuable in improving the presentations and 
+final manuscripts of the accepted authors, and for authors whose submissions were not 
+accepted, it indicated how submissions could be improved for future meetings. 
+This year's papers show continued progress, and the enduring scientific and practical 
+merit of the broad-based, inclusive approach towards neural networks favored by NIPS 
+participants. Papers presented at NIPS freely cross traditional academic boundaries to 
+draw upon many disparate domains such as neuroscience, cognitive science, computer 
+science, statistics, mathematics, engineering and theoretical physics. As usual, the 
+dominant component of NIPS was devoted to the study of a wide variety of learning 
+algorithms and architectures, for both supervised and unsupervised learning. Topics 
+attracting exceptional interest this year were the analysis of recurrent nets (Horne and 
+Giles), connections to HMMs and the EM procedure (Saul and Jordan) and reinforcement 
+learning algorithms and the relation to dynamic programming (Boyan and Moore). On the 
+theoretical front, ample progress was reported in the theory of generalization (Kowalczyk 
+and Ferra), regularization (Leen), combining multiple models (Tresp), and active learning 
+(Cohn et al.). Neuroscience remained a large and vital component of NIPS, with studies 
+ranging from large-scale systems such as visual cortex (Erwin and Obermayer) to single- 
+cell electrotonic structure (Carnevale et al.). Work reported in cognitive science this year 
+x v i i i Preface 
+seemed to be more closely tied to underlying neural constraints, as seen e.g. in the paper 
+of Brashers-Krug et al. on motor learning. The applications work presented at NIPS 
+continues to grow in prominence and many novel applications were presented, such as 
+tokamak plasma control (Bishop et al.), Glove-Talk (Fels and Hinton), and hand tracking 
+(Nowlan and Platt). A variety of hardware implementations were also presented, with 
+particular focus on analog VLSI (Coggins et al.; Serrano et al.). 
+In addition to the main conference presentations, NIPS was fortunate to have had a 
+very strong one-day tutorial program preceding the conference, chaired by Steve Hanson 
+and Gerald Tesauro, and a highly popular two-day program of post-conference 
+workshops in Vail, chaired by Todd Leen. The workshop program has grown in scope 
+and significance to the point where it is now a valuable scientific meeting in its own right, 
+and this year's program attracted a record turnout. Topics covered at the workshops 
+spanned the full range of multidisciplinary approaches characteristic of NIPS. Some of 
+the particularly noteworthy topics were: Unsupervised Learning Rules and Visual 
+Processing, Computational Role of Lateral Connections in the Cortex, Neural Networks 
+in Medicine, Time Delay Connections for Nonlinear Signal Processing, and Algorithms 
+for High Dimensional Spaces. 
+Organizing a conference such as NIPS is an enormous undertaking, and we would like 
+to express our appreciation and gratitude to all those who volunteered their time 
+(collectively totaling several thousand person-hours of labor) to help organize and run the 
+meeting. Thanks go to all the members of the Organizing Committee, the Program 
+Committee, the Publicity Committee, the Board of Directors of the NIPS Foundation, and 
+all the referees who reviewed submissions this year. In particular, we especially thank 
+Lori Pratt for a truly outstanding job organizing both the local arrangements and 
+conference registration, Christy Medina and Denise Hallman, for their superb efforts as 
+conference secretaries, and all the student volunteers from Colorado School of Mines and 
+elsewhere. We are also grateful to Colorado School of Mines for generous financial 
+support of our registration operations. Finally, we thank Barbara Yoon of the Advanced 
+Projects Research Agency, Tom McKenna of the Office of Naval Research, and Captain 
+Steve Suddarth of the Air Force Office of Scientific Research, who once again provided 
+valuable financial support that made it possible for many students and young 
+investigators to attend the meeting. 
+Gerald Tesauro, IBM 
+David S. Touretzky, Carnegie Mellon 
+Todd K. Leen, Oregon Graduate Institute 
+Contributors 
+NIPS-94 
+ORGANIZING COMMITTEE 
+General Chair 
+Program Chair 
+Workshops Chair 
+Publicity Chair 
+Publications Chair 
+Treasurer 
+Local Arrangements Chair 
+Government & Corporate Liaison 
+Tutorials Chairs 
+Contracts 
+Gerald Tesauro, IBM 
+David Touretzky, Carnegie Mellon University 
+Todd Leen, Oregon Graduate Institute 
+Bartlett Mel, Caltech 
+Joshua Alspector, Bellcore 
+Rodney Goodman, Caltech 
+Lori Pratt, Colorado School of Mines 
+John Moody, Oregon Graduate Institute 
+Stephen Hanson, Siemens and Gerald Tesauro, IBM 
+Steve Hanson, Siemens and Scott Kirkpatrick, IBM 
+NIPS-94 
+PROGRAM COMMITTEE 
+Program Chair 
+Program Co-Chairs 
+David Touretzky, Carnegie Mellon 
+Subutai Ahmad, Interval Research 
+Chuck Anderson, Colorado State University 
+Eric Baum, NEC Research Institute 
+Tom Brown, Yale 
+Scott Fahlman, CMU 
+Terrence Fine, Cornell 
+Michael Jordan, MIT 
+John Lazzaro, UC Berkeley 
+Yann LeCun, AT&T Bell Labs 
+Richard Lippmann, MIT 
+Paul Munro, University of Pittsburgh 
+John Platt, Synaptics 
+x x Contributors 
+NIPS-94 
+PUBLICITY COMMITTEE 
+Publicity Chair 
+Overseas Liaisons 
+Japan 
+Australia, Singapore, India 
+United Kingdom 
+South America 
+Bartlett Mel, Caltech 
+Bitsuo Kawato, ATR Research Laboratories 
+Marwan Jabri, University of Sydney 
+Alan Murray, Edinburgh University 
+Andreas Meier, Simon Bolivar University 
+NIPS FOUNDATION 
+BOARD MEMBERS 
+President 
+Vice President for Development 
+Secretary 
+Treasurer 
+Members 
+Terrence Sejnowski, The Salk Institute 
+John Moody, Oregon Graduate Institute 
+Scott Kirkpatrick, IBM 
+Rod Goodman, Caltech 
+Jack Cowan, University of Chicago 
+Terrence Fine, Cornell University 
+Stephen J. Hanson, SIEMENS Research 
+Richard Lippmann, MIT Lincoln Laboratory 
+Gerald Tesauro, IBM 
+NIPS-94 
+REFEREES 
+Joshua Alspector 
+Jonathan Bachrach 
+Etienne Barnard 
+Andy Barto 
+Uli Bodenhausen 
+Herve Boufiard 
+Tim X. Brown 
+Joachim Buhmann 
+William Byrne 
+Tzi-Dar Chieuh 
+Gary Cottrell 
+Thomas Dietterich 
+Harris Drucker 
+Bernd Fritzke 
+Zoubin Ghahramani 
+Gene Gindi 
+Hans Graf 
+John Hampshire 
+Sherif Hashem 
+David Haussler 
+James Anderson 
+Pierre Baldi 
+Andrew R. Barron 
+Sue Becker 
+Brian Bonnlander 
+Justin Boyan 
+Tom Brown 
+Wray Buntine 
+N.T. Camevale 
+Michael Cohen 
+Chris Darken 
+George Dorffner 
+Richard Duda 
+Patrick Gallinari 
+Lee Giles 
+Fererico Girosi 
+Patrick Haffner 
+Catherine Harris 
+Mike Hasselmo 
+Simon Haykin 
+Chris Atkeson 
+Shumeet Baluja 
+Peter Bartlett 
+Yoshua Bengio 
+L6on Bottou 
+Jane Bromley 
+Ken Buckland 
+David J. Burr 
+David Chalmers 
+David Cohn 
+Shawn Day 
+G6rard Dreyfus 
+Mark Fanty 
+Michael Gasser 
+David Gillespie 
+Rodney Goodman 
+Dan Hammerstrom 
+John Harris 
+Babak Hassibi 
+Andreas Herz 
+Contributors xx i 
+Geoffrey Hinton 
+Nathan Intrator 
+Chuanyi Ji 
+B.H. Juang 
+Michael Keams 
+Phil Kohn 
+Gary Kuhn 
+Kevin Lang 
+Tsungnan Lin 
+Marco Maggini 
+George Mamellos 
+Risto Miikkulainen 
+Eric Mjolsness 
+Nelson Morgan 
+Steven Nowlan 
+Stephen Omohundro 
+Carsten Peterson 
+Tony Plate 
+Mark Plutowski 
+Lorien Pratt 
+Anand Rangarajan 
+Tony Robinson 
+Philip Saves 
+Warren S. Sade 
+Terry Sejnowski 
+Hava Siegelmann 
+K-Y Siu 
+Steve Smith 
+Sara A. Solla 
+David Stork 
+Rob Tibshirani 
+Ah Chung Tsoi 
+Vladimir Vapnik 
+Alex Waibel 
+Raymond Watrous 
+Janet Wiles 
+Robert Williamson 
+Lei Xu 
+Bill Home 
+Marwin Jabri 
+Mark St. John 
+Stephen Judd 
+Dan Kersten 
+Anders Krogh 
+S.Y. Kung 
+Harold Levy 
+Jim Little 
+Eve Marder 
+Bimal Mathut 
+Ken Miller 
+Martin Moller 
+Tony Movshon 
+Alice O'Toole 
+Kannan Parthasarathy 
+Jim Peterson 
+John Platt 
+Jordan Pollack 
+Jose C. Principe 
+David Redish 
+Vwani Roychowdhury 
+Eduard S/:ickinger 
+Larry Saul 
+Dan Seligson 
+Patrice Simard 
+Massimo Sivilotti 
+Paul Smolensky 
+David Standley 
+Rich Sutton 
+Naftali Tishby 
+Micael Tmmon 
+Bert de Vries 
+Chris Watkins 
+John Wawrzynek 
+Chris Williams 
+Charles Wilson 
+Richard Zemel 
+John Houde 
+Robbie Jacobs 
+Da Johnston 
+Visakan Kadirkamanathan 
+Cristoff Koch 
+Anthony Kugh 
+Jyh-Ming Kuo 
+Long-Ji Lin 
+Michael Littman 
+Scott Markel 
+Bartlett Mel 
+Melanie Mitchell 
+Andre Moore 
+Bob Narendra 
+Bruno Olshausen 
+Barak Pearlmutter 
+Tom Petsche 
+David Plaut 
+Dean Pomerleau 
+Mazim Rahim 
+Steve Renals 
+Mike Runick 
+Terry Sanger 
+Eric Saund 
+Jude Shavlik 
+Stainder Pal Singh 
+Roger Smith 
+Padhraic Smyth 
+Paul Stolorz 
+Sebastian Thmn 
+Volker Tresp 
+Lyle Ungar 
+Kelvin Wagner 
+Steve Watkins 
+Andreas Weigend 
+Ronald J. Williams 
+David Wolpert 
+ADVANCES IN NEURAL INFORMATION 
+PROCESSING SYSTEMS 7 
+PART I 
+COGNITWE SCIENCE 

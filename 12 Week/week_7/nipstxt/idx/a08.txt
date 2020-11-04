@@ -1,0 +1,292 @@
+Abdallah, C.T., 274 
+Allen, T.P., 938 
+Alley, R.K., 816 
+Alpaydin, E., 771 
+Amari, S., 176, 757 
+Annaswamy, A.M., 1010 
+Asanovic, K., 619 
+Atkeson, C.C., 605 
+Auer, P., 316 
+Back, A.D., 785 
+Bair, W., 68 
+Baldi, P., 451 
+Ballard, D.H., 830 
+Baluja, S., 875, 959 
+Bartlett, M.S., 823 
+Bartlett, P.L., 344 
+Barto, A.G., 138, 1017 
+Baxter, J., 169 
+Beck, J., 619 
+Bell, A.J., 145 
+Bengio, Y., 395, 493 
+Bialek, W., 281 
+Bishop, C.M., 465 
+Blair, H.T., 152 
+Blatt, M., 416 
+Boahen, K., 678 
+Boes, S., 218 
+Bohossian, V., 246 
+Bolouri, H., 980 
+Botelho, F., 372 
+Bourlard, H., 388 
+Bruck, J., 246 
+Buckingham, J.T., 138 
+Campbell, P., 973 
+Caruana, R., 959 
+Cauwenberghs, G., 692 
+Cekic, M., 131 
+Cherkauer, K.J., 45 
+Cboe, Y., 736 
+Choi, S.P.M., 945 
+Cichocki, A., 757 
+Coelho, J.A., 996 
+Coenen, O.J.M., 89 
+Coolen, A.C.C., 253 
+Cones, C., 479 
+Craven, M.W., 24, 654 
+Crites, R.H., 1017 
+Dale, M., 973 
+Darken, C., 924 
+Darrell, T., 858 
+DasGupta, B., 204 
+Dayan, P., 661, 1059 
+Denham, M.J., 52 
+Deweese, M., 281 
+Dietterich, T.G., 1024 
+Dixon, L.C., 980 
+Dodier, R., 365 
+Domany, E., 416 
+Doya, K., 38, 1073 
+Doyle, H.R., 882 
+Drees, A., 903 
+Drucker, H., 479 
+Edwards, R.T., 692 
+Ekman, P., 823 
+Elman, J.L., 549 
+Etienne-Cummings, R., 706 
+Ferguson, A., 980 
+Ferra, H.L., 973 
+Finch, S., 330 
+Finke, M., 176 
+Flake, G.W., 556 
+Flash, T., 117 
+Fragniere, E., 671 
+Frey, B.J., 661 
+Fry, C.L., 110 
+Fukumizu, K., 295 
+Fukumura, N., 989 
+Furukawa, T., 159 
+Garzon, M., 372 
+Gersho, A., 591 
+Gerstner, W., 124 
+Ghahramani, Z., 472 
+Giles, C.L., 577 
+Gilloux, M., 764 
+Gingras, F., 395 
+Gold, S., 626, 795 
+Goodhill, G.J., 330 
+Gordon, G.J., 1052 
+Gourley, R., 31 
+Grunewald, A., 837 
+Grupen, R.A., 996 
+Hadjffaradji, S., 288 
+Hager, J.C., 823 
+Hammerstrom, D., 713 
+Handzel, A.A., 117 
+Hansen, L.K., 521 
+Hanson, S.J., 924 
+Hasselmo, M., 131 
+Hastie, T., 409 
+Hayhoe, M.M., 830 
+Heileman, G.L., 274 
+Helmbold, D.P., 309 
+Herbster, M., 316 
+Hihi, S.E., 493 
+Hinton, G., 507, 661 
+Hochberg, M.M., 750 
+Hofmann, R., 500 
+Home, B.G., 577 
+Homik, K., 451 
+Houk, J.C., 138 
+Howse, J.W., 274 
+Hubbard, R.S., 816 
+Indiveri, G., 720 
+Jaakkola, T., 528 
+Jabri, M.A., 910 
+Jackson, G., 1031 
+Jackson, J.C., 654 
+Jagota, A., 372 
+Johnson, D., 619 
+Jordan, M.I., 472, 486, 528, 1003, 1080 
+Joseph, S.R.H., 96 
+Juels, A., 430 
+Jung, T., 145,931 
+Kadirkamanathan, M., 239 
+Kadirkamanathan, V., 239 
+Kaihara, R., 685 
+Kanade, T., 875 
+Kaye, P., 980 
+Kearns, M., 183 
+Kempter, R., 124 
+Kershaw, D.J., 750 
+Kingsbury, B., 619 
+Kivinen, J., 309 
+Koch, C., 68, 720, 802 
+Koiran, P., 197 
+Konig, Y., 388 
+Kowalczyk, A., 344, 973 
+Kramer, J., 720 
+Kremer, S.C., 612 
+Krogh, A., 190, 917 
+Kuhn, G.M., 924 
+Larsen, J., 521,823 
+Laughton, S.N., 253 
+Lawrence, S., 785 
+Lazzaro, J., 699 
+Lemarie, B., 764 
+Leroux, M., 764 
+Levin, A.U., 966 
+Littmann, E., 903 
+Lin, T., 577 
+Liu, S., 678 
+Maass, W., 211 
+MacKay, D., 351 
+Makeig, S., 145, 931 
+Mansour, Y., 260 
+Marcantonio, A., 924 
+Marchand, M., 288 
+Marshall, J.A., 816 
+Martin, G.L., 17
+Matsuoka, Y., 889 
+McCabe, S.L., 52 
+Meila, M., 1003 
+Mel, B.W., 865 
+Meyer-Baese, A., 337 
+Miikkulainen, R., 736 
+Miller, O., 591 
+Mitchell, T., 959 
+Mjolsness, E., 633 
+Moody, J., 458 
+Moore, A.W., 1066 
+Morgan, N., 388, 619 
+Morimoto, T., 685 
+Mueller, K., 176 
+Munro, P.W., 882 
+Murata, N., 176 
+Murray, A.F., 1031 
+Nakahara, H., 38 
+Nakai, T., 685 
+Neuneier, R., 952 
+Niebur, E., 802 
+Ohmi, T., 685 
+Ohl, F., 337 
+Omohundro, S.M., 402 
+Opitz, D.W., 535 
+Ormoneit, D., 542 
+Pappu, S., 795 
+Parmanto, B., 882 
+Parra, L.C., 437 
+Pealersen, M.W., 521 
+Pentland, A., 858 
+Pessoa, L., 844 
+Peterson, R.S., 82 
+Petsehe, T., 924 
+Platt, J.C., 938 
+Pouget, A., 10 
+Rangarajan, A., 626, 795 
+Rao, A., 591 
+Rao, R.P.N., 830 
+Rasmussen, C.E., 598 
+Rebotier, T., 549 
+Rexlish, A.D., 61 
+Rehfuss, S., 713 
+Revow, M., 507 
+Riis, S.K., 917 
+Ritter, H., 570, 903 
+Robinson, A.J., 351,584, 743, 750 
+Rose, K., 591 
+Ross, W., 844 
+Rowley, H.A., 875 
+Roy, B.V., 1045 
+Rueget, S.M., 225 
+Saad, D., 302, 323 
+Sabes, P.N., 1080 
+Sabisch., T., 980 
+Sahar, S., 260 
+Santoso, I., 924 
+Sato, A., 423 
+Saul, L.K., 486, 528 
+Schaal, S., 605 
+Scheich, H., 337 
+Schneider, J., 1066 
+Schraudolph, N.N., 563, 851 
+Sejnowski, T.J., 10, 89, 145,563, 823, 851,931 
+Seinenov, S.A., 358 
+Senior, A., 743 
+Shavlik, J.W., 24, 45, 535 
+Shawe-Taylor, J., 267 
+Sherrington, D., 253 
+Shibata, T., 685 
+Shustorovich, A., 778 
+Shuvalova, LB., 358 
+Singer, Y., 381 
+Singh, S.P., 1059 
+Sirosh, J., 736 
+Sitaramen, R., 996 
+Smith, L.S., 729 
+Snapp, R.R., 232 
+Softky, W.R., 809 
+Solla, S.A., 302 
+Sollich, P., 190 
+Sontag, E.D., 197, 204 
+Stevens, C., 75, 103 
+Stone, P., 896 
+Sutton, R.S., 1038 
+Svensen, M., 465 
+Szymanski, J., 344 
+Tani, J., 989 
+Taylor, J.G., 82 
+Tenenbaum, J.B., 3 
+Thrasher, C.W., 778 
+Thrun, S., 640 
+Tibshirani, R., 409 
+Tino, P., 577 
+Touretzky, D.S., 61 
+Towell, G., 647 
+Tresp, V., 500, 542 
+Tsioutsias, O.I., 633 
+Tsitsiklis, J.N., 1045 
+Tsoi, A.C., 785 
+Van der Spiegel, J., 706 
+van Hemmen, J.L., 124 
+van Schaik, A., 671 
+Veloso, M., 896 
+Viola, P.A., 823, 851 
+Vittoz, E., 671 
+Wagner, H., 124 
+Walter, J., 570 
+Wang, R.J., 910 
+Wang, X., 372 
+Warmuth, M.K., 309, 316 
+Waterhouse, S.R., 351,584 
+Wattenberg, M., 430 
+Wawrzynek, J., 619, 699 
+West, A.H.L., 323 
+Williams, C.K.I., 465, 514 
+Williamson, R.C., 344 
+Willshaw, D.J., 96 
+Wiseman, S., 416 
+Wu, L., 458 
+Xu, L., 444 
+Xu, T., 232 
+Yamada, K., 423 
+Yamashita, T., 685 
+Yang, H., 176, 757 
+Yasui, S., 159 
+Yeung, D., 945 
+Yu, S., 1010 
+Zador, A., 75, 103 
+Zelinsky, G.J., 830 
+Zhang, W., 1024 
+Zhao, J., 267 
+Zohary, E., 68 

@@ -1,0 +1,608 @@
+Learning the Structure of Similarity 
+J. B. TENENBAUM 
+3 
+
+A Model of Spatial Representations in Parietal Cortex Explains Hemineglect 
+A. POUGET, T. J. SEJNOWSKI 
+10 
+
+Human Reading and the Curse of Dimensionality 
+G. L. MARTIN 
+17 
+
+Extracting Tree-structured Representations of Trained Networks 
+M. W. CRAVEN, I. W. SHAVLIK 
+24 
+
+Harmony Networks Do Not Work 
+R. GOURLEY 
+31 
+
+Dynamics of Attention as Near Saddle-node Bifurcation Behavior 
+H. NAKAHARA, K. DOYA 
+38 
+
+Rapid Quality Estimation of Neural Network Input Representations 
+K. J. CHERKAUER, I. W. SHAVLIK 
+45 
+
+A Model of Auditory Streaming 
+S. L. MCCABE, M. I. DENHAM 
+52 
+
+Modeling Interactions of the Rat's Place and Head Direction Systems 
+A.D. REDISH, D.S. TOURETZKY 
+61 
+
+Correlated Neuronal Response: Time Scales and Mechanisms 
+W. BAIR, E. ZOHARY, C. KOCH 
+68 
+
+Information through a Spiking Neuron 
+C. STEVENS, A. ZADOR 
+75
+
+Reorganization of Somatosensory Cortex after Tactile Training 
+R. S. PETERSEN, I. G. TAYLOR 
+82 
+
+A Dynamical Model of Context Dependencies for the Vestibulo-Ocular Reflex 
+O. J. M.D. COENEN, T. J. SEJNOWSKI 
+89 
+
+The Role of Activity in Synaptic Competition at the Neuromuscular Junction 
+S. R. H. JOSEPH, D. J. WILLSHAW 
+96 
+
+When Is an Integrate-and-fire Neuron like a Poisson Neuron? 
+C. F. STEVENS, A. ZADOR 
+103 
+
+How Perception Guides Production in Birdsong Learning 
+C. L. FRY 
+110
+
+The Geometry of Eye Rotations and Listing's Law 
+A. A. HANDZEL, T. FLASH 
+117 
+
+Temporal Coding in the Submillisecond Range: Model of Barn Owl Auditory Pathway 
+R. KEMPTER, W. GERSTNER, J. L. VAN HEMMEN, H. WAGNER 
+124 
+
+Cholinergic Suppression of Transmission May Allow Combined Associative Memory Function and Self-organization in the Neocortex 
+M. E. HASSELMO, M. CEKIC 
+131 
+
+A Predictive Switching Model of Cerebellar Movement Control 
+A. G. BARTO, J. T. BUCKINGHAM, J. C. HOUK 
+138 
+
+Independent Component Analysis of Eiectroencephalographic Data 
+S. MAKEIG, A. J. BELL, T.-P. JUNG, T. J. SEJNOWSKI 
+145 
+
+Simulation of a Thalamocortical Circuit for Computing Directional Heading in the Rat 
+H. T. BLAIR 
+152 
+
+Plasticity of Center-Surround Opponent Receptive Fields in Real and Artificial Neural Systems of Vision 
+S. YASUI, T. FURUKAWA, M. YAMADA, T. SAITO 
+159 
+
+Learning Model Bias 
+J. BAXTER 
+169 
+
+Statistical Theory of Overtraining--Is Cross-Validation Asymptotically Effective? 
+S. AMARI, N. MURATA, K. R. Mf)LLER, M. FINKE, H. YANG 
+176 
+
+A Bound on the Error of Cross Validation Using the Approximation and Estimation Rates, with Consequences for the Training-test Split 
+M. KEARNS 
+183 
+
+Learning with Ensembles: How Overfitting Can Be Useful 
+P. SOLLICH, A. KROGH 
+190 
+
+Neural Networks with Quadratic VC Dimension 
+P. KOIRAN, E. D. SONTAG 
+197 
+
+Sample Complexity for Learning Recurrent Perceptron Mappings 
+B. DASGUPTA, E. D. SONTAG 
+204 
+
+On the Computational Power of Noisy Spiking Neurons 
+W. MAASS 
+211 
+
+A Realizable Learning Task Which Exhibits Overfitting 
+S. BOS 
+218 
+
+Stable Dynamic Parameter Adaptation 
+S. M. ROGER 
+225 
+
+Estimating the Bayes Risk from Sample Data 
+R. R. SNAPP, T XU 
+232 
+
+Recursive Estimation of Dynamic Modular RBF Networks 
+V. KADIRKAMANATHAN, M. KADIRKAMANATHAN 
+239 
+
+On Neural Networks with Minimal Weights 
+V. BOHOSSIAN, J. BRUCK 
+246 
+
+Modern Analytic Techniques to Solve the Dynamics of Recurrent Neural Networks 
+A. C. C. COOLEN, S. N. LAUGHTON, D. SHERRINGTON 
+253 
+
+Implementation Issues in the Fourier Transform Algorithm 
+Y. MANSOUR, S. SAHAR 
+260 
+
+Generalisation of a Class of Continuous Neural Networks 
+J. SHAWE-TAYLOR, J. ZHAO 
+267 
+
+Gradient and Hamiltonian Dynamics Applied to Learning in Neural Networks 
+J. W. HOWSE, C. T. ABDALLAH, G. L. HEILEMAN 
+274 
+
+Optimization Principles for the Neural Code 
+M. DEWEESE 
+281 
+
+Strong Unimodality and Exact Learning of Constant Depth g-Perceptron Networks 
+M. MARCHAND, S. HADJIFARADJI 
+288 
+
+Active Learning in Multilayer Perceptrons 
+K. FUKUMIZU 
+295 
+
+Dynamics of On-line Gradient Descent Learning for Multilayer Neural Networks 
+D. SAAD, S. A. SOLLA 
+302 
+
+Worst-case Loss Bounds for Single Neurons 
+D. P. HELMBOLD, J. KIVINEN, M. K. WARMUTH 
+309 
+
+Exponentially Many Local Minima for Single Neurons 
+P. AUER, M. HERBSTIER, M. K. WARMUTH 
+316 
+
+Adaptive Back-Propagation in On-line Learning of Multilayer Networks 
+A. H. L. WEST, D. SAAD 
+323 
+
+Optimizing Cortical Mappings 
+G. J. GOODHILL, S. FINCH, T.J. SEJNOWSKI 
+330 
+
+Quadratic-type Lyapunov Functions for Competitive Neural Networks with Different Time-scales 
+A. MEYER-BASE 
+337 
+
+Examples of Learning Curves from a Modified VC-formalism 
+A. KOWALCZYK, J. SZYMANSKI, P. L. BARTLETT, R. C. WILLIAMSON 
+344 
+
+Bayesian Methods for Mixtures of Experts 
+S. WATERHOUSE, D. MACKAY, T. ROBINSON 
+351 
+
+Some Results on Convergent Unlearning Algorithm 
+S. A. SEMENOV, I. B. SHUVALOVA 
+358 
+
+Geometry of Early Stopping in Linear Networks 
+R. DODIER 
+365 
+
+Absence of Cycles in Symmetric Neural Networks 
+X. WANG, A. JAGOTA, F. BOTELHO, M. GARZON 
+372 
+
+Adaptive Mixture of Probabilistic Transducers 
+Y. SINGER 
+381 
+
+REMAP: Recursive Estimation and Maximization of A Posteriori Probabilities-- Application to Transition-based Connectionist Speech Recognition 
+Y. KONIG, H. BOURLARD, N. MORGAN 
+388 
+
+Recurrent Neural Networks for Missing or Asynchronous Data 
+Y. BENGIO, F. GINGRAS 
+395 
+
+Family Discovery 
+S. M. OMOHUNDRO 
+402 
+
+Discriminant Adaptive Nearest Neighbor Classification and Regression 
+T. HASTIE, R. TIBSHIRANI 
+409 
+
+Clustering Data through an Analogy to the Potts Model 
+M. BLATT, S. WISEMAN, E. DOMANY 
+416 
+
+Generalized Learning Vector Quantization 
+A. SATO, K. YAMADA 
+423 
+
+Stochastic Hillclimbing as a Baseline Method for Evaluating Genetic Algorithms 
+A. JUELS, M. WATTENBERG 
+430
+
+Symplectic Nonlinear Component Analysis 
+L. C. PARRA 
+437 
+
+A Unified Learning Scheme: Bayesian-Kuilback Ying-Yang Machine 
+L. XU 
+444 
+
+Universal Approximation and Learning of Trajectories Using Oscillators 
+P. BALDI, K. HORNIK 
+451 
+
+A Smoothing Regularizer for Recurrent Neural Networks 
+L. WU, J. MOODY 
+458 
+
+EM Optimization of Latent-Variable Density Models 
+C. M. BISHOP, M. SVENSEN, C. K. I. WILLIAMS 
+465 
+
+Factorial Hidden Markov Models 
+Z. GHAHRAMANI, M. I. JORDAN 
+472 
+
+Boosting Decision Trees 
+H. DRUCKER, C. CORTES 
+479 
+
+Exploiting Tractable Substructures in Intractable Networks 
+L. K. SAUL, M. I. JORDAN 
+486 
+
+Hierarchical Recurrent Neural Networks for Long-term Dependencies 
+S. E. HIHI, Y. BENGIO 
+493 
+
+Discovering Structure in Continuous Variables Using Bayesian Networks 
+R. HOFMANN, V. TRESP 
+500 
+
+Using Pairs of Data Points to Define Splits for Decision Trees 
+G. E. HINTON, M. REVOW 
+507 
+
+Gaussian Processes for Regression 
+C. K. I. WILLIAMS, C. E. RASMUSSEN 
+514 
+
+Pruning with Generalization Based Weight Saliencies: gamma-OBD, gamma-OBS 
+M. W. PEDERSEN, L. K. HANSEN, J. LARSEN 
+521 
+
+Fast Learning by Bounding Likelihoods in Sigmoid Type Belief Networks 
+T. JAAKKOLA, L. K. SAUL, M., I. JORDAN 
+528 
+
+Generating Accurate and Diverse Members of a Neural-network Ensemble 
+D. W. OPITZ, J. W. SHAVLIK 
+535 
+
+Improved Gaussian Mixture Density Estimates Using Bayesian Penalty Terms and Network Averaging 
+D. ORMONEIT, V. TRESP 
+542 
+
+Explorations with the Dynamic Wave Model 
+T. P. REBOTIER, J. L. ELMAN 
+549 
+
+The Capacity of a Bump 
+G. W. FLAKE 
+556 
+
+Tempering Backpropagation Networks: Not All Weights Are Created Equal 
+N. N. SCHRAUDOLPH, T. J. SEJNOWSKI 
+563 
+
+Investment Learning with Hierarchical PSOMs 
+J. WAEYER, H. RITTER 
+570 
+
+Learning Long-term Dependencies Is Not as Difficult with NARX Networks 
+T. LIN, B. G. HORNE, P. TINO, C. L. GILES 
+577 
+
+Constructive Algorithms for Hierarchical Mixtures of Experts 
+S. R. WATERHOUSE, A. J. ROBINSON 
+584 
+
+An Information-theoretic Learning Algorithm for Neural Network Classification 
+D. MILLER, A. RAO, K. ROSE, A. GERSHO 
+591 
+
+A Practical Monte Carlo Implementation of Bayesian Learning 
+C. E. RASMUSSEN 
+598 
+
+From Isolation to Cooperation: An Alternative View of a System of Experts 
+S. SCHAAL, C. C. ATKESON 
+605 
+
+Finite State Automata that Recurrent Cascade-Correlation Cannot Represent 
+S. C. KREMER 
+612 
+
+SPERT-II: A Vector Microprocessor System and Its Application to Large Problems in Backpropagation Training 
+J. WAWRZYNEK, K. ASANOVIC, B. KINGSBURY, J. BECK, D. JOHNSON, N. MORGAN 
+619 
+
+Softassign versus Softmax: Benchmarks in Combinatorial Optimization 
+S. GOLD, A. RANGARAJAN 
+626 
+
+A Multiscale Attentionai Framework for Relaxation Neural Networks 
+D. I. TSIOUTSIAS, E. MJOLSNESS 
+633 
+
+Is Learning the n-th Thing Any Easier Than Learning the First? 
+S. THRUN 
+640 
+
+Using Unlabeled Data for Supervised Learning 
+G. TOWELL 
+647 
+
+Learning Sparse Percepttons 
+J. C. JACKSON, M. W. CRAVEN 
+654 
+
+Does the Wake-sleep Algorithm Produce Good Density Estimators? 
+B. J. FREY, G. E. HINTON, P. DAYAN 
+661 
+
+Improved Silicon Cochlea Using Compatible Lateral Bipolar Transistors 
+A. VAN SCHAIK, E. FRAGNIERE, E. VITTOZ 
+671 
+
+Adaptive Retina with Center-Surround Receptive Field 
+S.-C. LIU, K. BOAHEN 
+678 
+
+Neuron-MOS Temporal Winner Search Hardware for Fully-parallel Data Processing 
+T. SHIBATA, T. NAKAI, T. MORIMOTO, R. KAIHARA, T. YAMASHITA, T. OHMI 
+685 
+
+Analog VLSI Processor Implementing the Continuous Wavelet Transform 
+R. T. EDWARDS, G. CAUWENBERGHS 
+692 
+
+Silicon Models for Auditory Scene Analysis 
+J. LAZZARO, J. WAWRZYNEK 
+699 
+
+VLSI Model of Primate Visual Smooth Pursuit 
+R. ETIENNE-CUMMINGS, J. VAN DER SPIEGEL, P. MUELLER 
+706 
+
+Model Matching and SFMD Computation 
+S. REHFUSS, D. HAMMERSTROM 
+713 
+
+Parallel Analog VLSI Architectures for Computation of Heading Direction and Time-to-contact 
+G. INDIVERI, J. KRAMER, C. KOCH 
+720 
+
+Onset-based Sound Segmentation 
+L. S. SMITH 
+729 
+
+Laterally Interconnected Self-organizing Maps in Handwritten Digit Recognition 
+Y. CHOE, J. SIROSH, R. MIIKKULAINEN 
+736 
+
+Forward-backward Retraining of Recurrent Neural Networks 
+A. SENIOR, T. ROBINSON 
+743 
+
+Context-dependent Classes in a Hybrid Recurrent Network-HMM Speech Recognition System 
+D. KERSHAW, T. ROBINSON, M. HOCHBERG 
+750 
+
+A New Learning Algorithm for Blind Signal Separation 
+S. AMARI, A. CICHOCKI, H. H. YANG 
+757 
+
+Handwritten Word Recognition Using Contextual Hybrid Radial Basis Function Network/Hidden Markov Models 
+B. LEMARIE, M. GILLOUX, M. LEROUX 
+764 
+
+Selective Attention for Handwritten Digit Recognition 
+E. ALPAYDIN A. SHUSTOROVICH, C. W. THRASHER 
+771 
+
+KODAK IMAGELINK OCR Alphanumeric Handprint Module
+A. SHUSTOROVICH, C. W. THRASHER 
+778 
+
+The Gamma MLP for Speech Phoneme Recognition 
+S. LAWRENCE, A. C. TSOI, A.D. BACK 
+785 
+
+A Framework for Nonrigid Matching and Correspondence 
+S. PAPPU, S. GOLD, A. RANGARAJAN 
+795 
+
+Control of Selective Visual Attention: Modeling the "Where" Pathway 
+E. NIEBUR, C. KOCH 
+802 
+
+Unsupervised Pixel-prediction 
+W. R. SOFTKY 
+809 
+
+Learning to Predict Visibility and Invisibility from Occlusion Events 
+J. A. MARSHALL, R. K. ALLEY, R. S. HUBBARD 
+816 
+
+Classifying Facial Action 
+M. S. BARTLETT, P. A. VIOLA, T. J. SEJNOWSKI, B. A. GOLOMB, J. LARSEN, J. C. HAGER, P. EKMAN 
+823 
+
+Modeling Saccadic Targeting in Visual Search 
+R. P. N. RAO, G. J. ZELINSKY, M. M. HAYHOE, D. H. BALLARD 
+830 
+
+A Model of Transparent Motion and Non-transparent Motion Aftereffects 
+A. GRUNEWALD 
+837 
+
+A Neural Network Model of 3-D Lightness Perception 
+L. PESSOA, W. D. ROSS 
+844 
+
+Empirical Entropy Manipulation for Real-world Problems 
+P. VIOLA, N. N. SCHRAUDOLPH, T. J. SEJNOWSKI 
+851 
+
+Active Gesture Recognition Using Learned Visual Attention 
+T. DARRELL, A. PENTLAND 
+858 
+
+SEEMORE: A View-based Approach to 3-D Object Recognition Using Multiple Visual Cues 
+B. W. MEL 
+865 
+
+Human Face Detection in Visual Scenes 
+H. A. ROWLEY, S. BALUJA, T. KANADE 
+875 
+
+Improving Committee Diagnosis with Resampling Techniques 
+B. PARMANTO, P. W. MUNRO, H. R. DOYLE 
+882 
+
+Primitive Manipulation Learning with Connectionism 
+Y. MATSUOKA 
+889 
+
+Beating a Defender in Robotic Soccer: Memory-based Learning of a Continuous Function 
+P. STONE, M. VELOSO 
+896 
+
+Visual Gesture-based Robot Guidance with a Modular Neural System 
+E. LITTMANN, A. DREES, H. RITTER 
+903 
+
+A Novel Channel Selection System in Cochlear Implants Using Artificial Neural Network 
+M. A. JABRI, R. J. WANG 
+910 
+
+Prediction of Beta Sheets in Proteins 
+A. KROGH, S. K. RIIS 
+917 
+
+A Neural Network Autoassociator for Induction Motor Failure Prediction 
+T. PETSCHE, A. MARCANTONIO, C. DARKEN, S. J. HANSON, G. M. KUHN, I. SANTOSO 
+924 
+
+Using Feedforward Neural Networks to Monitor Alertness from Changes in EEG Correlation and Coherence 
+S. MAKEIG, T.-P. JUNG, T. J. SEJNOWSKI 
+931 
+
+A Neural Network Classifier for the I1000 OCR Chip 
+J. C. PLATT, T P. ALLEN 
+938 
+
+Predictive Q-Routing: A Memory-based Reinforcement Learning Approach to Adaptive Traffic Control 
+S. P.M. CHOI, D. YEUNG 
+945 
+
+Optimal Asset Allocation Using Adaptive Dynamic Programming 
+R. NEUNEIER 
+952 
+
+Using the Future to "Sort Out" the Present: Rankprop and Multitask Learning for Medical Risk Evaluation 
+R. CARUANA, S. BALUJA, T. MITCHELL 
+959 
+
+Stock Selection via Nonlinear Multi-factor Models 
+A. U. LEVIN 
+966 
+
+Experiments with Neural Networks for Real Time Implementation of Control 
+P. CAMPBELL, M. DALE, H. L. FERRY, A. KOWALCZYK 
+973 
+
+High-speed Airborne Particle Monitoring Using Artificial Neural Networks 
+A. FERGUSON, T. SABISCH, P. KAYE, L. C. DIXON, H. BOLOURI 
+980 
+
+A Dynamical Systems Approach for a Learnable Autonomous Robot 
+J. TANI, N. FUKUMURA 
+989 
+
+Parallel Optimization of Motion Controllers via Policy Iteration 
+J. A. COELHO JR., R. SITARAMAN, R. A. GRUPEN 
+996 
+
+Learning Fine Motion by Markov Mixtures of Experts 
+M. MEILA, M. I. JORDAN 
+1003 
+
+Neural Control for Nonlinear Dynamic Systems 
+S. YU, A.M. ANNASWAMY 
+1010 
+
+Improving Elevator Performance Using Reinforcement Learning 
+R. H. CRITES, A. G. BARTO 
+1017 
+
+High-performance Job-Shop Scheduling with a Time-delay TD(LAMBDA) Network 
+W. ZHANG, T. G. DIETTERICH 
+1024 
+
+Competence Acquisition in an Autonomous Mobile Robot Using Hardware Neural Techniques 
+G. JACKSON, A. F. MURRAY 
+1031 
+
+Generalization in Reinforcement Learning: Successful Examples Using Sparse Coarse Coding 
+R. S. SUTTON 
+1038 
+
+Stable Linear Approximations to Dynamic Programming for Stochastic Control Problems with Local Transitions 
+B. V. ROY, J. N. TSITSIKLIS 
+1045 
+
+Stable Fitted Reinforcement Learning 
+G. J. GORDON 
+1052 
+
+Improving Policies without Measuring Merits 
+P. DAYAN, S. P. SINGH 
+1059 
+
+Memory-based Stochastic Optimization 
+A. W. MOORE, J. SCHNEIDER 
+1066 
+
+Temporal Difference in Learning in Continuous Time and Space 
+K. DOYA 
+1073 
+
+Reinforcement Learning by Probability Matching 
+P. N. SABES, M. I. JORDAN 
+1080 
+

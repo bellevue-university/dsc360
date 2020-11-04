@@ -1,0 +1,210 @@
+Aazhang, Behnaam ,272 
+Abu-Mostafa, Y. ,634 
+Ackley, David H. ,20 
+Afghan, A. ,777 
+Ahalt, S.C. ,281 
+Ahmad, Subutai ,160 
+Akers, L.A. ,777 
+Alkon, Daniel L. ,419 
+Allen, Robert B. ,748 
+Allinson, Nigel M. ,728 
+Alspector, Joshua ,748 
+Alvelda, Phillip ,314 
+Arethor, Franklin R. ,477 
+Anandan, P. ,618 
+Andreou, Andreas G. ,785 
+Assad, Christopher ,436 
+Baird, Bill ,459 
+Baird, H.S. ,323 
+Baldi, Pierre ,65 
+Ballard, Dana H. ,149 
+Baum, Eric B. ,81 
+Beckman, Paul ,124 
+Beer, Randall D. ,577 
+Bengio, Yoshua ,224 
+Bhalla, Upinder S. ,485 
+Bilbro, Griff ,91,594 
+Blackman, David ,712 
+Blum, Avrim ,494 
+Borisyuk, G.N. ,560 
+Borisyuk, R.M. ,560 
+Bourlard, H. ,502 
+Bower, James M. ,384, 410, 436, 485 
+Bradshaw, Gary ,248 
+Braitenberg, Valentino ,794 
+Bridle, John S. ,796 
+Cardin, Regis ,224 
+Ceci, Louis ,248 
+Chauvin, Yves ,519 
+Cheng, Roger ,511 
+Chiel, Hillel J. ,577 
+Chiu, Timothy ,712 
+Chulaevsky, V.A. ,560 
+Clare, Thomas ,712 
+Cleeremans, Axel ,643 
+Cole, Clint S. ,678 
+Cosi, Piero ,224 
+Cunningham, Robert ,289 
+Dao, Joseph ,712 
+Darling, Robert B. ,695 
+Davis, Lawrence ,49 
+De-Mori, Renato ,224 
+Delbruck, T. ,720 
+Denker, J.S. ,323 
+Domany, Eytan ,73 
+Donham, Christopher ,712 
+Dyer, Michael G. ,545 
+Eisenberg, Joe ,662 
+Erlanson, R. ,634 
+Feld, David ,662 
+Fozzard, Richard ,248 
+Galland, Conrad C. ,141 
+Garber, F.D. ,281 
+Gardner, W.R. ,323 
+Gelfand, J.J. ,366 
+Gersho, Anen ,116 
+Gilbert, Sheldon ,739 
+Gindi, Gene ,618 
+Gluck, Mark ,2, 195 
+Goldberg, K.Y. ,356 
+Goodman, Joseph W. ,340 
+Goodman, Rodney M. ,256 
+Graf, H.P. ,323 
+Grossman, Tal ,73 
+Grzywacz, Norberto M. ,477 
+Gupta, Bhusan ,748 
+Guyon, I. ,323 
+Haghighi, S. ,777 
+Hamilton, Alister ,671 
+Hanson, Stephen Jose ,177 
+Harris, John G. ,687 
+Hartstein, A. ,769 
+Haussler, David ,81 
+Henderson, D. ,323 
+Hendler, James ,553 
+Henkle, Van ,2 
+Hinton, Geoffrey E. ,141 
+Hopfield, J.J. ,402 
+Howard, R.E. ,323, 761 
+Hsieh, Tzu-pu ,712 
+Hubbard, W. ,323, 761 
+Hurlbert, Anya ,297 
+Jackel, L.D. ,323 
+Johnson, Martin J. ,728 
+Jouny, I. ,281 
+Karo, Moshe ,511 
+Keller, Joseph B. ,375 
+Kirillov, A.B. ,560 
+Koch, R.H. ,769 
+Komura, Mitsuo ,232 
+Konishi, M. ,795 
+Kovalenko, Ye. I. ,560 
+Kramer, Alan H. ,40 
+Krishnamurthy, A. K. ,281 
+Kryukov, V.I. ,560, 610 
+Lange, Trent E. ,545 
+Lazzaro, J. ,703 
+Le Cun, Yann ,141 
+Lee, Wei-Tsih ,57 
+Leinbach, Jared ,602 
+Leung, Hong C. ,206 
+Lewis, Edwin ,662 
+Li, Zhaoping ,402 
+Linsker, Ralph ,186 
+Lippmann, Richard P. ,124 
+Loinaz, Marc ,712 
+Mahowald, M.A. ,703 
+Majani, E. ,634 
+Makarenko, V.I. ,560 
+Mann, James R. ,739 
+Mann, Reinhold ,91 
+Marcus, C.M. ,568 
+McClelland, James L. ,643 
+Mead, C.A. ,703, 720 
+Mead, Carver ,384 
+Meador, Jack L. ,678 
+Meir, Ronny ,73 
+Mel, Bartlett W. ,348 
+Mighell, Dorothy A. ,340 
+Miller, John P. ,444, 802 
+Miller, John W. ,256 
+Miller, Kenneth D. ,375 
+Miller, Thomas K. ,91 
+Mjolsness, Eric ,618 
+Moody, John ,29 
+Moon, Kevin J. ,728 
+Mori, Yoshihiro ,332 
+Mozer, Michael C. ,107 
+Mueller, Paul ,712 
+Murray, Alan F. ,671 
+Nabet, Bahram ,695 
+Naillon, Martine ,264 
+Nelson, Mark E. ,410, 436 
+Orsak, Geoffrey ,272 
+Oftaway, Mary B. ,149 
+Paris, Bernd-Peter ,272 
+Parker, David B. ,195 
+Paulin, Michael G. ,410 
+Pavel, M. ,2 
+Pearlmutter, B.A. ,356 
+Pearson, J.C. ,366 
+Peterson, R.M. ,366 
+Pinter, Robert B. ,695 
+Poggio, Tomaso ,297 
+Pollack, Jordan B. ,527 
+Pomerleau, Dean A. ,305 
+Pratt, Lorien Y. ,177 
+Quek, Francis ,419 
+Rasnow, Brian ,436 
+Reifsnider, Eric S. ,195 
+Rivest, Ronald L. ,494 
+Rogers, David ,586 
+Ryckebusch, Sylvie ,384, 703 
+San Martin, A. Miguel ,314 
+Sanger, Terence D. ,11 
+Sangiovanni-Vincentelli, A. ,40 
+Santos, Eugene ,537 
+Schwartz, D.B. ,761 
+Seibert, Michael ,289 
+Sejnowski, Terrence ,394 
+Sereno, Martin I. ,468 
+Servan-Schreiber, David ,643 
+Simard, Patrice Y. ,149 
+Singhal, Sharad ,133 
+Smolensky, Paul ,107 
+Smyth, Padhraic ,256 
+Smythe, Erich J. ,240 
+Snyder, Wesley E. ,91, 594 
+Spence, C.D. ,366 
+Stanton, Patric K. ,394 
+Sterling, Leon S. ,577 
+Stryker, Michael P. ,375 
+Sullivan, W.E. ,366 
+Tanaka, Akio ,232 
+Tanaka, Shigeru ,451 
+Tarassenko, Lionel ,671 
+Tawel, Raoul ,169 
+Tenorio, Manoel Fernando ,57 
+Tesauro, Gerald ,99, 160 
+Theeten, Jean-Bernard ,264 
+Touretzky, David S. ,626 
+Uhley, John D. ,485 
+Van den Bout, David E. ,91 
+Van der Spiegel, Jan ,712 
+Varanasi, Mahesh ,272 
+Vogl, Thomas P. ,419 
+Waibel, Alex ,215 
+Walker, M.R. ,777 
+Waxman, Allen M. ,289 
+Wellekens, C.J. ,502 
+Westervelt, R.M. ,568 
+White, Mark ,91 
+Wilkinson, Timothy S. ,340 
+Wilson, Matthew A. ,485 
+Winter, C.L. ,653 
+Wu, Jian ,289 
+Wu, Lance ,133 
+Yair, Eyal ,116 
+Yokosawa, Kazuhiko ,332 
+Zhang, Jun ,444 
+Zue, Victor W. ,206 

@@ -1,0 +1,166 @@
+Abu-Mostafa, Yaser S., 1 
+Allen, Robert B., 9 
+Alspector, Joshua, 9 
+Ambros-Ingerson, Jose, 317 
+Arimoto, Suguru, 767 
+Atiya, Amir F., 22, 95 
+Atlas, Les E., 31,534 
+Baldi, Pierre, 41 
+Banik, Jashojiban, 103 
+Barr, Alan H., 612 
+Baum, Eric B., 52 
+Baxter, William, 62 
+Bernasconi, J., 72 
+Borg-Graham, Lyle J., 82 
+Bower, James M., 95, 103, 114 
+Brady, David, 377 
+Brandeis, D., 467 
+Brown, Nathan H., 127 
+Bruck, Jehoshua, 137 
+Burr, David J., 144, 348 
+Butler, Zoe F., 573 
+Carley, L. Richard, 154 
+Chen, H. H., 760 
+Cheung, John Y., 164 
+Chiueh, TzioDar, 174 
+Chou, P.A., 184 
+Chover, Joshua, 192 
+Coon, D.D., 201 
+Cooper, Leon N., 674 
+Dembo, Amir, 211 
+Denker, John S., 219, 515, 850 
+Derthick, Mark, 223 
+Dickinson, Bradley W., 592 
+Dikaiakos, M., 740 
+Donoghue, John P., 715 
+Dow, Bruce, 62 
+Dreyfus, G., 233 
+Eeckman, Frank H., 242 
+Elbaurn, Charles, 674 
+Ersu, E., 249 
+Fallside, F., 632 
+Farber, Robert, 442 
+Farrell, J. A., 554 
+Fernandez, Manuel F., 262 
+Fetz, Eberhard E., 270 
+Fleisher, Michael, 278 
+Gately, Michael T., 290 
+Gaudiano, Paolo, 297 
+Giles, C. Lee, 301 
+Golden, Richard M., 310 
+Goodman, Joseph W., 137 
+Goodman, Rodney, 174 
+Goodwin, James M., 642 
+Graf, Hans P., 515 
+Granger, Richard, 317 
+Griffin, R. D., 301 
+Guyon, I., 233 
+Haggerty, John, 824 
+Hammerstrom, Dan, 338 
+Hanson, Stephen J., 348 
+Henry, Howard, 317 
+Hinton, Geoffrey E., 358 
+Hogg, Tad, 750 
+Homma, Toshiteru, 31 
+Honrubia, Vicente, 457 
+Horst, A., 467 
+Houk, James C., 367 
+Hsu, Ken, 377 
+Hu, Victor, 9 
+Huang, William Y., 387 
+Huberman, Bernardo A., 750 
+Hurlbert, Anya C., 622 
+Hutchinson, James, 422 
+Jang, Ju-Seog, 397 
+Kanwal, Jagmeet S., 402 
+Keeler, James D., 412 
+Khanna, S. K., 564 
+Koch, Christof, 422 
+Kontoravdis, D., 740 
+Kuh, Anthony, 432 
+Langenbacher, H., 564 
+Lapedes, Alan, 442 
+Lau, Clifford, 457 
+Lee, Soo-Young, 397 
+Lee, Y. C., 760 
+Lehmann, Dietrich, 467 
+Leong, Harrison MonFook, 474 
+Linsker, Ralph, 485 
+Lippmann, Richard P., 387 
+Loos, Hendricus G., 495 
+Luo, Jin, 422 
+Lynch, Gary, 317 
+MacDonald, Bruce, 505 
+Mackie, Stuart, 515 
+Macy, S. A., 693 
+Marcus, Charles M., 524 
+Marks, Robert J., 31,534 
+Mastebroek, H. A. K., 662 
+Maxwell, T., 301 
+McClelland, James L., 358 
+Mead, Carver, 422 
+Mel, Bartlett W., 544 
+Michel, A. N., 554 
+Moopenn, Alexander, 564 
+Murray, Alan F., 573 
+Nadal, J. P, 233 
+Noest, Andre J., 584 
+Noetzel, Andrew S., 709 
+Oh, Seho, 534 
+Omidvar, Massoud, 164 
+Ozaki, H., 467 
+Page, Edward W., 775 
+Pal, I., 467 
+Perera, A. G. U., 201 
+Personnaz, L., 233 
+Petsche, Thomas, 592 
+Pineda, Fernando J., 602 
+Platt, John C., 612 
+Poggio, Tomaso A., 622 
+Porod, W., 554 
+Psaltis, Demetri, 377 
+Reilly, Douglas L., 674 
+Ritcey, James A., 534 
+Robinson, A. J., 632 
+Rosen, Bruce E., 642 
+Rosenfeld, Ronald, 652 
+Salehi, Jawad A., 814 
+Satyanarayana, Srinagesh, 9 
+Schuling, F. H., 662 
+Schwartz, Daniel B., 515 
+Scofield, Christopher L., 674, 683 
+Sejnowski, T. J., 794 
+Shepanski, J. F., 693 
+Shin, Sang-Yung, 397 
+Siegel, Ralph M., 701 
+Silverman, Ronald H., 709 
+Singer, Alexander, 715 
+Smith, Anthony V. W., 573 
+Smolensky, Paul, 730 
+Stafylopatis, Andreas, 740 
+Standley, D. L., 860 
+Stornetta, W. Scott, 750 
+Sun, G. Z., 760 
+Suzuki, Hisashi, 767 
+Tagliarini, Gene A., 775 
+Tebelskis, Joe, 223 
+Tenorio, Manoel F., 783 
+Tesauro, Gerald, 794 
+Thakoor, A. P., 564 
+Tolle, H., 249 
+Tomboulian, Sherryl, 804 
+Touretzky, David S., 652 
+Vecchi, Mario P., 814 
+Venkatesh, Santosh S., 41 
+Vidal, Jacques J., 642, 824 
+Wechsler, Harry, 830 
+Westervelt, R. M., 524 
+Wilczek, Frank, 52 
+Wilson, Matthew A., 114 
+Windecker, Richard C., 840 
+Wittner, Ben S., 219, 850 
+Wong, Yiu-fai, 103 
+Wyatt, John L., 860 
+Zaagman, W. H., 662 
+Zeitouni, Ofer, 211 
+Zimmerman, George Lee, 830 

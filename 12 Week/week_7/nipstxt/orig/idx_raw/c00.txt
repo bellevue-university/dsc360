@@ -1,0 +1,400 @@
+NEURAL 
+IN FORMATION 
+PROCESSING 
+SYSTEMS 
+DENVER, CO t 987 
+EDITOR: 
+DANA Z. ANDERSON 
+UNIVERSITY OF 
+COLORADO 
+AMERICAN INSTITUTE OF PHYSICS NEW YORK 1988 
+NEURAL 
+IN FORMATION 
+PROCESSING 
+SYSTEMS 
+DENVER, CO t 987 
+EDITOR: 
+DANA Z. ANDERSON 
+UNIVERSITY OF 
+COLORADO 
+AMERICAN INSTITUTE OF PHYSICS NEW YORK 1988 
+Authorization to photocopy items for internal or personal use, beyond the 
+free copying permitted under the 1978 US Copyright Law (see statement 
+below), is granted by the American Institute of Physics for users registered 
+with the Copyright Clearance Center (CCC) Transactional Reporting Ser- 
+vice, provided that the base fee of $3.00 per copy is paid directly to CCC, 27 
+Congress St., Salem, MA 01970. For those organizations that have been 
+granted a photocopy license by CCC, a separate system of payment has been 
+arranged. The fee code for users of the Transactional Reporting Service is: 
+0094-243X/87 $3.00. 
+Copyright 1988 American Institute of Physics. 
+Individual readers of this volume and non-profit libraries, acting for them, 
+are permitted to make fair use of the material in it, such as copying an article 
+for use in teaching or research. Permission is granted to quote from this 
+volume in scientific work with the customary acknowledgment of the source. 
+To reprint a figure, table or other excerpt requires the consent of one of the 
+original authors and notification to AIP. Republication or systematic or 
+multiple reproduction of any material in this volume is permitted only under 
+license from AIP. Address inquiries to AIP, 335 E. 45th St., New York, 
+NY 10017. 
+L.C. Catalog Card No. 88-71208 
+ISBN 0-88318-569-5 
+Printed in the United States of America. 
+INTRODUCTION 
+1987 witnessed not the birth of neural networks, but a rebirth. Network processing was as much 
+in the minds of the early computer conceivers as digital processing was. For the digital computer, 
+everything went right: first relays, then tubes, then transistors, then integrated circuits. It has 
+become an extremely high-class technology--one based largely on the silicon wafer. It can do 
+anything; who needs anything else and why bother with networks? With such a promising future 
+for the digital computer, network processing became a mere distraction. Enthusiasm for neural 
+networks waned for many during the late sixties and early seventies. But for a few the enthusiasm 
+never died. These were the people who were trying to understand brain function and the nervous 
+system, and for them what the modern computer was bore little relevance to wetware. But for most 
+of us the whole business of the neural networks is a novel idea seemingly born of the eighties. It is, in 
+fact, a very seductive idea that has led an enormous number of people, including myself, to toy with 
+this paradigm. 
+As though the field really had died (or perhaps was killed) the question is asked, "What is 
+different now from the way it was then?" with a tacit reply, "It didn't work in the sixties, why 
+should it work now?" I have heard it many times now. If some of the science we are seeing now has 
+appeared before, like children we can be pleased to learn to walk even though we find a group of 
+taller people who already know how. Reinvention is a first course for learning. However, things are 
+different now than they were then: it isn't simply that our understanding of neural networks has 
+progressed, or that electronic technology has become a superb processing medium. What has 
+changed is our perspective: we have begun to see the limitations of the digital computer. Indeed, we 
+have begun to run into them. 
+In the fifties and sixties electronic computers were popularly called electronic brains. Sometime 
+between then and now that phrase seems to have faded. We thought we could make brains. Time 
+has cast some doubt. There is now more of a recognition that we cannot do some of the things that 
+are "brain-like" (I use the term loosely) with conventional electronic computers and a purely 
+algorithmic approach to processing. At least, the conventional paradigm may not be a practical 
+means for these goals. Early on, one had a choice of (at least) two paths to processing: the digital 
+computing path and the neural network path (though the latter had no such name then). Digital 
+electronics was the more promising path. Now that we see some tasks are not so easy the one way, 
+it's time to explore the other one. It might also be true that neural networks are incapable of 
+anything that proves better--there is that risk. This is, however, exactly the kind of risk that makes 
+the field truly one of research rather than one of development. The potential is there, the payoff is 
+high, and it demands inspection. 
+The explosive rise of interest in neural networks in recent years is amazing. One cannot help but 
+feel as though we are in the midst of a revolution. If there is a scientific revolution taking place here, 
+it is not in the mold of Thomas Kuhn's The Structure of Scientific Revolution. The field of neural 
+networks has not experienced a normal evolution. There was no breakthrough, as there has recent- 
+ly been in superconductivity, to drive the community size from a few hundred to a few thousand in 
+a year or two. Is there enough substance to uphold all this activity? It remains to be seen. Outside 
+observers have high expectations for this field. It is fortunate that the community is becoming self- 
+conscious and introspective. What can neural networks really do? This book takes that question as 
+its primary context. 
+The papers comprising this volume were presented at the first IEEE Conference on Neural 
+Information Processing Systems held in Denver, Colorado, on November 8-12, 1987. There is one 
+exception. Professor Carver Mead of Caltech made the rather peculiar request that I include the 
+paper by J. L. Wyatt, Jr., and D. L. Standley in lieu of his own paper. His argument was that his 
+own contribution could be found elsewhere, but that Wyatt and Standley had solved a serious 
+problem concerning electronic lateral inhibition networks using techniques from control theory 
+that have not yet permeated the neural network community. I readily agreed to his request: it is on 
+cross-fertilization that this field thrives! 
+My intention in assembling this book was to make it available as soon as possible to the commu- 
+nity so that the material might prove timely. Thus I apologize to those authors who, upon reread- 
+ing their own contribution would like to have made some revisions; this was a one-shot deal. At the 
+same time, I am extremely grateful that my guillotine deadline was observed (well, at least by 95% 
+of the authors!). 
+I am deeply indebted to Kris Mickus, without whose efforts the entropy of this project would 
+have diverged. She is unbelievable! 
+February, 1988 
+Dana Z. Anderson 
+Boulder, Colorado 
+CONTENTS 
+Introduction ................................ 
+Connectivity Versus Entropy ............................................................................. 
+Yascr S. Abu-Mostafa 
+Stochastic Learning Networks and their Electronic Implementation ................. 
+Joshua Alspector, Robert B. Allen, Victor Hu, and Srinagesh Satyanarayana 
+Learning on a General Network ......................................................................... 
+Amir F. Atiya 
+An Artificial Neural Network for Spatio-Temporal Bipolar Patterns: 
+Application to Phoneme Classification ............................................................... 
+Les E. Atlas, Toshiteru Homma, and Robert J. Marks II 
+On Properties of Networks of Neuron-Like Elements ....................................... 
+Pierre Baldi and Santosh S. Venkatesh 
+Supervised Learning of Probability Distributions by Neural Networks ............. 
+Eric B. Baum and Frank Wilczek 
+Centric Models of the Orientation Map in Primary Visual Cortex .................... 
+William Baxter and Bruce Dow 
+Analysis and Comparison of Different Learning Algorithms for Pattern 
+Association Problems ......................................................................................... 
+J. Bernasconi 
+Simulations Suggest Information Processing Roles for the Diverse Currents in 
+Hippocampal Neurons ........................................................................................ 
+Lyle J. Borg-Graham 
+Optimal Neural Spike Classification .................................................................. 
+James M. Bower and Amir F. Atiya 
+Neural Networks for Template Matching: Application to Real-Time 
+Classification of the Action Potentials of Real Neurons ..................................... 
+James M. Bower, Yiu-fai Wong, and Jashojiban Banik 
+A Computer Simulation of Olfactory Cortex with Functional Implications for 
+Storage and Retrieval of Olfactory Information ................................................ 
+James M. Bower and Matthew A. Wilson 
+Neural Network Implementation Approaches for the Connection Machine ....... 
+Nathan H. Brown, Jr. 
+On the Power of Neural Networks for Solving Hard Problems .......................... 
+Jehoshua Bruck and Joseph W. Goodman 
+Speech Recognition Experiments with Perceptrons ........................................... 
+David J. Burr 
+Presynaptic Neural Information Processing ............ , ......................................... 
+L. Richard Carley 
+Mathematical Analysis of Learning Behavior of Neuronal Models ................... 
+John Y. Cheung and Massoud Omidvar 
+A Neural Network Classifier Based on Coding Theory ....................................... 
+Tzi-Dar Chiueh and Rodney Goodman 
+The Capacity of the Kanerva Associative Memory is Exponential ..................... 
+P. A. Chou 
+Phase Transitions in Neural Networks ............................................................... 
+Joshua Chover 
+v 
+9 
+22 
+31 
+41 
+52 
+62 
+72 
+82 
+95 
+103 
+114 
+127 
+137 
+144 
+154 
+164 
+174 
+184 
+192 
+New Hardware for Massive Neural Networks ................................................... 
+D. D. Coon and A. G. U. Perera 
+High Density Associative Memories .................................................................. 
+Amir Dembo and Ofer Zeitouni 
+Network Generality, Training Required, and Precision Required ..................... 
+John S. Denker and Ben S. Wittner 
+'Ensemble' Boltzmann Units have Collective Computational Properties like 
+those of Hopfield and Tank Neurons .................................................................. 
+Mark Derthick and Joe Tebelskis 
+High Order Neural Networks for Efficient Associative Memory Design ........... 
+G. Dreyfus, I. Guyon, J.P. Nadal, and L. Personnaz 
+The Sigmoid Nonlinearity in Prepyriform Cortex .............................................. 
+Frank H. Eeckman 
+Hierarchical Learning Control--An Approach with Neuron-Like 
+Associative Memories ........................................................................................ 
+E. Ersu and H. Tolle 
+On Tropistic Processing and Its Applications .................................................... 
+Manuel F. Fern;ndez 
+Correlational Strength and Computational Algebra of Synaptic Connections 
+Between Neurons ............................................................................................... 
+Eberhard E. Fetz 
+The Hopfield Model with Multi-Level Neurons ................................................. 
+Michael Fleisher 
+Cycles: A Simulation Tool for Studying Cyclic Neural Networks ...................... 
+Michael T. Gately 
+Temporal Patterns of Activity in Neural Networks ............................................ 
+Paolo Gaudiano 
+Encoding Geometric Invariances in Higher-Order Neural Networks ................ 
+C. Lee Giles, R. D. Grin, and T. Maxwell 
+Probabilistic Characterization of Neural Model Computations ......................... 
+Richard M. Golden 
+Partitioning of Sensory Data by a Cortical Network .......................................... 
+Richard Granger, Jos6 Ambros-Ingerson, Howard Henry, and Gary Lynch 
+The Connectivity Analysis of Simple Association .............................................. 
+Dan Hammerstrom 
+Minkowski-r Back-Propagation: Learning in Connectionist Models with Non- 
+Euclidian Error Signals ...................................................................................... 
+Stephen J. Hanson and David J. Burr 
+Learning Representations by Recirculation ....................................................... 
+Geoffrey E. Hinton and James L. McClelland 
+Schema for Motor Control Utilizing a Network Model of the Cerebellum ......... 
+James C. Houk 
+Experimental Demonstrations of Optical Neural Computers ............................ 
+Ken Hsu, David Brady, and Demetri Psaltis 
+Neural Net and Traditional Classifiers ............................................................... 
+William Y. Huang and Richard P. Lippmann 
+An Optimization Network for Matrix Inversion ................................................ 
+Ju-Seog Jang, Soo-Young Lee, and Sang-Yung Shin 
+201 
+211 
+219 
+223 
+233 
+242 
+249 
+262 
+270 
+278 
+290 
+297 
+301 
+310 
+317 
+338 
+348 
+358 
+367 
+377 
+387 
+397 
+How the Catfish Tracks Its Prey: An Interactive 'Pipelined' Processing System 
+May Direct Foraging via Reticulospinal Neurons .............................................. 
+Jagmeet S. Kanwal 
+Capacity for Patterns and Sequences in Kanerva's SDM as Compared to Other 
+Associative Memory Models .............................................................................. 
+James D. Keeler 
+Computing Motion Using Resistive Networks ................................................... 
+Christof Koch, Jin Luo, Carver Mead, and James Hutchinson 
+Performance Measures for Associative Memories that Learn and Forget ......... 
+Anthony Kuh 
+How Neural Nets Work ...................................................................................... 
+Alan Lapedes and Robert Farbet 
+Distributed Neural Information Processing in the Vestibulo-Ocular System .... 
+Clifford Lau and Vicente Honrubia 
+Spontaneous and Information-Triggered Segments of Series of Human Brain 
+Electric Field Maps ............................................................................................ 
+Dietrich Lehmann, D. Brandeis, A. Horst, H. Ozaki, and I. Pal 
+Optimization with Artificial Neural Network Systems: A Mapping Principle 
+and a Comparison to Gradient Based Methods ................................................... 
+Harrison MonFook Leong 
+Towards an Organizing Principle for a Layered Perceptual Network ................ 
+Ralph Linsker 
+Reflexive Associative Memories ........................................................................ 
+Hendricus G. Loos 
+Connecting to the Past ........................................................................................ 
+Bruce MacDonald 
+Microelectronic Implementations of Connectionist Neural Networks ............... 
+Stuart Mackie, Hans P. Graf, Daniel B. Schwartz, and John S. Denker 
+Basins of Attraction for Electronic Neural Networks ........................................ 
+Charles M. Marcus and R. M. Westervelt 
+The Performance of Convex Set Projection Based Neural Networks ................. 
+Robert J. Marks II, Les E. Atlas, Seho Oh, and James A. Ritcey 
+MURPHY: A Robot that Learns by Doing ........................................................ 
+Bartlett W. Mel 
+Stability Results for Neural Networks ............................................................... 
+A. N. Michel, J. A. Farrell, and W. Porod 
+Programmable Synaptic Chip for Electronic Neural Networks ......................... 
+Alexander Moopenn, H. Langenbacher, A. P. Thakoor, and S. K. Khanna 
+Bit-Serial Neural Networks ............................................................................... 
+Alan F. Murray, Anthony V. W. Smith, and Zoe F. Butler 
+Phasor Neural Networks .................................................................................... 
+Andr6 J. Noest 
+A Trellis-Structured Neural Network ................................................................ 
+Thomas Petsche and Bradley W. Dickinson 
+Generalization of Backpropagation to Recurrent and Higher Order 
+Neural Networks ................................................................................................ 
+Fernando J. Pineda 
+Constrained Differential Optimization .............................................................. 
+John C. Platt and Alan H. Bart 
+402 
+412 
+422 
+432 
+442 
+457 
+467 
+474 
+485 
+495 
+505 
+515 
+524 
+534 
+544 
+554 
+564 
+573 
+584 
+592 
+602 
+612 
+Learning a Color Algorithm from Examples ....................................................... 
+Tomaso A. Poggio and Anya C. Hurlbert 
+Static and Dynamic Error Propagation Networks with Application 
+to Speech Coding ................................................................................................ 
+A. J. Robinson and F. Fallside 
+Learning by State Recurrence Detection ........................................................... 
+Bruce E. Rosen, James M. Goodwin, and Jacques J. Vidal 
+Scaling Properties of Coarse-Coded Symbol Memories ..................................... 
+Ronald Rosenfeld and David S. Touretzky 
+An Adaptive and Heterodyne Filtering Procedure for the Imaging 
+of Moving Objects .............................................................................................. 
+F. H. Schuling, H. A. K. Mastebroek, and W. H. Zaagman 
+Pattern Class Degeneracy in an Unrestricted Storage Density Memory ............ 
+Christopher L. Scofield, Douglas L. Reilly, Charles Elbaum, and 
+Leon N. Cooper 
+A Mean Field Theory of Layer IV of Visual Cortex and Its Application to 
+Artificial Neural Networks ................................................................................ 
+Christopher L. Scofield 
+Teaching Artificial Neural Systems to Drive: Manual Training Techniques for 
+Autonomous Systems ......................................................................................... 
+J. F. Shepanski and S. A. Macy 
+Discovering Structure from Motion in Monkey, Man and Machine .................. 
+Ralph M. Siegel 
+Time-Sequential Self-Organization of Hierarchical Neural Networks .............. 
+Ronald H. Silverman and Andrew S. Noetzel 
+A Computer Simulation of Cerebral Neocortex: Computational Capabilities of 
+Nonlinear Neural Networks ............................................................................... 
+Alexander Singer and John P. Donoghue 
+Analysis of Distributed Representation of Constituent Structure in 
+Connectionist Systems ....................................................................................... 
+Paul Smolensky 
+Spatial Organization of Neural Networks: A Probabilistic Modeling Approach 
+Andreas Stafylopatis, M. Dikaiakos, and D. Kontoravdis 
+A Dynamical Approach to Temporal Pattern Processing ................................... 
+W. Scott Stornetta, Tad Hogg, and Bernardo A. Huberman 
+A Novel Net that Learns Sequential Decision Process ....................................... 
+G. Z. Sun, Y. C. Lee, and H. H. Chen 
+Self-Organization of Associative Database and Its Applications ....................... 
+Hisashi Suzuji and Suguru Arimoto 
+A Neural-Network Solution to the Concentrator Assignment Problem ............. 
+Gene A. Tagliarini and Edward W. Page 
+Using Neural Networks to Improve Cochlear Implant Speech Perception ......... 
+Manoel F. Tenorio 
+A 'Neural' Network that Learns to Play Backgammon ...................................... 
+Gerald Tesauro and T. J. Sejnowski 
+Introduction to a System for Implementing Neural Net Connections 
+on SIMD Architectures ...................................................................................... 
+Sherryl Tomboulian 
+622 
+632 
+642 
+652 
+662 
+674 
+683 
+693 
+701 
+709 
+715 
+730 
+740 
+750 
+760 
+767 
+775 
+783 
+794 
+804 
+Neuromorphic Networks Based on Sparse Optical Orthogonal Codes ............... 
+Mario P. Vecchi and Jawad A. Salehi 
+Synchronization in Neural Nets ......................................................................... 
+Jacques J. Vidal and John Haggerty 
+Invariant Object Recognition Using a Distributed Associative Memory ........... 
+Harry Wechsler and George Lee Zimmerman 
+Learning in Networks of Nondeterministic Adaptive Logic Elements ................ 
+Richard C. Windecker 
+Strategies for Teaching Layered Networks Classification Tasks ....................... 
+Ben S. Wittner and John S. Denker 
+A Method for the Design of Stable Lateral Inhibition Networks that is Robust 
+in the Presence of Circuit Parasitics ................................................................... 
+John L. Wyatt, Jr. and D. L. Standley 
+Author Index ...................................................................................................... 
+814 
+824 
+830 
+84O 
+850 
+860 
+869 

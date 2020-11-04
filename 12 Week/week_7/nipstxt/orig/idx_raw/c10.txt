@@ -1,0 +1,717 @@
+ADVANCES IN NEURAL INFORMATION 
+PROCESSING SYSTEMS 10 
+ADVANCES IN NEURAL INFORMATION PROCESSING SYSTEMS 
+Published by Morgan-Kaufmann 
+NIPS-1 
+Advances in Neural 
+David S. Touretzky, 
+NIPS -2 
+Advances in Neural 
+David S. Touretzky, 
+NIPS-3 
+Information Processing Systems 1: Proceedings of the 1988 Conference, 
+ed., 1989. 
+Information Processing Systems 2: Proceedings of the 1989 Conference, 
+ed., 1990. 
+Advances in Neural Information Processing Systems 3: Proceedings of the 1990 Conference, 
+Richard Lippmann, John E. Moody and David S. Touretzky, eds., 1991. 
+NIPS-4 
+Advances in Neural Information Processing Systems 4: Proceedings of the 1991 Conference, 
+John E. Moody, Stephen J. Hanson and Richard P. Lippmann, eds., 1992. 
+NIPS-5 
+Advances in Neural Information Processing Systems 5: Proceedings of the 1992 Conference, 
+Stephen J. Hanson, Jack D. Cowan and C. Lee Giles, eds., 1993. 
+NIPS-6 
+Advances in Neural Information Processing Systems 6: Proceedings of the 1993 Conference, 
+Jack D. Cowan, Gerald Tesauro and Joshua Alspector, eds., 1994. 
+Published by The MIT Press 
+NIPS -7 
+Advances in Neural Information Processing Systems 7: Proceedings of the 1994 Conference, 
+Gerald Tesauro, David S. Touretzky and Todd K. Leen, eds., 1995. 
+NIPS-$ 
+Advances in Neural Information Processing Systems 8: Proceedings of the 1995 Conference, 
+David S. Touretzky, Michael C. Mozer and Michael E. Hasselmo, eds., 1996. 
+NIPS -9 
+Advances in Neural Information Processing Systems 9: Proceedings of the 1996 Conference, 
+Michael C. Mozer, Michael I. Jordan and Thomas Petsche, eds., 1997. 
+NIPS-10 
+Advances in Neural Information Processing Systems 10: Proceedings of the 1997 Conference, 
+Michael I. Jordan, Michael J. Kearns and Sara A. Solla, eds., 1998. 
+ADVANCES IN NEURAL INFORMATION 
+PROCESSING SYSTEMS 10 
+Proceedings of the 1997 Conference 
+edited by 
+Michael I. Jordan, Michael J. Keams and Sara A. Solla 
+A Bradford Book 
+The MIT Press 
+Cambridge, Massachusetts 
+London, England 
+() 1998 Massachusetts Institute of Technology 
+All rights reserved. No part of this book may be reproduced in any form by any electronic or 
+mechanical means (including photocopying, recording or information storage and retrieval) 
+without permission in writing from the publisher. 
+This book was printed and bound in the United States of America. 
+ISSN: 1049-5258 
+ISBN: 0-262-10076-2 
+Contents 
+NIPS Committees ................................ xv 
+Reviewers .................................... xvii 
+Part I Cognitive Science 
+Synchronized Auditory and Cognitive 40 Hz Attentional Streams, and the Impact 
+of Rhythmic Expectation on Auditory Scene Analysis, Bill Baird .......... 3 
+On Parallel versus Serial Processing: A Computational Study of Visual Search, 
+Eyal Cohen and Eytan Ruppin .......................... 10 
+Task and Spatial Frequency Effects on Face Specialization, 
+Matthew N. Dailey and Garrison W. Cottrell ................... 17 
+Neural Basis of Object-Centered Representations, 
+Sophie Deneve and Alexandre Pouget ...................... 24 
+A Neural Network Model of Naive Preference and Filial Imprinting in the 
+Domestic Chick, Lucy E. Hadden ......................... 31 
+Adaptation in Speech Motor Control, John F. Houde and Michael I. Jordan .... 38 
+Learning Human-like Knowledge by Singular Value Decomposition.' A Progress 
+Report, Thomas K. Landauer, Darrell Laham and Peter Foltz ........... 45 
+Multi-modular Associative Memory, Nit Levy, David Horn and Eytan Ruppin 52 
+Serial Order in Reading Aloud.' Connectionist Models and Neighborhood 
+Structure, Jeanne C. Milostan and Garrison W. Cottrell .............. 59 
+A Superadditive-Impairment Theory of Optic Aphasia, 
+Michael C. Mozer, Mark Sitton and Martha Farah ................ 66 
+A Hippocampal Model of Recognition Memory, 
+Randall C. O'Reilly, Kenneth A. Norman and James L. McClelland ........ 73 
+Correlates of Attention in a Model of Dynamic Visual Recognition, 
+Rajesh P. N. Rao ................................. 80 
+Recurrent Neural Networks Can Learn to Implement Symbol-Sensitive Counting, 
+Paul Rodriguez and Janet Wiles ......................... 87 
+Comparison of Human and Machine Word Recognition, 
+Markus Schenkel, Cyril Latimer and Marwan Jabri ................ 94 
+Part II Neuroscience 
+Coding of Naturalistic Stimuli by Auditory Midbrain Neurons, 
+Hagai Attias and Christoph E. Schreiner ..................... 
+103 
+vi Contents 
+Refractoriness and Neural Precision, Michael J. Berry II and Markus Meister 110 
+Statistical Models of Conditioning, Peter Dayan and Theresa Long ........ 117 
+Characterizing Neurons in the Primary Auditory Cortex of the Awake Primate 
+Using Reverse Correlation, R. Christopher deChamas and Michael M. Merzenich 
+Using Helmholtz Machines to Analyze Multi-channel Neuronal Recordings, 
+Virginia R. de Sa, R. Christopher deCharms and Michael M. Merzenich ...... 
+124 
+131 
+Instabilities in Eye Movement Control: A Model of Periodic Alternating 
+Nystagmus, Ernst R. Dow and Thomas J. Anastasio ................ 
+Hippocampal Model of Rat Spatial Abilities Using Temporal Difference 
+Learning, David J. Foster, Richard G. M. Morris and Peter Dayan ......... 
+138 
+145 
+Gradients for Retinotectal Mapping, Geoffrey J. Goodhill ............. 152 
+A Mathematical Model of Axon Guidance by Diffusible Factors, 
+Geoffrey J. Goodhill ............................... 
+159 
+Computing with Action Potentials (Invited Talk), 
+John J. Hopfield, Carlos D. Brody and Sam Roweis ................ 
+166 
+A Model of Early Visual Processing, 
+Laurent Itti, Jochen Braun, Dale K. Lee and Christof Koch ............ 
+173 
+Perturbative M-Sequences for Auditory Systems Identification, 
+Mark Kvale and Christoph E. Schreiner ..................... 
+180 
+Effects of Spike Timing Underlying Binocular Integration and Rivalry in a 
+Neural Model of Early Visual Cortex, Erik D. Lumer ............... 
+187 
+Dynamic Stochastic Synapses as Computational Units, 
+Wolfgang Maass and Anthony M. Zador ..................... 
+194 
+Synaptic Transmission: An Information-Theoretic Perspective, 
+Amit Manwani and Christof Koch ........................ 201 
+Toward a Single-Cell Account for Binocular Disparity Tuning: An Energy Model 
+May Be Hiding in Your Dendrites± 
+Bartlett W. Mel, Daniel L. Ruderman and Kevin A. Archie ............ 208 
+Just One View: Invariances in Inferotemporal Cell Tuning, 
+Maximilian Riesenhuber and Tomaso Poggio ................... 215 
+On the Separation of Signals from Neighboring Cells in Tetrode Recordings± 
+Maneesh Sahani, John S. Pezaris and Richard A. Andersen ............ 222 
+Independent Component Analysis for Identification of Artifacts in 
+MagnetoencephaIographic Recordings, 
+Ricardo Xrgfirio, Veikko Jousmfiki, Matti H'amrd'ninen, Riitta Hari and Erkki Oja 
+229 
+Modeling Complex Cells in an Awake Macaque during Natural Image Viewing, 
+William E. Vinje and Jack L. Gallant ....................... 236 
+Contents vii 
+Part III Theory 
+The Canonical Distortion Measure in Feature Space and 1-NN Classification, 
+Jonathan Baxter and Peter Bartlett ........................ 
+Multiple Threshold Neural Logic, Vasken Bohossian and Jehoshua Bruck ..... 
+Generalization in Decision Trees and DNF: Does Size Matter? 
+Mostefa Golea, Peter Bartlett, Wee Sun Lee and Llew Mason ........... 
+Selecting Weighting Factors in Logarithmic Opinion Pools, Tom Heskes ..... 
+New Approximations of Differential Entropy for Independent Component 
+Analysis and Projection Pursuit, Aapo Hyv'firinen ................. 
+Boltzmann Machine Learning Using Mean Field Theory and Linear Response 
+Correction, Hilbert J. Kappen and F. B. Rodrfguez ................ 
+Relative Loss Bounds for Multidimensional Regression Problems, 
+Jyrki Kivinen and Manfred K. Warmuth ..................... 
+Asymptotic Theory for Regularization: One-Dimensional Linear Case, 
+Petri Koistinen .................................. 
+Two Approaches to Optimal Annealing, 
+Todd K. Leen, Bernhard Schottky and David Saad 
+Structural Risk Minimization for Nonparametric Time Series Prediction, 
+Ron Meir .................................... 
+Analytical Study of the Interplay between Architecture and Predictability, 
+Avner Priel, Ido Kanter and David A. Kessler ................... 
+Globally Optimal On-line Learning Rules, Magnus Rattray and David Saad .... 
+Minimax and Hamiltonian Dynamics of Excitatory-Inhibitory Networks, 
+H. Sebastian Seung, Tom J. Richardson, Jeffrey C. Lagarias and John J. Hopfield 
+Data-Dependent Structural Risk Minimization for Perceptron Decision Trees, 
+John Shawe-Taylor and Nello Cristianini ..................... 
+From Regularization Operators to Support Vector Kernels, 
+Alex J. Smola and Bernhard Sch61kopf ...................... 
+The Rectified Gaussian Distribution, 
+Nicholas D. Socci, Daniel D. Lee and H. Sebastian Seung 
+On-line Learning from Finite Training Sets in Nonlinear Networks, 
+Peter Sollich and David Barber .......................... 
+Competitive On-line Linear Regression, Volodya Vovk .............. 
+On the Infeasibility of Training Neural Networks with Small Squared Errors, 
+Van H. Vu .................................... 
+The Storage Capacity of a Fully-Connected Committee Machine, 
+Yuansheng Xiong, Chulan Kwon and Jong-Hoon Oh ............... 
+245 
+252 
+259 
+266 
+273 
+280 
+287 
+294 
+301 
+308 
+315 
+322 
+329 
+336 
+343 
+350 
+357 
+364 
+371 
+378 
+viii Contents 
+The Efficiency and the Robustness of Natural Gradient Descent Learning Rule, 
+Howard H. Yang and Shun-ichi Amari ...................... 385 
+Part IV Algorithms and Architecture 
+Ensemble Learning for Multi-Layer Networks, 
+David Barber and Christopher M. Bishop ..................... 395 
+Radial Basis Functions: A Bayesian Treatment, 
+David Barber and Bernhard Schottky ....................... 402 
+Shared Context Probabilistic Transducers, 
+Yoshua Bengio, Samy Bengio, Jean-Franqois Isabelle and Yoram Singer ..... 409 
+Approximating Posterior Distributions in Belief Networks Using Mixtures, 
+Christopher M. Bishop, Nell Lawrence, Tommi Jaakkola and Michael I. Jordan 416 
+Receptive Field Formation in Natural Scene Environments: Comparison of 
+Single Cell Learning Rules, 
+Brian S. Blais, Nathan Intrator, Harel Shouval and Leon N. Cooper ........ 423 
+An Annealed Self-Organizing Map for Source Channel Coding, 
+Matthias Burger, Thore Graepel and Klaus Obermayer .............. 430 
+Incorporating Test Inputs into Learning, 
+Zehra Cataltepe and Malik Magdon-Ismail .................... 437 
+On Efficient Heuristic Ranking of Hypotheses, 
+Steve Chien, Andre Stechert and Darren Mutz .................. 
+Learning to Order Things, 
+Wfiliam W. Cohen, Robert E. Schapire and Yoram Singer ............. 451 
+Regularisation in Sequential Learning Algorithms, 
+JoAo F. G. de Freitas, Mahesan Niranjan and Andrew H. Gee ........... 458 
+Agnostic Classification of Markovian Sequences, 
+Ran EI-Yaniv, Shai Fine and Naftali Tlshby .................... 465 
+Ensemble and ModularApproaches for Face Detection: A Comparison, 
+Raphael Feraud and Olivier Bernier ....................... 472 
+A Revolution: Belief Propagation in Graphs with Cycles, 
+Brendan J. Frey and David J. C. MacKay ..................... 479 
+Hierarchical Non-linear Factor Analysis and Topographic Maps, 
+Zoubin Ghahramani and Geoffrey E. Hinton ................... 486 
+Regression with Input-dependent Noise: A Gaussian Process Treatment, 
+Paul W. Goldberg, Christopher K. I. Williams and Christopher M. Bishop ..... 493 
+Linear Concepts and Hidden Variables: An Empirical Study, 
+Adam J. Grove and Dan Roth .......................... 500 
+Classification by Pairwise Coupling, Trevor Hastie and Robert Tibshirani ..... 507 
+Contents ix 
+Unsupervised On-line Learning of Decision Trees for Hierarchical Data 
+Analysis, Marcus Held and Joachim M. Buhmann ................. 514 
+Nonlinear Markov Networks for Continuous Variables, 
+Reimar Holmann and Volker Tresp ........................ 521 
+Active Data Clustering, Thomas Hofmann and Joachim M. Buhmann ....... 528 
+Function Approximation with the Sweeping Hinge Algorithm, 
+Don R. Hush, Fernando Lozano and Bill Home .................. 535 
+The Error Coding and Substitution PaCTs, Gareth James and Trevor Hastie .... 542 
+S-Map: A Network with a Simple Self-Organization Algorithm for Generarive 
+Topographic Mappings, Kimmo Kiviluoto and Erkki Oja ............. 549 
+Learning Nonlinear Overcomplete Representations for Efficient Coding, 
+Michael S. Lewicki and Terrence J. Sejnowski .................. 556 
+Factorizing Multivariate Function Classes, Juan K. Lin .............. 563 
+A Framework for Multiple-Instance Learning, 
+Oded Maron and Tonaris Lozano-P6rez ...................... 570 
+An Application of Reversible-Jump MCMC to Multivariate Spherical Gaussian 
+Mixtures, Alan D. Marts ............................. 577 
+Estimating Dependency Structure as a Hidden Variable, 
+Marina Meil,5 and Michael I. Jordan ....................... 584 
+Combining Classifiers Using Correspondence Analysis, Christopher J. Metz . . 591 
+Learning Path Distributions Using Nonequilibrium Diffusion Networks, 
+Paul Mineiro, Javier Movellan and Ruth J. %rfiliams ............... 598 
+Learning Generarive Models with the Up-Propagation Algorithm, 
+Jong-Hoon Oh and H. Sebastian Seung ...................... 605 
+An Incremental Nearest Neighbor Algorithm with Queries, Joel Ratsaby ..... 612 
+RCC Cannot Compute Certain FSA, Even with Arbitrary Transfer Functions, 
+Mark Ring .................................... 619 
+EM Algorithms for PCA and SPCA, Sam Roweis ................. 626 
+Local Dimensionality Reduction, 
+Stefan Schaal, Sethu Xqjayakumar and Christopher G. Atkeson .......... 633 
+Prior Knowledge in Support Vector Kernels, 
+Bernhard Sch61kopf, Patrice Simard, Alex J. Smola and Vladimir Vapnik ..... 640 
+Training Methods for Adaptive Boosting of Neural Networks, 
+Holger Schwenk and Yoshua Bengio ....................... 647 
+Learning Continuous Attractors in Recurrent Networks, H. Sebastian Seung 654 
+Monotonic Networks, Joseph Sill ......................... 661 
+Stacked Density Estimation, Padhraic Smyth and David Wolpert ......... 668 
+x Contents 
+Bidirectional Retrieval from Associative Memory, 
+Friedrich T. Sommer and G'anther Palm ...................... 675 
+Mapping a Manifold of Perceptual Observations, Joshua B. Tenenbaum ...... 682 
+Graph Matching with Hierarchical Discrete Relaxation, 
+Richard C. W'fison and Edwin R. Hancock .................... 689 
+Multiplicative Updating Rule for Blind Separation Derived from the Method of 
+Scoring, Howard H. Yang ............................ 696 
+Part V Implementation 
+A 1,000-Neuron System with One Million 7-bit Physical Interconnections, 
+Yuzo Hirai .................................... 705 
+Silicon Retina with Adaptive Filtering Propertie& Shih-Chii Liu ......... 712 
+Analog VLSI Model of lntersegmental Coordination with Nearest-Neighbor 
+Coupling, Girish N. Patel, Jeremy H. Holleman and Stephen P. DeWeerth ..... 719 
+An Analog VLSI Neural Network for Phase-based Machine Vision, 
+Bertram E. Shi and Kwok Fai Hui ........................ 726 
+Part VI Speech, Handwriting and Signal Processing 
+Analysis of Drifting Dynamics with Neural Network Hidden Markov Models, 
+Jens Kohlmorgen, Klaus-Robert Mtiller and Klaus Pawelzik ........... 735 
+Bayesian Robustification for Audio Visual Fusion, 
+Javier MoveRan and Paul Mineiro ........................ 742 
+Modeling Acoustic Correlations by Factor Analysis, 
+Lawrence Saul and Mazin Rahim ......................... 749 
+Blind Separation of Radio Signals in Fading Channels, Karl Torkkola ....... 756 
+Hybrid NN/I-IMM-Based Speech Recognition with a Discriminant Neural Feature 
+Extraction, Daniel Willett and Gerhard Rigoll .................. 763 
+Part VII Visual Processing 
+A Non-Parametric Multi-Scale Statistical Model for Natural Images, 
+Jeremy S. De Bonet and Paul A. Viola ...................... 773 
+Recovering Perspective Pose with a Dual Step EM Algorithm, 
+Andrew D. J. Cross and Edwin R. Hancock .................... 780 
+Bayesian Model of Surface Perception, %rfiliam T Freeman and Paul A. Viola 787 
+Features as Sufficient Statistics, 
+Davi Geiger, Archismart Rudra and Laurarice T. Maloney ............. 794 
+Detection of First and Second Order Motion, 
+Alexander Gmnewald and Heiko Neumann .................... 801 
+Contents xi 
+A Simple and Fast Neural Network Approach to Stereovision, Rolf D. Henkel 808 
+Inferring Sparse, Overcomplete Image Codes Using an Efficient Coding 
+Framework, Michael S. Lewicki and Bruno A. Olshausen ............. 815 
+Visual Navigation in a Robot Using Zig-Zag Behavior, M. Anthony Lewis ..... 822 
+2D Observers for Human 3D Object Recognition? Zili Liu and Daniel Kersten 829 
+Self-similarity Properties of Natural Images, 
+Antonio Turiel, Germfin Mato, N6stor Parga and Jean-Pierre Nadal ........ 836 
+Multiresolution Tangent Distance for Affine-invariant Classification, 
+Nuno Vasconcelos and Andrew Lippman ..................... 843 
+Phase Transitions and the Perceptual Organization of Video Sequences, 
+Yak Weiss .................................... 850 
+Part VIH Applications 
+Using Expectation to Guide Processing: A Study of Three Real-World 
+Applications, Shumeet Baluja ......................... 859 
+Structure Driven Image Database Retrieval, 
+Jeremy S. De Bonet and Paul A. Viola ...................... 866 
+A General Purpose Image Processing Chip: Orientation Detection, 
+Ralph Etienne-Cummings and Donghui Cai ................... 873 
+An Analog VLSI Model of the Fly Elementary Motion Detector, 
+Reid R. Harrison and Christof Koch ....................... 880 
+MELONET I: Neural Nets for Inventing Baroque-Style Chorale Variations, 
+Dominik H6rnel ................................. 887 
+Extended ICA Removes Artifacts from Electroencephalographic Recordings, 
+Tzyy-Ping Jung, Colin Humphties, Te-Won Lee, Scott Makeig, 
+Manfin J. McKeown, Vicente Iragui and Terrence J. Sejnowski .......... 894 
+A Generic Approach for Identification of Event Related Brain Potentials via a 
+Competitive Neural Network Structure, 
+Daniel H. Lange, Hava T. Siegelmann, Hillel Pratt and Gideon F. Inbar ...... 901 
+A Neural Network Based Head Tracking System, 
+Daniel D. Lee and H. Sebastian Seung ...................... 908 
+Wavelet Models for Video Time-Series, Sheng Ma and Chuanyi Ji ......... 915 
+Reinforcement Learning for Call Admission Control and Routing in Integrated 
+Service Networks, 
+Peter Marbach, Oliver Mihatsch, Miriam Schulte and John N. Tsitsildis ...... 922 
+Learning to Schedule Straight-Line Code, Eliot Moss, Paul Utgoff, 
+John Cavazos, Doina Precup, Darko Stefanovid, Carla Brodley and David Scheeff . 929 
+Enhancing Q-Learning for Optimal Asset Allocation, Ralph Neuneier ....... 936 
+xii Contents 
+Intrusion Detection with Neural Networks, 
+Jake Ryan, Meng-Jang Lin and Risto M'fikkulainen ................ 943 
+Incorporating Contextual Information in White Blood Cell Identification, 
+Xubo Song, Yaser Abu-Mostafa, Joseph Sill and Harvey Kasdan ......... 950 
+Bach in a Box--Real-7ime Harmony, 
+Randall R. Spangler, Rodney M. Goodman and Jim Hawkins ........... 957 
+Experiences with Bayesian Learning in a Real Worm Application, 
+Peter Sykacek, Georg Dorffner, Peter Rappelsberger and Josef Zeitlhofer ..... 964 
+A Solution for Missing Data in Recurrent Neural Networks with an Application 
+to Blood Glucose Prediction, Volker Tresp and Thomas Briegel .......... 971 
+Use of a Multi-Layer Perceptron to Predict Malignancy in Ovarian Tumors, 
+Herman Verrelst, Yves Moreau, Joos Vandewalle and Dirk Ttmmemmn ...... 978 
+Modelling Seasonality and Trends in Daily Rainfall Data, Peter M. Williams . . 985 
+The Observer-Observation Dilemma in Neuro-Forecasting, 
+Hans Georg Zimmermann and Ralph Netmeier .................. 992 
+Part IX Control, Navigation and Planning 
+Generalized Prioritized Sweeping, David Andre, Nir Friedman and Ronald Parr . 1001 
+Nonparametric Model-Based Reinforcement Learning, Christopher G. Atkeson 1008 
+An Improved Policy Iteration Algorithm for Partially Observable MDPS, 
+Eric A. Hansen .................................. 1015 
+Automated Aircraft Recovery via Reinforcement Learning: Initial Experiments, 
+Jeffrey F. Monaco, David G. Ward and Andrew G. Barto ............. 1022 
+Reinforcement Learning for Continuous Stochastic Control Problems, 
+R6nai Munos and Paul Bourgine ......................... 1029 
+Adaptive Choice of Grid and 7ime in Reinforcement Learning, Stephan Pareigis 1036 
+Reinforcement Learning with Hierarchies of Machines, 
+Ronald Parr and Smart Russell .......................... 1043 
+Multi-time Models for Temporally Abstract Planning, 
+Doina Precup and Richard S. Sutton ....................... 1050 
+How to Dynamically Merge Markov Decision Processes, 
+Satinder Singh and David Cohn ......................... 1057 
+The Asymptotic Convergence-Rate of Q-learning, Csaba Szepesvfiri ........ 1064 
+HybrM Reinforcement Learning and Its Application to Biped Robot Control, 
+Satoshi Yamada, Akira Watanabe and Michio Nakashima ............. 1071 
+Index of Authors ................................. 1079 
+Keyword Index .................................. 1083 
+Preface 
+The papers in this volume describe the work presented at the Eleventh Annual Conference 
+on Neural Information Processing (NIPS), held in Denver, Colorado from December 1 to 
+December 6, 1997. The usual competitive standards for acceptance held again, with the 
+150 papers presented having been selected from 491 submissions. 
+NIPS is arguably one of the strongest and most ambitious interdisciplinary conferences, 
+consistently bringing together top researchers in computer science, neuroscience, physics, 
+statistics, and many related areas. The unifying topics are broad, such as the study of the 
+brain, or interest in biological or computational mechanisms for learning. With such di- 
+verse participants and such large themes, it is natural to ask what holds NIPS together, and 
+how it became the central technical gathering for so many of its participants. One way of 
+expressing the answer is to say that the "relatedness graph" of the work presented at NIPS 
+is not a clique, but is strongly connected. Thus, while it is an easy task to find two papers in 
+these proceedings and ask how in the world they came to lie in the same volume, that same 
+challenge can be met by a list of other papers that fill in the scientific "distance" between the 
+initial pair. Thus the entry "Spectrotemporal Receptive Fields for Neurons in the Primary 
+Auditory Cortex of the Awake Primate" (DeCharms and Merzenich), which describes the 
+application of a clever reverse correlation technique to identify receptive fields for auditory 
+neurons, is related in statistical spirit to "Using Helmholtz Machines to Analyze Multi- 
+Channel Neuronal Recordings" (De Sa, DeCharms, and Merzenich), which models spike 
+train data with multilayer generative models. This latter paper, in turn, shares an interest 
+in hidden-variable representations of probability distributions with "A Revolution: Belief 
+Propagation in Graphs with Cycles" (Frey and MacKay); which then has a common interest 
+in information theory with 'l'he Canonical Distortion Measure in Feature Space and 1-NN 
+Classification" (Baxter and Bartlet0. The point is not that the bonds between adjacent pa- 
+pers in this sequence are inherent and unbreakable; rather, it is that although the first and 
+last papers are on rather different topics and from rather different communities, one can 
+see how the interests of a single researcher might easily straddle any one of the links. We 
+leave it as exercises for the ambitious reader to construct similar paths between "A Neural 
+Network Model of Naive Preference and Filial Imprinting in the Domestic Chick" (Had- 
+den) and "Phase Transitions and Perceptual Organization of Video Sequences" (Weiss), 
+and between "Modeling Seasonality and Trends in Daily Rainfall Data" (Williams) and 
+"Extended ICA Removes Artifacts in White Blood Cell Identification" (Song et al.). While 
+we have not worked these particular examples out, we are confident that reasonably short 
+solutions exist. 
+In addition to the strong program of submitted papers, the conference also featured a lively 
+schedule of invited speakers. Ken Nakayama of Harvard gave the banquet talk on "Psy- 
+chological Studies of Visual Perception", and invited talks were given by Yoav Freund of 
+AT&T Labs ("Boosting: A New Method for Combining Classifiers"), John Hopfield of 
+Princeton University ("Computing with Action Potentials"), John Kauer of Tufts Univer- 
+sity ("Odor Encoding by the Olfactory System m from Biology to a Receptorless Artifi- 
+cial Nose"), Stuart Russell of U.C. Berkeley ("Learning in Rational Agents"), and Man- 
+fred Warmuth of U.C. Santa Cruz ("Relative Loss Bounds, the Minimum Relative Entropy 
+Principle, and EM"). As is traditional, the main conference was again preceded by a day of 
+tutorials introducing current topics of interest to the uninitiated, and followed by two days 
+of intensive workshops on a collection of topics that again reflects the focused diversity 
+xiv Preface 
+that is the strength of NIPS. 
+The continued success of NIPS is the result of many hours of hard work by a large and 
+distributed group of devoted individuals. We extend many thanks to the members of the 
+organizing committee, the program committee, the publicity committee and the NIPS Foun- 
+dation board. Special gratitude is due to the referees, whose efforts are clearly shown in 
+the quality of the papers gathered here. Thanks to the workshop chairs Steven Nowlan and 
+Richard Zemel, tutorials chair Satinder Singh, publicity chair Tony Bell, treasurer Bartlett 
+Mel, and local arrangements chair Amn Jagota. A special thanks to Thomas Petsche, who 
+in his role of Publication Chair for NIPS*96 developed an excellent and comprehensive 
+set of formatting tools for the production of both the Conference Program and the NIPS 
+Proceedings. Finally, many thanks to Denise Prell of Conference Consulting Associates 
+for her excellent and professional work, and to the many student volunteers who helped 
+with conference logistics. We are also grateful to the Office of Naval Research for provid- 
+ing financial support to allow many graduate students and young investigators to attend the 
+meeting. 
+Michael I. Jordan, Massachusetts Institute of Technology 
+Michael J. Keams, AT&T Labs - Research 
+Sara A. Solla, Northwestern University 
+January 24, 1998 
+NIPS Committees 
+Organizing Committee 
+General Chair 
+Program Chair 
+Workshop Co-Chairs 
+Tutorials Chaff 
+Publicity Chair 
+Publications Chair 
+Treasurer 
+Local Arrangements Chaff 
+Program Committee 
+Program Chair 
+Algorithms and Architectures 
+Theory 
+Vision 
+Speech and Signal Processing 
+Control and Navigation 
+Artificial Intelligence 
+& Cognitive Science 
+Neuroscience 
+Applications 
+Implementations 
+Publicity Committee 
+Publicity Chair 
+Liason for Australia, Singapore 
+and India 
+Liason for Europe 
+Liason for Hong Kong, China 
+and Taiwan 
+Liason for Israel 
+Liason for Japan 
+Liason for Turkey 
+Liason for United Kingdom 
+Liason for South America 
+Web Master 
+Michael Jordan, MIT 
+Michael Kearns, AT&T Labs - Research 
+Steven Nowlan, Lexicus Division, Motorola 
+Richard Zemel, University of Arizona 
+Satinder Singh, University of Colorado 
+Tony Bell, Salk Institute 
+Sara Solla, Northwestern University 
+Bartlett Mel, University of Southern California 
+Arun Jagota, UC Santa Cruz 
+Michael Kearns, AT&T Labs - Research 
+Joachim Buhmann, University of Bonn 
+Tom Dietterich,'Oregon State University 
+Lawrence Saul, AT&T Labs - Research 
+Jude Shavlik, University of Wisconsin 
+Nailall Tishby, Hebrew University 
+Michael Turmon, Jet Propulsion Lab 
+Paul Viola, MIT 
+Richard Lippmann, MIT Lincoln Lab 
+Rich Sutton, University of Massachusetts 
+Sue Becker, McMaster University 
+Tony Zador, Salk Institute 
+John Wawrzynek, UC Berkeley 
+John Wawrzynek, UC Berkeley 
+Tony Bell, Salk Institute 
+Marwan Jabri, University of Sydney 
+Joachim Buhmann, University of Bonn 
+Lei Xu, Chinese University of Hong Kong 
+Hava Siegelmann, Technion 
+Kenji Doya, ATR Research Laboratories 
+Ethem Alpaydin, Bogazici University 
+Alan Murray, Edinburgh Univesity 
+Andreas Meier, Simon Bolivar University 
+Doug Baker, Carnegie Mellon University 
+xvi NIPS Committees 
+NIPS Foundation Board Members 
+President 
+Vice President for Development 
+Treasurer 
+Secretary 
+Members 
+Emeritus 
+NIPS *97 General Chair 
+Terrence Sejnowski, Salk Institute 
+John Moody, Oregon Graduate Institute 
+Eric Mjolsness, UC San Diego 
+Gerald Tesauro, IBM Research 
+Gary Blasdel, Harvard Medical School 
+Leo Breiman, UC Berkeley 
+Jack Cowan, University of Chicago 
+Stephen Hanson, Rutgers University 
+Scott Kirkpatrick, IBM Research 
+Richard Lippmann, MIT Lincoln Lab 
+Michael Mozer, University of Colorado 
+Dave Touretzky, Carnegie Mellon University 
+Terrence Fine, Cornell University 
+Eve Marder, Brandeis University 
+Michael Jordan, MIT 
+Reviewers 
+Joshua Alspector 
+Charles Anderson 
+James Anderson 
+Timothy Anderson 
+Krste Asanovic 
+Chris Atkeson 
+Leemon Baird 
+Pierre Baldi 
+Shumeet Baluja 
+Naama Barkai 
+Marian Bartlett 
+Peter Bartlett 
+Hans-Ulrich Bauer 
+Jon Baxter 
+Francoise Beaufays 
+Yoshua Bengio 
+Michael Berry 
+Bill Bialek 
+Michael Biehl 
+Kwabena Boahen 
+Leon Bottou 
+Herve Bourlard 
+Matthew Brand 
+Emanuela Bricolo 
+Timothy Brown 
+Nader Bshouty 
+Neil Burgess 
+Paul Bush 
+Rich Camana 
+Gert Cauwenberghs 
+Eric Chang 
+Gerald Cheang 
+Corinna Cortes 
+Gary Cottrell 
+Mark Craven 
+Peter Dayan 
+Joachim Diederich 
+Charles Elkan 
+Terry Fine 
+Gary Flake 
+Paolo Frasconi 
+Yoav Freund 
+Brendan Frey 
+Nit Friedman 
+Juergen Fritsch 
+Patrick Gallinari 
+Davi Geiger 
+Zoubin Ghahramani 
+Lee Giles 
+Federico Girosi 
+Moises Goldszmidt 
+Marco Gori 
+Michael Gray 
+Rod Grupen 
+Isabelle Guyon 
+David Hansel 
+Lars Hansen 
+John Harris 
+Trevor Hastie 
+Simon Haykin 
+David Hemkennan 
+John Hertz 
+Andreas Herz 
+Geoffrey Hinton 
+Thomas Hofmann 
+Sean Holden 
+David Horn 
+Nathan Intrator 
+Tommi Jaakkola 
+Marwan Jabri 
+Robert Jacobs 
+Charles Jankowski 
+Mike Jones 
+Michael Jordan 
+Leslie Kaelbling 
+Bert Kappen 
+Mitsuo Kawato 
+Hiroaki Kitano 
+Adam Kowalczyk 
+John Lazzaro 
+Yvan Leclerc 
+Yann LeCun 
+Tai Sing Lee 
+Todd Leen 
+Zhaoping Li 
+Jennifer Linden 
+Christiane Linster 
+Michael Littman 
+David Lowe 
+Gabor Lugosi 
+Wolfgang Maass 
+David Madigan 
+Sridhar Mahadevan 
+Zach Mainen 
+Andrew McCallum 
+Marina Meila 
+Ron Meir 
+Bartlett Mel 
+Risto Miikkulainen 
+David Miller 
+Kenneth Miller 
+Tom Mitchell 
+Eric Mjolsness 
+John Moody 
+Andrew Moore 
+Javier Movellan 
+Michael Mozer 
+Klaus Mueller 
+Sayandev Mukherjee 
+Paul Munro 
+Alan Murray 
+Venkatesh Murthy 
+Radford Neal 
+Kenney Ng 
+Anna Nobre 
+Bruno Olshausen 
+David Opitz 
+Manfred Opper 
+Michael Oren 
+Art Owen 
+Klaus Pawelzik 
+Barak Pearlmutter 
+John Pearson 
+Fernando Pereira 
+Thomas Petsche 
+James Pittman 
+.iii Reviewers 
+John Platt 
+Alexandre Pouget 
+Jose Principe 
+Raj esh Rao 
+Anand Rangarajan 
+Steve Renals 
+Martin Riedmiller 
+Brian Ripley 
+Raphael Ritz 
+Tony Robinson 
+David Saad 
+Maneesh Sahani 
+Stefan Schaal 
+Dale Schuurmans 
+Sebastian Seung 
+Patrice Simard 
+Eero Simoncelli 
+Yoram Singer 
+Satinder Singh 
+Diana Smetters 
+Padhraic Smyth 
+Haim Sompolinsky 
+Eduardo Sontag 
+Paul Stolorz 
+Gene Stoner 
+Josh Tenenbaum 
+Gerald Tesauro 
+Geoffrey Towell 
+Volker Tresp 
+Todd Troyer 
+John Tsitsiklis 
+Ian Underwood 
+Lyle Ungar 
+Joachim Utans 
+Benjamin VanRoy 
+Rim Venturini 
+Grace Wahba 
+Eric Wan 
+Manfred Warmuth 
+Daphna Weinshall 
+Yak Weiss 
+Janet Wiles 
+Christopher Williams 
+Ronald Williams 
+Laurenz Wiskott 
+David Wolpert 
+George Zavaliagkos 
+Richard Zemel 

@@ -1,0 +1,380 @@
+Constraints on Adaptive Networks for Modeling Human Generalization 
+Mark A. Gluck, M. Payel and Van Henkla 
+ 2 
+
+An Optimality Principle for Unsupervised Learning 
+Terence D. Sanger 
+ 11 
+
+Associative Learning via Inhibitory Search 
+David H. Ackley 
+ 20 
+
+"Fast Learning in Multi-Resolution Hierarchies' 
+John Moody 
+ 29 
+
+Efficient Parallel Learning Algorithms for Neural Networks 
+Alan H. Kramer and A. Sangiovanni-Vincentelli 
+ 40 
+
+Mapping Classifier Systems Into Neural Networks 
+Lawrence Davis. 
+ 49 
+
+Self Organizing Neural Networks for the Identification Problem 
+Manoel Fernando Tenorio and Wei-Tsih Lea 
+ 57 
+
+Linear Learning: Landscapes and Algorithms 
+Pierre Baldi 
+ 65 
+
+Learning by Choice of Internal Representations 
+Tal Grossman, Ronny Meir and Eytan Domany 
+ 73 
+
+What Size Net Gives Valid Generalization? 
+Eric B. Baum and David Haussler. 
+ 81 
+
+Optimization by Mean Field Annealing 
+Griff Bilbro, Reinhold Mann, Thomas IC Miller, Wesley E. Snyder, David E. Van den Bout and Mark Whita 
+ 91 
+
+Connectionist Learning of Expert Preferences by Comparison Training 
+Gerald Tesaura 
+ 99 
+
+Skeletonization: A Technique for Trimming the Fat from a Network via Relevance Assessment 
+Michael C. Mozer and Paul Smolensky. 
+ 107 
+
+The Boltzmann Perceptron Network: A Multi-Layered Feed-Forward Network Equivalent to the Boltzmann Machine 
+Eyal Yair and Allen Gersho 
+ 116 
+
+Adaptive Neural Net Preprocessing for Signal Detection in Non-Gaussian Noise 
+Richard P. Lippmann and Paul Beckman
+ 124 
+
+Training Multilayer Perceptrons with the Extended Kalman Algorithm 
+Sharad Singhal and Lance Wu 
+ 133 
+
+GEMINI: Gradient Estimation Through Matrix Inversion After Noise Injection 
+Yann. Le Cun, Conrad C. Galland and Geoffrey E. Hinton 
+ 141 
+
+Fixed Point Analysis for Recurrent Networks 
+Patrice Y. Sirnard, Mary B. Ottaway and Dana H. Ballard. 
+ 149 
+
+Scaling and Generalization in Neural Networks: A Case Study 
+Subutai Ahmad and Gerald Tesauro 
+ 160 
+
+Does the Neuron 'Learn' Like the Synapse? 
+Raoul Tawel 
+ 169 
+
+Comparing Biases for Minimal Network Construction with Back-Propagation 
+Stephen Jose Hanson and Lorien Y. Pratt 
+ 177 
+
+An Application of the Principle of Maximum Information Preservation to Linear Systems 
+Ralph Linsker. 
+ 186 
+
+Learning with Temporal Derivatives in Pulse-Coded Neuronal Systems 
+David B. Parker, Mark Gluck and Eric S. Reifsnider 
+ 195 
+
+Applications of Error Back-Propagation to Phonetic Classification 
+Hong C. Leung and Victor W. Zue 
+ 206 
+
+Consonant Recognition by Modular Construction of Large Phonemic Time-Delay Neural Networks 
+Alex Waibel 
+ 215 
+
+Use of Multi-Layered Networks for Coding Speech with Phonetic Features 
+Yoshua Bengio, Regis Cardin, Renato De Mori and Piero CosL 
+ 224 
+
+Speech Production Using A Neural Network with a Cooperative Learning Mechanism 
+Mitsuo Komura and Akio Tanaka 
+ 232 
+
+Temporal Representations in a Connectionist Speech System 
+Erich J. Smythe 
+ 240 
+
+A Connectionist Expert System that Actually Works 
+Richard Fozzard, Gary Bradshaw and Louis Ceci. 
+ 248 
+
+An Information Theoretic Approach to Rule-Based Connectionist Expert Systems 
+Rodney M. Goodman, John W. Miller and Padhraic Smyth 
+ 256 
+
+Neural Approach for TV Image Compression Using a Hopfield Type Network 
+Martine NailIon and Jean-Bernard Theeten 
+ 264 
+
+Neural Net Receivers in Multiple-Access Communications 
+Bernd-Peter Paris, Geoffrey Orsak, Mahesh Varanasi and Behnaam Aazhang 
+ 272 
+
+Performance of Synthetic Neural Network Classification of Noisy Radar Signals 
+S.C. Ahalt, F. D. Garber, I. Jouny and A. IC Krishnamurthy 
+ 281 
+
+Neural Analog Diffusion-Enhancement Layer and Spatio-Temporal Grouping in Early Vision 
+Allen M. Waxman, Michael Seibert, Robert Cunningham and Jian Wu 
+ 289 
+
+A Network for Image Segmentation Using Color 
+Anya Hurlbert and Tomaso Poggio 
+ 297 
+
+ALVINN: An Autonomous Land Vehicle in a Neural Network 
+Dean A. Pomerleau 
+ 305 
+
+Neural Network Star Pattern Recognition for Spacecraft Attitude Determination and Control 
+Phillip Alvelda, A. Miguel San Martin 
+ 314 
+
+Neural Network Recognizer for Hand-Written Zip Code Digits 
+J. S. Denker, W. R. Gardner, H. P. Graf, D. Henderson, R. E. Howard, W. Hubbard, L. D. Jackel, H. S. Baird and I. Guyon 
+ 323 
+
+Neural Networks that Learn to Discriminate Similar Kanji Characters 
+Yoshihiro Mori and Kazuhiko Yokosawa 
+ 332 
+
+Backpropagation and Its Application to Handwritten Signature Verification 
+Timothy S. Wilkinson, Dorothy ,4. Mighell and Joseph W. Goodman 
+ 340 
+
+Further Explorations in Visually-Guided Reaching: Making MURPHY Smarter 
+Bartlett W. Mel 
+ 348 
+
+Using Backpropagation with Temporal Windows to Learn the Dynamics of the CMU Direct-Drive Arm II 
+ICY. Goldberg and B. A. Pearlmutter 
+ 356 
+
+Neuronal Maps for Sensory-Motor Control in the Barn Owl 
+C. D. Spence, J. C. Pearson, J. J. Gelfand, R. M. Peterson and W. E. Sullivan 
+ 366 
+
+Models of Ocular Dominance Column Formation: Analytical and Computational Results 
+Kenneth D. Miller, Joseph B. Keller and Michael P: Stryker 
+ 375 
+
+Modeling Small Oscillating Biological Networks in Analog VLSI 
+Sylvie Ryckebusch, James M. Bower, and Carver Mead 
+ 384 
+
+Storing Covariance by the Associative Long-Term Potentiation and Depression of Synaptic Strengths in the Hippocampus 
+Patric K. Stanton and Terrence J. Sejnowski 
+ 394 
+
+Modeling the Olfactory BulbsCoupled Nonlinear Oscillators 
+Zhaoping Li and J. J. Hopfield 
+ 402 
+
+Neural Control of Sensory Acquisition: The Vestibulo-Ocular Reflex 
+Michael G. Paulin, Mark E. Nelson and James M. Bower. 
+ 410 
+
+Computer Modeling of Associative Learning 
+Daniel L. Alkon, Francis Quek and Thomas P. Vogl 
+ 419 
+
+Simulation and Measurement of the Electric Fields Generated by Weakly Electric Fish 
+Brian Rasnow, Christopher Assad, Mark E. Nelson and James M. Bower 
+ 436 
+
+A Model for Resolution Enhancement (Hyperacuity) in Sensory Representation 
+Jun Zhang and John P. Miller 
+ 444 
+
+Theory of Self-Organization of Cortical Maps 
+Shigeru Tanaka 
+ 451 
+
+A Bifurcation Theory Approach to the Programming of Periodic Attractors in Network Models of Olfactory Cortex 
+Bill Baird. 
+ 459 
+
+Learning the Solution to the Aperture Problem for Pattern Motion with a Hebb Rule 
+Martin I. Sereno 
+ 468 
+
+A Computationally Robust Anatomical Model for Retinal Directional Selectivity 
+Norberto M. Grzywacz and Franklin R. Arethor. 
+ 477 
+
+GENESIS: A System for Simulating Neural Networks 
+Matthew A. Wilson, Upinder S. Bhalla, John D. Uhley and James M. Bower 
+ 485 
+
+Training a 3-Node Neural Network is NP-Complete 
+Avrim Blum and Ronald L. Rivest. 
+ 494 
+
+Links Between Markov Models and Multilayer Percepttons 
+H. Bourlard and C. J. Wellekens 
+ 502 
+
+Convergence and Pattern-Stabilization in the Boltzmann Machine 
+Moshe Karo and Roger Cheng 
+ 511 
+
+A Back-Propagation Algorithm with Optimal Use of Hidden Units 
+Yves Chauvin 
+ 519 
+
+Implications of Recursive Distributed Representations 
+Jordan B. Pollack 
+ 527 
+
+A Massively Parallel Self-Tuning Context-Free Parser 
+Eugene Santos Jr 
+ 537 
+
+Dynamic, Non-Local Role Bindings and Inferencing in a Localist Network for Natural Language Understanding 
+Trent E. Lange and Michael G. Dyer 
+ 545 
+
+Spreading Activation over Distributed Microfeatures 
+James Hendler 
+ 553 
+
+A Model of Neural Oscillator for a Unified Submodule 
+A.B. Kirillov, G. N. Borisyuk, R.M. Borisyuk, Ye. I. Kovalenko, V. I. Makarenko, V. A. Chulaevsky and V. I. Kryukov 
+ 560 
+
+Dynamics of Analog Neural Networks with Time Delay 
+C. M. Marcus and R.M. Westervelt 
+ 568 
+
+Heterogeneous Neural Networks for Adaptive Behavior in Dynamic Environments 
+Randall D. Beer, Hillel J. Chiel and Leon S. Sterlin 
+ 577 
+
+Statistical Prediction with Kanerva's Sparse Distributed Memory 
+David Rogers 
+ 586 
+
+Range Image Restoration Using Mean Field Annealing 
+Griff L. Bilbro and Wesley E. Snyder. 
+ 594 
+
+Automatic Local Annealing 
+Jared Leinbach 
+ 602 
+
+"NeurolocatoF', A Model of Attention 
+V. I. Kryukov 
+ 610 
+
+Neural Networks for Model Matching and Perceptual Organization 
+Eric Mjolsness, Gene Gindi and P. Anandan 
+ 618 
+
+Analyzing the Energy Landscapes of Distributed Winner-Take-All Networks 
+David S. Touretzky. 
+ 626 
+
+On the K-Winners-Take-All Network 
+E. Majani, R. Erlanson and Y. Abu-Mostafa 
+ 634 
+
+Learning Sequential Structure in Simple Recurrent Networks 
+David Servan-Schreiber, Axel Cleeremans and James L. McClelland 
+ 643 
+
+An Adaptive Network That Learns Sequences of Transitions 
+C. L. Winter 
+ 653 
+
+A Passive Shared Element Analog Electrical Cochlea 
+David Feld, Joe Eisenberg and Edwin Lewis. 
+ 662 
+
+Programmable Analog Pulse-Firing Neural Networks 
+Alister Hamilton, Alan F. Murray and Lionel Tarassenko 
+ 671 
+
+A Low-Power CMOS Circuit Which Emulates Temporal Electrical Properties of Neurons 
+Jack L. Meador and Clint S. Cole 
+ 678 
+
+An Analog VLSI Chip for Thin-Plate Surface Interpolation 
+John G. Harris 
+ 687 
+
+Analog Implementation of Shunting Neural Networks 
+Bahram Nabet, Robert B. Darling and Robert B. Pinter. 
+ 695 
+
+Winner-Take-All Networks of O(N) Complexity 
+J. Lazzaro, S. Ryckebusch, M. A. Mahowald and C. A. Mead 
+ 703 
+
+A Programmable Analog Neural Computer and Simulator 
+Paul Mueller, Jan Van der Spiegel, David Blackman, Timothy Chiu, Thomas Clare, Joseph Dao, Christopher Donham, Tzu-pu Hsieh and Marc Loinaz 
+ 712 
+
+An Electronic Photoreceptor Sensitive to Small Changes in Intensity 
+T. Delbr'dck and C. A. Mead 
+ 720 
+
+Digital Realisation of Self-Organising Maps 
+Martin J. Johnson, Nigel M. Allinson and Kevin J. Moon. 
+ 728 
+
+An Analog Self-Organizing Neural Network Chip 
+James R. Mann and Sheldon Gilbert 
+ 739 
+
+Performance of a Stochastic Learning Microchip 
+Joshua Alspector, Bhusan Gupta and Robert B. Allen 
+ 748 
+
+Adaptive Neural Networks Using MOS Charge Storage 
+D. B. Schwartz, R. E. Howard and W. E. Hubbard. 
+ 761 
+
+A Self-Learning Neural Network 
+A- Hartstein and R. H. Koch. 
+ 769 
+
+Training a Limited-Interconnect, Synthetic Neural IC 
+M. R. Walker, S. Haghighi, A- Afghan and L. A. Akers 
+ 777 
+
+Electronic Receptors for Tactile/Haptic Sensing 
+Andreas G. Andreou. 
+ 785 
+
+Neural Architecture 
+Valentino Braitenberg 
+ 794 
+
+Song Learning in Birds 
+M. Konishi 
+ 795 
+
+Speech Recognition: Statistical and Neural Information Processing Approaches 
+John S. Bridle 
+ 796 
+
+Cricket Wind Detection 
+John P. Miller. 
+ 802 
+

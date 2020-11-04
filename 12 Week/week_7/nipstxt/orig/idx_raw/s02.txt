@@ -1,0 +1,574 @@
+Subject Index 843 
+SUBJECT INDEX 
+A 
+A pdori knowledge 178 
+Active learning 566 
+Active membranes 149 
+Adaptive control 686 
+Adaptive data representation 298 
+Adaptive time scales 498 
+Adiabatic approximation 710 
+Adjoint operators 498 
+Alphanet 211 
+ALVIS 550 
+Amino acid sequence 423 
+Analog neural networks 226,702, 742, 
+750, 758, 777, 785, 828 
+Analog vector memory 590 
+Appetitive behavior 44 
+Application-specific neural networks 
+447 
+Approximation of nonlinear functions 
+340 
+Arousal 44 
+Array processors 810 
+Arrhythmia classification 240 
+Aspect graphs 258 
+Associative memory 68, 109, 332, 590, 
+727, 793,828 
+Associative reinforcement 550 
+Asymptotic convergence 606 
+Attractors 498,558, 583 
+Auditory processing 2, 10 
+Axo-axonal interactions 92 
+B 
+Backpropagation 168, 194,533,650 
+Backpropagation through time 638 
+Backpropagation, asymptotic analysis 
+606 
+Backpropagation, constrained 396, 642 
+Backpropagation, convergence 606 
+Backpropagation, local convolutional 
+396 
+Backpropagation, reinforcement 550 
+Backpropagation, time dependent 
+recurrent 710 
+Barn owl 10 
+Bat sonar 2 
+Bayesian classifier 168, 203 
+Bayesian inference 388 
+Benchmarking of neural networks 
+Binary weights 516 
+Biological modeling 10, 68, 84 
+Biological motor control 316 
+Biological networks 28 
+Boltzmann machine 509 
+Bond diagrams 465 
+Brain damage method 598 
+Brain maps 60 
+801 
+c 
+Capacity 405,533 
+CART algorithm 622 
+Cascade correlation algorithm 524 
+Catecholamines 100 
+Causality 710 
+Cell assembly theory 828 
+Central pattern generators 18 
+Cerebellum 117 
+Cerebral cortex 84, 474 
+Character recognition 396, 405, 415, 
+574 
+CHIR algorithm 516 
+Chunking 431 
+Circular code 282 
+Classification 168 
+Classification figure of merit 203 
+Classification time 168 
+Classification trees 622 
+Cluster architecture 650 
+Clustering 482 
+CMAC networks 332, 340 
+CMOS synapses 785 
+Cocktail party problem 542 
+Coding 36 
+Cognitive phonology 372 
+Page numbers refer to the first page of the paper. 
+844 Subject Index 
+Collective excitations 133 
+Combinatorial global optimization 769 
+Communication overhead 60 
+Comparative studies 622,801 
+Comparison of classifiers 614 
+Competitive learning 258, 431,482, 
+574 
+Complexity measure 388 
+Complexity of a network 598 
+Complexity theory 702 
+Computational efficiency 60 
+Computational neuroscience 10, 117 
+Conditional probabilities 828 
+Connection machine 801 
+Connections per second 810 
+Connections, number of 405 
+Constrained optimization 777 
+Consummatory behavior 44 
+Context-free grammar 380 
+Contour-map method 282 
+Control problems 308, 316, 324, 340, 
+348 
+Convergence of backpropagation 606 
+Cortical associative learning 474 
+Cortical columns 133 
+Cortical magnification 52 
+Cortical oscillations 68, 76, 84 
+Cost functions 178, 733 
+CRBP, complementary reinforcement 
+550 
+Credit assignment 686, 733 
+Cross-correlation histograms 141 
+Cross-validation 186,630 
+Crustacean stomatogastric ganglion 18 
+Curve detection 125 
+D 
+Dataflow architecture 818 
+Decision tree 168 
+Degrees of freedom 642 
+Delayed reward 686 
+Dendritic processing 490 
+Deterministic algorithms 660 
+Development 92, 133,694 
+Digit recognition 396 
+Digital simulation 810 
+Digital-analog neural networks 769 
+Dimensionality reduction 178,719 
+Directed search 566 
+Directional sensor 282 
+Discrete representations 439 
+Discriminate training 211 
+Discrimination 194 
+Distant temporal correlations 558 
+Distributed neuron synapse 758 
+Distribution-independent learning 
+Dopamne 100 
+Dynamic behavior 642 
+Dynamic pattern matching 258 
+Dynamc programming 686 
+Dynamical systems 324 
+Dynamical training set 558 
+Dynamics, non-Boltzmann 109 
+676 
+E 
+E-set recognition 178, 194 
+ECAM chip 793 
+ECG diagnosis 240 
+Echolocation in bats 2 
+Edge detection 750 
+Empirical simulation 818 
+Energy functions 109 
+Entropy scoring 211 
+Environmental modeling 439 
+Evolutionary systems 455 
+Explanation capabilities 248 
+Exploration 439 
+Eye-brain connections 92 
+F 
+Fast algorithms 
+Fault diagnosis 
+Fault tolerance 
+498 
+248 
+36,340,650,758,828 
+Feature detectors 405 
+Feature extraction 194, 719 
+Feature-analyzing cells 719 
+Feedback, positive and negative 
+Feeding 44 
+Filter banks 298 
+Finite precision 668 
+Finite state automata 380, 439 
+Firing synchrony 141 
+Forecasting 622 
+Forward modeling 324 
+Fredholm integral equation 160 
+Free energy 509 
+Frequency domain processing 2 
+Frequency modulation 141 
+Frequency shifting TDNN 203 
+44 
+G 
+Gain adaptation 742 
+Gaussian classifier 614 
+Gaussian mixture 194 
+Generalization 405,566,630, 650 
+Genetic algorithms 447,455 
+Genetic memory 455 
+Grammatical inference 380, 388 
+Graphics 465 
+Gravitational attraction 583 
+Gravity model 282 
+H 
+Handwritten character recognition 396 
+Harmony theory 372 
+Hebbian learning 125, 133,694 
+Hebbian relaxation 274 
+Hebbian synaptic plasticity 52 
+Hidden Markov models 186, 194, 211 
+Hierarchical networks 266 
+High order networks 490, 542 
+High-dimensional domains 455 
+Higher-order networks 380 
+Hinton diagrams 465 
+Subject Index 845 
+Hopfield networks 109, 355, 769 
+Hopfield's continuous model 590 
+Hybdd digital-analog chips 769, 785 
+Image data compression 298 
+Image formation 2 
+Image processing 232 
+Image segmentation 614, 660 
+Immunoglobulins 423 
+Inferior olive 117 
+Information content of a network 
+Information transmission 36 
+Information-theoretic models 160 
+Inhibitory interactions 298 
+Insect behavior 44 
+Integrate-and-fire neurons 141 
+Integratire neural network 415 
+Internal representations 516, 733 
+Interneurons 28 
+Interpolation 574 
+K 
+K-ary neural network 702 
+Kanerva memory 455 
+Kanji, handwritten 415 
+L 
+Lagrange multipliers 348 
+Lateral interactions 133 
+Lattice spin systems 828 
+Leaky integrate-and-fire neuron 828 
+Learning 109,524,533 
+Learning and generalization 642 
+Learning control 332, 340 
+Learning filter multiplexing 828 
+Learning matrix 828 
+Learning rates 810 
+Learning, self-supervised 431 
+598 
+846 Subject Index 
+Learning, theory of 566 
+Leech 28 
+Limited precision networks 702 
+Linear programming 668, 676 
+Linguistic model 364, 372 
+Linsker, Ralph 694 
+Lip reading 232 
+LMS learning in linear networks 642 
+Load forecasting 622 
+Load imbalance 60 
+Lobster CPGs 18 
+Local connectivity 405 
+Local minima 727 
+Local models 316 
+Local regression 316 
+Locally generalizing networks 340 
+Lumped neuron 758 
+M 
+Many maps model 372 
+Map reorganization 52 
+Mapping onto parallel computers 810 
+Maps, cortical 10, 60 
+Markov random field image model 298 
+Markov random fields 660 
+Markov source models 388 
+Massively parallel computers 801 
+Maximal likelihood classifier 614 
+Maximum a posteriori probabilities 186 
+Maximum likelihood estimates 186 
+Maximum likelihood fit 574 
+McCulloch, Warren 828 
+Mean field theory 509, 660 
+Medical applications 240 
+Meiosis networks 533 
+Membrane model 149 
+Memory 380 
+Memory requirements 168 
+Meta-pi network 203 
+Minimization methods 558 
+Model of human pedormance 274 
+Model-order estimation 598 
+Modular architectures 364, 415, 650 
+Modularity 133 
+MONSOON dataflow architecture 818 
+Motivated behavior 44 
+Motivational state 44 
+Motor learning 290, 742 
+Motor maps 290 
+Motor neurons 28 
+Movement detection 36 
+Moving least squares 316 
+Moving targets training algorithm 558 
+Multi-channel characteristics 298 
+Multi-completion 509 
+Multilinear threshold functions 702 
+Multiple-view representation 274 
+Mutual information 211,509 
+N 
+Nasal discrimination task 218 
+Navigation 290 
+NCAMs (neural contact adhesion 
+molecules) 92 
+Nearest neighbor 168,316 
+Network architecture 84 
+Network dynamics 68 
+Network partitioning 810 
+Network theory 68 
+Neural architecture 76 
+Neural coding 36 
+Neural dynamics 76 
+Neural modeling 117 
+Neural network design 447 
+Neural plasticity 125 
+Neural processing 36 
+Neural specificity 92 
+Neurobiology 474 
+Neurodevelopment 92 
+Neurodynamics 828 
+Neuromodulation 18, 100 
+Neuronal group selection theory 
+Neuronal maps 10 
+Neuronal modeling 149 
+308 
+Node splitting 533 
+Non-malicious distributions 
+Nonlinear dynamics 498 
+Nonlinear optimization 355 
+Norepinephrine 100 
+Normal distribution 727 
+676 
+Object recognition 258, 266, 274 
+Oculomotor processes 290 
+Oculomotor system 742 
+Olfactory cortex 84 
+Olfactory perception 68 
+Online generalization 550 
+Optimal control 348, 686 
+Optimization 355,447 
+Optimization by analog circuits 777 
+Optimum learning 542 
+Oriented-field encoding 282 
+Oscillations in cortex 68, 76, 84 
+Overfitting 642 
+Overtraining 642 
+Owls 10 
+P 
+PAL learning 676 
+Parallel algorithms 660 
+Parallel computers 60 
+Parallel distributed architecture 828 
+Parallel implementation 801,810 
+Parallelism profiles 818 
+Parameter deletion 598 
+Parameter estimation 630 
+Parity problem 524, 558 
+Parsing 364 
+Pattern classification 168 
+Pattern recognition 68,240, 415,423 
+Perception labeling 76 
+Perceptron algorithm 668, 676 
+Perceptron convergence theorem 828 
+Performance analysis 801 
+Subject Index 847 
+Performance index 348 
+Phase coherence 76 
+Phase velocity 583 
+Phoneme classification 178, 203, 490, 
+574, 630 
+Phonology 372 
+Pitts, Walter 828 
+Pixelclassification 614 
+Planning 439 
+Plasticity in vision 290 
+Polarity markers 92 
+Polynomial classifiers 614 
+Polynomial networks 542 
+Positional markers 92 
+Post-synapticpotential 141 
+Power system security 566, 622 
+Prediction 482 
+Prediction of biological models 28 
+Preprocessing for speech 218 
+Principal components 694 
+Probabilistic methods 668 
+Projection pursuit 719 
+Protein sequence homology 423 
+Pulse stream arithmetic 785 
+Punishment 550 
+Pushdown automata 380 
+Q 
+Query-based training 
+Quickprop algorithm 
+566 
+524 
+R 
+Radar 248 
+Radial basis functions 474, 482,574 
+Random energy model 727 
+Random function 727 
+Random matrices 668 
+Rats, cortical models 117 
+Real-time neural networks 248 
+Real-time vision 750 
+Receptive field reorganization 52 
+848 Subject Index 
+Receptive field, center-surround 694 
+Receptive field, development 125 
+Receptive field, orientation 125 
+Receptive fields 160,482 
+Reconfigurability 758 
+Recurrent backpropagation 28, 218, 
+364, 439,542, 710 
+Recurrent networks 558 
+Regression 316 
+Regular grammars 388 
+Reinforcement learning 490, 550,686 
+Relaxation 372 
+Representation of rules 431 
+Representations, discrete 439 
+Retino-tectal map 92 
+Reward 550 
+Robot arm control 308, 316 
+Robot control 340, 439 
+Robotics 290, 750 
+RTRL, real-time recurrent learning 638 
+Rule representations 431 
+Runge and Gibbs phenomena 642 
+Saliency of a weight 598 
+Satiation 44 
+Scaling-up 455 
+Scientific visualization 465 
+Search techniques 533 
+Second derivative utilization 598 
+Segmentation 750 
+Selective neural network 415 
+Selective sampling 566 
+Self-organization 274 
+Self-organizing architecture 542 
+Self-organizing feature map 226, 332 
+Self-organizing network 52, 258 
+Self-supervised learning 431 
+Sensorimotor systems 742 
+Sensory coding 36 
+Sensory fusion 232 
+Sensory neurons 28 
+Sequence compression 218 
+Sequence learning algorithms 68 
+Sequence learning and recognition 258 
+Sequence manipulation 372,431 
+Sequence recognition 423 
+Sequential decision making 686 
+Shannon information 125 
+Shape recognition 266, 282 
+Shared weights 405 
+Sigma-pi network 474 
+Sigmoid firing characteristic 828 
+Signal detection 100 
+Signal processing 248 
+Signal propagation 141 
+Signal separation 542 
+Signal-to-noise ratio 100 
+SIMD computer arrays 810 
+Simple cells in vision 125 
+Simulation of neural networks 801 
+Simulation of neuron behavior 149 
+Simulation, parallel 818 
+SOAR production system 431 
+Somatosensory maps 52 
+Sonar signals 248 
+Sonar, in bats 2 
+SONN architecture 542 
+Sound localization 10 
+Sparse data 660 
+Sparse distributed memory 455 
+Speech processing 630 
+Speech recognition 168, 178, 186, 
+194, 211,218, 226, 232 
+Spiking neurons 109 
+Spin glass 727 
+Split-phase transaction 818 
+Spoken language processing 364 
+Stability 324 
+Stability, criterion for learning rate 482 
+Statisticalclassifiers 186 
+Stimulus identification network 203 
+Stochastic approximation 719 
+Stochastic delta rule 533 
+Stochastic models 186, 211 
+Stripe rearing 125 
+Structured networks 266 
+Supervised learning 516 
+Sudace reconstruction 660 
+Switched capacitor synapse 785 
+Symmetry breaking 133, 160 
+Synaptic interactions 141 
+T 
+Tagged token dataflow 818 
+Target ranging 2 
+TDNN 178, 203,218 
+Temperature 109 
+Temporal backpropagation 638 
+Temporal difference learning 686 
+Temporal differences 324 
+Temporal dynamics, neuronal 76 
+Temporal hyperacuity 2 
+Temporal pattern matching 248 
+Temporal signal processing 542 
+Terminal attractors 498 
+Theory of random matrices 668 
+Three-dimensional object representation 
+258, 274 
+Time complexity 676 
+Time dependent recurrent 
+backpropagation 710 
+Time scales 710 
+Time-delay neural networks 178, 203, 
+218 
+Time-domain processing 2 
+Time-varying weights 348 
+Tools for application development 447 
+Topographic maps 52 
+TRAFFIC system 266 
+Training set size 405 
+Training temporal behavior 558 
+Training time 168 
+Trajectory diagrams 465 
+Transconductance multiplier 785 
+Translation invariance 240 
+Truncated BPTT 638 
+Turing machine 638 
+Subject Index 849 
+Two point boundary value problem 348 
+Two spirals problem 524 
+u 
+Unsupervised learning 
+660,719 
+Update graph 439 
+258, 509,583, 
+v 
+Vapnik-Chervonenkis dimension 676 
+Vector quantizer 226 
+Vestibulo-ocular reflex 290, 742 
+View sequences 258 
+Vision systems 258,266, 290 
+Vision, early stages 282, 750 
+Visual cortex 76, 84, 125 
+Visual environment 125 
+Visual maps 290 
+Visual perception 160, 282 
+Visual processing 84 
+Visual speech 232 
+Visual system, development of 694 
+Visualization 465 
+VLSI 742, 758, 769, 785, 793 
+VLSI circuit testing 668 
+Vowel harmony 372 
+Vowel recognition 622 
+w 
+Wait-match-store cycle 818 
+Weather prediction 455 
+Weight decay 598 
+Weight deletion 598 
+Weight programmability 758 
+Weight sharing 396 
+Winner-take-all 274, 316,574 

@@ -1,0 +1,576 @@
+Models Wanted: Must Fit Dimensions of Sleep and Dreaming 
+J. Allan Hobson, Adam N. Mamelak, andJefj9ey P. Sutton 
+ 3 
+
+Stationarity of Synaptic Coupling Strength Between Neurons with Nonstationary Discharge Properties 
+Mark Sydorenko and Eric D. Young 
+ 11 
+
+Perturbing Hebbian Rules 
+Peter Dayan and Geoffrey Goodhill 
+ 19 
+
+Statistical Reliability of a Blowfly Movement-Sensitive Neuron
+Rob de Ruyter van Steveninck and William Bialek 
+ 27 
+
+The Clusteron: Toward a Simple Abstraction for a Complex Neuron
+Bartlett W. Mel 
+ 35 
+
+Network activity determines spatio-temporal integration in single cells 
+Ojvind Bernander, Christof Koch, and Rodney J. Douglas 
+ 43 
+
+Nonlinear Pattern Separation in Single Hippocampal Neurons with Active Dendritic Membrane 
+Anthony M, Zador, Brenda J. Claiborne, and Thomas H. Brown 
+ 51 
+
+Self-organisation in real neurons: Anti-Hebb in 'Channel Space'?
+Anthony J. Bell 
+ 59 
+
+Single Neuron Model: Response to Weak Modulation in the Presence of Noise
+A.R. Buhara, E. W. Jacobs, and E Moss 
+67 
+
+Dual Inhibitory Mechanisms for Definition of Receptive Field Characteristics in a Cat Striate Cortex 
+A.B. Bonds 
+ 75 
+
+A comparison between a neural netwok model for the formation of brain maps and experimental data 
+K. Obermayer, K. Schulten, and G.G. Blasdel 
+ 83 
+
+Retinogeniculate Development: The Role of Competition and Correlated Retinal Activity 
+Ron Keesing, David G. Stork, and Carla J. Shatz 
+ 91 
+
+Locomotion in a Lower Vertebrate: Studies of the Cellular Basis of Rhythmogenesis and Oscillator Coupling 
+James T. Buchanan 
+ 101 
+
+Adaptive Synchronization of Neural and Physical Oscillators
+Kenji Doya and Shuji Yoshizawa 
+ 109 
+
+Burst Synchronization without Frequency Locking in a Completely Solvable Network Model 
+Heinz Schuster and Christof Koch 
+ 117 
+
+Oscillatory Model of Short Term Memory 
+David Horn and Marius Usher 
+ 125 
+
+Multi-State Time Delay Neural Networks for Continuous Speech Recognition
+Patrick Haffner and Alex Waibel
+ 135 
+
+Modeling Applications with the Focused Gamma Net 
+Jose C. Principe, Bert de l&ies, Jyh Ming Kuo, Pedro Guedes de Oliveira 
+ 143 
+
+Time-Warping Network: A Hybrid Framework for Speech Recognition 
+Esther Levin, Roberto Pieraccini, and Enrico Bocchieri 
+ 151 
+
+Improved Hidden Markov Model Speech Recognition Using Radial Basis Function Networks 
+Elliot Singer and Richard P. Lippmann 
+ 159 
+
+Connectionist Optimisation of Tied Mixture Hidden Markov Models 
+Steve Renals, Nelson Morgan, Hervd Bourlard, Horacio Franco, and Michael Cohen 
+ 167 
+
+Neural Network Gaussian Mixture Hybrid for Speech Recognition or Density Estimation 
+Yoshua Bengio, Renato De Mori, Giovanni Flammia, Ralf Kompe 
+ 175 
+
+JANUS: Speech-to-Speech Translation Using Connectionist and Non-Connectionist Techniques 
+Alex Waibel, Ajay N. Jain, Arthru McNair, Joe Tebelskis, Louise Osterhohz, Hiroaki Saito, Otto Schmidbauer, Tilo Sloboda, and Monika Woszczyna 
+ 183 
+
+Forward Dynamics Modeling of Speech Motor Control Using Physiological Data 
+Makoto Hirayama, Eric l&tikiotis-Bateson, Mitsuo Kawato, and Michael I. Jordan 
+ 191 
+
+English Alphabet Recognition with Telephone Speech 
+Mark Fancy, Ronald A. Cole, and Krist Roginski 
+ 199 
+
+Generalization Performance in PARSEC--A Structured Connectionist Parsing Architecture 
+Ajay N. Jain 
+ 209 
+
+Constructing Proofs in Symmetric Networks 
+Gadi Pinkas 
+ 217 
+
+A Connectionist Learning Approach to Analyzing Linguistic Stress 
+Prahlad Gupta and David S. lburetzky 
+ 225 
+
+Propagation Filters in PDS Networks for Sequencing and Ambiguity Resolution 
+Ronald A. Sumida and Michael G. Dyer 
+ 233 
+
+A Segment-based Automatic Language Identification System 
+Yeshwant K. Muthusamy and Ronald A. Cole 
+ 241 
+
+The Efficient Learning of Multiple Task Sequences 
+Satinder P. Singh 
+ 251 
+
+Practical Issues in Temporal Difference Learning 
+Gerald Tesauro 
+ 259 
+
+HARMONET: A Neural Net for Harmonizing Chorales in the Style of J.S. Bach 
+Hermann Hild, Johannes Feulner, and Wolfram Menzel 
+ 267 
+
+Induction of Multiscale Temporal Structure 
+Michael C. Mozer 
+ 275 
+
+Network Model of State-Dependent Sequencing 
+Jeffrey P. Sutton, Adam N. Mamelak, and jr. Allan Hobson 
+ 283 
+
+Learning Unambiguous Reduced Sequence Descriptions 
+Jurgen Schmidhuber 
+ 291 
+
+Recurrent Networks and NARMA Modeling 
+Jerome Connor, Les E. Atlas, and Douglas R. Martin 
+ 301 
+
+Induction of Finite-State Automata Using Second-Order Recurrent Networks 
+Raymond L. Watrous, and Gary M. Kuhn 
+309 
+
+Extracting and Learning an Unknown Grammar with Recurrent Neural Networks 
+C.L. Giles, C.B. Miller, D. Chen, G.Z. Sun, H.H. Chen, and Y.C. Lee 
+ 317 
+
+Operators and curried functions: Training and analysis of simple recurrent networks 
+Janet Wiles and Anthony Bloesch 
+ 325 
+
+Green's Function Method for Fast On-line Learning Algorithm of Recurrent Neural Networks 
+Guo-Zheng Sun, Hsing-Hen Chen, and Yee-Chun Lee 
+ 333 
+
+Dynamically-Adaptive Winner-Take-All Networks 
+Bent E. Lange 
+ 341 
+
+Information Processing to Create Eye Movements 
+David A. Robinson 
+ 351 
+
+Decoding of Neuronal Signals in Visual Pattern Recognition 
+Emad N. Eskandar, Barry J. Richmond, John A. Hertz, 
+ 356 
+
+Lance M. Optican, and 3oels Kjter Learning How to Teach or Selecting Minimal Surface Data 
+Davi Geiger and Ricardo A. Marques Pereira 
+ 364 
+
+Learning to Make Coherent Predictions in Domains with Discontinuities 
+Suzanna Becker and GeofJ3ey E. Hinton 
+ 372 
+
+Recurrent Eye Tracking Network Using a Distributed Representation of Image Motion 
+PA. V7ola, S.G. Lisberger, and T.J. Sejnowski 
+ 380 
+
+Against Edges: Function Approximation with Multiple Support Maps 
+Trevor Darrell and Alex Pentland 
+ 388 
+
+Markov Random Fields Can Bridge Levels of Abstraction 
+Paul R. Cooper and Peter N. Prokopowicz 
+ 396 
+
+Illumination and View Position in 3D Visual Recognition 
+Amnon Shashua 
+ 404 
+
+Hierarchical Transformation of Space in the Visual System 
+Alexandre Pouget, Stephen A. Fisher, and Terrence J. Sejnowski 
+ 412 
+
+VISI15 A Neural Model of Covert Visual Attention 
+Subutai Ahmad 
+ 420 
+
+Visual Grammars and their Neural Nets 
+Eric Mjohness 
+ 428 
+
+Learning to Segment Images Using Dynamic Feature Binding 
+Michael C. Mozer, Richard S. Zemel, and Marlene Behrmann 
+ 436 
+
+Combined Neural Network and Rule-Based Framework for Probabilistic Pattern Recognition and Discovery 
+Hayit K. Greenspan, Rodney Goodman, and Rama Chellappa 
+ 444 
+
+Linear Operator for Object Recognition 
+Ronen Basri and Shimon Ullman 
+ 452 
+
+3D Object Recognition Using Unsupervised Feature Extraction 
+Nathan Intrator, Josh L Gold, Heinrich H. Biihhoff, and Shimon Edelman 
+ 460 
+
+Structural Risk Minimization for Character Recognition 
+I. Guyon, V. Vapnik, B. Boser, L. Bottou, and S.A. Solla 
+ 471 
+
+Image Segmentation with Networks of Variable Scales 
+Hans P. Graf, Craig R. Nohl, and Jan Ben 
+ 480 
+
+Multi-Digit Recognition Using a Space Displacement Neural Network 
+Ofer Matan, ChristopherJ. C. Burges, Yann Le Cun, and John S. Denker 
+ 488 
+
+A Self-Organizing Integrated Segmentation and Recognition Neural Net 
+Jim Keeler and David E. Rumelhart 
+ 496 
+
+Recognizing Overlapping Hand-Printed Characters by Centered-Object Integrated Segmentation and Recognition 
+Gale L. Martin and Mosfeq Rashid 
+ 504 
+
+Adaptive Elastic Models for Hand-Printed Character Recognition 
+Geoffrey E. Hinton, Christophe K.I. Williams, and Michael D. Revow 
+ 512 
+
+Obstacle Avoidance through Reinforcement Learning 
+73nyJ. Prescott and John E. W. Mayhew 
+ 523 
+
+Active Exploration in Dynamic Environments 
+Sebastian B. Thrun and Knut Mgller 
+ 531 
+
+Oscillatory Neural Fields for Globally Optimal Path Planning 
+Michael Lemmon 
+ 539 
+
+Recognition of Manipulated Objects by Motor Learning 
+Hiroaki Gomi and Mitsuo Kawato 
+ 547 
+
+Refining PID Controllers using Neural Networks 
+Gary M. Scott, Jude W. Shavlik, and W. Harmon Ray 
+ 555 
+
+Fast Learning with Predictive Forward Models 
+Carlos Brody 
+ 563 
+
+Fast, Robust Adaptive Control by Learning only Forward Models 
+Andrew W. Moore 
+ 571 
+
+Reverse TDNN: An Architecture for Trajectory Generation 
+Patrice Simard and Yann Le Cun 
+ 579 
+
+Learning Global Direct Inverse Kinematics 
+David DeMers and Kenneth Kreutz-Delgado 
+ 589 
+
+A Neural Net Model for Adaptive Control of Saccadic Accuracy by Primate Cerebellum and Brainstem 
+Paul Dean, John E. W. Mayhew, and Pat Langdon 
+ 595 
+
+Learning in the Vestibular System: Simulations of Vestibular Compensation Using Recurrent Back-Propagation 
+Thomas J. Anastasio 
+ 603 
+
+A Cortico-Cerebellar Model that Learns to Generate Distributed Motor Commands to Control a Kinematic Arm 
+N.E. Berthier, S.P. Singh, A.G. Barto, andJ. C. Houk 
+ 611 
+
+A Computational Mechanism to Account for Averaged Modified Hand Trajectories 
+Ealan A. Henis and Tamar Flash 
+ 619 
+
+Simulation of Optimal Movements Using the Minimum-Muscle-Tension-Change Model 
+Menashe Dornay, Yoji Uno, Mitsuo Kawato, and Ryoji Suzuki 
+ 627 
+
+ANN Based Classification for Heart Defibrillators 
+M. Jabri, S. Pickard, P. Leong, Z. Chi, B. Flower, and Y. Xie 
+ 637 
+
+Neural Network Diagnosis of Avascular Necrosis from Magnetic Resonance Images 
+Armando Manduca, Paul Christy, and Richard Ehman 
+ 645 
+
+Neural Network Analysis of Event Related Potentials and Electroencephalogram Predicts Vigilance 
+Rita lOnturini, William W. Lytton, and Terrence J. Sejnowski 
+ 651 
+
+Neural Control for Rolling Mills: Incorporating Domain Theories to Overcome Data Deficiency 
+Martin Rgscheisen, Reimar Holmann, and Volker Tresp 
+ 659 
+
+Fault Diagnosis of Antenna Pointing Systems Using Hybrid Neural Network and Signal Processing Models 
+Padhraic Smyth and Jeff Mellstrom 
+ 667 
+
+Multimodular Architecture for Remote Sensing Options 
+Sylvie Thiria, Carlos Mejia, Fouad Badran, Michel Crgpon 
+ 675 
+
+Principled Architecture Selection for Neural Networks: Application to Corporate Bond Rating Prediction 
+John Moody and Joachim Utans 
+ 683 
+
+Adaptive Development of Connectionist Decoders for Complex Error-Correcting Codes 
+Sheri L. Gish and Mario Blaum 
+ 691 
+
+Application of Neural Network Methodology to the Modelling of the Yield Strength in a Steel Rolling Plate Mill 
+Ah Chung 73oi 
+ 698 
+
+Computer Recognition of Wave Location in Graphical Data by a Neural Network 
+Donald T. Freeman 
+ 706 
+
+A Neural Network for Motion Detection of Drift-Balanced Stimuli 
+Hilary Tunley 
+ 714 
+
+Neural Network Routing for Random Multistage Interconnection Networks
+Mark W. Goudreau and C. Lee Giles 
+722 
+
+Networks for the Separation of Sources that are Superimposed and Delayed . . 
+John C. Platt and Federico Faggin 
+730 
+
+CCD Neural Network Processors for Pattern Recognition 
+Alice M. Chiang, Michad L. Chuang, and JerSey R. LaFranchise 
+ 741 
+
+A Parallel Analog CCD/CMOS Signal Processor 
+Charles E Neugebauer andAmnon Yariv 
+ 748 
+
+Direction Selective Silicon Retina that uses Null Inhibition 
+Ronald G. Benson and labi Delbriick 
+ 756 
+
+A Contrast Sensitive Silicon Retina with Reciprocal Synapses 
+Kwabena A. Boahen and Andreas G. Andreou 
+ 764 
+
+A Neurocomputer Board Based on the ANNA Neural Network Chip 
+Eduard Sa'ckinger, Bernhard E. Boser, and Lawrence D. Jackal 
+ 773 
+
+Software for ANN training on a Ring Array Processor 
+Phil Kohn, Jeff Bilmes, Nelson Morgan, and James Beck 
+ 781 
+
+Constrained Optimization Applied to the Parameter Setting Problem  for Analog Circuits 
+David IOrk, Kurt Fleischer, Lloyd Watts, and Alan Barr 
+ 789 
+
+Segmentation Circuits Using Constrained Optimization 
+John G. Harris 
+ 797 
+
+Analog LSI Implementation of an Auto-Adaptive Network for Real-Time Separation of Independent Signals 
+Marc H. Cohen, Phillipe O. Pouliquen, and Andreas G. Andreou 
+ 805 
+
+Temporal Adaptation in a Silicon Auditory Nerve 
+John Lazzaro 
+ 813 
+
+Optical Implementation of a Self-Organizing Feature Extractor 
+Dana Z. Anderson, Claus Benkert, Verena Hebler, Ju-SeogJang, 
+ 821 
+
+Don Montgomery, and Mark Saffman Principles of Risk Minimization for Learning Theory 
+V. Papnik 
+ 831 
+
+Bayesian Model Comparison and Backprop Nets 
+DavidJ. C. MacKay 
+ 839 
+
+The Effective Number of Parameters: An Analysis of Generalization and Regularization in Nonlinear Learning Systems 
+John E. Moody 
+ 847 
+
+Estimating Average-Case Learning Curves Using Bayesian, Statistical Physics and VC Dimension Methods 
+David Haussler, Michad Kearns, Manned Opper, and Robert Schapire 
+ 855 
+
+Constant-Time Loading of Shallow 1-Dimensional Networks 
+Stephen Judd 
+ 863 
+
+Experimental Evaluation of Learning in a Neural Microsystem 
+Joshua Alspector, Anthony Jayakumar, and Stephan Luna 
+ 871 
+
+Threshold Network Learning in the Presence of Equivalences 
+John Shawe-Taylor 
+ 879 
+
+Gradient Descent: Second Order Momentum and Saturating Error 
+Barak Pearlmutter 
+ 887 
+
+Tangent Prop--A formalism for specifying selected invariances in an adaptive network 
+Patrice Simard, Bernard Victorri, Yann Le Cun, and John Denker 
+ 895 
+
+Polynomial Uniform Convergence of Relative Frequencies to Probabilities 
+Alberto Bertoni, Paola Campadelli, Anna Morpurgo, and Sandra Panizza 
+ 904 
+
+Unsupervised learning of distributions on binary vectors using 2- layer networks 
+Yoav Freund and David Haussler 
+ 912 
+
+Incrementally Learning Time-varying Half-planes 
+Anthony Kuh, Thomas Petsche, and Ron L. Rivest 
+ 920 
+
+The VC-Dimension versus the Statistical Capacity of Multilayer Networks 
+Chuanyi Ji and Demetri Psahis 
+ 928 
+
+Some Approximation Properties of Projection Pursuit Learning Networks 
+lS'ng Zhao and Christopher G. Atkeson 
+ 936 
+
+Neural Computing with Small Weights 
+Kai-Yeung Siu and Jehoshua Bruck 
+ 944 
+
+A Simple Weight Decay Can Improve Generalization 
+Anders Krogh and John A. Hertz 
+ 950 
+
+Best-First Model Merging for Dynamic Learning and Recognition 
+Stephen M. Omohundro 
+ 958 
+
+Rule Induction through Integrated Symbolic and Subsymbolic Processing 
+Clayton McMillan, Michad C. Mozer, and Paul Smolensky 
+ 969 
+
+Interpretation of Artificial Neural Networks: Mapping Knowledge-Based Neural Networks into Rules 
+Geoffrey lawell and Jude W. Shavlik 
+ 977 
+
+Hierarchies of adaptive experts 
+Michad I. Jordan and Robert A. Jacobs 
+ 985 
+
+Adaptive Soft Weight Tying using Gaussian Mixtures 
+Steven J. Nowlan and Geoffrey E. Hinton 
+ 993 
+
+Repeat Until Bored: A Pattern Selection Strategy 
+Paul W. Munro 
+ 1001 
+
+Towards Faster Stochastic Gradient Search 
+Christian Darken and John Moody 
+ 1009 
+
+Competitive Anti-Hebbian Learning of Invariants 
+Nicol N. Schraudolph and 7brrence J. Sejnowski 
+ 1017 
+
+Merging Constrained Optimisation with Deterministic Annealing to "Solve" Combinatorially Hard Problems 
+Paul Stolorz 
+ 1025 
+
+Kernel Regression and Backpropagation Training with Noise 
+Patri Koistinen and Lasse Holmstrom 
+ 1033 
+
+Splines, Rational Functions and Neural Networks 
+Robert C. lgSlliamson and Peter L. Bartlett 
+ 1040 
+
+Networks with Learned Unit Response Functions 
+John Moody and Norman Yarvin 
+ 1048 
+
+Learning in Feedforward Networks with Nonsmooth Functions 
+Nicholas J. Redding and T. Downs 
+ 1056 
+
+Iterative Construction of Sparse Polynomial Approximations 
+Terence D. Sanger, Richard S. Sutton, and Christopher J. Matheus 
+ 1064 
+
+Node Splitting: A Contructive Algorithm for Feed-Forward Neural Networks 
+Mike Wynne-Jones 
+1072 
+
+Information Measure Based Skeletonisation 
+Sowmya Ramachandran and Lorien Y. Pratt 
+ 1080 
+
+Data Analysis Using G/Splines 
+David Rogers 
+ 1088 
+
+Unsupervised Classifiers, Mutual Information and 'Phantom Targets' . 
+John S. Bridle, Anthony J. R. Heading, and DavidJ. C. MacKay 
+ 1096 
+
+A Network of Localized Linear Discriminants 
+Martin S. Glassman 
+ 1102 
+
+A Weighted Probabilistic Neural Network 
+David Montana 
+ 1110 
+
+Network generalization for production: Learning and producing styled letterforms 
+Igor Grebert, David G. Stork, Ron Keesing, and Steve Mims 
+ 1118 
+
+Shooting Craps in Search of an Optimal Strategy for Training Connectionist Pattern Classifiers 
+J.B. Hampshire H and B. V.K. 55jaya Kumar 
+ 1125 
+
+Improving the Performance of Radial Basis Function Networks by Learning Center Locations 
+Dietrich lY&ttschereck and Thomas Dietterich 
+ 1133 
+
+A Topograhic Product for the Optimization of Self-Organizing Feature Maps . . 
+Ham-Ulrich Bauer, Klaus Pawelzik, and Theo Geisd 
+1141 
+
+Human and Machine 'Quick Modeling' . 
+Jakob Bernasconi and Karl Gustaj5on 
+ 1151 
+
+A Comparison of Projection Pursuit and Neural Network Regression Modeling 
+Jenq-Neng Hwang, Hang Li, Martin Maechler, R. Douglas Martin, and Jim Schimert 
+ 1159 
+
+Benchmarking Feed-Forward Neural Networks: Models and Measures 
+Leonard G.C. Hamey 
+ 1167 
+

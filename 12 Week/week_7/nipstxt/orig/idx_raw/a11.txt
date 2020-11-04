@@ -1,0 +1,301 @@
+Index of Authors 
+Abbott, L. E, 69, 90 
+Abramowicz, Halina, 868 
+Adams, Nicholas J., 634 
+Adorjfin, Peter, 76 
+Al-Ansari, Mohammad A., 961 
+Amari, Shun-ichi, 239 
+Atiya, Amir, 522 
+Attias, Hagai, 361 
+Austin, Jim, 713 
+Baird, Leemon, 968 
+Baluja, Shumeet, 847, 854 
+Baraduc, Pierre, 83 
+Barber, David, 183 
+Bartlett, Peter, 190, 288, 330 
+Barto, Andrew G., 1017 
+Baxter, Jonathan, 288 
+Becker, Suzanna, 17 
+Beckmann, C. F., 337 
+Bennett, Kristin, 368 
+Bersini, Hugues, 375 
+Bhushan, Nikhil, 3 
+Birattari, Mauro, 375 
+Bishop, Christopher M., 382 
+Blake, Andrew, 389 
+Bollmann-Sdorra, Peter, 438 
+Bontempi, Gianluca, 375 
+Borger, Julia, 931 
+Bottou, Leon, 571 
+Boyen, Xavier, 396 
+Brabant, Georg, 931 
+Brand, Matthew, 723 
+Braun, Jochen, 789 
+Briegel, Thomas, 403 
+Brown, Lyndon J., 975 
+Brown, Timothy X, 982 
+Buhmann, Joachim M., 452 
+Burnod, Yves, 83 
+Busey, Thomas A., 24 
+Campbell, Colin, 204 
+Canu, St6phane, 445 
+Cauwenberghs, Gert, 657, 678 
+Chance, Frances S., 90 
+Chechik, Gal, 97 
+Chen, Ke, 10 
+Cho, Jung-Wook, 664 
+Christianson, G. Bjorn, 17 
+Cichocki, Andrzej, 648 
+Coggins, Richard J., 671 
+Coolen, A. C. C., 197, 211,316, 337 
+Cornford, Dan, 861 
+Cottrell, Garrison W., 24 
+Coughlan, James M., 64 1, 761 
+Courchesne, Eric, 118 
+Cristianini, Nello, 204 
+Cross, Andrew D. J., 896 
+Diring, A., 211 
+Dailey, Matthew N., 24 
+Darrell, Trevor, 768 
+Davidowitz, Hanan, 146 
+Dayan, Peter, 174, 274 
+Demiriz, Ayhan, 368 
+Deneve, Sophie, 104 
+de Freitas, Jofio F. G., 410 
+Dhawan, Atam P., 627 
+Doucet, Arnaud, 410 
+Douglas, Rodney, 706 
+Dror, Gideon, 868 
+Edwards, R. Timothy, 678 
+Etienne-Cummings, Ralph, 685 
+Ferrari-Trecate, Giancarlo, 218 
+Forsyth, David, 782 
+Frank, Jeremy, 952 
+Freeman, William T., 775 
+Frieg, Thilo T., 585 
+Friedman, Nir, 417 
+Gao, Fangyu, 620 
+Gat, Itay, 111 
+Gdalyahu, Yoram, 424, 838 
+Gee, Andrew, 410 
+Gentile, Claudio, 225 
+Gerstner, Wulfram, 125 
+Ghahramani, Zoubin, 431,599 
+Ghani, Mohammed Abdel, 685 
+Gonye, Gregory E., 975 
+Graepel, Thore, 438 
+Grandvalet, Yves, 445 
+Granger, Eric, 875 
+Grossberg, Stephen, 875 
+Gruev, Viktor, 685 
+Grzeszczuk, Radek, 882 
+Guigon, Emmanuel, 83 
+Haftnet, Patrick, 571 
+Hancock, Edwin R., 896 
+Hansen, Volker, 945 
+Harris, John G., 692 
+Hamno, Masahiko, 31 
+Haussler, David, 487 
+1082 Index of Authors 
+Hayashi, Akira, 989, 1059 
+Held, Marcus, 452 
+Herbrich, Ralf, 438 
+Herschkowitz, Didier, 232 
+Higgins, Charles M., 699 
+Hinton, Geoffrey, 599, 882 
+Hochreiter, Sepp, 459 
+Hofmann, Thomas, 466 
+Hogden, John E., 744 
+Hollmen, Jaakko, 889 
+Horn, David, 868 
+Homik, Kurt, 267 
+Hoyer, Patrik, 473 
+Huet, Benoit, 896 
+Hyvarinen, Aapo, 473 
+Ikeda, Shiro, 239 
+Ioffe, Sergey, 782 
+Isard, Michael, 389 
+Isbell, Jr., Charles Lee, 480 
+Ishii, Shin, 1052 
+Itti, Laurent, 789 
+Jaakkola, Tommi, 487 
+Jabri, Marwan A., 671 
+Jacobs, David W., 838 
+Jebara, Tony, 494, 910 
+Jordan, Michael, 466 
+Jung, Tzyy-Ping, 118 
+K6gl, Balfizs, 501 
+Kabashima, Yoshiyuki, 246 
+Karakoulas, Grigoris, 253 
+Kawato, Mitsuo, 31 
+Kearns, Michael, 260, 996 
+Kempter, Richard, 125 
+Kennedy, John, 713 
+Klein, Barbara, 620 
+Klein, Ronald, 620 
+Koch, Christof, 132, 160, 699, 789 
+Koenig, Sven, 1003 
+Koller, Daphne, 396 
+Krzyzak, Adam, 501 
+Latham, Peter E., 104 
+Lee, Dale K., 789 
+Lee, Daniel D., 515 
+Lee, Soo-Young, 664 
+Lee, Te-Won, 508 
+Leen, Todd K., 824 
+Leisch, Friedrich, 267 
+Lewicki, Michael S., 508,730 
+Le Cun, Yann, 571 
+Li, Zhaoping, 274, 796 
+Lin, Xiwu, 620 
+Linder, Tamils, 501 
+Lippman, Andrew, 606 
+Liu, Zili, 45 
+Loch, John, 1010 
+Love, Bradley C., 38 
+Miiller, Klaus-R., 536, 564 
+Maass, Wolfgang, 281 
+Magdon-Ismail, Malik, 522 
+Maiorov, Vitaly, 190, 295 
+Makeig, Scott, 118 
+Manwani, Amit, 132 
+Marts, Alan D., 529 
+Mason, Llew, 288 
+McGovern, Amy, 903 
+Meilijson, Isaac, 97 
+Meir, Ron, 190, 295 
+Mihatsch, Oliver, 1031 
+Mika, Sebastian, 536 
+Moghaddam, Baback, 910 
+Moll, Robert, 1017 
+Moody, John, 917 
+Moore, Andrew W., 543, 968, 1024 
+Moss, Eliot, 903 
+Mozer, Michael C., 52 
+Munos, Remi, 1024 
+Murray-Smith, Roderick, 945 
+Nabney, Ian T., 861 
+Nadal, Jean-Pierre, 232 
+Nakahara, Hiroyuki, 239 
+Nakano, Ryohei, 599 
+Nelson, Sacha B., 90 
+Neukirchen, Ctuistoph, 737 
+Neuneier, Ralph, 1031 
+Niranjan, Mahesan, 410 
+Nix, David A., 744 
+North, Ben, 389 
+Obermayer, Klaus, 76, 139, 438 
+Oja, Erkki, 473 
+Oliver, Nuria, 924 
+Onoda, Takashi, 564 
+Opper, Manfred, 218, 302, 309 
+Oyama, Eimei, 1038 
+Pasztor, Egon C., 775 
+Pavel, Misha, 824 
+Pelillo, Marcello, 550 
+Pentland, Alex, 494, 910, 924 
+Perkins, Theodore J., 1017 
+Phillips, P. Jonathon, 803 
+Piepenbrock, Christian, 139 
+Pineda, Fernando J., 678 
+Platt, John, 557 
+Pouget, Alexandre, 104 
+Prank, Klaus, 931 
+Precup, Doina, 1066 
+Principe, Jose C., 692 
+Index of Authors 1083 
+Pu, Chiang-Jung, 692 
+Puzicha, Jan, 452, 466 
+R[itsch, Gunnar, 536, 564 
+Rae, H. C., 316 
+Rahim, Mazin, 751 
+RandlOv, Jette, 1045 
+Rao, Rajesh P. N., 810 
+Ravindran, B., 1066 
+Rfgoll, Gerhard, 737 
+Rinberg, Dmitry, 146 
+Rosario, Barbara, 924 
+Rosenholtz, Ruth, 817 
+Roweis, Sam T., 431 
+Rubin, Mark A., 875 
+Ruderman, Daniel L., 810 
+Ruppin, Eytan, 97 
+Saad, David, 197, 246 
+Saffell, Matthew, 917 
+Sajda, Paul, 938 
+Sakurai, Akito, 323 
+Sato, Masa-aki, 1052 
+Saul, Lawrence, 260, 751 
+Sch6fl, Christof, 931 
+Sch61kopf, Bernhard, 330, 536, 585 
+Schmidhuber, Juergen, 459 
+Scholz, Matthias, 536 
+Schwaber, James S., 975 
+Schwartz, Odelia, 153 
+Sejnowski, Terrence J., 118,508, 730 
+Shadmehr, Reza, 3 
+Sharma, Ravi K., 824 
+Shawe-Taylor, John, 204, 253 
+Shemngton, D., 211 
+Simard, Patrice Y., 571 
+Simoncelli, Eero P., 153 
+Singer, Yoram, 417, 578 
+Singh, Satinder, 982, 996, 1066, 1073 
+Skantzos, N. S., 337 
+Smola, Alex, 330 
+Smola, Alex J., 536, 585 
+Sollich, Peter, 316, 344 
+Sompolinsky, Haim, 167, 515 
+Song, Sen, 69 
+Sontag, Eduardo D., 281 
+Spence, Clay D., 938 
+Stemmler, Martin, 160 
+Stocker, Alan, 706 
+Streilein, William W., 875 
+Suematsu, Nobuo, 989, 1059 
+Sutton, Richard S., 1017, 1066 
+Tachi, Susumu, 1038 
+Tanaka, Toshiyuki, 351 
+Tenenbaum, Joshua B., 59 
+Terzopoulos, Demetri, 882 
+Thomber, Karvel K., 831 
+Tipping, Michael E., 592 
+Tishby, Naftali, 111,146 
+Tong, Hui, 982 
+Townsend, Jeanne, 118 
+Trapletti, Adrian, 267 
+Tresp, Volker, 403, 889 
+Turner, Kagan, 952 
+Ueda, Naonori, 599 
+van Hemmen, J. Leo, 125 
+Vasconcelos, Nuno, 606 
+Viola, Paul, 480 
+Vivarelli, Francesco, 302, 613 
+yon zur Miihlen, Alexander, 931 
+Wahba, Grace, 620 
+Wang, DeLiang L., 10 
+Wang, Raymond J. W., 671 
+Warmuth, Manfred K., 225, 578 
+Waskiewicz, James, 657 
+Webb, Andrew R., 529 
+Weinshall, Daphna, 45, 424, 838 
+Wennan, Michael, 424 
+Westerfield, Marissa, 118 
+Wheeler, Kevin R., 627 
+Wiegerinck, Wim, 183 
+Williams, Christopher K. I., 218,613,634, 861 
+Williams, John K., 1073 
+Williams, Lance R., 831 
+Williams, Ronald J., 961 
+Williamson, Matthew M., 945 
+Williamson, Robert, 330 
+Winther, Ole, 309 
+Wolpert, Daniel M., 31 
+Wolpert, David, 952 
+Xiang, Dong, 620 
+Yoon, Hyoungsoo, 167 
+Yuille, A.L., 641,761 
+Zeger, Kenneth, 501 
+Zemel, Richard S., 174 
+Zhang, Liqing, 648 
+Zhou, Ping, 713 

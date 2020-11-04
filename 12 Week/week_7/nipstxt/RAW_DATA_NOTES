@@ -1,0 +1,209 @@
+Some notes on how I fixed up the raw files Yann made
+available on the djvu web site in order to produce 
+this dataset.
+
+Sam Roweis                   http://www.cs.toronto.edu/~roweis/
+-------------------------------------------------------------------
+
+[June2002]
+1) I used Andrew McCallum's BOW toolkit, specifically the
+   rainbow tool to extract wordcounts from the raw document files.
+   The tool downcases, eliminates punctuation, removes stopwords, etc.
+   Here are the commands I fed to bow. However, the version of
+   bow I am using neither respects the shortest-word flag nor
+   the use-stemming flag, so the words I get are not stemmed
+   and there are lots of 2 letter words. I removed the 2 letter
+   words, except for words like "EM" "AI" "ML" "EQ" using an
+   explicit killword file, which might be better.
+
+rainbow -d /tmp/bowdat \
+-i -D5 --use-stemming --use-stoplist --shortest-word=3 \
+--append-stoplist-file=killwords \
+/nobackup/roweis/nipstxt/nips*
+
+rainbow -d /tmp/bowdat \
+-i -D5 --use-stemming --use-stoplist --shortest-word=3 \
+--append-stoplist-file=killwords \
+-B=sin | sort +0 -1 > /tmp/nipstxt_012_counts
+
+rainbow -d /tmp/bowdat \
+-i -D5 --use-stemming --use-stoplist --shortest-word=3 \
+--append-stoplist-file=killwords \
+-B=a | head -1 > /tmp/nipstxt_012_wordlist
+
+
+[May2002]
+
+1) I moved all the indices (author, subject, contents)
+   into a separate directory idx/.
+   I then reformatted the author and contents files, 
+   correcting OCR errors and standardizing the format 
+   so they can be read and crosschecked by the perl scripts.
+   Currently the subject indicies are unused.
+   In general, if you want the pre-sam-hacked files,
+   look in the orig/ subdir.
+
+2) For each paper, I went in by hand and ensured that there is a line
+   "Abstract" near the top and another line "References" near the
+   bottom which divide the frontmatter and endmatter. Currently
+   wordcounts use the whole paper, but if you wanted you could
+   exclude references or author/contact info by taking the parts
+   in between "Abstract" and "References".
+
+3) I merged/split the following pair, which was incorrectly stored:
+      nips10/0598.txt -- ADD FROM 0604.txt
+      nips10/0604.txt -- REMOVE FROM TOP and rename to 0605.txt
+
+4) One file in nips10 is missing. So as a stopgap measure 
+   I copied nips10/0556.txt onto nips10/0815.txt (just to keep
+   the perl scripts happy). But nips10/0815.txt IS NOT THE REAL FILE.
+   Is is a placeholder until Yann sends me the correct one.
+	nips10/0815.txt and djvu are  MISSING
+
+5) One file in nips9 has its scan corrupted, along with the
+   corresponding djvu file. I just truncated it.
+	nips09/0786.txt (djvu and txt scan corrupted)
+
+6) In the printed index of NIPS02, there is an error,
+        nips02 AUTHOR INDEX: Rogers is p445 but should be p455
+   In the printed index of NIPS08, there are two errors,
+        nips08 AUTHOR INDEX Mansour is p259 but should be p260
+        nips08 AUTHOR INDEX Martin is p10 but should be p17
+   I corrected these in the index files.
+
+
+7) Along the way I noticed that the last few pages 
+   of the subject index for NIPS6  were never scanned in.
+   The online version ends at page 1202.
+
+8) I removed these "non-paper" files:
+   nips10/ PART DIVIDERS
+	nips10/0001.txt:PART I 
+	nips10/0101.txt:PART II 
+	nips10/0243.txt:PART III 
+	nips10/0392.txt:PART IV 
+	nips10/0703.txt:PART V 
+	nips10/0733.txt:PART VI 
+	nips10/0770.txt:PART VII 
+	nips10/0857.txt:PART VIII 
+	nips10/0999.txt:PART IX 
+   nips06/ WORKSHOP DESCRIPTIONS
+	nips06/1161.txt
+	nips06/1163.txt
+	nips06/1165.txt
+	nips06/1167.txt
+	nips06/1169.txt
+	nips06/1171.txt
+	nips06/1173.txt
+	nips06/1176.txt
+	nips06/1178.txt
+	nips06/1180.txt
+	nips06/1182.txt
+	nips06/1184.txt
+	nips06/1186.txt
+	nips06/1188.txt
+
+[April2002]
+
+1) The online table of contents for many of the NIPS
+   start certain sections one paper to early or too late.
+   e.g. NIPS4 starts the "Control and Planning" part 
+   one paper too early. (Should start at p523)
+
+2) Maybe I should take out these lines from the boundary papers?
+
+nips02/0160.txt:PART II: 
+nips02/0248.txt:PART III: 
+nips02/0298.txt:PART IV: 
+nips02/0355.txt:PART V: 
+nips02/0465.txt:PART VI: 
+nips02/0590.txt:PART VII: 
+nips02/0650.txt:PART VIII: 
+nips02/0733.txt:PART IX: 
+nips02/0818.txt:PART X: 
+
+nips04/0091.txt:PART II 
+nips04/0125.txt:PART III 
+nips04/0199.txt:PART IV 
+nips04/0241.txt:PART V 
+nips04/0291.txt:PART VI 
+nips04/0341.txt:PART VII 
+nips04/0460.txt:PART VIII 
+nips04/0512.txt:PART IX 
+nips04/0627.txt:PART X 
+nips04/0730.txt:PART XI 
+nips04/0821.txt:PART XII 
+nips04/0958.txt:PART XIII 
+nips04/1141.txt:PART XIV 
+
+nips05/0089.txt:PART II 
+nips05/0244.txt:PART III 
+nips05/0350.txt:PART IV 
+nips05/0441.txt:PART V 
+nips05/0539.txt:PART vI 
+nips05/0580.txt:PART VII 
+nips05/0639.txt:PART VIII 
+nips05/0712.txt:PART IX 
+nips05/0755.txt:PART X 
+nips05/0836.txt:PART XI 
+nips05/0903.txt:PART XII 
+
+nips06/0293.txt:PART II 
+nips06/0431.txt:PART III 
+nips06/0501.txt:PART IV 
+nips06/0629.txt:PART V 
+nips06/0727.txt:PART VI 
+nips06/0833.txt:PART VII 
+nips06/0927.txt:PART VIII 
+nips06/1001.txt:PART IX 
+nips06/1059.txt:PART X 
+nips06/1125.txt:PART XI 
+nips06/1151.txt:PART XII 
+
+nips07/0051.txt:PART H 
+nips07/0173.txt:PART III 
+nips07/0335.txt:PART IV 
+nips07/0401.txt:PART V 
+nips07/0721.txt:PART VI 
+nips07/0817.txt:PART VH 
+nips07/0883.txt:PART VIII 
+nips07/0981.txt:PART IX 
+
+nips08/0052.txt:PART II 
+nips08/0159.txt:PART III 
+nips08/0372.txt:PART IV 
+nips08/0661.txt:PART V 
+nips08/0720.txt:PART VI 
+nips08/0785.txt:PART VII 
+nips08/0865.txt:PART VIII 
+nips08/0980.txt:PART IX 
+
+nips09/0017.txt:PART II 
+nips09/0118.txt:PART III 
+nips09/0309.txt:PART IV 
+nips09/0676.txt:PART V 
+nips09/0741.txt:PART VI 
+nips09/0807.txt:PART VII 
+nips09/0915.txt:PART VIII 
+nips09/0995.txt:PART IX 
+
+nips11/0059.txt:PART II 
+nips11/0174.txt:PART III 
+nips11/0351.txt:PART IV 
+nips11/0648.txt:PART V 
+nips11/0713.txt:PART VI 
+nips11/0751.txt:PART VII 
+nips11/0838.txt:PART VIII 
+nips11/0952.txt:PART IX 
+
+nips12/0080.txt:PART II 
+nips12/0199.txt:PART III 
+nips12/0370.txt:PART IV 
+nips12/0694.txt:PART V 
+nips12/0738.txt:PART VI 
+nips12/0803.txt:PART VII 
+nips12/0869.txt:PART VIII 
+nips12/0977.txt:PART IX 
+
+
+

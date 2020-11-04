@@ -1,0 +1,181 @@
+Author Index  
+AUTHOR INDEX 
+Abu-Mostafa, Yaser 590 Cole, Ronald 622 
+Ackley, David H. 550 Connor, Jerome 622 
+Agin, Patrick 423 Cowan, J.D. 92, 828 
+Ahmad, Subutai 606 Crair, Michael C. 109 
+Atiya, Amir 590 De Mori, Renato 218 
+Atkeson, Christopher G. 316 Dembo, A. 348, 668 
+Atlas, Les 566, 622 Denker, J.S. 396, 598 
+Bachrach, Jonathan 439 de Ruyter van Steveninck, R. R. 
+Bair, Wyeth 750 DeWeerth, Stephen P. 742 
+Baird, Bill 68 Donnett, Jim 308 
+Baldi, Pierre 727 Duong, T. 769 
+Barhen, Jacob 498 Edelman, Shimon 274 
+Barnard, Etienne 622 E1-Sharkawi, Mohamed 622 
+Barto, A.G. 686 Elvgren III, Gillette 431 
+Baum, Eric B. 676 Fahlman, Scott E. 524 
+Beer, Randall D. 44 Fang, Yan 28 
+Bell, Tony 490 Farotimi, O. 348 
+Bengio, Samy 423 Fetz, E.E. 141 
+Bengio, Yoshua 218, 423 Fortes, Jose A.B. 810 
+Bialek, William 36, 109 Friedman, A.E. 92 
+Blanz, W.E. 614 Galland, Conrad C. 509 
+Boser, B. 396 Geiger, Davi 660 
+Bourlard, Herv6 186, 630 Giles, C.L. 380 
+Bower, James M. 60, 84, 117 Girosi, Federico 660 
+Bridle, John S. 211 Gish, Sheri L. 614 
+Brownlow, Michael 785 Goldstein Jr., M.H. 232 
+Btilthoff, Heinrich H. 274 Goodman, Rodney M. 793 
+Cardin, Regis 218 Graf, Hans Peter 758 
+Carter, Michael J. 340 Grajski, Kamil A. 52 
+Chauvin, Yves 642 Grossman, Tal 516 
+Chen, D. 380 Guha, Aloke 447 
+Chen, H.H. 380 Gulati, Sandeep 498 
+Chemjavsky, Alex 133 Hamilton II, Alister 785 
+Chiel, Hillel J. 44 Hampshire II, John B. 203 
+Chiueh, Tzi-Dar 793 Han, II Song 785 
+Cohen, Jonathan D. 100 Hanson, Stephen Jos6 533 
+Cohn, David 566 Harp, Steven A. 447 
+36 
+852 Author Index 
+Harris, John G. 750 
+Harris-Warrick, Ronald M. 18 
+He, Yu 606 
+Henderson, D. 396 
+Hertz, John A. 733 
+Hinton, Geoffrey E. 178, 266, 509 
+Holmes, Philip J. 76 
+Horiuchi, Timothy 750 
+Hormel, Michael 332 
+Howard, R.E. 396 
+Hsu, Andrew 750 
+Huang, William Y. 194 
+Hubbard, W. 396 
+Intrator, Nathan 719 
+Inui, Toshio 298 
+Jackel, L.D. 396 
+Jacobs, Robert A. 324 
+Jain, Ajay N. 364 
+Jenkins, R.E. 232 
+Joe, Kazuki 415 
+Jordan, Michael I. 324 
+Kailath, T. 348, 668 
+Kammen, Daniel M. 76, 125 
+Kanerva, Pentti 282 
+Kassebaum, John 542 
+Kawato, Mitsuo 298 
+Keeler, James D. 482 
+Kenyon, G.T. 141 
+Koch, Christof 
+Krogh, Anders 
+Ladnet, Richard 
+Lang, Kevin J. 
+76,474,750 
+733 
+566 
+178 
+Le Cun, Y. 396, 598 
+Lebiere, Christian 524 
+Lee, Maurice 117 
+Lee, Susan Ciarrocca 
+Lee, Y.C. 168, 380 
+Lincoln, William P. 
+Lippmann, Richard P. 
+240 
+650 
+168,194 
+Littman, Michael L. 550 
+Lockery, Shawn R. 28 
+Luo, Jin 750 
+MacKay, David J.C. 694 
+Malkoff, Donald B. 248 
+Mann, Jim 226 
+Marks II, Robert J. 622 
+Martin, Gale L. 405 
+Mckenna, Michael 801 
+Mead, Carver A. 742 
+Mel, Bartlett W. 474 
+Merzenich, Michael M. 52 
+Mesirov, Jill P. 801 
+Miller, Kenneth D. 694 
+Miller, Michael I. 388 
+Miyake, Sei 298 
+Moody, John 133 
+Moopenn, A. 769 
+Morgan, N. 186, 630 
+Mori, Yoshihiro 415 
+Mozer, Michael C. 266, 439 
+Murray, Alan F. 785 
+Muthusamy, Yeshwant 622 
+Nelson, Mark E. 60 
+Nowlan, Steven J. 574 
+Nucci, Adam J. 340 
+Ntiez, Fernando, J. 810 
+Obradovic, Zoran 702 
+Okamoto,Toshiaki 298 
+Parberry, Ian 702 
+Pearson, John C. 10 
+Pineda, Fernando J. 710 
+Pittman, James A. 405 
+Platt, John C. 777 
+Pouliot, Yannick 423 
+Printz, Harry 100 
+Puff, R.D. 141 
+Reekie, H. Martin 785 
+Reklaitis, Gintams V. 355 
+Rhodes, Paul 149 
+Rieke, Fred 36 
+Rinott, Yosef 727 
+Rogers, David 445 
+Rohwer, Richard 558 
+Rudolph, Franklin J. 340 
+Saha, Avijit 482 
+Samad, Tarig 447 
+Satyanarayana, Srinagesh 758 
+Schaefers, Christoph 542 
+Author Index 853 
+Seibert, Michael 258 
+Sejnowski, T3. 28, 232 
+Servan-Schreiber, David 100 
+Simmons, James A. 2 
+Siu, Kai-Yeung 668 
+Skrzypek, Josef 650 
+Smith, Kurt R. 388 
+Smithers, Tim 308 
+Smotroff, Ira G. 818 
+Softky, William R. 125 
+Solla, Sara A. 598 
+Spence, Clay D. 10 
+Stein, Charles 727 
+Sun, G,Z. 380 
+Sutton, R.S. 686 
+Tang, D.S. 160 
+Tarassenko, Lionel 785 
+Tenorio, Manoel F. 355, 542 
+Tesauro, Gerald 465, 606 
+Thakoor, A.P. 769 
+Thorbergsson, C.I. 
+Toomarian, Nikzad 
+Touretzky, David S. 
+Tsirukis, Athanasios G. 
+Tsividis, Yannis 758 
+Viola, Paul A. 290 
+Waibel, Alex 203, 364 
+Waltz, David L. 801 
+Warland, David 36 
+Watkins, C.J.C.H. 686 
+Waxman, Allen M. 258 
+Weinshall, Daphna 274 
+Wejchert, Jakub 465 
+Wheeler, Deirdre W. 372 
+Wilson, Matthew A. 84 
+Yuhas, B.P. 232 
+Zak, Michail 583 
+Zemel, Richard S. 266 
+Zhang, Xiru 801 
+Zipset, David 638 
+733 
+498, 583 
+372, 431 
+355 

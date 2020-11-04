@@ -1,0 +1,629 @@
+a-Si:H, 763 
+abstraction, 385 
+action hierarchies, 385 
+activation functions, 279 
+active example selection, 593 
+active learning, 231,287, 385,443,593,705, 1069 
+active memory, 141 
+active vision, 451,893 
+actor/critic algorithms, 401 
+adaptive control, 1031 
+adaptive critic, 401 
+adaptive interface, 843 
+adaptive optimal control, 361 
+advantage updating, 353 
+affine transformation, 713, 1101 
+AIFNN, 1101 
+alternating minimization, 569 
+amorphous silicon memory, 763 
+amplification, 3 
+analog VLSI, 731,755,787, 795, 803,817 
+analog-digital VLSI, 811 
+analog VLSI synapses, 763 
+annealing schedule, 965 
+approximate dot product, 747 
+arm movements, 1117 
+ART 1,755 
+articulatory loop, 51 
+associative memory, 35, 77, 149, 513, 925 
+associative net, 513 
+attractor networks, 11, 35, 149 
+attractors, 173 
+auditory localization chip, 787 
+auditory models, 827 
+auditory system, 125 
+autoassociative MLP, 991 
+autoassociative networks, 941 
+autoencoder networks, 165 
+autonomous vehicle navigation, 657 
+averaging, 419 
+awareness, 11 
+axon circuit, 739 
+backpropagation, 191, 1031, 1055 
+barn owl, 125 
+basis functions, 157 
+Bayesian inference, 255 
+Bellman residual, 353 
+bias, 295 
+binary features, 475 
+biological modeling, 61 
+biophysical modeling, 3 
+blind separation, 467 
+block codes, 795 
+Boltzmann learning, 435, 617 
+boosting, 875 
+bootstrap, 1055 
+breast cancer, 1063 
+cable theory, 69 
+capacity information efficiency, 513 
+CART, 1063 
+cascade-correlation, 537, 601 
+catastrophic forgetting, 419 
+catastrophic interference, 19 
+centroid, 999 
+chaotic time series, 311 
+character recognition, 747 
+chemosensory receptors, 69 
+chess, 1069 
+circular normal density, 641 
+City Block multilayer perceptron, 747 
+classification, 1109 
+cleanup process, 11 
+clustering, 361,459, 585, 625, 681,713,779, 999 
+CMOS, 709, 811 
+CMOS vector quantizer, 779 
+coarse-to-fine search, 981 
+cochlear model, 827 
+cocktail party, 467 
+cognitive models, 141 
+cognitive task, 11 
+combined estimators, 295,419 
+combining sensory modalities, 787 
+committee, 231,419 
+compartmental models, 69 
+competition, 199 
+competitive clustering, 561 
+competitive learning, 85, 475, 497 
+computational complexity, 183 
+computational models, 85 
+conditional densities, 641 
+conditional probability, 1047 
+confidence, 1055 
+confidence intervals, 489 
+connectionist expert systems, 505 
+consciousness, 11 
+consolidation, 19 
+constrained rank Gaussian mixtures, 681 
+constructive learning, 537 
+context, 981 
+continuous speech recognition, 859 
+continuous time, 353 
+control, 19, 361, 1007, 1031 
+control gain, 1031 
+convergence, 585,649 
+convergence of backpropagation, 335 
+convergence of stochastic gradient 
+descent, 335 
+convolution network, 901 
+cooperation, 199 
+cooperative vector quantization, 617 
+coordinate transformations, 1125 
+coronary artery bypass, 1055 
+correlation based learning, 93 
+correlation network, 909 
+correlogram, 827 
+cortical columns, 117 
+cortical plasticity, 109 
+cosine units, 537 
+cost functions, 529 
+credit assignment through time, 427, 553 
+cross connections, 601 
+cross-validation, 231,489 
+cursive handwriting recognition, 1109 
+data sampling, 593 
+data selection, 459 
+data transformations, 223 
+decision processes, 345 
+decision theory, 1077 
+decoding with dynamics, 795 
+decorrelation, 475, 925 
+deformable model, 965 
+delay line, 739 
+delusions, 149 
+dementia, 35 
+density estimation, 419, 641, 1047 
+desynchrony, 199 
+diagnosis, 1077 
+differential games, 353 
+direct multi-step prediction, 721 
+direction selectivity, 3 
+discrete-time, 883 
+distance measures, 713 
+distributed representations, 505, 577 
+dopamane, 101,141 
+dynamic decay adjustment, 521 
+dynamac modelling, 311 
+dynamic programming, 345, 369, 393, 401 
+dynamac writing transformation, 1093 
+dynamical decorrelation, 925 
+dynamical systems, 481, 1031 
+early stopping, 263,489 
+effective complexity, 263 
+effective machine size, 263 
+electronic transformation, 69 
+electrontonic space, 69 
+electrotonus, 69 
+EM algorithm, 419, 427, 435, 545, 553, 585,617, 681,713,835,957, 1077, 1085 
+ensemble, 231 
+entropy, 287, 467,475 
+error feedback, 1031 
+ERS-1 satellite, 641 
+estimation, 295 
+evidence, 255 
+example selection, 593 
+expectation-maximization, 419,427,435, 545, 553,585, 617, 681,713,835, 957, 1077, 1085 
+experiment design, 593 
+explanation-based neural networks, 1069 
+extra outputs, 657 
+face recognition, 747 
+facial expressions, 909 
+factoffal coding, 467 
+factorial learning, 561,617 
+feature maps, 577 
+feedback, 925 
+feedback connections, 3 
+financial markets, 411,529 
+finite size effects, 217 
+finite state machine, 697 
+fixed point attractors, 319 
+flat minima, 529 
+floating gate synapses, 817 
+focal lesions, 35 
+forecasting, 721 
+foreign exchange, 411 
+forward model, 43 
+frame of reference, 157 
+function approximation, 231,361 
+fusion, 1007 
+gain control, 925 
+games, 1069 
+Gamma operator, 883 
+Gauss-Newton, 673 
+Gaussian mixture models, 1077 
+generalization, 207, 215, 223,263,287, 303, 327, 361,489, 529, 649 , 657, 1125 
+generalization dynamics, 263 
+gesture recognition, 901 
+gesture-to-speech device, 843 
+Gibbs sampling, 617 
+global motion perception, 917 
+Glove-Talk II, 843 
+gradient descent, 585,803 
+grammar, 27 
+grammar inference, 427 
+graph matching, 713 
+graph searching, 665 
+ground truth, 1085 
+grow-support algorithm, 369 
+growing structures, 497 
+H-infinity training, 191 
+hallucinations, 149 
+hand tracking, 901 
+handwriting decomposition, 1023 
+handwriting preprocessing, 1093 
+handwriting synthesis, 1023 
+handwritten character recognition, 965, 1093, 1101 
+handwritten digit recognition, 999 
+head direction, 173 
+heart arrythmia, 731 
+heart attack, 1055 
+Hebbian learning, 93, 319 
+Hebbian synapses, 69 
+Helmholtz machine, 1015 
+hidden Markov models, 427, 435, 553, 617, 851,859, 867, 875 
+hidden state, 377 
+hierarchical mixture of experts, 835 
+hierarchical representation, 941 
+hierarchies, 385 
+high dimensional spaces, 747 
+hints, 411 
+hippocampal neurons, 69 
+hippocampus, 173 
+hippocampus model, 77 
+HMM, 427, 435, 553,617, 851,859, 867, 875 
+honey bee, 61 
+horizontal connections, 109 
+Hough transform, 965 
+human-computer interaction, 901, 1039 
+hybrid digital-analogue network, 1007 
+hyperparameters, 255 
+hysteresis, 3 
+image analysis, 1085 
+image compression, 941 
+image interpolation, 973 
+image model, 965 
+image processing, 451,901 
+image pyramids, 941 
+image recognition, 657 
+image search, 981 
+imperfectly learnable problems, 287 
+implantable systems, 731 
+incomplete data, 545 
+incomplete patterns, 689 
+information gain, 287, 475 
+information theory, 467, 925 
+inhibition, 61,141 
+instance-based learning, 377 
+instantiation parameters, 965 
+interacardiac electrogram classifier, 731 
+interference, 1117 
+interior point method, 569 
+internal model, 43 
+ivariances, 991, 1007 
+invariant distance, 999 
+invariant recognition, 223 
+inverse dynamics, 19 
+inverse problems, 101 
+iterated prediction, 311 
+iterative projective scaling, 957 
+joint probability distribution, 1077 
+JPMAX, 933 
+k-blocking, 279 
+k-means, 585, 681 
+k-nearest neighbor, 377 
+Kalman filter, 43 
+Kerr-type materials, 771 
+keyboard input, 1039 
+knowledge incorporation, 991 
+knowledge representations, 601 
+Kohonen map, 497, 893 
+Korean speech recognition, 811 
+Lagrangian, 771 
+lateral connections, 117 
+lateral geniculate, 133 
+lateral inhibition, 109 
+learning curves, 239, 303, 327 
+learning dynamics, 207 
+learning from hints, 411 
+learning rate, 303 
+least squares, 295 
+lesions, 35 
+LGN organization, 133 
+Lie groups, 223 
+limit cycles, 481 
+limiting performance, 239 
+linear perceptron, 207 
+linear programming, 505 
+Linsker model, 319 
+lipreading, 851,973 
+LISSOM, 109 
+local error bars, 835 
+local linear models, 973, 1015 
+local models, 697 
+local PCA, 973 
+locally weighted regression, 705 
+LOESS, 705 
+log-polar sensors, 893 
+logistic regression, 1055, 1063 
+long-term dependencies, 427 
+low loss redundancy reduction, 247 
+low power neural net, 731 
+LVQ, 681 
+Lyapunov exponent, 311 
+macaque monkey, 93 
+magnetic equilibrium, 1007 
+manifold learning, 973 
+Markov decision problems, 345, 393 
+Markov decision process, 361 
+Markov distributions, 279 
+Markov Monte Carlo, 443 
+master equations, 271 
+maximum entropy, 459, 545 
+maximum expected utility, 1077 
+maximum likelihood, 489, 545, 633 
+mean field theory, 957 
+medical risk, 1055 
+medicine, 1063 
+memory, 51 
+memory-based leaming, 377 
+minimax, 353 
+minimax estimation, 191 
+minimum description length, 165, 1015 
+missing data, 459, 545,689, 1077 
+mixture models, 419, 459, 585, 641,681,689, 705, 713, 1015, 1077 
+mixture of experts, 19, 419, 427, 633, 843, 859, 973, 1125 
+model selection, 443 
+model-fitting, 933 
+modular architecture, 901 
+modularity, 11 
+moments, 271 
+Monte-Carlo, 345 
+morphogenesis, 133 
+motion, 933 
+motion processing, 165 
+motor control, 43, 1017, 1125 
+motor learning, 19, 1023, 1117 
+motor maps, 893 
+movement primitives, 1023 
+MST, 165 
+multi-resolution, 981 
+multidimensional scaling, 459 
+multiple attractors, 319 
+multiple experts, 1085 
+multiple outputs, 721 
+multitask learning, 657 
+n-of-m expressions, 609 
+natural language, 27 
+navigation, 173 
+nearest neighbor, 377, 999 
+nearest sequence memory, 377 
+network analysis, 601 
+network interpretation, 505, 609 
+neural coding, 165 
+neural control, 1031 
+neural development, 93 
+neural gas, 497, 625 
+neural predictor, 1047 
+neuroanatomy, 117 
+neuro-chess, 1069 
+neuromodulation, 141 
+neuromorphic rendering, 69 
+neuronal modeling, 3 
+neuroscience, 125 
+Newton optimization, 585 
+NMDA synapse, 101 
+noise, 649 
+noisy data, 689 
+noisy neurons, 279 
+non-equilibrium systems, 271 
+non-Gaussian limiting behavior, 335 
+non-Markov environments, 377 
+nonlinear control, 1031 
+nonlinear decorrelation, 247 
+nonlinear dynamics, 319 
+nonlinear interpolation, 973 
+nonlinear system identification, 883 
+object recognition, 901,933 
+observer model, 43 
+OCR, 965,991, 1015, 1093, 1101, 1109 
+ocular dominance, 93 
+ocular dominance wavelength, 109 
+ocular-motor learning, 1125 
+olfaction, 61 
+on-line learning, 303, 335 
+optic flow, 165 
+optical back-propagation, 771 
+optical character recognition, 665, 991, 
+1015, 1093, 1101, 1109 
+optical imaging, 93 
+optical implementation, 771 
+optimal brain surgeon, 673 
+optimal stopping, 263 
+orientation, 173 
+orientation adaptation, 925 
+orientation columns, 925 
+orientation selectivity, 93, 117 
+oscillator, 199 
+outcome, 1063 
+overfitting, 489, 529 
+PAC learning, 215, 279 
+pairwise classifier, 1109 
+pancakes, 1015 
+parallel implementations of MLP, 747 
+parameter estimation, 545 
+parameter fitting, 61 
+parietal cortex, 157 
+Parzen windows, 689 
+patchy projections, 117 
+pathological attractors, 149 
+pattem classification, 665 
+pattem model, 93 
+pattem recognition, 999 
+PCA-pyramids, 941 
+perceptron, 279, 303 
+perceptual learning, 917 
+perceptual organization, 165 
+performance prediction, 239 
+periodic variables, 641 
+persistent state, 11 
+perturbative learning, 803 
+phase space learning, 481 
+phonological store, 51 
+piecewise fits, 633 
+plasma, 1007 
+plasticity, 173 
+plasticity site, 125 
+plasticity-mediated competition, 475 
+Poisson clumping heuristic, 327 
+pose, 957 
+posterior probabilities, 545, 1109 
+prediction, 489, 1063 
+prediction error, 443 
+predictive coding, 1047 
+prefrontal cortex, 141 
+primary visual system, 319 
+principal component analysis, 601,941 
+prior knowledge, 411,419, 553,713 
+probabilistic classifier, 1109 
+probabilistic interpretation, 489 
+probabilistic outputs, 1109 
+product units, 537 
+protein sequences, 459 
+pruning, 529, 673 
+psychophysical models, 917 
+psychophysics, 19 
+pulse-based computation, 739 
+Q-leaming, 353, 361,385, 393,401 
+qualitative analysis, 319 
+quantization, 941 
+quatemions, 957 
+queries, 443,593,705 
+query learning, 231,287 
+queueing systems, 393 
+radial basis functions, 497, 521,569, 1125 
+rank deficient mixtures, 681 
+rat, 173 
+RBF, 521 
+real-time recurrent learning, 673 
+real-time control, 1007 
+receiver operating characteristic, 875, 1085 
+receptive field formation, 319 
+receptor-transducer model, 61 
+recurrent networks, 141, 31 I, 427, 553, 649, 697 
+redundancy reduction, 247 
+refractory effects, 271 
+regression, 231,489 
+regularization, 223,649 
+rehearsal, 51 
+reinforcement learning, 101, 125,345, 361, 369, 377, 385, 393, 401, 1069 
+relaxation, 199 
+remote sensing, 641, 1085 
+representation, 361 
+residual gradient algorithms, 353 
+robot arm kinematics, 505 
+robustness, 191 
+ROC, 875, 1085 
+rotation invariance, 665 
+rule extraction, 505, 601,609 
+rule verification, 505 
+saccadic eye movements, 893 
+saliency map, 451 
+sample complexity, 215, 327 
+sample size requirements, 327 
+scene segmentation, 199 
+schizophrenia, 141,149 
+second messenger, 61 
+second-order methods, 529, 585 
+second-order optimization, 673 
+segmentation, 165, 901 
+selective attention, 451 
+selective gating, 199 
+self-organization, 27, 77, 109, 319,925 
+semi-Markov decision problems, 393 
+sense of direction, 173 
+sensorimotor coordination, 157 
+sensorimotor integration, 43, 1125 
+sequence analysis, 933 
+sequence learning, 427, 553 
+sequence processing, 577 
+serial order, 51 
+shared hidden units, 721 
+shift operator, 883 
+short-term memory, 51,141 
+signal processing, 883 
+single transistor synapses, 817 
+singular value decomposition, 999 
+skills, 385 
+smooth value iteration, 369 
+soft clustering, 957 
+soft assign, 957 
+softmax, 51 
+spatial filters, 893 
+spatial representations, 157 
+speaker adaptation, 867 
+speaker normalization, 867 
+speaker transformation, 875 
+spectrogram inversion, 827 
+speech coding, 835 
+speech processing, 467 
+speech reading, 851 
+speech recognition, 577, 859, 867, 875 
+speech recognition with mixture of 
+experts, 859 
+speech reconstruction, 827 
+speech representation, 827 
+spikes, 739 
+spiking neurons, 183 
+state aggregation, 361 
+state estimation, 43 
+state identification, 377 
+statistical mechanics, 271,287, 545 
+statistical physics, 255 
+statistical properties of high-D spaces, 747 
+stochastic approximation, 303, 335, 803 
+stochastic gradient ascent, 101 
+stochastic learning, 649 
+stochastic neurodynamics, 271 
+stochastic perceptrons, 279 
+strabismus, 109 
+structure, 385 
+subjective probability, 1085 
+subspace models, 999 
+sun spots, 673 
+superior colliculus, 893 
+supervised leaming, 255, 657, 721 
+survival, 1063 
+symbolic rules, 609 
+symmetries, 223 
+symmetry hint, 411 
+synaptic interactions, 69 
+synaptic perturbation, 101 
+synchrony, 199 
+system identification, 697, 883 
+talker transformation, 875 
+talking machine, 843 
+tangent distance, 665, 991,999, 1015, 1101 
+TD leaming, 721 
+templates, 957 
+temporal coherence, 933 
+temporal difference, 401 
+temporal difference learning, 1069 
+temporal dynamics, 263 
+temporal processing, 85,883 
+temporal sequences, 51 
+text compression, 1047 
+text prediction, 1039, 1047 
+thalamus, 173 
+thermodynamic limit, 207 
+three-dimensional object recognition, 949 
+three-state neurons, 271 
+time series, 489 
+time series prediction, 435,673,721,835 
+time-delay neural network, 697, 1093 
+timing precision, 183 
+TNM staging system, 1063 
+tokamak, 1007 
+topological map, 497, 577 
+trajectory learning, 481 
+transfer, 19 
+transformation, 991 
+transformation invariance, 665 
+translation invariance, 665 
+two-dimensional views, 949 
+two-port analysis, 69 
+two-spirals problem, 601 
+typing, 1039 
+unrealizable rule, 255,287 
+unsupervised 3-D object recognition, 949 
+unsupervised learning, 109, 165, 247,459, 467, 475, 497, 561,577, 585, 617, 625, 681,713,933,949 
+unsupervised motor learning, 1023 
+URAN, 811 
+validity interval analysis, 505 
+value iteration, 369 
+van der Pol oscillator, 481 
+variance, 295 
+variance estimation, 705 
+VC dimension, 215, 327 
+VC bounds, 327 
+vector quantization, 625, 779, 835 
+vectorial code, 157 
+velocity tuning, 3 
+virtual examples, 411 
+vision, 451,933,973 
+visual attention, 451 
+visual cortex, 3, 93, 157, 165 
+visuomotor learning, 1125 
+VLSI, 731,811 
+VLSI algorithms, 747 
+VLSI dynamical decoder, 795 
+VLSI synapses, 817 
+vocabulary acquisition, 51 
+VQ chip, 779 
+weight decay, 529, 649 
+weight perturbation, 803 
+weight templates, 609 
+well-formed state, 11 
+wind vectors, 641 
+winner-take-all, 51,513,681 
+word spotting, 875 
+working memory, 1117 
+zip codes, 999 

@@ -1,0 +1,45 @@
+Some notes on the format of the MATLAB data for NIPS text.
+
+Sam Roweis                   http://www.cs.toronto.edu/~roweis/
+-------------------------------------------------------------------
+
+nips12raw_strxxx.mat (main data)
+
+counts   -- main data, holding the sparse raw counts 
+            for each word in each paper.
+wl       -- wordlist
+wc       -- total counts for each word.
+ptitles  -- paper titles
+plengths -- number of words in each paper
+anames   -- author names
+apapers  -- which papers each author is on
+            (in the form on an index matching the row numbers in "count")
+panum    -- number of authors each paper had
+docnames -- raw file corresponding to each paper.
+
+
+nips12ac_strxxx.mat (author counts)
+
+acounts -- co-author weighted total word usage for each author
+           (papers with k co-authors give fractional word counts
+            evenly to all authors)
+           add up counts(paper)/panum(paper) for each paper they are on
+acountsr -- raw total word usage for each author, just add up counts
+            for all papers they were on, ignore co-authorship
+
+
+nips12pages_strxxx.mat (page/conference info)
+
+Of questionable value, unless you have a real
+thing about distinguishing one NIPS volume from another
+or a thing about original page numbers:
+
+confpids -- the papers that appeared in each nips 0-12
+confpages -- the page numbers at which papaers begin in each volume
+apages   -- nips volumes and page numbers (as a 2d array)
+            for all the papers published by each author
+pclass   -- which nips each paper is in
+pauthnames -- raw, uncorrected authorlist from contents files
+              (not sure why you would need these)
+
+

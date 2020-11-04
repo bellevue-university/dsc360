@@ -1,0 +1,687 @@
+ADVANCES IN 
+NEURAL 
+INFORMATION 
+PROCESSING 
+SYSTEMS 3 
+Other Titles of Interest from 
+Morgan Kaufmann Publishers 
+NIPS 
+-2- 
+Advances in Neural Information Processing Systems 
+Proceedings of the 1989 Conference 
+Edited by David S. Touretzky 
+NIPS -1- 
+Advances in Neural Information Processing Systems 
+Proceedings of the 1988 Conference 
+Edited by David S. Touretzky 
+Computer Systems That Learn: Classification and Prediction Methods from 
+Statistics, Neural Nets, Machine Learning, and Expert Systems 
+By Sholom M. Weiss and Casimir A. Kulikowski 
+Connectionist Models Summer School Proceedings 
+1990 Edited by David S. Touretzky, Jeffrey L. Elman, Terrence J. 
+Sejnowski, and Geoffrey E. Hinton 
+1988 Edited by David S. Touretzky, Geoffrey E. Hinton, and 
+Terrence J. Sejnowski 
+Learning Machines 
+By Nils J. Nilsson, with an Introduction by Terrence Sejnowski and 
+Halbert White 
+Readings in Speech Recognition 
+Edited by Alex Waibel and Kai-Fu Lee 
+COLT Proceedings of the Annual Workshops on Computational Learning 
+Theory: 
+1990 Edited by Mark Fulk and John Case 
+1989 Edited by Ron Rivest, Manfred Warmuth, and David Haussler 
+1988 Edited by David Haussler and Leonard Pitt 
+Genetic Algorithms: Proceedings of the Third International Conference 
+Edited by David Schaffer 
+Readings in Cognitive Science: A Perspective from Psychology 
+Intelligence 
+Edited by Allan Collins and Edward Smith 
+and Artificial 
+ADVANCES IN 
+NEURAL 
+INFORMATION 
+PROCESSING 
+SYSTEMS 3 
+EDITED BY 
+RICHARD P. LIPPMANN 
+MIT LINCOLN LABORATORY 
+JOHN E. MOODY 
+YALE UNIVERSITY 
+DAVID S. TOURETZKY 
+CARNEGIE MELLON UNIVERSITY 
+MORGAN KAUFMANN PUBLISHERS 
+2929 C,vtPUS DRIVE 
+SUITE 260 
+SAN MATEO, CALIFORNIA 94403 
+Editor Bruce M. Spatz 
+Production Editor Sharon Montooth 
+Cover Design Jo Jackson 
+Compositor Technically Speaking Publications 
+CIP data is available. 
+ISSN 1049-5258 
+ISBN 1-55860-184-8 
+MORGAN KAUFMANN PUBLISHERS, INC. 
+2929 Campus Drive 
+San Mateo, CA 94403 
+(415) 578-9911 
+¸ 1991 by Morgan Kaufmann Publishers, Inc. 
+All rights reserved. 
+Printed in the United States of America 
+No part of this publication may be reproduced, stored in a retrieval sys- 
+tem, or transmitted in any form or by any means electronic, mechani- 
+cal, photocopying, recording, or otherwisewithout the prior permis- 
+sion of the publisher. 
+95 94 93 92 91 5 4 3 2 1 
+Contents 
+Part I Neurobiology 
+Studies of a Model for the Development and Regeneration of Eye-Brain Maps . . 
+J.D. Cowan and A.E. Friedman 
+Development and Spatial Structure of Cortical Feature Maps: A Model Study . . 
+K. Obermayer, H. Ritter, and K. Schulten 
+Interaction Among Ocularity, Retinotopy and On-center/Off-center Pathways . . 
+Shigeru Tanaka 
+Simple Spin Models for the Development of Ocular Dominance Columns and Iso- 
+Orientation Patches ........................... 
+J.D. Cowan and A.E. Friedman 
+A Recurrent Neural Network Model of Velocity Storage in the Vestibulo-Ocular 
+Reflex ................................. 
+Thomas J. Anastasio 
+Self-organization of Hebbian Synapses in Hippocampal Neurons ........ 
+Thomas H. Brown, Zachary F. Mainen, Anthony M. Zador, and Brenda J. Claiborne 
+Cholinergic Modulation May Enhance Cortical Associative Memory Function . . 
+Michael E. Hasselmo, Brooke P. Anderson, and James M. Bower 
+Part II Neuro-Dynamics 
+Order Reduction for Dynamical Systems Describing the Behavior of Complex 
+Neurons ................................ 
+Thomas B. Kepler, L.F. Abbott, and Eve Marder 
+Stochastic Neurodynamics ........................ 
+J.D. Cowan 
+Dynamics of Learning in Recurrent Feature-Discovery Networks ........ 
+Todd K. Leen 
+A Lagrangian Approach to Fixed Points ................... 
+Eric Mjolsness and Willard L. Miranker 
+Associative Memory in a Network of 'Biological' Neurons .......... 
+Wulfram Gerstner 
+CAM Storage of Analog Patterns and Continuous Sequences with 3N 2 Weights . 
+Bill Baird and Frank Eeckman 
+3 
+11 
+18 
+26 
+32 
+39 
+46 
+55 
+62 
+70 
+77 
+84 
+91 
+v 
+Connection Topology and Dynamics in Lateral Inhibition Networks 
+CdVI. Marcus, F.R. Waugh, and R.M. Westervelt 
+Shaping the State Space Landscape in Recurrent Networks ....... 
+Patrice Y. Simard, Jean Pierre Raysz, and Bernard Victorri 
+Adjoint-Functions and Temporal Learning Algorithms in Neural Networks 
+N. Toomarian and ]. Barhen 
+Part III Oscillations 
+Phase-coupling in Two-Dimensional Networks of Interacting Oscillators . . . 
+Ernst Niebur, Daniel M. Kammen, Christof Koch, Daniel Ruderman, and Heinz G. 
+Schuster 
+Oscillation Onset in Neural Delayed Feedback . 
+Andr Longtin 
+Analog Computation at a Critical Point .... 
+Leonid Kruglyak and William Bialek 
+Part IV Temporal Reasoning 
+Modeling Time Varying Systems Using Hidden Control Neural Architecture 
+Esther Levin 
+The Tempo 2 Algorithm: Adjusting Time-Delays By Supervised Learning .... 
+Ulrich Bodenhausen and Alex Waibel 
+A Theory for Neural Networks with Time Delays 
+Bert de Vries and Jose C. Principe 
+ART2/BP Architecture for Adaptive Estimation of Dynamic Processes 
+Einar Sorheim 
+Statistical Mechanics of Temporal Association in Neural Networks 
+Andreas V.M. Herz, Zhaoping Li, and ]. Leo van Hemmen 
+Learning Time-varying Concepts .............. 
+Anthony Kuh, Thomas Petsche, and Ronald L. Rivest 
+The Recurrent Cascade-Correlation Architecture ........ 
+Scott E. Fahlman 
+98 
+105 
+113 
+123 
+130 
+137 
+147 
+155 
+162 
+169 
+176 
+183 
+190 
+Part V Speech 
+Continuous Speech Recognition by Linked Predictive Neural Networks .... 
+Joe Tebelskis, Alex Waibel, Bojan Petek, and Otto Schmidbauer 
+A Recurrent Neural Network for Word Identification from Continuous Phoneme 
+Strings ................................ 
+Robert B. Allen and Candace A. Kamm 
+ß 199 
+vi 
+Connectionist Approaches to the Use of Markov Models for Speech Recognition . 
+Herv Boutlard, Nelson Morgan, and Chuck Woofers 
+Spoken Letter Recognition ........................ 
+Mark Fant¾ and Ronald Cole 
+Speech Recognition Using Demi-Syllable Neural Prediction Model ....... 
+Ken-ichi Iso and Takao Watanabe 
+RecNorm: Simultaneous Normalisation and Classification Applied to Speech 
+Recognition ............................... 
+John S. Bridle and Stephen J. Cox 
+Exploratory Feature Extraction in Speech Signals ............... 
+Nathan Intrator 
+Phonetic Classification and Recognition Using the Multi-Layer Perceptton .... 
+Hong C. Leung, James R. Glass, Michael S. Phillips, and Victor W. Zue 
+From Speech Recognition to Spoken Language Understanding ......... 
+Victor Zue, James Glass, David Goodine, Lynette Hirschman, Hong Leung, Michael 
+Phillips, Joseph Polifroni, and Stephanie Seneft 
+Speech Recognition using Connectionist Approaches ............. 
+Khalid Choukri 
+Part VI Signal Processing 
+Natural Dolphin Echo Recognition Using an Integrator Gateway Network... 
+Herbert L. Roitblat, Patrick W.B. Moore, Paul E. Nachtigall, and Ralph H. Penner 
+Signal Processing by Multiplexing and Demultiplexing in Neurons ...... 
+David C. Tam 
+Applications of Neural Networks in Video Signal Processing 
+John C. Pearson, Clay D. Spence, and Ronald Sverdlove 
+Part VII Visual Processing 
+Discovering Viewpoint-Invariant Relationships That Characterize Objects 
+Richard S. Zemel and Geoffrey E. Hinton 
+A Neural Network Approach for Three-Dimensional Object Recognition 
+Volker Tresp 
+A Second-Order Translation, Rotation and Scale Invariant Neural Network 
+Shelly D.D. Goggin, Kristina M. Johnson, and Karl E. Gustafson 
+Learning to See Rotation and Dilation with a Hebb Rule ........ 
+Martin I. Sereno and Margaret E. Sereno 
+Stereopsis by a Neural Network Which Learns the Constraints ..... 
+Alireza Khotanzad and Ying-Wung Lee 
+213 
+220 
+227 
+234 
+241 
+248 
+255 
+262 
+273 
+282 
+289 
+299 
+306 
+313 
+320 
+327 
+vii 
+Grouping Contours by Iterated Pairing Network ............... 
+Amnon Shashua and Shimon Ullman 
+Neural Dynamics of Motion Segmentation and Grouping ........... 
+Ennio Mingolla 
+A Multiscale Adaptive Network Model of Motion Computation in Primates . . . 
+H. Taichi Wang, Bimal Matbur, and Christof Koch 
+Qualitative Structure From Motion ..................... 
+Daphna Weinshall 
+Optimal Sampling of Natural Images .................... 
+William Bialek, Daniel L. Ruderman, and A. Zee 
+A VLSI Neural Network for Color Constancy ................ 
+Andrew Moore, John Allman, Geoffrey Fox, and Rodney Goodman 
+Optimal Filtering in the Salamander Retina ................. 
+Fred Rieke, W. Geoffrey Owen, and William Bialek 
+A Four Neuron Circuit Accounts for Change Sensitive Inhibition in Salamander 
+Retina ................................. 
+Jeffrey L. Teeters, Frank H. Eeckman, and Frank S. Werblin 
+Feedback Synapse to Cone and Light Adaptation ............... 
+Josef Skrzypek 
+An Analog VLSI Chip for Finding Edges from Zero-crossings ......... 
+Wyeth Bair and Christof Koch 
+A Delay-Line Based Motion Detection Chip ................. 
+Tim Horiuchi, John Lazzaro, Andrew Moore, and Christof Koch 
+Part VIII Control and Navigation 
+Neural Networks Structured for Control Application to Aircraft Landing .... 
+Charles Schley, Yves Chauvin, Van Henkle, and Richard Golden 
+Real-time Autonomous Robot Navigation Using VLSI Neural Networks .... 
+Lionel Tarassenko, Michael Brownlow, Gillian Marshall, Jon Tombs, and Alan 
+Murray 
+Rapidly Adapting Artificial Neural Networks for Autonomous Navigation . . . 
+Dean A. Pomerleau 
+Learning Trajectory and Force Control of an Artifidal Muscle Arm ....... 
+Masazumi Katayama and Mitsuo Kawato 
+Proximity Effect Corrections in Electron Beam Lithography .......... 
+Robert C. Frye, Kevin D. Cummings, and Edward A. Reitman 
+335 
+342 
+349 
+356 
+363 
+370 
+377 
+384 
+391 
+399 
+406 
+415 
+422 
+429 
+436 
+443 
+VIII 
+Planning with an Adaptive World Model .................. 
+Sebastian B. Thrun, Knut Mi)'ller, and Alexander Linden 
+A Connectionist Learning Control Architecture for Navigation ......... 
+Jonathan R. Bachrach 
+Navigating Through Temporal Difference .................. 
+Peter Dayan 
+Integrated Modeling and Control Based on Reinforcement Learning ...... 
+Richard S. Sutton 
+A Reinforcement Learning Variant for Control Scheduling ........... 
+Aloke Guha 
+Adaptive Range Coding ......................... 
+Bruce E. Rosen, James M. Goodwin, and Jacques J. Vidal 
+Neural Network Implementation of Admission Control ............ 
+Rodolfo A. Milito, Isabelle Guyon, and Sara A. Solla 
+Reinforcement Learning in Markovian and Non-Markovian Environments . . . 
+fiirgen Schmidhuber 
+A Model of Distributed Sensorimotor Control in The Cockroach Escape Turn . . 
+R.D. Beer, G.J. Kacmarcik, R.E. Ritzmann, and H.J. Chiel 
+Flight Control in the Dragonfly: A Neurobiological Simulation ......... 
+William E. Faller and Marvin W. Luttges 
+Part IX Applications 
+A Novel Approach to Prediction of the 3-Dimensional Structures ........ 
+Henrik Fredholm, Henrik Bohr, Jakob Bohr, Soren Brunak, Rodney M.J. Cotterill, 
+Benny Lautrup, and Steffen B. Petersen 
+Training Knowledge-Based Neural Networks to Recognize Genes ....... 
+Michiel O. Noordewier, Geoffrey G. TowelL and Jude W. Shavlik 
+Neural Network Application to Diagnostics ................. 
+Kenneth A. Marko 
+Lg Depth Estimation and Ripple Fire Characterization ............ 
+John L. Perry and Douglas R. Baumgardt 
+A B-P ANN Commodity Trader ...................... 
+Joseph E. Collard 
+Integrated Segmentation and Recognition of Hand-Printed Numerals ...... 
+James D. Keeler, David E. Rumelhart, and Wee-Kheng Leow 
+EMPATH: Face, Emotion, and Gender Recognition Using Holons ....... 
+Garrison W. Cottrell and Janet Metcalfe 
+450 
+457 
+464 
+471 
+479 
+486 
+493 
+500 
+507 
+514 
+523 
+530 
+537 
+544 
+551 
+557 
+564 
+ix 
+SEXNET: A Neural Network Identifies Sex From Human Faces ........ 
+B.A. Golomb, D.T. Lawrence, and T.J. Sejnowski 
+A Neural Expert System with Automated Extraction of Fuzzy If-Then Rules . . . 
+Yoichi Hayashi 
+Analog Neural Networks as Decoders ................... 
+Ruth Erlanson and Yaser Abu-Mostafa 
+Part X Language and Cognition 
+Distributed Recursive Structure Processing ................. 
+Graldine Legendre, Yoshiro Miyata, and Paul Smolensky 
+Translating Locative Prepositions ..................... 
+Paul W. Munro and Mary Tabasko 
+A Short-Term Memory Architecture for the Learning of Morphophonemic Rules . 
+Michael Gasser and Chan-Do Lee 
+Exploiting Syllable Structure in a Connectionist Phonology Model ....... 
+David S. Touretzky and Deirdre W. Wheeler 
+Language Induction by Phase Transition in Dynamical Recognizers ....... 
+Jordan B. Pollack 
+Discovering Discrete Distributed Representations .............. 
+Michael C. Mozer 
+Direct Memory Access Using Two Cues ................... 
+Janet Wiles, Michael S. Humphreys, John D. Bain, and Simon Dennis 
+An Attractor Neural Network Model of Recall and Recognition ........ 
+Eytan Ruppin and Yechezkel Yeshurun 
+ALCOVE: A Connectionist Model of Human Category Learning ........ 
+John K. Kruschke 
+Spherical Units as Dynamic Consequential Regions .............. 
+Stephen Jos Hanson and Mark A. Gluck 
+Connectionist Implementation of a Theory of Generalization 
+Roger N. Shepard and Sheila Kannappan 
+Part XI Local Basis Functions 
+Adaptive Spline Networks ........................ 
+Jerome H. Friedman 
+Multi-Layer Perceptrons with B-Spline Receptive Field Functions ........ 
+Stephen H. Lane, Marshall G. Flax, David A. Handelman, and Jack J. Gelfand 
+572 
+578 
+585 
+591 
+598 
+6O5 
+612 
+619 
+627 
+635 
+642 
+649 
+656 
+665 
+675 
+684 
+x 
+Bumptrees for Efficient Function, Constraint, and Classification Learning .... 
+Stephen M. Omohundro 
+Basis-Function Trees as a Generalization of Local Variable Selection Methods . . 
+Terence D. Sanger 
+Generalization Properties of Radial Basis Functions .............. 
+Sherif M. Botros and Christopher G. Atkeson 
+Learning by Combining Memorization and Gradient Descent ......... 
+John C. Platt 
+Sequential Adaptation of Radial Basis Function Neural Networks ....... 
+V. Kadirkamanathan, M. Niranjan, and F. Fallside 
+Oriented Non-Radial Basis Functions for Image Coding and Analysis ...... 
+Avijit Saha, Jim Christian, D.S. Tang, and Chuan-Lin Wu 
+Computing with Arrays of Bell-Shaped and Sigrnoid Functions ........ 
+Pierre Baldi 
+Discrete Affine Wavelet Transforms .................... 
+Y.C. Pati and P.S. Krishnaprasad 
+Extensions of a Theory of Networks for Approximation and Learning ...... 
+Federico Girosi, Tomaso Poggio, and Bruno Caprile 
+How Receptive Field Parameters Affect Neural Learning ........... 
+Bartlett W. Mel and Stephen M. Omohundro 
+Part XII Learning Systems 
+A Competitive Modular Connectionist Architecture ............. 
+Robert A. Jacobs and Michael I. Jordan 
+Evaluation of Adaptive Mixtures of Competing Experts ............ 
+Steven J. Nowlan and Geoffrey E. Hinton 
+A Framework for the Cooperation of Learning Algorithms .......... 
+Lon Bottou and Patrick Gallinari 
+Connectionist Music Composition Based on Melodic and Stylistic Constraints . . 
+Michael C. Mozer and Todd Soukup 
+Using Genetic Algorithms to Improve Pattern Classification Performance .... 
+Eric I. Chang and Richard P. Lippmann 
+Evolution and Learning in Neural Networks ................. 
+Ron Keesing and David G. Stork 
+Designing Linear Threshold Based Neural Network Pattern Classifiers ..... 
+Terrence L. Fine 
+693 
+700 
+707 
+714 
+721 
+728 
+735 
+743 
+750 
+757 
+767 
+774 
+781 
+789 
+797 
+804 
+811 
+xi 
+On Stochastic Complexity and Admissible Models for Neural Network Classifiers 818 
+Padhraic $myth 
+Efficient Design of Boltzmann Machines ................... 825 
+Ajay Gupta and Wolfgang Maass 
+Note on Learning Rate Schedules for Stochastic Optimization ......... 832 
+Christian Darken and John Moody 
+Convergence of a Neural Network Classifier ................ 839 
+John S. Baras and Anthony LaVigna 
+Learning Theory and Experiments with Competitive Networks ........ 846 
+Griff L. Bilbro and David E. Van den Bout 
+Transforming Neural-Net Output Levels to Probability Distributions ...... 853 
+John S. Denker and Yann leCun 
+Back Propagation is Sensitive to Initial Conditions . 
+John F. Kolen and Jordan B. Pollack 
+Closed-Form Inversion of Backpropagation Networks 
+Michael L. Rossen 
+Part XIII Learning and Generalization 
+860 
+868 
+Generalization by Weight-Elimination with Application to Forecasting ..... 875 
+Andreas S. Weigend, David E. Rumelhart, and Bernardo A. Huberman 
+The Devil and the Network ........................ 883 
+Sanjay Biswas and Santosh S. Venkatesh 
+Generalization Dynamics in LMS Trained Linear Networks .......... 890 
+Yves Chauvin 
+Dynamics of Generalization in Linear Perceptrons .............. 897 
+Anders Krogh and John A. Hertz 
+Constructing Hidden Units Using Examples and Queries ........... 904 
+Eric B. Baum and Kevin J. Lang 
+Can Neural Networks do Better Than the Vapnik-Chervonenkis Bounds? .... 911 
+David Cohn and Gerald Tesauro 
+Second Order Properties of Error Surfaces .................. 918 
+Yann Le Cun, Ido Kanter, and Sara A. Solla 
+Chaitin-Kolmogorov Complexity and Generalization in Neural Networks .... 925 
+Barak A. Pearlmutter and Ronald Rosenfeld 
+Asymptotic Slowing Down of the Nearest-Neighbor Classifier ......... 932 
+Robert R. Snapp, Demetri Psaltis, and Santosh S. Venkatesh 
+xii 
+Remarks on Interpolation and Recognition Using Neural Nets ......... 939 
+Eduardo D. Sontag 
+e-Entropy and the Complexity of Feedforward Neural Networks ........ 946 
+Robert C. Williamson 
+On The Circuit Complexity of Neural Networks ............... 
+V.P. Roychowdhury, A. Orlitsky, K.Y. Siu, and T. Kailath 
+953 
+Part XIV Performance Comparisons 
+Comparison of Three Classification Techniques, CART, C4.5 and Multi-Layer 
+Perceptrons ............................... 963 
+A.C. Tsoi and R.A. Pearson 
+Practical Characteristics of Neural Network and Conventional Pattern Classifiers. 970 
+Kenney Ng and Richard P. Lippmann 
+Time Trials on Second-Order and Variable-Learning-Rate Algorithms ...... 977 
+Richard Rohwer 
+Kohonen Networks and Clustering ..................... 984 
+Wesley Snyder, Daniel Nissman, David Van den Bout, and Griff Bilbro 
+Part XV VLSI 
+VLSI Implementations of Learning and Memory Systems ........... 993 
+Mark A. Holier 
+Compact EEPROM-based Weight Functions ................. 1001 
+A. Kramer, C.K. Sin, R. Chu, and P.K. Ko 
+An Analog VLSI Splining Network ..................... 1008 
+Daniel B. Schwartz and Vijay K. Samalam 
+Relaxation Networks for Large Supervised Learning Problems ......... 1015 
+Joshua Alspector, Robert B. Allen, Anthony ]ayakumar, Torsten Zeppenfeld, and 
+Ronny Meir 
+Design and Implementation of a High Speed CMAC Neural Network ...... 1022 
+W. Thomas Miller, III, Brian A. Box, Erich C. Whitney, and James M. Glynn 
+Back Propagation Implementation ..................... 1028 
+Hal McCartor 
+Reconfigurable Neural Net Chip with 32K Connections ............ 1032 
+H.P. Graf, R. Janow, D. Henderson, and R. Lee 
+Simulation of the Neocognitron on a CCD Parallel Processing Architecture . . . 1039 
+Michad L. Chuang and Alice M. Chiang 
+VLSI Implementation of TInMANN .................... 1046 
+Matt Melton, Tan Phan, Doug Reeves, and Dave Van den Bout 
+Xlll 
+Preface 
+Since its inception in 1987, the NIPS conference (short for "Neural Information Processing 
+Systems - Natural and Synthetic") has attracted researchers from many disciplines who 
+are applying their expertise to problems in the emerging field of neural networks. The 
+conference and the following two-day workshop have become a forum for presenting to 
+the neural network community the latest research results, and for leading researchers to 
+gather and exchange ideas. This volume contains papers summarizing the talks and posters 
+presented at the most recent NIPS conference, held in Denver, Colorado, from 26-29 
+November 1990. 
+The 1990 conference maintained the high level of excitement of its predecessors. Important 
+new theoretical and empirical results were presented concerning the capability and gener- 
+alization performance of networks. Analyses of biological nervous systems were presented 
+along with mathematical models of some of these networks. Many working analog and 
+digital VLSI chips were described. These chips demonstrated how rapidly VLSI design 
+procedures have advanced in the past few years. New modular learning algorithms were 
+also described, along with significant new industrial applications, new theoretical under- 
+standing of network system design issues, and significant advances in speech, robotics, 
+and machine vision systems. Many papers described the application of dynamic temporal 
+networks with recurrent connections. Papers overall demonstrated a better grasp of past 
+neural network research and of past theoretical and practical results in other disciplines. 
+Multi-disciplinary exchange was promoted this year by grouping papers for presentation 
+according to paper topic instead of by discipline. For example, one session on "Visual 
+Processing" contained papers on theory, algorithms, VLSI implementation, neurobiology, 
+and machine vision applications. Organization by topic instead of by discipline is reflected 
+in this volume. Presentation of papers by researchers outsidetheUnited States was promoted 
+this year by the addition of foreign liaisons to the conference organizing committee. Our 
+current liasons represent Australia, Great Britain, continental Europe, Japan, and South 
+America. Presentation of new results by students was promoted this year as in past years. 
+Funds for student travel grants were provided by ATR, the Air Force Office of Scientific 
+Research, Fujitsu, IBM, NASA, Sanyo, Sharp, Siemens, and the University of Colorado, 
+Boulder Optoelectronic Computing Systems Center. 
+The NIPS conference continues to be an exciting, successful meeting due to the continued 
+efforts of a large group of people. We would first like to thank all the other members of 
+the program and organizing committees who helped make this conference possible. In 
+particular we would like to thank Judy Terrel for her work throughout the year as the 
+conference secretary, Gina Davies and Kathy Hibbard for their work in organizing local 
+arrangements and running the conference desk so smoothly, and Alex Waibel for organizing 
+the post-conference workshops. Finally, we would like to thank everyone who attended 
+and submitted papers and the 85 referees who carefully read and reviewed 20 papers each. 
+Richard P. Lippmann 
+John E. Moody 
+David S. Touretzky 
+January, 1991 
+NIPS-91 Organizing Committee 
+General Chair 
+Program Chair 
+Publications 
+Publicity 
+Treasurer 
+Local Arrangements 
+Workshop Chair 
+Workshop Local Arrangements 
+IEEE Liaison 
+APS Liaison 
+Neurobiology Liaison 
+Overseas Liaison (Japan) 
+Overseas Liaison (Australia, Singapore, India) 
+Overseas Liaison (Europe) 
+Overseas Liaison (United Kingdom) 
+Overseas Liaison (South America) 
+Richard P. Lippmann, MIT Lincoln Laboratory 
+John E. Moody, Yale 
+David Touretzky, CMU 
+Stephen Hanson, Siemens Research Center 
+Kristina Johnson, University of Colorado, Boulc 
+Kathie Hibbard, University of Colorado, Bould, 
+Alex Waibel, CMU 
+Howard Wachtel, University of Colorado, Boul, 
+Edward Posner, Caltech 
+Larry Jackel, AT&T Bell Laboratories 
+Jim Bower, Caltech 
+Mitsuo Kawato, ATR Research Laboratories 
+Marwan Jabri, University of Sydney 
+Benny Lautrup, Niels Bohr Institute 
+John Bridle, RSRE 
+Andreas Meier, Simon Bolivar University 
+CHAIR 
+John E. Moody, Yale 
+NIPS-91 Program Committee 
+AREA CO-CHAIRS 
+Applications: 
+Architectures: 
+Cognitive Science: 
+Implementations: 
+Neurobiology: 
+Theory: 
+Lee Giles, NEC Research Institute 
+Yann LeCun, AT&T Bell Labs 
+Steve Hanson, Siemens Research Center 
+Joshua Alspector, Bellcore 
+Terrence Sejnowski, Salk Institute 
+Gerry Tesauro, IBM 
+REVIEWERS 
+Asad Abidi, UCLA 
+David Ackley, Bellcore 
+Robert Allen, Bellcore 
+Luis Almeida, INESC, Portugal 
+P. Anandan, Yale 
+Dana Anderson, University of Colorado at Boulder 
+Christopher Atkeson, MIT 
+Pierre Baldi, Caltech/JPL 
+Dana Ballard, University of Rochester 
+Andrew Barto, University of Massachusetts 
+William Bialek, UC Berkeley 
+David Bounds, RSRE, England 
+Herve Bourlard, Philips Research Lab, Belgium 
+James Bower, Caltech 
+Thomas Brown, Yale 
+Joachim Buhmann, USC 
+David Burr, Bellcore 
+James Burr, Stanford 
+Joseph Change, Yale 
+H.H. Chen, University of Maryland 
+Jack Cowan, University of Chicago 
+John Denker, AT&T Bells Labs 
+Georg Dorffner, Austrian Research Institute 
+Jeffrey Elman, UCSD 
+Terrence Fine, Cornell 
+Walter Freeman, UC Berkeley 
+Gene Gindi, Yale 
+Hans Graf, AT&T Bell Labs 
+Kamil Grajski, Ford Aerospace 
+Allon Guez, Drexel University 
+David Haussler, UC Santa Cruz 
+John Hertz, NORDITA, Denmark 
+Geoffrey Hinton, University of Toronto 
+Mark Holier, Intel 
+Nathan Intrator, Brown University 
+Larry Jackel, AT&T Bell Labs 
+Kristina Johnson, University of Colorado at Boulder 
+xvii 
+Michael Jordan, MIT 
+Steven Judd, Caltech 
+Scott Kirkpatrick, IBM 
+Christoph Koch, Caltech 
+Thomas Landauer, Bellcore 
+Benny Lautrup, Neils Bohr Institute, Denmark 
+Y.C. Lee, Los Alamos 
+Hong Leung, MIT 
+Ralph Linsker, IBM 
+Richard Lippmann, MIT Lincoln Laboratory 
+Richard Mammone, Rutgers 
+James Mann, MIT Lincoln Laboratory 
+Drew McDermott, Yale 
+Bartlett Mel, Woods Hole 
+Kenneth Miller, UCSF 
+Eric Mjolsness, Yale 
+John Moody, Yale 
+Ala Murray, University of Edinburgh 
+Kumpati Narendra, Yale 
+Stephen Omohundro, ICSI, Berkeley 
+John Pearson, David Samoff Research Center 
+Sandy Pentland, MIT 
+Thomas Petsche, Siemens 
+Fernando Pineda, JPL/Caltech 
+John Platt, Synaptics 
+Edward Posner, Caltech 
+Michael Roth, John Hopkins 
+Jay Sage, MIT Lincoln Labs 
+John Schotland, Bellcore 
+Eric Schwartz, NYU Medical Center 
+Daniel Schwartz, GTE 
+Carolo Sequin, UC Berkeley 
+Gordon Shepard, Yale 
+Josef Skrzypek, UCLA 
+Sara Solla, AT&T Bell Laboratories 
+David Stork, Stanford 
+Richard Sutton, GTE 
+Manoel Tenorio, Purdue 
+Anil Thakoor, JPL 
+David Touretzky, Carnegie Mellon 
+David Van Essen, Caltech 
+Santosh Venkatesh, University of Pennsylvania 
+Hal White, Stanford 
+XVlll 
+Part I 
+Neurobiology 

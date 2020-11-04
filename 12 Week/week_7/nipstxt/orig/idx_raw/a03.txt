@@ -1,0 +1,591 @@
+Author Index 
+Abbott, L.F. 
+Abu-Mostafa, Yaser 
+Allen, Robert 
+Allman, John 
+Alspector, Joshua 
+Anastasio, Thomas 
+Anderson, Brooke 
+Atkeson, Christopher 
+Bachtach, Jonathan 
+Bain, John 
+Bair, Wyeth 
+Baird, Bill 
+Baldi, Pierre 
+Baras, John 
+Barhen, J. 
+Baum, Eric 
+Baumgardt, Douglas 
+Beer, R.D. 
+Bialek, Wilham 
+Bilbro, Griff 
+Biswas, Sanjay 
+Bodenhausen, Ulrich 
+Bohr, Henrik 
+Bohr, Jakob 
+Botros, Sherif 
+Bottou, Leon 
+Bourlard, Herve 
+Bower, James 
+Box, Brian 
+Bridle, John 
+Brown, Thomas 
+Brownlow, Michael 
+Brunak, Soren 
+Caprile, Bruno 
+Chang, Eric 
+Chauvin, Yves 
+Chiang, Alice 
+Chiel, Hi. 
+Choukri, Khalid 
+Christian, Jim 
+55 
+585 
+206, 1015 
+370 
+1015 
+32 
+46 
+707 
+457 
+635 
+399 
+91 
+735 
+839 
+113 
+904 
+544 
+507 
+137, 363, 377 
+846, 984 
+883 
+155 
+523 
+523 
+707 
+781 
+213 
+46 
+1022 
+234 
+39 
+422 
+523 
+750 
+797 
+415, 890 
+1039 
+507 
+262 
+728 
+Chu, R. 
+Chuang, Michael 
+Claiborne, Brenda 
+Cohn, David 
+Cole, Ronald 
+Collard, Joseph 
+Cotterill, Rodney 
+Cottrell, Garrison 
+Cowen, J.D. 
+Cox, Stephen 
+Cummings, Kevin 
+Darken, Christian 
+Dayan, Peter 
+de Vries, Bert 
+Denker, John 
+Dennis, Simon 
+Eeckman, Frank 
+Erlanson, Ruth 
+Fahlman, Scott 
+Faller, William 
+Fallside, F. 
+Fanty, Mark 
+Fine, Terrence 
+Flax, Marshall 
+Fox, Geoffrey 
+Fredholm, Henrik 
+Freidman, Jerome 
+Friedman, A.E. 
+Frye, Robert 
+Gallinari, Patrick 
+Gasser, Michael 
+Gelfand, Jack 
+Gerstner, Wulfram 
+Girosi, Federico 
+Glass, James 
+Gluck, Mark 
+Glynn, James 
+Goggin, Shelly 
+Golden, Richard 
+Golomb, B.A. 
+1001 
+1039 
+39 
+911 
+220 
+551 
+523 
+564 
+3,26, 62 
+234 
+443 
+832 
+464 
+162 
+853 
+635 
+91, 384 
+585 
+190 
+514 
+721 
+220 
+811 
+685 
+370 
+523 
+675 
+3,26 
+443 
+781 
+605 
+684 
+84 
+750 
+248, 255 
+656 
+1022 
+313 
+415 
+572 
+Goodine, David 
+Goodman, Rodney 
+Goodwin, James 
+Graf, H.P. 
+Guha, Aloke 
+Gupta, Ajay 
+Gustafson, Karl 
+Guyon, Isabelle 
+Handelman, David 
+Hanson, Stephen 
+Hasselmo, Michael 
+Hayashi, Yoichi 
+Henderson, D. 
+Henkle, Van 
+Hertz, John 
+Herz, Andreas 
+Hinton, Geoffrey 
+Hirschman, Lynette 
+Holler, Mark 
+Horiuchi, Tim 
+Huberman, Bemardo 
+Humphreys, Michael 
+Intrator, Nathan 
+Iso, Ken-ichi 
+Jacobs, Robert 
+Janow, R. 
+Jayakumar, Anthony 
+Johnson, Kristina 
+Jordan, Michael 
+Kacmarcik, G.J. 
+Kadirkamanathan, V. 
+Kailath, T. 
+Kamm, Candace 
+Kammen, Daniel 
+Kannappan, Sheila 
+Kanter, Ido 
+Katayama, Masazumi 
+Kawato, Mitsuo 
+Keeler, James 
+Keesing, Ron 
+Kepler, Thomas 
+Khotanzad, Alireza 
+Ko, P.K. 
+Koch, Christof 
+Kolen, John 
+Kramer, A. 
+Krishnaprasad, P.S. 
+Krogh, Anders 
+Kruglyak, Leonid 
+Kruschke, John 
+Kuh, Anthony 
+Lane, Stephen 
+Lang, Kevin 
+255 
+370 
+486 
+1032 
+479 
+825 
+313 
+493 
+684 
+656 
+46 
+578 
+1032 
+415 
+897 
+176 
+299, 774 
+255 
+993 
+406 
+875 
+635 
+241 
+227 
+767 
+1032 
+1015 
+313 
+767 
+507 
+721 
+953 
+206 
+123 
+665 
+918 
+436 
+436 
+557 
+804 
+55 
+327 
+1001 
+123, 349, 399, 406 
+860 
+1001 
+743 
+897 
+137 
+649 
+183 
+684 
+904 
+Lautmp, Benny 
+LaVigna, Anthony 
+Lawrence, D.T. 
+Lazzaro, John 
+leCun, Yann 
+Lee, Ying-Wung 
+Lee, R. 
+Lee, Chan-do 
+Leen, Todd 
+Legendre, Geraldine 
+Leow, Wee-Kheng 
+Leung, Hong 
+Levin, Ester 
+Li, Zhaoping 
+Linden, Alexander 
+Lippmann, Richard 
+Longtin, Andre 
+Luttges, Marvin 
+Maass, Wolfgang 
+Mainen, Zachary 
+Marcus, C.M. 
+Marder, Eve 
+Marko, Kenneth 
+Marshall, Gillian 
+Mathur, Bimal 
+McCartor, Hal 
+Meir, Ronny 
+Mel, Bartlett 
+Melton, Matt 
+Metcalfe, Janet 
+Milito, Rodolfo 
+Miller, W. 
+Mingolla, Ennio 
+Miranker, Willard 
+Miyata, Yoshiro 
+Mjolsness, Eric 
+Moller, Knut 
+Moody, John 
+Moore, Patrick 
+Moore, Andrew 
+Morgan, Nelson 
+Mozer, Michael 
+Munro, Paul 
+Murray, Alan 
+Nachtigall, Paul 
+Ng, Kenney 
+Niebur, Ernst 
+Niranjan, M. 
+Nissman, Daniel 
+Noordewier, Michiel 
+Nowlan, Steven 
+Obermayer, K. 
+Omohundro, Stephen 
+523 
+839 
+572 
+406 
+853, 918 
+327 
+1032 
+605 
+70 
+591 
+557 
+248, 255 
+147 
+176 
+450 
+797, 970 
+130 
+514 
+825 
+39 
+98 
+55 
+537 
+422 
+349 
+1028 
+1015 
+757 
+1046 
+564 
+493 
+1022 
+342 
+77 
+591 
+77 
+450 
+832 
+273 
+370, 406 
+213 
+627, 789 
+598 
+422 
+273 
+970 
+123 
+721 
+984 
+530 
+774 
+11 
+693, 757 
+Orlitsky, A. 
+Owen, W. 
+Pati, Y.C. 
+Pearlmutter, Barak 
+Pearson, R.A. 
+Pearson, John 
+Penner, Ralph 
+Perry, John 
+Petek, Bojan 
+Petersen, Steffen 
+Petsche, Thomas 
+Phan, Tan 
+Phillips, Michael 
+Platt, John 
+Poggio, Tomaso 
+Polifroni, Joseph 
+Pollack, Jordan 
+Pomerleau, Dean 
+Principe, Jose 
+Psalfis, DemeU'i 
+Raysz, Jean 
+Reeves, Doug 
+Reitman, Edward 
+Rieke, Fred 
+Ritter, H. 
+Ritzmann, R.E. 
+Rivest, Ronald. 
+Rohwer, Richard 
+Roitblat, Herbert 
+Rosen, Brace 
+Rosenfeld, Ronald 
+Rossen, Michael 
+Roychowdhury, V.P. 
+Ruderman, Daniel 
+Rumelhart, David 
+Ruppin, Eytan 
+Saha, Avijit 
+Samalam, Vijay 
+Sanger, Terence 
+Schley, Charles 
+Schmidbauer, Otto 
+Schmiclhuber, Jurgen 
+Schulten, K. 
+Schuster, Heinz 
+Schwartz, Daniel 
+Sejnowski, T.J. 
+Seneft, Stephanie 
+Sereno, Martin 
+Sereno, Margaret 
+Shashua, Amnon 
+Shavlik, Jude 
+Shepard, Roger 
+Simard, Patrice 
+Sin, C.K. 
+Siu, K.Y. 
+953 
+377 
+743 
+925 
+963 
+289 
+273 
+544 
+199 
+523 
+183 
+1046 
+248, 255 
+714 
+750 
+255 
+619, 860 
+429 
+162 
+932 
+105 
+1046 
+443 
+377 
+11 
+507 
+183 
+977 
+273 
+486 
+925 
+868 
+953 
+123, 363 
+557, 875 
+642 
+728 
+1008 
+700 
+415 
+199 
+500 
+11 
+123 
+1008 
+572 
+255 
+320 
+320 
+335 
+530 
+665 
+105 
+1001 
+953 
+Skrzypek, Josef 
+Smolensky, Paul 
+Smyth, Padhraic 
+Snapp, Robert 
+Snyder, Wesley 
+Solla, Sara 
+Sontag, Eduardo 
+Sorheim, Einar 
+Soukup, Todd 
+Spence, Clay 
+Stork, David 
+Sutton, Richard 
+Sverdlove, Ronald 
+Tabasko, Mary 
+Tam, David 
+Tanaka, Shigem 
+Tang, D.S. 
+Tarassenko, Lionel 
+Tebelskis, Joe 
+Teeters, Jeffrey 
+Tesauro, Gerald 
+Thrun, Sebastian 
+Tombs, Jon 
+Toomarian, N. 
+Touretzky, David 
+Towell, Geoffrey 
+Tresp, Volker 
+Tsoi, A.C. 
+Ullman, Shimon 
+van Hemmen 
+Van den Bout, David 
+Venkatesh, Santosh 
+Victorri, Bernard 
+Vidal, Jacques 
+Waibel, Alex 
+Wang, H. 
+Watanabe, Takao 
+Waugh, F.R. 
+Weigend, Andreas 
+Weinshall, Daphna 
+Werblin, Frank 
+Westervelt, R.M. 
+Wheeler, Deirdre 
+Whitney, Erich 
+Wiles, Janet 
+Williamson, Robert 
+Wooters, Chuck 
+Wu, Chuan-Lin 
+Yeshurun, Yechezkel 
+Zador, Anthony 
+Zee, Ao 
+Zemel, Richard 
+Zeppenfeld, Totsten 
+Zue, Victor 
+391 
+591 
+818 
+932 
+984 
+493, 918 
+939 
+169 
+789 
+289 
+804 
+471 
+289 
+598 
+282 
+18 
+728 
+422 
+199 
+384 
+911 
+450 
+422 
+113 
+612 
+530 
+306 
+963 
+335 
+176 
+846, 984, 104 
+883, 932 
+105 
+486 
+155, 199 
+349 
+227 
+98 
+875 
+356 
+384 
+98 
+612 
+1022 
+635 
+946 
+213 
+728 
+642 
+39 
+363 
+299 
+1015 
+248, 255 

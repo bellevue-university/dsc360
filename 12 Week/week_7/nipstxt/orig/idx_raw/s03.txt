@@ -1,0 +1,651 @@
+A 
+A posteriori probability 215 
+A priori knowledge 461,785 
+Acetylcholine 47 
+Acoustic modeling 201 
+Active suspension system 
+Adaline learning 901 
+541 
+Adaptive control 454, 483,497, 541, 
+1012 
+Adaptive critics, vector-valued 504 
+Adaptive estimation 171 
+Adaptive image processing 447 
+Adaptive input-windows 157 
+Adaptive networks 679 
+Adaptive range coding 480 
+Adaptive time-delays 157 
+Adjoint functions 115 
+Affine wavelet 747 
+Aircraft control 419 
+ALCOVE 653 
+Amacrine cells 387 
+Analog neural networks 93, 100, 139, 
+403,426, 447, 589, 1005, 1 012, 
+1119, 1136 
+Anti-Hebbian learning 72 
+Approximating boolean functions 957 
+Approximation error 761 
+Approximation theory 754 
+Area MT 322, 344,351 
+ART2/BP network 171 
+Associative learning 771 
+Associative memory 47, 86, 93, 107, 
+646, 887, 1126 
+Associative reinforcement 483 
+Attention 79,653,660 
+Attractors 86, 93,646,887 
+Autonomous navigation 426,433 
+Autoregressive model 215 
+B 
+Backpropagation 864 
+Backpropagation through time 
+454 
+Backpropagation, constrained 511 
+Backpropagation, local 688 
+Backpropagation, network inversion 
+872 
+Backprc,'..gation, second order 857, 
+922 
+Bacterial promoters 534 
+Baldwin effect 808 
+Bayesian techniques 822,936 
+Beinstein polynomials 739 
+Bell-shaped functions 739 
+Bi-threshold neurons 282 
+Bifurcation 72, 132 
+Biological modeling 32, 57, 86, 132, 
+139, 365,380,387, 511,518, 660 
+Boltzmann machine 829, 1119 
+Bounds on generalization 915 
+Bumptrees 697 
+c 
+C4.5 algorithm 967 
+CAM storage 93 
+Capacity 887,943 
+CART algorithm 704, 967, 974 
+Cascade-correlation learning 192 
+Category learning 653 
+CCD image processor 1143 
+Cell assemblies 518 
+Cerebral cortex 47 
+Change detection 387 
+Chaos 93, 623,725 
+Character recognition 93, 561 
+Cholinergic suppression 47 
+Classification 660, 669, 697, 801,815, 
+822,829,843,936, 943,974 
+Clustering 815,843,988 
+Clustering, hierarchical 793 
+Clustering, K-means 836 
+CMAC networks 1126 
+CNAPS chip architecture 1132 
+Cockroach 511 
+Cognitive modeling 595, 602, 609, 616, 
+Page numbers refer to the first page of the paper. 
+1054 Index 
+639, 646, 653,660, 669 
+Color clustering 988 
+Color vision 372 
+Commodity trading 555 
+Complexity theory 822,829,950 
+Composing music 631 
+Compression 568,576, 793 
+Computational learning theory 185 
+Computational neuroethology 511 
+Concept drift 185 
+Condensed nearest neighbor 
+Cones 394 
+Configural cue model 660 
+Congestion control 497 
+Conjugate gradient 981 
+Connection topology 100 
+Connectivity 125 
+Constructive algorithms 192,704, 718 
+Content addressable memory 93 
+Contour grouping 337 
+Control of aircraft 419 
+Control problems 1126 
+Convergence 107, 836, 843, 864, 936, 
+981 
+Cooperative training 785 
+Coordinate transforms 301 
+Correlation function 125 
+Correspondence problem 329 
+Cortical feature maps 11 
+Cortical oscillations 93, 125, 139 
+Credit assignment 480, 504 
+Cross-entropy 822 
+Cross-validation 215 
+Cue-target strengths 639 
+Currency exchange rates 879 
+Curse of dimensionality 936 
+Delayed interaction 178 
+Demi-syllable 229 
+Density estimation 697, 857 
+Depth estimation 546 
+Depth perception 329 
+Development, cortical feature maps 11 
+Development, eye-brain maps 3 
+Development, iso-orientation patches 
+26 
+Development, ocular dominance 26 
+801,974 Development, retinotopy 18 
+Diagnosis of vehicles 541 
+Diffusion 739 
+Digit recognition 93 
+Dilation invariance 322 
+Dimensionality reduction 11,243,568 
+Direct memory access 639 
+Discrete representations 793 
+Distance matrix representation 527 
+Distributed delays 132 
+Distributed processing 337 
+Distributed representation 480, 793 
+DNA 534 
+Dolphin echo recognition 274 
+Dragonfly 518 
+Dyna architectures 475 
+Dynamic behavior 829 
+Dynamic processes 171 
+Dynamic programming 229,337, 468, 
+475 
+Dynamic time warping 264 
+Dynamical systems 107, 125, 132, 
+139, 178,497, 623 
+Dynamics of generalization 901 
+Dynamics, weight-space 72 
+D 
+Decoders 589 
+Degrees of freedom 929 
+Delay lines 410 
+Delay-differential equations 
+100 
+E 
+Earthquake analysis 546 
+Edge detection 100,403 
+Eigenvalue 107, 922 
+Electron beam lithography 
+Elman networks 192 
+447 
+Page numbers refer to the first page of the paper. 
+Index 1055 
+Emotion recognition 568 
+EMPATH 568 
+Endstopping 344 
+Energy functions 646 
+Energy minimization 308,527 
+Engine diagnosis 541 
+Entropy 739,950 
+Escape response 511 
+Estimation error 761 
+Evolution 669,801 
+Evolution and learning 808 
+Expectation maximization 461 
+Expected cost 785 
+Experience network 454 
+Expert networks 778 
+Expert system 582 
+Explanation capabilities 872 
+Explosions 546 
+Eye-brain maps 3 
+G 
+Gamma neural networks 164 
+Ganglion cells 387 
+Gaussian connectivity 125 
+Gaussian curvature 358 
+Gaussian mixture classifier 974 
+Gender determination 576 
+Generalization 669, 711,739, 815, 
+850,879,894, 901,915,929,936 
+Generalization and noise 901 
+Generalization gradient 653 
+Generalized spectrum 957 
+Genetic algorithms 801,808 
+Geometric learning 697 
+GMDH 704, 974 
+Goodness-of-fit 822 
+Gradient descent 718 
+Gradient descent, stochastic 836 
+Grammar learning 192, 623 
+F 
+F-projection, principle 725 
+Face recognition 568,576 
+Fault detection 541 
+Fault-tolerance 887 
+Feature extraction 243,264, 568,732, 
+801, 1136 
+Feedback synapse 394 
+Fiber-fiber interactions 3 
+Filter, visual 380 
+Financial applications 555 
+Finite precision 1143 
+Firing statistics 86 
+Fitness contours 808 
+Fitzhugh-Nagumo model 139 
+Fixed points 79, 107 
+Flight control, aircraft 419 
+Flight control, insect 518 
+Force control 440 
+Fractals 623 
+Function approximation 688,697, 711 
+Fuzzy logic 582 
+H 
+Handwritten digits 93,561 
+Harmonic grammar 595 
+Heat equation 739 
+Hebbian learning 47, 72, 86, 164, 178, 
+669 
+Hebbian synapses 40 
+Heisenberg XY model 26 
+Hessian matrix 922,981 
+Hidden control network 149,201 
+Hidden Markov models 201,215, 229, 
+504 
+Hierarchical networks 93 
+Hierarchical training 778 
+High order neural network 315 
+Hilbert space 725 
+Hippocampal neurons 40 
+Hodgkin-Huxley system 57 
+Holons 568 
+Hopf bifurcation 72, 93, 132 
+Hopfield network 86, 589,829 
+Human genome initiative 534 
+Page numbers refer to the first page of the paper. 
+1056 Index 
+Hybrid algorithm 785 
+I 
+ICL 793 
+Image processing 315, 329,372, 576, 
+732 
+Image segmentation 308,337, 561 
+Implementation methods, VLSI 997 
+Inductive bias 929 
+Infinite sample limit 936 
+Initial conditions 864 
+Insect flight 518 
+Integrated architecture 475 
+Integrator gateway network 274 
+Interconnectivity graph 887 
+Interneurons, giant 511 
+Interpolation 943 
+Invariant, image processing 301,315, 
+561 
+Inversion of backpropagation networks 
+872 
+Iso-orientation patches 26 
+Iterated pairing network 337 
+K 
+KBANN algorithm 534 
+KD tree 697, 974 
+Knowledge acquisition 582 
+Knowledge base 582 
+Knowledge-based neural networks 534 
+Knowledge-means 836, 843 
+Kohonen 843,988, 1150 
+Kolmogorov-Chaitin complexity 929 
+L 
+Lagrangian 64, 79 
+Landscape, state space 107 
+Language acquisition 609,623 
+Lateral inhibition 100 
+Lateral interactions 394 
+Learning algorithms 185, 192,907 
+Learning algorithms, comparison of 
+778 
+Learning and evolution 808 
+Learning dynamics 922 
+Learning rates 836, 981 
+Learrang theory 185, 850 
+Learning time 922 
+Learning vector quantization 843 
+Learning with noise 901 
+Learning world models 475 
+Learning, associative 771 
+Learning, competitive 93,301,561, 
+771,778,793,850 
+Learning, cooperative 785 
+Learning, distributed 808 
+Learning, feedback-error 440 
+Learning, function 761 
+Learning, geometric 697 
+Learning, incremental 185, 433 
+Learning, motor 771 
+Learning, on-line 497, 504, 1012 
+Learning, PAC 907 
+Learning, query 907 
+Learning, reinforcement 454, 475, 483, 
+480,504 
+Learning, rhythm 157 
+Learning, semi-supervised 497 
+Learning, supervised 115, 157, 171, 
+1119 
+Learning, temporal 115 
+Learning, trial and error 475 
+Learning, unsupervised 236, 243, 301, 
+322,836 
+Learning, VLSI implementation 997 
+Lesion studies 511 
+Letter recognition 222 
+Lie groups 64 
+Light adaptation 394 
+Limited precision networks 815, 1119 
+Linesearch 981 
+Linguistics 595, 616 
+Linked predictive neural network 201 
+Page numbers refer to the first page of the paper. 
+Index 1057 
+Liouvillian equation 64 
+Lithography 447 
+LMS learning 704, 761,894 
+Local minima 808,836 
+Local models 732 
+Locative prepositions 602 
+Long-term potentiation 40 
+Look-ahead 454 
+Lower-bound techniques for neural 
+networks 957 
+LPNN 201 
+LTP 40 
+LVQ 843 
+Lyapunov function 178 
+M 
+Machine translation 602 
+Map, retinotopic 3, 11, 18 
+MARS algorithm 704 
+Matched field processing 546 
+Matched filtering 380 
+Maximum entropy 850 
+Maximum likelihood 215, 236, 771,822 
+Mean field theory 308, 1119 
+Medical diagnosis 582 
+Memorization 718 
+Memory access 639 
+Memory stable states 646 
+Memory, VLSI implementation 997 
+Memory-based learning algorithms 185 
+Method of correlations 957 
+Minimization 981 
+Minimum description 822,879 
+Modular architecture 771,778 
+Morphology 609 
+Morse code 192 
+Motion 322,344, 351,358 
+Motion detection 387, 410 
+Motor learning 440 
+Moving targets algorithm 981 
+Multi-modal control 419 
+Multiple optima 894 
+Music composition 631 
+Mutual information 301 
+N 
+Natural images 365 
+Natural language processing 257, 602, 
+609 
+Navigation 426,433, 461,468 
+Nearest neighbor 426, 801,974 
+Nearest neighbor connectivity 125 
+Nearest-neighbor classifier 936 
+Negative feedback 132 
+Neocognitron 1143 
+Network architecture 829, 943 
+Neural dynamics 57, 100 
+Neural dynamics, stochastic 64 
+Neural network design 815 
+Neural signal processing 32 
+Neuroethology 511 
+Nonlinear control 419 
+Nonlinear weight functions 1005 
+o 
+Object recognition 301,308 
+OCR 561 
+Ocular dominance columns 
+Oculomotor system 32 
+Olfactory cortex 47 
+On-center, off-center cells 18 
+Optimal computation 380 
+Optimal image sampling 365 
+Optimization issues 872 
+Optimization, performance index 
+Optimization, stochastic 836 
+Optimizing dynamics 79 
+Order reduction 57 
+Orientation columns 11 
+Oscillations 100, 125, 132, 139 
+11, 18,26 
+419 
+Page numbers refer to the first page of the paper. 
+1058 Index 
+P 
+PAC learning 185, 907 
+Parallel implementation 291,1119, 
+1132, 1143, 1150 
+Parallel updating 100 
+Parity problem 907 
+Parzen windows 857 
+Path integrals 64 
+Path planning 426 
+Pattern recognition 47, 93,568, 808, 
+1136 
+Penalty function 419 
+Perceptron, linear 901 
+Perceptron, multi-layer 250,546, 688, 
+967 
+Phantom targets 236 
+Phase coupling 125 
+Phase transition 623,901 
+Phonology 609, 616 
+Place coding 468 
+Planning 426, 454, 468,475 
+Pocket algorithm 582 
+Pole balancing 454 
+Polynomial classifier 801 
+Polynomial networks 704, 974 
+Polynomial representaion of boolean 
+functions 957 
+Potential fields 461 
+Predictive networks 201,229, 527, 
+718, 725,879 
+Prepositions 602 
+Primate vision 351 
+Principal component analysis 72,568 
+Prior probability 879 
+Probabilistic methods 771,857 
+Process control applications 872 
+Projection pursuit 243 
+Protein structure prediction 527 
+Proximity effect 447 
+Pulse coding 282 
+Pulse stream arithmetic 1150 
+Pupil light reflex 132 
+Pyramidal cells 40 
+Q 
+Q-learning 475 
+Qualitative structure 358 
+Quickprop algorithm 192 
+R 
+Radial basis functions 653, 660,669, 
+697, 704, 711,718, 725,732, 754, 
+761,974 
+RAN algorithm 718 
+Random target network problem 907 
+Random-dot stereogram 329 
+Real-time control 541 
+Real-time neural networks 426 
+Real-time simulation 291 
+Real-time training 433 
+Real-time vision 372 
+Receptive field 18, 139, 322, 351,365, 
+372,480,688, 732, 761 
+RecNorm network 236 
+Reconfigurable architecture 1136, 
+1150 
+Recurrent networks 32, 72, 107, 192, 
+208, 419,454, 504, 609,623,631 
+Recursive structures 595 
+Regeneration, eye-brain maps 3 
+Regression 711 
+Regularization networks 754 
+Reinforcement learning 468, 483 
+Relaxation networks 1119 
+Replicated networks 929 
+Representational space 669 
+Resistive networks 426 
+Retino-tectal markers 3 
+Retinotopic map 3, 11, 18, 387, 394 
+Robot arm control 440, 454, 697 
+Robustness 754, 887 
+Rotation invariance 315, 322 
+Rule extraction 582 
+Rules and exceptions 653 
+Page numbers refer to the first page of the paper. 
+Index 1059 
+s 
+Salamander retina 380,387 
+Saliency 337 
+Scale invariance 315 
+Scheduling 483 
+Search-then-converge schedules 836 
+Second order methods 315, 857, 922, 
+981 
+Segmentation, image 308,337, 561 
+Segmentation, motion 344 
+Segmentation, speech 222, 250 
+Seismic analysis 546 
+Self-organization 11,18, 40,480, 561, 
+850, 1150 
+Sensorimotor control 511 
+Sensory integration 511 
+Sequence manipulation 616 
+Sequences 93,157, 178, 623,631, 
+879, 1012 
+Sequential adaptation 725 
+Set intersection 639 
+Setpoint control 483 
+SexNet 576 
+Shape representation 358 
+Shared weights 1143 
+Short term memory 164, 609 
+Sigmoid firing characteristics 86 
+Sigmoid functions 739,943 
+Signaldelays 178 
+Signal processing 274, 282,291,380 
+SIMD in VLSI 1132 
+Simple cells 18 
+Singular value decision position (SVD) 
+872 
+Softmax 236, 857 
+Sparse connectivity 125 
+Spatial coherence 301 
+Spatio-spectral concentration 747 
+Speaker adaptation 236,264, 778 
+Speaker-independent letter recognition 
+222 
+Spectral mapping 264 
+Spectral modulation 546 
+Spectral representation of boolean 
+functions 957 
+Speech knowledge 250 
+Speech recognition 149, 157, 201, 
+208, 215,222,229,236,243, 250, 
+257, 264, 778,894 
+Spherical units 660 
+Spike trains 86, 282 
+Spin models 26, 139 
+Spiral problem 688,907 
+Splice junction recognition 534 
+Spline networks 679, 688, 1012 
+Stability analysis 72, 100, 107 
+State space landscape 107 
+Statistical mechanics 139, 178 
+Stereo vision 308,329 
+Stimulus generalization 660 
+Stochastic approximation 497, 725, 
+836, 843 
+Stochastic complexity 822 
+Stochastic computation 1150 
+Stochastic gradient descent 785 
+Stochastic models 250 
+Stochastic neurodynamics 64 
+Stochastic optimization 836 
+Striate cortex 11 
+Structure processing 595 
+Successive f-projections 725 
+SUMMIT system 257 
+Sunspots 879 
+Syllable structure 616 
+Symmetry breaking 929 
+Synaptic plasticity 40 
+Synaptic transmission 47 
+System indentification 454 
+T 
+Task-adapted control 419 
+Television 291 
+Tempo 2 algorithm 157 
+Temporal association 178 
+Temporal difference method 
+461,468, 
+Page numbers refer to the first page of the paper. 
+1060 Index 
+480, 504 
+Temporal processing 149, 164, 208 
+Temporal-spatial transformation 282 
+Tensor product representations 595 
+Th ree-dimension al object recog nition 
+308 
+Threshold circuits 829,957 
+Time representation 264 
+Time scales 157 
+Time-delay neural networks 157, 164, 
+178 
+Time-delayed inhibition 100 
+Time-delayed network 282 
+Time-varying concepts 185 
+Time-varying system modeling 149 
+Topographical mapping 282 
+Topology of connections 100 
+Topology-preserving representation 11 
+Training set size 815 
+Training techniques 433 
+Trajectory control 440 
+Transformations of objectives 79 
+Translation invariance 315 
+Translation of language 602 
+Tree-structured networks 704 
+Two-dimensional lattices 100 
+Two-spirals problem 688 
+u 
+Universal approximation 739 
+372, 568,576 
+Visual cortex 11,322, 344 
+Visual maps 322 
+VLSI 372, 403,410, 426, 447, 997, 
+1005, 1012, 1119, 1126, 1132, 
+1136, 1150 
+Vowel recognition 778 
+VOYAGER system 257 
+w 
+Wavelet transform 747 
+Wedge-ring HONN 315 
+Weight implementation 1005 
+Weight-elimination 879 
+Weight-space dynamics 72 
+Window of attention 79 
+Winner-take-all dynamics 589 
+Word recognition 208,609 
+x 
+XY model 26, 139 
+z 
+Zero-crossing 403 
+v 
+VC dimension 815,915,943 
+Vector quantization 836, 843,988, 
+1150 
+Vehicle control 433 
+Velocity estimation 410 
+Velocity storage 32 
+Vestibulo-ocular reflex 32 
+Video processing 291 
+Vision 308,329, 337, 351,358, 365, 
+Page numbers refer to the first page of the paper. 

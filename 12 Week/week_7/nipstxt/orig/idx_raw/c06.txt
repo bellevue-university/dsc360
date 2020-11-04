@@ -1,0 +1,995 @@
+ADVANCES IN 
+NEURAL 
+INFORMATION 
+PROCESSING 
+SYSTEMS 6 
+OTHER TITLES OF INTEREST 
+FROM MORGAN KAUFMANN PUBLISHERS 
+NIPS-5- 
+Advances in Neural Information Processing Systems 
+Proceedings of the 1992 Conference 
+Edited by Stephen Jos6 Hanson, Jack D. Cowan, and C. Lee Giles 
+NIPS-4 - 
+Advances in Neural Information Processing Systems 
+Proceedings of the 1991 Conference 
+Edited by John E. Moody, Stephen J. Hanson, and Richard P. Lippmann 
+NIPS-3- 
+Advances in Neural Information Processing Systems 
+Proceedings of the 1990 Conference 
+Edited by Richard P. Lippmann, John E. Moody, and David S. Touretzky 
+NIPS-2 - 
+Advances in Neural Information Processing Systems 
+Proceedings of the 1989 Conference 
+Edited by David S. Touretzky 
+NIPS-l- 
+Advances in Neural Information Processing Systems 
+Proceedings of the 1988 Conference 
+Edited by David S. Touretzky 
+Computer Systems That Learn: Classification and Prediction Methods from 
+Statistics, Neural Nets, Machine Learning, and Expert Systems 
+By Sholom M. Weiss and Casimir A. Kulikowski 
+Learning Machines 
+By Nils J. Nilsson, with an Introduction by Terrence J. Sejnowski and Halbert White 
+Readings in Fuzzy Sets for Intelligent Systems 
+Edited by Didier Dubois, Henri Prade, and Ronald R. Yager 
+Foundations of Genetic Algorithms-2 
+Edited by L. Darrell Whitley 
+Foundations of Genetic Algorithms 
+Edited by Gregory J. E. Rawlins 
+Genetic Algorithms: Proceedings of the Fifth International Conference 
+Edited by Stephanie Forrest 
+Genetic Algorithms: Proceedings of the Fourth International Conference 
+Edited by Rick Belew and Lashon Booker 
+Genetic Algorithms: Proceedings of the Third International Conference 
+Edited by David Schaffer 
+ADVANCES IN 
+NEURAL 
+INFORMATION 
+PROCESSING 
+SYSTEMS 6 
+EDITED BY 
+JACK D. COWAN 
+UNIVERSITY OF CHICAGO 
+GERALD TESAURO 
+IBM 
+JOSHUA ALSPECTOR 
+BELLCORE 
+MORGAN KAUFMANN PUBLISHERS 
+340 PINE STREET, SIXTH FLOOR 
+SAN FRANCISCO, CALIFORNIA 94104 
+Executive Editor Bruce M. $patz 
+Production Manager Yonie Overton 
+Sponsoring Editor Douglas Sery 
+Production Coordinator Julie Pabst 
+Composition Technically Speaking Publications 
+Cover Design Jo Jackson 
+Mechanical Artist Patty King 
+Printer R. R. Donnelley & Sons 
+MORGAN KAUFMANN PUBLISHERS, INC. 
+Editorial Office: 
+340 Pine Street, Sixth Floor 
+San Francisco, CA 94104 
+(415) 392-2665 
+¸1994 by Morgan Kaufmann Publishers, Inc. 
+All rights reserved 
+Printed in the United States of America 
+No part of this publication may be reproduced, stored in a retrieval 
+system, or transmitted in any form or by any means electronic, 
+mechanical, recording, or otherwise--without the prior written 
+permission of the publisher. 
+98 97 96 95 94 54321 
+Library of Congress Cataloging-in-Publication Data is available for this book. 
+ISSN 1049-5258 
+ISBN 1-55860-322-0 
+CONTENTS 
+Preface ............................................................... xvi 
+In Memoriam: Ed Posner ................................................ xwn 
+NIPS-93 Organizing Committee .......................................... xxvi 
+NIPS-93 Publicity Committee ............................................ xxvi 
+NIPS-93 Program Committee ............................................ xxvi 
+NIPS Foundation Board Members ........................................ xxvii 
+NIPS-93 Referees ..................................................... xxvii 
+PART I LEARNING ALGORITHMS 
+Autoencoders, Minimum Description Length, and Helmholtz Free Energy .......... 3 
+Geoffrey E. Hinton and Richard S. Zemel 
+Developing Population Codes by Minimizing Description Length ................. 11 
+Richard S. Zemel and Geoffrey E. Hinton 
+A Unified Gradient-Descent/Clustering Architecture for Finite State Machine 
+Induction ............................................................. 19 
+Sreerupa Das and Michael C. Mozer 
+Unsupervised Learning of Mixtures of Multiple Causes in Binary Data ............. 27 
+Eric Saund 
+Fast Pruning Using Principal Components ................................... 35 
+Asriel U. Levin, Todd K. Leen, and John E. Moody 
+Surface Learning with Applications to Lipreading ............................. 43 
+Christoph Bregler and Stephen M. Omohundro 
+When Will a Genetic Algorithm Outperform Hill Climbing? ..................... 51 
+Melanie Mitchell, John H. Holland, and Stephanie Forrest 
+Hoeffding Races: Accelerating Model Selection Search for Classification and 
+Function Approximation ................................................. 59 
+Oded Maron and Andrew W. Moore 
+v 
+Grammatical Inference by Attentional Control of Synchronization in an Oscillating 
+Elman Network ........................................................ 67 
+Bill Baird, Todd Troyer, and Frank Eeckman 
+Credit Assignment through Time: Alternatives to Backpropagation ................ 75 
+Yoshua Bengio and Paolo Frasconi 
+A Local Algorithm to Learn Trajectories with Stochastic Neural Networks .......... 83 
+Javier R. Movellan 
+Structural and Behavioral Evolution of Recurrent Networks ..................... 88 
+Gregory M. Saunders, Peter J. Angeline, and Jordan B. Pollack 
+Clustering with a Domain-Specific Distance Measure .......................... 96 
+Steven Gold, Eric Mjolsness, and Anand Rangarajan 
+Central and Pairwise Data Clustering by Competitive Neural Networks ........... 104 
+Joachim Buhmann and Thomas Hofmann 
+Learning Classification with Unlabeled Data ................................ 112 
+Virginia R. de Sa 
+Supervised Learning from Incomplete Data via an EM Approach ................ 120 
+Zoubin Ghahrarnani and Michael I. Jordan 
+Training Neural Networks with Deficient Data ............................... 128 
+Volker Tresp, Subutai Ahrnad, and Ralph Neuneier 
+Unsupervised Parallel Feature Extraction from First Principles .................. 136 
+Mats Osterberg and Reiner Lenz 
+Two Iterative Algorithms for Computing the Singular Value Decomposition from 
+Input/Output Samples .................................................. 144 
+Terence D. Sanger 
+Fast Non-Linear Dimension Reduction ..................................... 152 
+Nanda Kambhatla and Todd K. Leen 
+Assessing the Quality of Learned Local Models .............................. 160 
+Stefan Schaal and Christopher G. Atkeson 
+Efficient Computation of Complex Distance Metrics Using Hierarchical Filtering... 168 
+Patrice Y. Simard 
+The Power of Amnesia .................................................. 176 
+Dana Ron, Yoram Singer, and Nafiali Tishby 
+Locally Adaptive Nearest Neighbor Algorithms .............................. 184 
+Dietrich Wettschereck and Thomas G. Dietterich 
+Robust Parameter Estimation and Model Selection for Neural Network Regression.. 192 
+Yong Liu 
+vi 
+Bayesian Backpropagation over I-O Functions Rather Than Weights .............. 200 
+David H. Wolpert 
+Bayesian Backprop in Action: Pruning, Committees, Error Bars, and an Application 
+to Spectroscopy ....................................................... 208 
+Hans Henrik Thodberg 
+A Comparison of Dynamic Reposing and Tangent Distance for Drug Activity 
+Prediction ............................................................ 216 
+Thomas G. Dietterich, Ajay N. Jain, Richard H. Lathrop, and 
+Tomas Lozano-Perez 
+Combined Neural Networks for Time Series Analysis ......................... 224 
+Iris Ginzburg and David Horn 
+Backpropagation without Multiplication .................................... 232 
+Patrice Y. Simard and Hans Peter Graf 
+A Comparative Study of a Modified Bumptree Neural Network with Radial Basis 
+Function Networks and the Standard Multi-Layer Perceptron ................... 240 
+Richard T. J. Bostock and Alan J. Harget 
+Adaptive Knot Placement for Nonparametric Regression ....................... 247 
+Hossein L. Najafi and Vladimir Cherkassky 
+Supervised Learning with Growing Cell Structures ........................... 255 
+Bernd Fritzke 
+Optimal Brain Surgeon: Extensions and Performance Comparisons .............. 263 
+Babak Hassibi, David G. Stork, Gregory Wolff, and Takahiro Watanabe 
+Generation of Internal Representation by a-Transformation ..................... 271 
+Ryotaro Kamimura 
+Constructive Learning Using Internal Representation Conflicts .................. 279 
+Laurens R. Leerink and Marwan A. Jabri 
+Learning in Compositional Hierarchies: Inducing the Structure of Objects 
+from Data ............................................................ 285 
+Joachim Utans 
+An Optimization Method of Layered Neural Networks Based on the Modified 
+Information Criterion ................................................... 293 
+Sumio Watanabe 
+PART II LEARNING THEORY, GENERALIZATION, AND COMPLEXITY 
+Optimal Stopping and Effective Machine Complexity in Learning ................ 303 
+Changfeng Wang, Santosh S. Venkatesh, and J. Stephen Judd 
+Agnostic PAC-Leaming of Functions on Analog Neural Nets ................... 311 
+Wolfgang Maass 
+vii 
+How to Choose an Activation Function ..................................... 319 
+H. N. Mhaskar and C. A. Micchelli 
+Learning Curves: Asymptotic Values and Rate of Convergence .................. 327 
+Corinna Cortes, L. D. Jackel, Sara A. Solla, Vladimir Vapnik, and 
+John S. Denker 
+Recovering a Feed-Forward Net from Its Output ............................. 335 
+Charles Fefferman and Scott Markel 
+Use of Bad Training Data for Better Predictions .............................. 343 
+Tal Grossman and Alan Lapedes 
+Hoo Optimality Criteria for LMS and Backpropagation ........................ 351 
+Babak Hassibi, Ali H. Sayed, and Thomas Kailath 
+Bounds on the Complexity of Recurrent Neural Network Implementations of Finite 
+State Machines ........................................................ 359 
+Bill G. Home and Don R. Hush 
+Generalization Error and the Expected Network Complexity .................... 367 
+Chuanyi Ji 
+Counting Function Theorem for Multi-Layer Networks ........................ 375 
+Adam Kowalczyk 
+Backpropagation Convergence via Deterministic Nonmonotone Perturbed 
+Minimization ......................................................... 383 
+O. L. Mangasarian and M. V. Solodov 
+Cross-Validation Estimates IMSE ......................................... 391 
+Mark Plutowski, Shinichi Sakata, and Halbert White 
+Discontinuous Generalization in Large Committee Machines ................... 399 
+H. Schwarze and J. Hertz 
+Non-Linear Statistical Analysis and Self-Organizing Hebbian Networks ........... 407 
+Jonathan L. Shapiro and Adam Priigel-Bennett 
+Structured Machine Learning for "Soft" Classification with Smoothing Spline 
+ANOVA and Stacked Tuning, Testing, and Evaluation ......................... 415 
+Grace Wahba, Yuedong Wang, Chong Gu, Ronald Klein, and Barbara Klein 
+Solvable Models of Artificial Neural Networks ............................... 423 
+$umio Watanabe 
+On the Non-Existence of a Universal Learning Algorithm for Recurrent Neural 
+Networks ............................................................ 431 
+Herbert Wiklicky 
+PART III THEORETICAL ANALYSIS: DYNAMICS AND STATISTICS 
+The Statistical Mechanics of k-Satisfaction .................................. 439 
+Scott Kirkpatrick, Gdza GyOrgyi, Naftali Tishby, and Lidror Troyansky 
+Coupled Dynamics of Fast Neurons and Slow Interactions ...................... 447 
+A. C. C. Coolen, R. W. Penney, and D. Sherrington 
+Observability of Neural Network Behavior .................................. 455 
+Max Garzon and Fernanda Botelho 
+How to Describe Neuronal Activity: Spikes, Rates, or Assemblies? ............... 463 
+Wulfram Gerstner and J. Leo van Hemmen 
+Correlation Functions in a Large Stochastic Neural Network .................... 471 
+Iris Ginzburg and Haim Sompolinsky 
+Optimal Stochastic Search and Adaptive Momentum .......................... 477 
+Todd K. Leen and Genevieve B. Orr 
+Optimal Signalling in Attractor Neural Networks ............................. 485 
+Isaac Meilijson and Eytan Ruppin 
+Asynchronous Dynamics of Continuous Time Neural Networks ................. 493 
+Xin Wang, Qingnan Li, and Edward K. Blum 
+Fool's Gold: Extracting Finite State Machines from Recurrent Network Dynamics... 501 
+John E Kolen 
+PART IV NEUROSCIENCE 
+Dynamic Modulation of Neurons and Networks .............................. 511 
+Eve Marder 
+Amplifying and Linearizing Apical Synaptic Inputs to Cortical Pyramidal Cells ..... 519 
+Ojvind Bernander, Christof Koch, and Rodney J. Douglas 
+Odor Processing in the Bee: A Preliminary Study of the Role of Central Input to the 
+Antennal Lobe ........................................................ 527 
+Christiane Linster, David Marsan, Claudine Masson, and Michel Kerszberg 
+Lower Boundaries of Motoneuron Desynchronization via Renshaw Interneurons .... 535 
+Mitchell Gil Maltenfort, Robert E. Druzinsky, C. J. He&man, and W. Zev Rymer 
+Development of Orientation and Ocular Dominance Columns in Infant Macaques... 543 
+Klaus Obermayer, Lynne Kiorpes, and Gary G. Blasdel 
+Statistics of Natural Images: Scaling in the Woods ............................ 551 
+Daniel L. Ruderman and William Bialek 
+Dopaminergic Neuromodulation Brings a Dynamical Plasticity to the Retina ....... 559 
+Eric Boussard and Jean-Francois l'bert 
+ix 
+A Hodgkin-Huxley Type Neuron Model That Learns Slow Non-Spike Oscillation... 566 
+Kenji Doya, Allen I. Selverston, and Peter E Rowat 
+Directional Hearing by the Mauthner System ................................ 574 
+Audrey L. Guzik and Robert C. Eaton 
+An Analog VLSI Saccadic Eye Movement System ............................ 582 
+Timothy K. Horiuchi, Brooks Bishofberger, and Christof Koch 
+Bayesian Modeling and Classification of Neural Signals ....................... 590 
+Michael S. Lewicki 
+Foraging in an Uncertain Environment Using Predictive Hebbian Learning ........ 598 
+P. Read Montague, Peter Dayan, and Terrence J. Sejnowski 
+A Connectionist Model of the Owl's Sound Localization System ................. 606 
+Daniel J. Rosen, David E. Rumelhart, and Eric I. Knudsen 
+Optimal Unsupervised Motor Learning Predicts the Internal Representation of Barn 
+Owl Head Movements .................................................. 614 
+Terence D. Sanger 
+An Analog VLSI Model of Central Pattern Generation in the Leech .............. 622 
+Micah S. Siegel 
+Synchronization, Oscillations, and l/f Noise in Networks of Spiking Neurons ...... 629 
+Martin Stemmler, Marius Usher, Christof Koch, and Zeev Olarni 
+PART V CONTROL, NAVIGATION, AND PLANNING 
+Transition Point Dynamic Programming .................................... 639 
+Kenneth M. Buckland and Peter D. Lawrence 
+Exploiting Chaos to Control the Future ..................................... 647 
+Gary W. Flake, Guo-Zhen Sun, Yee-Chun Lee, and Hsing-Hen Chen 
+Robust Reinforcement Learning in Motion Planning .......................... 655 
+Satinder P Singh, Andrew G. Barto, Roderic Grupen, and Christopher Connolly 
+Using Local Trajectory Optimizers to Speed Up Global Optimization in Dynamic 
+Programming ......................................................... 663 
+Christopher G. Atkeson 
+Packet Routing in Dynamically Changing Networks: A Reinforcement Learning 
+Approach ............................................................ 671 
+Justin A. Boyan and Michael L. Littman 
+Neural Network Exploration Using Optimal Experiment Design ................. 679 
+David A. Cohn 
+Monte Carlo Matrix Inversion and Reinforcement Learning ..................... 687 
+Andrew Barto and Michael Duff 
+x 
+Convergence of Indirect Adaptive Asynchronous Value Iteration Algorithms ........ 695 
+Vijaykumar Gullapalli and Andrew G. Barto 
+Convergence of Stochastic Iterative Dynamic Programming Algorithms ........... 703 
+Tommi Jaakkola, Michael I. Jordan, and Satinder P. Singh 
+The Parti-Game Algorithm for Variable Resolution Reinforcement Learning in 
+Multidimensional State-Spaces ........................................... 711 
+Andrew W. Moore 
+Mixtures of Controllers for Jump Linear and Non-Linear Plants ................. 719 
+Timothy W. Cacciatore and Steven J. Nowlan 
+A Computational Model for Cursive Handwriting Based on the Minimization 
+Principle ............................................................. 727 
+Yasuhiro Wada, Yasuharu Koike, Eric Vatikiotis-Bateson, and Mitsuo Kawato 
+PART VI APPLICATIONS 
+Signature Verification Using a "Siamese" Time Delay Neural Network ............ 737 
+Jane Bromley, Isabelle Guyon, Yann Le Cun, Eduard Siickinger, and 
+Roopak Shah 
+Postal Address Block Location Using a Convolutional Locator Network ........... 745 
+Ralph Wolf and John C. Platt 
+Non-Intrusive Gaze Tracking Using Artificial Neural Networks .................. 753 
+Shumeet Baluja and Dean Pomerleau 
+Hidden Markov Models for Human Genes .................................. 761 
+Pierre Baldi, SOren Brunak, Yves Chauvin, Jacob Engelbrecht, and 
+Anders Krogh 
+Illumination-Invariant Face Recognition with a Contrast Sensitive Silicon Retina .... 769 
+Joachim M. Buhmann, Martin Lades, and Frank Eeckman 
+Recognition-Based Segmentation of On-Line Cursive Handwriting ............... 777 
+Nicholas S. Flann 
+Address Block Location with a Neural Net System ............................ 785 
+Hans Peter Graf and Eric Cosatto 
+Identifying Fault-Prone Software Modules Using Feed-Forward Networks: 
+A Case Study ......................................................... 793 
+N. Karunanithi 
+Comparison Training for a Rescheduling Problem in Neural Networks ............ 801 
+Didier Keymeulen and Martine de Gerlache 
+Neural Network Definitions of Highly Predictable Protein Secondary Structure 
+Classes .............................................................. 809 
+Alan Lapedes, Evan Steeg, and Robert Farber 
+Temporal Difference Learning of Position Evaluation in the Game of Go .......... 817 
+Nicol N. Schraudolph, Peter Dayan, and Terrence J. Sejnowski 
+Probabilistic Anomaly Detection in Dynamic Systems ......................... 825 
+Padhraic Smyth 
+Decoding Cursive Scripts ................................................ 833 
+Yoram Singer and Nafiali Tishby 
+PART VII IMPLEMENTATIONS 
+A Massively-Parallel SIMD Processor for Neural Network and Machine Vision 
+Applications .......................................................... 843 
+Michael A. Glover and W. Thomas Miller III 
+A Hybrid Radial Basis Function Neurocomputer and Its Applications ............. 850 
+Steven S. Watkins, Paul M. Chau, Raoul Tawel, Bjorn Lambrigsten, and 
+Mark Plutowski 
+A Learning Analog Neural Network Chip with Continuous-Time Recurrent 
+Dynamics ............................................................ 858 
+Gert Cauwenberghs 
+VLSI Phase Locking Architectures for Feature Linking in Multiple Target Tracking 
+Systems ............................................................. 866 
+Andreas G. Andreou and Thomas G. Edwards 
+WATTLE: A Trainable Gain Analogue VLSI Neural Network ................... 874 
+Richard Coggins and Marwan Jabri 
+The "Softmax" Nonlinearity: Derivation Using Statistical Mechanics and Useful 
+Properties as a Multiterminal Analog Circuit Element ......................... 882 
+I. M. Elfadel and J. L. Wyatt, Jr. 
+High Performance Neural Net Simulation on a Multiprocessor System with 
+"Intelligent" Communication ............................................. 888 
+Urs A. Miller, Michael Kocheisen, and Anton Gunzinger 
+Digital Boltzmann VLSI for Constraint Satisfaction and Learning ................ 896 
+Michael Murray, Ming-Tak Leung, Kan Boonyanit, Kong Kritayakirana, 
+James B. Burr, Gregory J. Wolff, Takahiro Watanabe, Edward Schwartz, 
+David G. Stork, and Allen M. Peterson 
+Efficient Simulation of Biological Neural Networks on Massively Parallel 
+Supercomputers with Hypercube Architecture ............................... 904 
+Ernst Niebur and Dean Brettle 
+Learning Complex Boolean Functions: Algorithms and Applications ............. 911 
+A rlindo L. Oliveira and Alberto Sangiovanni- Vincentelli 
+xii 
+Implementing Intelligence on Silicon Using Neuron-Like Functional MOS 
+Transistors ........................................................... 919 
+Tadashi Shibata, Koji Kotani, Takeo Yamashita, Hiroshi Ishii, Hideo Kosaka, 
+and Tadahiro Ohmi 
+Event-Driven Simulation of Networks of Spiking Neurons ..................... 927 
+Lloyd Watts 
+PART VIII VISUAL PROCESSING 
+Globally Trained Handwritten Word Recognizer Using Spatial Representation, 
+Convolutional Neural Networks, and Hidden Markov Models ................... 937 
+Yoshua Bengio, Yann Le Cun, and Donnie Henderson 
+Classifying Hand Gestures with a View-Based Distributed Representation ......... 945 
+Trevor J. Darrell and Alex P Pentland 
+A Network Mechanism for the Determination of Shape-from-Texture ............. 953 
+Ko Sakai and Leif H. Finkel 
+Feature Densities Are Required for Computing Feature Correspondences .......... 961 
+Subutai Ahmad 
+The Role of MT Neuron Receptive Field Surrounds in Computing Object Shape 
+from Velocity Fields .................................................... 969 
+G. T Buracas and T D. Albright 
+Resolving Motion Ambiguities ........................................... 977 
+K. I. Diamantaras and D. Geiger 
+Two-Dimensional Object Localization by Coarse-to-Fine Correlation Matching ..... 985 
+Chien-Ping Lu and Eric Mjolsness 
+Dual Mechanisms for Neural Binding and Segmentation ....................... 993 
+Paul Sajda and Leif H. Finkel 
+Bayesian Self-Organization ............................................. 1001 
+Alan L. Yuille, Stelios M. Smirnakis, and Lei Xu 
+PART IX SPEECH AND SIGNAL PROCESSING 
+Analysis of Short Term Memories for Neural Networks ....................... 1011 
+Jose C. Principe, Hui-H. Hsu, and Jyh-Ming Kuo 
+Figure of Merit Training for Detection and Spotting .......................... 1019 
+Eric I. Chang and Richard P Lippmann 
+Lipreading by Neural Networks: Visual Preprocessing, Learning, and Sensory 
+1027 
+Integration .......................................................... 
+Gregory J. Wolff, K. Venkatesh Prasad, David G. Stork, and Marcus Hennecke 
+Speaker Recognition Using Neural Tree Networks ........................... 
+Kevin R. Farrell and Richard J. Mammone 
+Inverse Dynamics of Speech Motor Control ................................ 
+Makoto Hirayama, Eric Vatikiotis-Bateson, and Mitsuo Kawato 
+Learning Temporal Dependencies in Connectionist Speech Recognition .......... 
+Steve Renals, Mike Hochberg, and Tony Robinson 
+Segmental Neural Net Optimization for Continuous Speech Recognition ......... 
+Iqng Zhao, Richard Schwartz, John Makhoul, and George Zavaliagkos 
+1035 
+1043 
+1051 
+1059 
+PART X COGNITIVE SCIENCE 
+Connectionist Models for Auditory Scene Analysis .......................... 1069 
+Richard O. Duda 
+Computational Elements of the Adaptive Controller of the Human Arm .......... 1077 
+Reza Shadmehr and Ferdinando A. Mussa-lvaMi 
+Tonal Music as a Componential Code: Learning Temporal Relationships between 
+and within Pitch and Timing Components .................................. 1085 
+Catherine Stevens and Janet 14qles 
+GDS: Gradient Descent Generation of Symbolic Classification Rules ............ 1093 
+R einhard B lasi g 
+Emergence of Global Structure from Local Associations ...................... 1101 
+Thea B. Ghiselli-Crippa and Paul W. Munro 
+Estimating Analogical Similarity by Dot-Products of Holographic Reduced 
+Representations ...................................................... 1109 
+Tony A. Plate 
+Analyzing Cross-Connected Networks .................................... 1117 
+Thomas R. Shultz and Jeffrey L. Elman 
+Encoding Labeled Graphs by Labeling RAAM .............................. 1125 
+Alessandro Sperduti 
+PART XI ADDENDA TO NIPS 5* 
+Learning Mackey-Glass from 25 Examples, Plus or Minus 2 ................... 1135 
+Mark Plutowski, Garrison Cottrell, and Halbert White 
+Classification of Multi-Spectral Pixels by the Binary Diamond Neural Network .... 1143 
+Yehuda Salu 
+*Because of circumstances beyond the Publisher's control, the following three papers were not included in 
+Advances in Neural Information Processing Systems, Volume 5. 
+Classification of Electroencephalogram Using Artificial Neural Networks ........ 1151 
+A. C. Tsoi, D. $. C. $o, and A. Sergejew 
+PART XlI WORKSHOPS 
+Complexity Issues in Neural Computation and Learning ...................... 1161 
+V. P Roychowdhury and K.-Y. Siu 
+Connectionism for Music and Audition .................................... 1163 
+Andreas Weigend 
+Memory-Based Methods for Regression and Classification .................... 1165 
+Thomas G. Dietterich, Dietrich Wettschereck, Chris G. Atkeson, and 
+Andrew W. Moore 
+Neurobiology, Psychophysics, and Computational Models of Visual Attention ..... 1167 
+Ernst Niebur and Bruno A. Olshausen 
+Robot Learning: Exploration and Continuous Domains ....................... 1169 
+David A. Cohn 
+Stability and Observability .............................................. 1171 
+Max Garon and Fernanda Botelho 
+What Does the Hippocampus Compute?: A Precis of the 1993 NIPS Workshop .... 1173 
+Mark A. Gluck 
+Catastrophic Interference in Connectionist Networks: Can It Be Predicted, Can It 
+Be Prevented? ........................................................ 1176 
+Robert M. French 
+Connectionist Modeling and Parallel Architectures ........................... 1178 
+Joachim Diederich and Ah Chung Tsoi 
+Functional Models of Selective Attention and Context Dependency .............. 1180 
+Thomas H. Hildebrandt 
+Learning in Computer Vision and Image Understanding ....................... 1182 
+Hayit Greenspan 
+Neural Network Methods for Optimization Problems ......................... 1184 
+Arun Jagota 
+Processing of Visual and Auditory Space and Its Modification by Experience ...... 1186 
+Josef P. Rauschecker and Terrence J. Sejnowski 
+Putting It All Together: Methods for Combining Neural Networks ............... 1188 
+Michael P. Perrone 
+Author Index ........................................................ 1191 
+Keyword Index ....................................................... 1195 
+xv 
+PREFACE 
+This volume contains the collected papers summarizing the talks and posters pre- 
+sented at the seventh annual NIPS conference (short for Neural Information Pro- 
+cessing Systems - Natural and Synthetic), held in Denver, Colorado, from November 
+29th to December 2nd, 1993. It also includes short summaries of the NIPS work- 
+shops held at Vail on December 3rd and 4th. 
+This year's conference began on a sad note. The first president of the NIPS Foun- 
+dation (see last year's preface), and the general chair of the first NIPS meeting 
+held in 1987, Ed Posner, Chief Technologist of the Office of Telecommunications 
+and Data Acquisition at JPL and Visiting Professor of Electrical Engineering at 
+Caltech, was killed last June 15th in a traffic accident in Pasadena. His Caltech 
+colleague Rod Goodman (the NIPS Treasurer) delivered the moving eulogy which 
+is included in this volume. The NIPS foundation and conference owes a great debt 
+to Ed Posner, who was in large part responsible for its creation and development. 
+He will be greatly missed. In his place the NIPS foundation elected Terry Sejnowski 
+as president. 
+It is also noteworthy that this year marks the 50th anniversary of the publication 
+of the seminal paper by McCulloch and Pitts, "A Logical Calculus of the Ideas 
+Immanent in Nervous Activity", in the Bulletin of Mathematical Biophysics. This 
+paper initiated in large part, the entire development of the field we now call "Neural 
+Networks", and in fact also greatly influenced the mathematician John yon Neu- 
+mann and the other early U.S. workers who developed the general purpose digital 
+computer. It is therefore fitting to find the modern computer workstation playing 
+such an important role in the development of neural networks. 
+This year's papers certainly reflect well the current state of development of the field. 
+There are many excellent accounts of work on such diverse topics as Tonal Music 
+(Stevens and Wiles), Lip Reading (Wolff et al.), Dynamic Programming (Buckland 
+and Lawrence), PAC-Learning (Maass), Connectionist Models for Auditory Scene 
+Analysis (Duda), Unsupervised Learning (Zemel), Odor Processing in the Bee (Lin- 
+ster et al.), Visual Cortex development (Obermayer et al.), Neural Network Chips 
+xvi 
+(Cauwenberghs), Signature Verification (Bromley et al.), Statistical Correlations in 
+Large Networks (Ginzburg and Sompolinsky), and on Recovering a Feed-forward 
+Network fom its Output (Fefferman and Markel), to name but a few. 
+The workshops this year were again held at Vail and chaired very effectively by 
+Mike Mozer. They covered theory and applications, with emphasis on such topics as 
+Attention, Robot Learning, Hippocampal Function, VLSI Implementations, Basic 
+Connectionist Modelling, Computer Vision, and Visual and Auditory Processing. 
+It is evident that the workshops comprise an important part of the NIPS meeting 
+and serve to bring the NIPS community closer together. 
+The NIPS conference brings together over 500 people and requires the hard and 
+dedicated work of an exceptional group of volunteers. We would like to thank all 
+the other members of the 1993 program and organizing committees who helped make 
+this conference possible (they are listed elsewhere in this volume). In particular, we 
+thank Chuck Anderson once again for his extraordinary efforts at local arrangments, 
+and all the student volunteers fom Colorado State and UC Boulder, Davi Geiger for 
+the poster, and Debbie McGougan of Caltech for her extensive work throughout the 
+year as the conference secretary, and both Debbie and Denise Hallman of Colorado 
+State for running the conference desk so efficiently. We also thank everyone who 
+attended and/or submitted papers, and the 130 referees who carefully read and 
+reviewed the 515 papers submitted this year. Finally, we wish to thank Barbara 
+Yoon of the Advanced Projects Research Agency, Steve Suddarth of the Air Force 
+Office of Scientific Research, and Tom McKenna of the Office of Naval Research, 
+for providing NIPS with much needed financial support for many of the graduate 
+students and young investigators who attended the meeting. 
+Jack D. Cowan, University of Chicago 
+Gerald Tesauro, IBM 
+Joshua Alspector, Bellcore 
+December 15, 1993 
+xvii 
+IN MEMORIAM 
+Edward C. Posner 
+1933- 1993 
+XVIII 
+Ed Posner 
+Ed Posner, our dear friend and colleague, and Chairman of the NIPS foundation 
+(the oversight body that organizes this conference), died tragically on the morning 
+of June 15th 1993, just eight weeks prior to his sixtieth birthday. 
+Ed was hit by a truck as he bicycled to work at JPL on the same route he had used 
+for the last 30 odd years, and was killed instantly. Ed is survived by his wife Sylvia, 
+and his children Joyce and Steven. 
+Edward Charles Posner was a prolific and influential communications scientist and 
+educator, and one of the most universally admired and respected members of the 
+IEEE Communications Society. He was a founder of neural network research and 
+of the NIPS conference, serving as General Chair of the 1987 conference. 
+At the time of his death, Posner held the post of Chief Technologist of the Office of 
+Telecommunications and Data Acquisition at Caltech's Jet Propulsion Laboratory, 
+and was also visiting Professor in Caltech's Electrical Engineering Department. 
+I first met Ed in the late 70's at an information theory conference. I grew to 
+respect his phenomenal organizational and human talents when we collaborated on 
+the 1985 International Symposium on Information Theory in Brighton England, he 
+as program chair and I as general co-chair. The last time I saw him was the night 
+before the terrible accident when he handed over the NIPS accounts and check 
+books to me in my office, quipped a "Posner Pun" about accounts and accountants 
+which I can't remember, and went home. I didn't know him as long as some of the 
+people here, but I worked with him every day since arriving at Caltech in 1985 and 
+grew to realize that Ed was above all the most charming, kind, wise, witty, and 
+public-spirited person that I have ever met. 
+More of Ed's human qualities later, first I'd like to talk about his early days. 
+Ed Posner was born August 10, 1933, in Brooklyn, N.Y. He attended New York 
+City public schools and graduated first in his class, from Stuyvesant High School, 
+in 1950. Paul Cohen, (winner of the Boucher Prize and the Fields Medal) and his 
+lifelong school friend described how they would solve puzzles, play practical jokes, 
+and compete ferociously for top of class. Early on, Ed discovered the algorithm for 
+winning the game of NIM, and pretty much cleaned up on marbles in the playground 
+after that. 
+xx In Memoriam 
+Just two short years after high school graduation, Ed received a B.A. in Physics, and 
+the following year an M.S. in Mathematics, both from the University of Chicago. 
+Although he spent most of his professional life closely involved in the research and 
+development of communication systems, he began as a pure mathematician. In 
+1957, he earned his Ph.D. in mathematics at the University of Chicago, under the 
+direction of Irving Kaplansky. Ed's Ph.D. thesis was entitled "Differentiably Simple 
+Rings," and it was only 26 pages long, the shortest in the history of the University 
+of Chicago, a fact that Ed was quite proud of. His early work in ring theory was 
+very influential, and "Posner's Theorem," characterizing prime rings satisfying a 
+polynomial identity, is still quoted by ring theorists. 
+During his graduate studies, Ed also worked part time at Bell labs in New York 
+City, his home town. Although of no obvious relevance to his career at the time, his 
+work at Bell Labs was to have an important influence almost 20 years later, when he 
+began serious research in traffic and switching for telephone communications, and 
+the application of neural nets to telecommunications problems. Ed claimed that he 
+used to sit at Nyquist's old desk at Bell Labs - perhaps that's what did it. 
+After his Ph.D., for the next four years, Ed worked in academia, first as a mathe- 
+matics instructor at the University of Wisconsin. A story relates that while he was 
+in Wisconsin he hitched a ride with a lumber truck. In conversation, the driver 
+explained he had trouble fitting all of the different types of lumber on the truck. 
+Well, Ed solved a second order Diophantine equation on the spot to help him out. 
+That was typical of Ed's approach to helping people - he would decide what needed 
+to be done, and then do it, right then, no delay, no prevarication. 
+Ed then became an assistant professor of mathematics at Harvey Mudd college in 
+Pasadena, and in 1960-61 also worked as a consultant at Caltech's Jet Propulsion 
+Laboratory. 
+Then In 1961, Ed Posner was hired by Sol Golomb to head the Information Pro- 
+cessing Group in the Telecommunications Division at JPL. This proved to be the 
+beginning of Ed's life's work. For the next 10 years, he built the group, already 
+good, into one of the strongest information theory research groups in the world. 
+At one time or another during his tenure, the group included Odu Adeyemi, Len 
+Baumert, Elwyn Berlekamp, Hal Fredricksen, Bob Gray, A1 Hales, Larry Harper, 
+Bob McEliece, Gus Solomon, Gene Rodemich, Howard Rumsey, Richard Stanley, 
+Jack Stifi]er, Herb Taylor, Henk Van Tilborg, and Lloyd Welch. All, pillars of the 
+information theory and communications community. The group's strength in large 
+part was derived from Ed's remarkable knack of finding problems which were both 
+challenging to the theorists, and useful to the project engineers. Posner's legacy 
+from this period includes a very large body of theoretical work in information the- 
+ory, including his own profound work, done in collaboration with Rodemich and 
+Rumsey, on the epsilon entropy of random processes, as well as NASA project ap- 
+plications including error control coding for telemetry and command, data frame 
+synchronization, data compression systems, phased-locked loop design, and ground- 
+based antenna arraying. 
+After he left direct research supervision at JPL he rose up in a series of planning 
+and management positions, where he was an aggressive and effective advocate for 
+the importance of basic research to the long-term health of the U.S. Space Program. 
+Ed Posner xxi 
+At the time of his death, he was Chief Technologist for the Telecommunications and 
+Data Acquisition office. His diplomatic but inflexible intolerance of shoddy work, 
+his ability to cut through bureaucratic snarls, and his genius for recognizing and 
+nurturing talent, helped to make JPL, and especially the Deep Space Network, one 
+of the most successful large project centers in the world. Because of his influence, a 
+generation of mathematicians and information theorists became welcome and useful 
+contributors to the U.S. Planetary Exploration program. Ed perhaps more than any, 
+was directly responsible for delivering all those exciting first close-up pictures of the 
+planets to our TV screens. 
+In 1970, Ed became a part-time member of the Caltech faculty, initially in the Ap- 
+plied Mathematics Department. In 1972 he was recruited by John Pierce, who had 
+come to Caltech himself in the previous year, to serve on the Electrical Engineer- 
+ing faculty, which he continued to do until his death. He cherished his career as a 
+Caltech Professor, and devoted an enormous amount of time to it, despite the fact 
+that officially he held only a 50% appointment. I worked with Ed every day and in 
+no way was he a "half timer". He contributed a full load at both Caltech and JPL 
+- a masterpiece of time management. 
+Ed supervised more than a dozen Ph.D. students, many of whom are now working 
+in telecommunications research in both industry and academia. At the time of his 
+death, he was supervising seven more. He was a wise and generous research adviser, 
+spending countless hours helping his students with technical details, and explaining 
+to them how their work fit into the larger picture of modern technology, but rarely 
+allowing his name to appear on the papers that resulted from this collaboration. 
+Many of Ed's students were supported by a grant from Pacific Bell, an organization 
+with which Ed had developed very close and cordial ties over the past 10 years. 
+Every year, he taught a popular course on Communications Traffic and Switching, 
+in which he introduced students to the mathematical foundations of telephony. 
+A dedicated supporter of Caltech's SURF (Summer Undergraduate Research Fel- 
+lowship) program, Ed had sponsored 16 SURFers since 1984, who worked on a wide 
+variety of topics from music synthesis to aids for the deaf. He also co-founded the 
+SURFSAT satellite program with Robert Clauss at JPL, which aims at putting 
+student projects into space. Between 1988 and 1991, he co-sponsored 20 SURFSAT 
+students at JPL with Clauss. Posner had also served on the Freshman Admissions 
+Committee since 1991 and the President's Fund Committee, which funds innovative 
+research by Caltech faculty and students at JPL, since 1990. 
+And now to Ed's scientific contribution. His research interests were remarkably 
+broad. When reviewing his work I found that he had written over 200 articles for 
+scientific publication. This scientific legacy speaks for itself. The topics of Ed's 
+papers range from Communication Technology, to Computer Science, from Traffic 
+and Transportation Technology to Neural Networks. 
+His research interests at the time of his death ranged from video compression and en- 
+hancement, to queueing and traffic models for new civil telecommunications services, 
+and from multiple-user radio communications to planetary radar signal processing 
+and neural networks. 
+He began, technically, in a narrow area of mathematics, but at the end, he had a 
+overall broad and deep knowledge of modern technology, especially, but not exclu- 
+xxii In Memoriam 
+sively, communications technology, unmatched by anyone ever I knew. When neural 
+networks became important, Ed, well over 50, mastered them, and became one of 
+the founding members of Caltech's Computation and Neural Systems program. By 
+some miraculous internal chemistry, he was able to keep the wheels of change and 
+growth turning right up to the end. I think there's a lesson there for all of us. 
+Ed's neural network research was concentrated in the areas of applications of neural 
+networks to communications systems, and the analysis of learning. Students that 
+he advised, or helped advise, have become important young researchers in the field: 
+Pierre Baldi, Tim Brown, Padhraic Smyth, and Santosh Venkatesh, to name a few. 
+There is no doubt that Ed was a prime mover in our field of neural networks, and did 
+everything in his power to progress the field while maintaining the highest quality, 
+and the lowest profile of himself. 
+My favorite paper of his is entitled "The Capacity of the Hopfield Associative Mem- 
+ory." Written in collaboration with Bob McEliece, Gene Rodemich, and Santosh 
+Venkatesh, they use signal to noise arguments borrowed from information theory to 
+derive the incredibly elegant result that the capacity of the Hopfield net is bounded 
+by N/21og N. 
+By the way, Ed called his brilliant and quietly intense JPL colleague Gene Rodemich 
+"The bridge." Gene could always be counted on to rescue his colleagues from the 
+thorniest mathematical thicket, and Ed would often say "Whew, this is tough one. 
+Let's give it to The bridge." 
+In addition to his JPL duties, his academic duties, and his research, Ed was also 
+involved in an amazing number of technical project collaborations. For example, 
+a few weeks before his death he jointly received a patent with other colleagues for 
+an electronic anti-theft device for automobiles. I myself was working with Ed on a 
+technology transfer project to implement network management expert systems into 
+Pacific Bell. There were many others that I heard about. Ed never thought about 
+personal gain in these projects, but always about the advancement of technology, 
+and that these should result in just rewards for his collaborators and Caltech. Also, 
+when talking about a particular project, one always had Ed's full and complete 
+attention, and received his enthusiastic and wise council. It felt like yours was the 
+only project he was involved with. 
+Yes, Ed had a profound impact on many of us here. But in a sense I feel that we 
+have been cheated of Ed's most influential years. Ed was at the stage in his career 
+where he was starting to have significant national influence on the future direction 
+of science and technology in the USA. I felt certain he was headed for honors and 
+awards in his mature years, though characteristically, he would never seek them. 
+Well, we intend to honor Ed at this conference by dedicating our after dinner speech 
+to him, henceforth to be known as the Posner Memorial Lecture. Caltech is honoring 
+him by establishing a SURF endowment that will fund his cherished undergraduate 
+researchers. 
+I'd like to now turn to Ed's unique human qualities: his ability to recognize talent, 
+make wise and accurate decisions, his punctuality, and of course - his humor. 
+In places like JPL and Caltech, our continued success depends almost entirely on 
+our ability to recognize and recruit talented newcomers: without them, we'd soon 
+Ed Posner xxiii 
+dry up and wither away. More than anyone else I ever knew, Ed had an infallible 
+gift for recognizing talent. This room contains many people who were hired, or 
+recruited as students, because of his influence. In this sense, he was able to amplify 
+his influence, far beyond what he could have done, or what anyone could have done, 
+as an individual researcher or manager. Part of this skill came, I believe, from his 
+absolute ability to rise above petty jealousies, and to judge a person, even someone 
+who might in some ways outshine himself, completely objectively. (This ability is 
+rarer than you might think, even at Caltech.) But most of it was unexplainable and 
+magical. Somehow, he was able to make amazingly accurate personnel decisions, 
+and give wise accurate council, even on the basis of far too little information. 
+Ed was also the most punctual man I ever met. I never knew him to be late for a 
+meeting - or for that matter early. Ed had an incredible knack of arriving seconds 
+before the appointed time. This had its down side. If you have ever had to catch 
+a plane with Posner you know what I mean. He would budget exactly the required 
+time to catch the plane, arriving minutes before departure. On the drive to the 
+airport one was convinced that you were not going to make it. You always did. 
+After two trips like this I (like most other mortals with nerves of less than steel) 
+couldn't take it any more. I always went separately after that, arriving, unlike Ed, 
+with lots of time to kill. 
+And now to Ed's legendary sense of humor. I never knew a quicker wit - in fact, I 
+can't even imagine a quicker wit. He truly was "the fastest pun in the West". His 
+dry Brooklyn delivery was often more important that what he said; he would perch 
+his glasses down on the end of his nose and look impishly around, and everyone 
+would laugh in anticipation. It's little known that Ed was an active member of the 
+Toastmasters and an ideal emcee. Of course we always saw him sitting right at the 
+front in any technical meeting, quipping away at the speaker, being a witty session 
+chairman, or injecting humor as he moderated a dry panel discussion. 
+Here are a few memorable examples. 
+In a seminar once, in which a student described how he was involved in the design of 
+a small satellite that would be launched at no cost by NASA, Ed piped up, "there's 
+gotta be a catch somewhere - there's no such thing as a free launch." 
+One of his last papers, dealing with the application of information theory to a study 
+of the human olfactory system, is called "A Code in the Nose." 
+In describing a respected colleague who had recently found religion, Ed remarked 
+"he may have been born again, but he wasn't born again yesterday." 
+And of course there's his famous remark about the deep space error control project 
+at JPL called the Big Viterbi Decoder, and of course shortened to BVD. The first 
+time Ed heard this acronym in a meeting, he instantly remarked "we're used to 
+working with hardware and software, but this is the first time we'll be working with 
+underwear!" 
+I don't think its too ungenerous to say that Ed was NOT always a good speaker. 
+His lectures in class were sometimes very dry, and students sometimes grumbled. 
+Of course Ed recognized this in himself and made fun of it. Ian Galton, a recent 
+graduate student of Ed's, recounts the time that they each taught different sections 
+of EEl60 during the same quarter. A student came to Ian with a note from her 
+xxiv In Memoriam 
+doctor and asked if she could take an incomplete in the course, because she had 
+chronic insomnia which made it difficult for her to work. When Ian mentioned this 
+to Ed, without missing a beat he said "have her switch to my section - I'll put her 
+to sleep." 
+Yes, he was a great wit, but he was not a clown. Just the opposite. He never took 
+himself seriously, but everyone else learned to take him very seriously indeed. When 
+Ed spoke, people listened. What I will miss most about him, I think, is his wise 
+counsel, always immensely helpful, but always dispensed with a twinkle in his eye. 
+I walk past his office every day, and I still half-expect to see him pop out of the 
+office and say surprise! It was all a bad dream. Dammit Ed why couldn't you have 
+been 5 minutes late for once in your life on that terrible day. Well, someday June 
+15, 1993, will be a long time ago, and we'll all feel better about this terrible tragedy 
+than we do now. Our grief will fade, but our memories of Ed will not. What we'll 
+remember, what I'll remember is that he was a witty, wise, kind, patient, self-aware, 
+and deeply committed man. Above all, I'll remember, and be proud, that he was 
+my friend. 
+Thank you Ed for being here for us, and I know that if you could give us one last 
+word, it would be your favorite parting phrase - CARRY ON! 
+Rod Goodman 
+"with a lot of help from my friends:" Bob McEliece and Sol Golomb 
+Ed Posner xxv 
+::..:f, 
+NIPS-93 ORGANIZING COMMITTEE 
+General Chair 
+Program Chair 
+Workshop Chair 
+Publicity Chair 
+Publications Chair 
+Treasurer 
+Government/Corporate Liaison 
+Local Arrangements Chair 
+Tutorials Chair 
+Jack D. Cowan, University of Chicago 
+Gerald Tesauro, IBM 
+Mike Mozer, University of Chicago 
+Bartlett Mel, Caltech 
+Joshua Alspector, Bellcore 
+Rodney Goodman, Caltech 
+Lee Giles, NEC Research Institute 
+Chuck Anderson, Colorado State University 
+David Touretzky, Carnegie-Mellon 
+NIPS-93 PUBLICITY COMMITTEE 
+Publicity Chair 
+Overseas Liaison (Japan) 
+Overseas Liaison (Australia, Singapore, India) 
+Overseas Liaison (Europe) 
+Overseas Liaison (United Kingdom) 
+Overseas Liaison (South America) 
+Bartlett Mel, Caltech 
+Mitsuo Kawato, ATR Research Laboratories 
+Marwan Jabri, University of Sydney 
+Gerard Dreyfus, ESPCI, France 
+Alan Murray, Edinburgh University 
+Andreas Meier, Simon Bolivar University 
+NIPS-93 PROGRAM COMMITTEE 
+Program Chair 
+Program Co-Chairs 
+Gerald Tesauro, IBM 
+Larry Abbott, Brandeis University 
+Chris Atkeson, MIT 
+A. B. Bonds, Vanderbilt University 
+Gary Cottrell, UCSD 
+Scott Fahlman, Carnegie-Mellon 
+Rod Goodman, Caltech 
+John Hertz, NORDITAYNIH 
+John Lazzaro, UC Berkeley 
+Todd Leen, Oregon Graduate Institute 
+Jay McClelland, Carnegie-Mellon 
+Nelson Morgan, ICSI 
+Steve Nowlan, Synaptics 
+Misha Pavel, NASAYOGI 
+Sandy Pentland, MIT 
+Tom Petsche, Siemens 
+xxvi 
+NIPS FOUNDATION BOARD MEMBERS 
+President 
+IEEE Representative 
+Legal Advisor 
+Members 
+Terry Sejnowski 
+Terrence Fine 
+Philip K. Sotel 
+Jack Cowan 
+Scott Kirkpatrick 
+Richard Lippmann 
+John Moody 
+Stephen Hanson 
+NIPS-93 REFEREES 
+Yaser Abu-Mostafa, Caltech 
+Subutai Ahmad, Siemens AG 
+A. Ahumuda, NASA Ames Research Center 
+Duane Albrecht, University of Texas 
+Chuck Anderson, Colorado State University 
+Dana Anderson, University of Colorado 
+Andreas Andreou, Johns-Hopkins 
+Krste Asanovic, ICSI 
+Les Atlas, University of Washington 
+Jonathan Bachrach, IRCAM 
+Pierre Baldi, Caltech 
+Etienne Barnard, Oregon Graduate Institute 
+Andy Barto, University of Massachusetts 
+Sue Becker, The Rotman Research Institute 
+Yoshua Bengio, AT&T Bell Laboratories 
+William Bialek, NEC Research Institute 
+Lyle Borg-Graham, MIT 
+David Bounds, Aston University 
+Herve Bourlard, L&H Speech Prod 
+Justin Boyan, Carnegie-Mellon University 
+Tim Brown, Bellcore 
+Jim Burr, Stanford University 
+Tzi-dar Chiueh, National Taiwan University 
+Mike Cohen, SRI International 
+David Cohn, MIT 
+Dave Demers, UC San Diego 
+Alain Destexhe, The Salk Institute 
+Bradley Dickinson, Princeton University 
+Gerard Dreyfus, ESPCI Laboratoire 
+d'Electronique 
+Mark Fanty, OGI 
+Terrence Fine, Cornell University 
+Judy Franklin, GTE Laboratories 
+Bill Geisler, University of Texas 
+Lee Giles, NEC Research Institute 
+Dave Gillespie, Synaptics Inc. 
+Michael Godfrey, Stanford University 
+Hans-Peter Graf, AT&T Bell Laboratories 
+Norberto Grzywycz, Smith-Kettlewell Institute 
+of Visual Science 
+Vijaykumar Gullapalli, University of 
+Massachusetts 
+Patrick Haffner, Centre National d'Etudes des 
+Telecommunications 
+Catherine Harris, Boston University 
+John Harris, MIT 
+Mike Hasselmo, Harvard University 
+David Haussler, University of California 
+David Heeger, Stanford University 
+Andreas Herz, Caltech 
+xxvii 
+Geoff Hinton, University of Toronto 
+Nathan Intrator, Tel Aviv University 
+Marwan Jabri, Sydney University 
+Robert Jacobs, University of Rochester 
+Kristina Johnson, University of Colorado 
+Mike Jordan, MIT 
+Stephen Judd, Siemens Corporate Research 
+Dan Kersten, University of Minnesota 
+Anders Krogh, Technical University of 
+Denmark 
+Anthony Kuh, University of Hawaii 
+Gary Kuhn, Siemens Corporate Research 
+Yann Le Cun, AT&T Bell Laboratories 
+Hong Leung, NYNEX Science and Technology 
+Richard Lippmann, MIT Lincoln Laboratory 
+James Little, University of British Columbia 
+L. Maloney, New York University 
+Ken Marko, Ford Motor Company 
+Lina Massone, Northwest University 
+Bartlett Mel, California Institute of Technology 
+Janet Metcalfe, Dartmouth College 
+Risto Miikkulainen, University of Texas at 
+Austin 
+John Miller, Microsoft Corporation 
+Tom Miller, University of New Hampshire 
+Eric Mjolsness, Yale University 
+Martin Moller, Aarhus University 
+Andrew Moore, MIT 
+Andy Moore, Tanner Research 
+A. Movshon, New York University 
+Alan Murray, University of Edinburgh 
+Radford Neal, University of Toronto 
+Les Niles, Xerox PARC 
+Izumi Ohzawa, University of California 
+Steve Omohundro, ICSI 
+Alice Outoole, University of Texas at Dallas 
+Satinder Pal Singh, University of 
+Massachusetts 
+Barak Pearlmutter, Siemens Corporate 
+Research 
+Pietro Perona, Caltech 
+John Platt, Synaptics 
+David Plaut, Carnegie-Mellon University 
+Tomaso Poggio, MIT 
+A. Poirson, New York University 
+Jordan Pollack, OSU 
+Dean Pomerleau, Carnegie-Mellon University 
+Venkatesh Prasad, RICOH California Research 
+Center 
+Lorien Pratt, Colorado School of Mines 
+Jose Principe, University of Florida 
+Steven Rehfuss, Oregon Graduate Institute 
+Daniel Reisfeld, Tel Aviv University 
+Steve Renals, Cambridge University 
+Tony Robinson, University of Cambridge 
+David Saad, University of Edinburgh 
+Eduard Sackinger, AT&T Bell Laboratories 
+Terry Sanger, LAC-USC Medical Center 
+Idan Segev, National Institute of Health 
+Dan Seligson, Intel Corporation 
+Sebastian Seung, AT&T Bell Laboratories 
+Jude Shavlik, University of Wisconsin 
+Patrice Simard, AT&T Bell Laboratories 
+Patrick Smyth, JPL 
+Sara Solla, Niels Bohr Institute 
+John Sorensen, Technical University of 
+Denmark 
+Mark St. John, UCSD 
+Steve Suddaarth, AFOSR/NM 
+Rich Sutton, GTE Laboratories 
+Richard Szeliski, Digital Equipment 
+Corporation 
+Joseph Tebelskis, Carnegie-Mellon University 
+Sebastian Thrun, Carnegie-Mellon University 
+Naftali Tishby, The Hebrew University 
+Geoffrey Towell, Siemens Corporate Research 
+Volker Tresp, Siemens AG 
+Alessandro Treves, SISSA-ISAS 
+Santosh Venkatesh, University of Pennsylvania 
+Kelvin Wagner, University of Colorado 
+Raymond Watrous, Siemens Corporate 
+Research 
+A. Watson, NASA Ames Research Center 
+Andreas Weigend, University of Colorado 
+Steve Whitehead, GTE Laboratories 
+Janet Wiles, University of Queensland 
+Chris Williams, University of Toronto 
+Charles Wilson, University of Tennessee 
+David Wolpert, Santa Fe Institute 
+Lei Xu, MIT 
+Steve Zucker, McGill University 
+XX¾111 
+PART I 
+LEARNING 
+ALGORITHMS 

@@ -1,0 +1,604 @@
+Synchronized Auditory and Cognitive 40 Hz Attentional Streams, and the Impact of Rhythmic Expectation on Auditory Scene Analysis, 
+Bill Baird
+ 3 
+
+On Parallel versus Serial Processing: A Computational Study of Visual Search,
+ Eyal Cohen and Eytan Ruppin 
+ 10 
+
+Task and Spatial Frequency Effects on Face Specialization,
+Matthew N. Dailey and Garrison W. Cottrell 
+ 17 
+
+Neural Basis of Object-Centered Representations,
+Sophie Deneve and Alexandre Pouget 
+ 24 
+
+A Neural Network Model of Naive Preference and Filial Imprinting in the Domestic Chick,
+ Lucy E. Hadden 
+ 31 
+
+Adaptation in Speech Motor Control,
+ John F. Houde and Michael I. Jordan 
+ 38 
+
+Learning Human-like Knowledge by Singular Value Decomposition.' A Progress Report,
+ Thomas K. Landauer, Darrell Laham and Peter Foltz 
+ 45 
+
+Multi-modular Associative Memory,
+ Nit Levy, David Horn and Eytan Ruppin 
+52 
+
+Serial Order in Reading Aloud.' Connectionist Models and Neighborhood Structure, 
+Jeanne C. Milostan and Garrison W. Cottrell 
+ 59 
+
+A Superadditive-Impairment Theory of Optic Aphasia,
+ Michael C. Mozer, Mark Sitton and Martha Farah 
+ 66 
+
+A Hippocampal Model of Recognition Memory,
+ Randall C. O'Reilly, Kenneth A. Norman and James L. McClelland
+ 73 
+
+Correlates of Attention in a Model of Dynamic Visual Recognition,
+Rajesh P. N. Rao 
+ 80 
+
+Recurrent Neural Networks Can Learn to Implement Symbol-Sensitive Counting,
+ Paul Rodriguez and Janet Wiles 
+ 87 
+
+Comparison of Human and Machine Word Recognition,
+Markus Schenkel, Cyril Latimer and Marwan Jabri 
+ 94 
+
+Coding of Naturalistic Stimuli by Auditory Midbrain Neurons,
+ Hagai Attias and Christoph E. Schreiner 
+ 103 
+
+Refractoriness and Neural Precision,
+ Michael J. Berry and Markus Meister 
+110 
+
+Statistical Models of Conditioning, 
+Peter Dayan and Theresa Long
+ 117 
+
+Characterizing Neurons in the Primary Auditory Cortex of the Awake Primate Using Reverse Correlation,
+ R. Christopher deChamas and Michael M. Merzenich 
+124 
+
+Using Helmholtz Machines to Analyze Multi-channel Neuronal Recordings, 
+Virginia R. de Sa, R. Christopher deCharms and Michael M. Merzenich
+131 
+
+Instabilities in Eye Movement Control: A Model of Periodic Alternating Nystagmus,
+ Ernst R. Dow and Thomas J. Anastasio 
+138 
+ 
+Hippocampal Model of Rat Spatial Abilities Using Temporal Difference Learning,
+ David J. Foster, Richard G. M. Morris and Peter Dayan 
+145 
+
+Gradients for Retinotectal Mapping,
+ Geoffrey J. Goodhill 
+ 152 
+
+A Mathematical Model of Axon Guidance by Diffusible Factors,
+Geoffrey J. Goodhill 
+159 
+
+Computing with Action Potentials (Invited Talk),
+John J. Hopfield, Carlos D. Brody and Sam Roweis 
+166 
+
+A Model of Early Visual Processing,
+Laurent Itti, Jochen Braun, Dale K. Lee and Christof Koch 
+173 
+
+Perturbative M-Sequences for Auditory Systems Identification,
+Mark Kvale and Christoph E. Schreiner 
+180 
+
+Effects of Spike Timing Underlying Binocular Integration and Rivalry in a Neural Model of Early Visual Cortex,
+ Erik D. Lumer 
+ 187 
+
+Dynamic Stochastic Synapses as Computational Units,
+Wolfgang Maass and Anthony M. Zador 
+194 
+
+Synaptic Transmission: An Information-Theoretic Perspective,
+Amit Manwani and Christof Koch 
+ 201 
+
+Toward a Single-Cell Account for Binocular Disparity Tuning: An Energy Model May Be Hiding in Your Dendrites± 
+Bartlett W. Mel, Daniel L. Ruderman and Kevin A. Archie 
+ 208 
+
+Just One View: Invariances in Inferotemporal Cell Tuning,
+ Maximilian Riesenhuber and Tomaso Poggio 
+ 215 
+
+On the Separation of Signals from Neighboring Cells in Tetrode Recordings± 
+Maneesh Sahani, John S. Pezaris and Richard A. Andersen 
+ 222 
+
+Independent Component Analysis for Identification of Artifacts in Magnetoencephalographic Recordings,
+ Ricardo Vigario, Veikko Jousmaki, Matti Hamalainen, Riitta Hari and Erkki Oja 
+229 
+
+Modeling Complex Cells in an Awake Macaque during Natural Image Viewing, 
+William E. Vinje and Jack L. Gallant 
+ 236 
+
+The Canonical Distortion Measure in Feature Space and 1-NN Classification,
+Jonathan Baxter and Peter Bartlett 
+245 
+
+Multiple Threshold Neural Logic,
+ Vasken Bohossian and Jehoshua Bruck 
+252 
+
+Generalization in Decision Trees and DNF: Does Size Matter? 
+Mostefa Golea, Peter Bartlett, Wee Sun Lee and Llew Mason 
+259 
+
+Selecting Weighting Factors in Logarithmic Opinion Pools,
+ Tom Heskes 
+266 
+
+New Approximations of Differential Entropy for Independent Component Analysis and Projection Pursuit,
+ Aapo Hyv'firinen 
+273 
+
+Boltzmann Machine Learning Using Mean Field Theory and Linear Response Correction,
+ Hilbert J. Kappen and F. B. Rodrfguez 
+280 
+
+Relative Loss Bounds for Multidimensional Regression Problems,
+Jyrki Kivinen and Manfred K. Warmuth 
+287 
+
+Asymptotic Theory for Regularization: One-Dimensional Linear Case,
+Petri Koistinen 
+294 
+
+Two Approaches to Optimal Annealing,
+Todd K. Leen, Bernhard Schottky and David Saad 
+301 
+
+Structural Risk Minimization for Nonparametric Time Series Prediction, 
+Ron Meir 
+308 
+
+Analytical Study of the Interplay between Architecture and Predictability,
+Avner Priel, Ido Kanter and David A. Kessler 
+315 
+
+Globally Optimal On-line Learning Rules,
+ Magnus Rattray and David Saad 
+322 
+
+Minimax and Hamiltonian Dynamics of Excitatory-Inhibitory Networks,
+H. Sebastian Seung, Tom J. Richardson, Jeffrey C. Lagarias and John J. Hopfield 
+329 
+
+Data-Dependent Structural Risk Minimization for Perceptron Decision Trees, 
+John Shawe-Taylor and Nello Cristianini 
+336 
+
+From Regularization Operators to Support Vector Kernels,
+Alex J. Smola and Bernhard Schopkopf 
+343 
+
+The Rectified Gaussian Distribution,
+Nicholas D. Socci, Daniel D. Lee and H. Sebastian Seung 
+350 
+
+On-line Learning from Finite Training Sets in Nonlinear Networks, 
+Peter Sollich and David Barber 
+357 
+
+Competitive On-line Linear Regression,
+ Volodya Vovk 
+364 
+
+On the Infeasibility of Training Neural Networks with Small Squared Errors,
+ Van H. Vu 
+371 
+
+The Storage Capacity of a Fully-Connected Committee Machine,
+Yuansheng Xiong, Chulan Kwon and Jong-Hoon Oh 
+378   
+
+The Efficiency and the Robustness of Natural Gradient Descent Learning Rule,
+ Howard H. Yang and Shun-ichi Amari 
+ 385 
+
+Ensemble Learning for Multi-Layer Networks,
+ David Barber and Christopher M. Bishop 
+ 395 
+
+Radial Basis Functions: A Bayesian Treatment,
+ David Barber and Bernhard Schottky 
+ 402 
+
+Shared Context Probabilistic Transducers,
+ Yoshua Bengio, Samy Bengio, Jean-Franqois Isabelle and Yoram Singer
+ 409 
+
+Approximating Posterior Distributions in Belief Networks Using Mixtures,
+ Christopher M. Bishop, Nell Lawrence, Tommi Jaakkola and Michael I. Jordan 
+416 
+
+Receptive Field Formation in Natural Scene Environments: Comparison of  Single Cell Learning Rules, 
+Brian S. Blais, Nathan Intrator, Harel Shouval and Leon N. Cooper
+ 423 
+
+An Annealed Self-Organizing Map for Source Channel Coding,
+Matthias Burger, Thore Graepel and Klaus Obermayer 
+ 430 
+
+Incorporating Test Inputs into Learning,
+Zehra Cataltepe and Malik Magdon-Ismail 
+ 437 
+
+On Efficient Heuristic Ranking of Hypotheses,
+Steve Chien, Andre Stechert and Darren Mutz 
+444 
+
+Learning to Order Things,
+William W. Cohen, Robert E. Schapire and Yoram Singer 
+ 451 
+
+Regularisation in Sequential Learning Algorithms,
+ Joao F. G. de Freitas, Mahesan Niranjan and Andrew H. Gee 
+ 458 
+
+Agnostic Classification of Markovian Sequences, 
+Ran EI-Yaniv, Shai Fine and Naftali Tlshby 
+ 465 
+
+Ensemble and Modular Approaches for Face Detection: A Comparison,
+Raphael Feraud and Olivier Bernier 
+ 472 
+
+A Revolution: Belief Propagation in Graphs with Cycles,
+Brendan J. Frey and David J. C. MacKay 
+ 479 
+
+Hierarchical Non-linear Factor Analysis and Topographic Maps,
+Zoubin Ghahramani and Geoffrey E. Hinton 
+ 486 
+
+Regression with Input-dependent Noise: A Gaussian Process Treatment,
+Paul W. Goldberg, Christopher K. I. Williams and Christopher M. Bishop
+ 493 
+
+Linear Concepts and Hidden Variables: An Empirical Study,
+Adam J. Grove and Dan Roth 
+ 500 
+
+Classification by Pairwise Coupling,
+ Trevor Hastie and Robert Tibshirani 
+ 507 
+
+Unsupervised On-line Learning of Decision Trees for Hierarchical Data Analysis,
+ Marcus Held and Joachim M. Buhmann 
+ 514 
+
+Nonlinear Markov Networks for Continuous Variables, 
+Reimar Holmann and Volker Tresp 
+ 521 
+
+Active Data Clustering,
+ Thomas Hofmann and Joachim M. Buhmann 
+ 528 
+
+Function Approximation with the Sweeping Hinge Algorithm,
+Don R. Hush, Fernando Lozano and Bill Home 
+ 535 
+
+The Error Coding and Substitution PaCTs,
+ Gareth James and Trevor Hastie 
+ 542 
+
+S-Map: A Network with a Simple Self-Organization Algorithm for Generarive Topographic Mappings,
+ Kimmo Kiviluoto and Erkki Oja 
+ 549 
+
+Learning Nonlinear Overcomplete Representations for Efficient Coding,
+Michael S. Lewicki and Terrence J. Sejnowski 
+ 556 
+
+Factorizing Multivariate Function Classes,
+ Juan K. Lin 
+ 563 
+
+A Framework for Multiple-Instance Learning,
+Oded Maron and Tonaris Lozano-P6rez 
+ 570 
+
+An Application of Reversible-Jump MCMC to Multivariate Spherical Gaussian Mixtures,
+ Alan D. Marts 
+ 577 
+
+Estimating Dependency Structure as a Hidden Variable,
+Marina Meila and Michael I. Jordan 
+ 584 
+
+Combining Classifiers Using Correspondence Analysis,
+ Christopher J. Metz 
+591 
+
+Learning Path Distributions Using Nonequilibrium Diffusion Networks, 
+Paul Mineiro, Javier Movellan and Ruth J. %rfiliams 
+ 598 
+
+Learning Generarive Models with the Up-Propagation Algorithm, 
+Jong-Hoon Oh and H. Sebastian Seung 
+ 605 
+
+An Incremental Nearest Neighbor Algorithm with Queries,
+ Joel Ratsaby 
+ 612 
+
+RCC Cannot Compute Certain FSA, Even with Arbitrary Transfer Functions, 
+Mark Ring 
+ 619 
+
+EM Algorithms for PCA and SPCA,
+ Sam Roweis 
+ 626 
+
+Local Dimensionality Reduction,
+Stefan Schaal, Sethu Xqjayakumar and Christopher G. Atkeson 
+ 633 
+
+Prior Knowledge in Support Vector Kernels,
+Bernhard Sch61kopf, Patrice Simard, Alex J. Smola and Vladimir Vapnik
+ 640 
+
+Training Methods for Adaptive Boosting of Neural Networks,
+Holger Schwenk and Yoshua Bengio 
+ 647 
+
+Learning Continuous Attractors in Recurrent Networks,
+ H. Sebastian Seung 
+654 
+
+Monotonic Networks, 
+Joseph Sill 
+ 661 
+
+Stacked Density Estimation,
+ Padhraic Smyth and David Wolpert 
+ 668 
+
+Bidirectional Retrieval from Associative Memory, 
+Friedrich T. Sommer and G'anther Palm 
+ 675 
+
+Mapping a Manifold of Perceptual Observations,
+ Joshua B. Tenenbaum 
+ 682 
+
+Graph Matching with Hierarchical Discrete Relaxation,
+Richard C. W'fison and Edwin R. Hancock 
+ 689 
+
+Multiplicative Updating Rule for Blind Separation Derived from the Method of Scoring,
+ Howard H. Yang 
+ 696 
+
+A 1,000-Neuron System with One Million 7-bit Physical Interconnections, 
+Yuzo Hirai 
+ 705 
+
+Silicon Retina with Adaptive Filtering Properties 
+Shih-Chii Liu
+712 
+
+Analog VLSI Model of lntersegmental Coordination with Nearest-Neighbor Coupling,
+ Girish N. Patel, Jeremy H. Holleman and Stephen P. DeWeerth 
+ 719 
+
+An Analog VLSI Neural Network for Phase-based Machine Vision,
+ Bertram E. Shi and Kwok Fai Hui 
+ 726 
+
+Analysis of Drifting Dynamics with Neural Network Hidden Markov Models,
+ Jens Kohlmorgen, Klaus-Robert Mtiller and Klaus Pawelzik 
+ 735 
+
+Bayesian Robustification for Audio Visual Fusion,
+ Javier MoveRan and Paul Mineiro 
+ 742 
+
+Modeling Acoustic Correlations by Factor Analysis,
+ Lawrence Saul and Mazin Rahim 
+ 749 
+
+Blind Separation of Radio Signals in Fading Channels,
+ Karl Torkkola 
+ 756 
+
+Hybrid NN/I-IMM-Based Speech Recognition with a Discriminant Neural Feature Extraction,
+ Daniel Willett and Gerhard Rigoll 
+ 763 
+
+A Non-Parametric Multi-Scale Statistical Model for Natural Images,
+ Jeremy S. De Bonet and Paul A. Viola 
+ 773 
+
+Recovering Perspective Pose with a Dual Step EM Algorithm,
+ Andrew D. J. Cross and Edwin R. Hancock 
+ 780 
+
+Bayesian Model of Surface Perception,
+William T Freeman and Paul A. Viola 
+787 
+
+Features as Sufficient Statistics, 
+Davi Geiger, Archismart Rudra and Laurarice T. Maloney 
+ 794 
+
+Detection of First and Second Order Motion, 
+Alexander Gmnewald and Heiko Neumann 
+ 801 
+
+A Simple and Fast Neural Network Approach to Stereovision,
+ Rolf D. Henkel 
+808 
+
+Inferring Sparse, Overcomplete Image Codes Using an Efficient Coding Framework,
+Michael S. Lewicki and Bruno A. Olshausen 
+ 815 
+
+Visual Navigation in a Robot Using Zig-Zag Behavior,
+ M. Anthony Lewis 
+ 822 
+
+2D Observers for Human 3D Object Recognition? 
+Zili Liu and Daniel Kersten 
+829 
+
+Self-similarity Properties of Natural Images,
+Antonio Turiel, Germfin Mato, N6stor Parga and Jean-Pierre Nadal
+ 836 
+
+Multiresolution Tangent Distance for Affine-invariant Classification,
+Nuno Vasconcelos and Andrew Lippman 
+ 843 
+
+Phase Transitions and the Perceptual Organization of Video Sequences,
+Yair Weiss 
+ 850 
+
+Using Expectation to Guide Processing: A Study of Three Real-World Applications,
+ Shumeet Baluja 
+ 859 
+
+Structure Driven Image Database Retrieval,
+Jeremy S. De Bonet and Paul A. Viola 
+ 866 
+
+A General Purpose Image Processing Chip: Orientation Detection,
+Ralph Etienne-Cummings and Donghui Cai 
+ 873 
+
+An Analog VLSI Model of the Fly Elementary Motion Detector,
+Reid R. Harrison and Christof Koch 
+ 880 
+
+MELONET I: Neural Nets for Inventing Baroque-Style Chorale Variations,
+Dominik H6rnel 
+ 887 
+
+Extended ICA Removes Artifacts from Electroencephalographic Recordings,
+Tzyy-Ping Jung, Colin Humphties, Te-Won Lee, Scott Makeig, Manfin J. McKeown, Vicente Iragui and Terrence J. Sejnowski 
+ 894 
+
+A Generic Approach for Identification of Event Related Brain Potentials via a Competitive Neural Network Structure, 
+Daniel H. Lange, Hava T. Siegelmann, Hillel Pratt and Gideon F. Inbar
+ 901 
+
+A Neural Network Based Head Tracking System,
+ Daniel D. Lee and H. Sebastian Seung 
+ 908 
+
+Wavelet Models for Video Time-Series,
+ Sheng Ma and Chuanyi Ji 
+ 915 
+
+Reinforcement Learning for Call Admission Control and Routing in Integrated Service Networks, 
+Peter Marbach, Oliver Mihatsch, Miriam Schulte and John N. Tsitsildis
+ 922 
+
+Learning to Schedule Straight-Line Code,
+ Eliot Moss, Paul Utgoff, John Cavazos, Doina Precup, Darko Stefanovid, Carla Brodley and David Scheeff . 
+929 
+
+Enhancing Q-Learning for Optimal Asset Allocation, 
+Ralph Neuneier
+ 936 
+
+Intrusion Detection with Neural Networks,
+Jake Ryan, Meng-Jang Lin and Risto M'fikkulainen 
+ 943 
+
+Incorporating Contextual Information in White Blood Cell Identification,
+ Xubo Song, Yaser Abu-Mostafa, Joseph Sill and Harvey Kasdan 
+ 950 
+
+Bach in a Box--Real-Time Harmony,
+Randall R. Spangler, Rodney M. Goodman and Jim Hawkins 
+ 957 
+
+Experiences with Bayesian Learning in a Real World Application,
+Peter Sykacek, Georg Dorffner, Peter Rappelsberger and Josef Zeitlhofer 
+ 964 
+
+A Solution for Missing Data in Recurrent Neural Networks with an Application to Blood Glucose Prediction,
+ Volker Tresp and Thomas Briegel 
+ 971 
+
+Use of a Multi-Layer Perceptron to Predict Malignancy in Ovarian Tumors,
+Herman Verrelst, Yves Moreau, Joos Vandewalle and Dirk Ttmmemmn 
+ 978 
+
+Modelling Seasonality and Trends in Daily Rainfall Data,
+ Peter M. Williams
+985 
+
+The Observer-Observation Dilemma in Neuro-Forecasting, 
+Hans Georg Zimmermann and Ralph Netmeier 
+ 992 
+
+Generalized Prioritized Sweeping,
+ David Andre, Nir Friedman and Ronald Parr
+1001 
+
+Nonparametric Model-Based Reinforcement Learning, 
+Christopher G. Atkeson 
+1008 
+
+An Improved Policy Iteration Algorithm for Partially Observable MDPS, 
+Eric A. Hansen 
+ 1015 
+
+Automated Aircraft Recovery via Reinforcement Learning: Initial Experiments,
+ Jeffrey F. Monaco, David G. Ward and Andrew G. Barto 
+ 1022 
+
+Reinforcement Learning for Continuous Stochastic Control Problems,
+ R6nai Munos and Paul Bourgine 
+ 1029 
+
+Adaptive Choice of Grid and Time in Reinforcement Learning,
+ Stephan Pareigis 
+1036 
+
+Reinforcement Learning with Hierarchies of Machines, 
+Ronald Parr and Smart Russell 
+ 1043 
+
+Multi-time Models for Temporally Abstract Planning,
+Doina Precup and Richard S. Sutton 
+ 1050 
+
+How to Dynamically Merge Markov Decision Processes,
+Satinder Singh and David Cohn 
+ 1057 
+
+The Asymptotic Convergence-Rate of Q-learning,
+ Csaba Szepesvfiri 
+ 1064 
+
+Hybrid Reinforcement Learning and Its Application to Biped Robot Control,
+Satoshi Yamada, Akira Watanabe and Michio Nakashima 
+ 1071 
+

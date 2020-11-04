@@ -1,0 +1,288 @@
+Abu-Mostafa,Yaser,950
+Amari,Shun-ichi,385
+Anastasio,Thomas J.,138
+Andersen,Richard A.,222
+Andre,David,1001
+Archie,Kevin A.,208
+Atkeson,Christopher G.,633,1008
+Attias,Hagai,103
+Baird,Bill,3
+Baluja,Shumeet,859
+Barber,David,357,395,402
+Bartlett,Peter,245,259
+Barto,Andrew G.,1022
+Baxter,Jonathan,245
+Bengio,Samy,409
+Bengio,Yoshua,409,647
+Bernier,Olivier,472
+Berry,Michael J.,110
+Bishop,Christopher M.,395,416,493
+Blais,Brian S.,423
+Bohossian,Vasken,252
+Bourgine,Paul,1029
+Braun,Jochen,173
+Briegel,Thomas,971
+Brodley,Carla,929
+Brody,Carlos D.,166
+Bruck,Jehoshua,252
+Buhmann,Joachim M.,514,528
+Burger,Matthias,430
+Cai,Donghui,873
+Cataltepe,Zehra,437
+Cavazos,John,929
+Cttien,Steve,444
+Cohen,Eyal,10
+Cohen,William W.,451
+Cohn,David,1057
+Cooper,Leon N.,423
+Cottrell,GarrisonW.,17,59
+Cristianini,Nello,336
+Cross,Andrew D.J.,780
+Dailey,Matthew N.,17
+Dayan,Peter,117,145
+de-Bonet,Jeremy S.,773,866
+de-Freitas,Joao F.G.,458
+de-Sa,Virginia R.,131
+deCharms,R. Christopher,124,131
+Deneve,Sophie,24
+DeWeerth,Stephen P.,719
+Dorffner,Georg,964
+Dow,Fxnst R.,138
+El-Yaniv,Ran,465
+Etienne-Cummings,Ralph,873
+Farah,Martha,66
+Feraud,Raphael,472
+Fine,Shai,465
+Foltz,Peter,45
+Foster,David J.,145
+Freeman,William T.,787
+Frey,Brendan J.,479
+Friedman,Nir,1001
+Gallant,Jack L.,236
+Gee,Andrew H.,458
+Geiger,Davi,794
+Ghahramani,Zoubin,486
+Goldberg,Paul W.,493
+Golea,Mostefa,259
+Goodhill,Geoffrey J.,152,159
+Goodman,Rodney M.,957
+Graepel,Thore,430
+Grove,Adam J.,500
+Grunewald,Alexander,801
+Hamalainen,Matti,229
+Hornel,Dominik,887
+Hadden,Lucy E.,31
+Hancock,Edwin R.,689,780
+Hansen,Eric A.,1015
+Hari,Riitta,229
+Harrison,Reid R.,880
+Hastie,Trevor,507,542
+Hawkins,Jim,957
+Held,Marcus,514
+Henkel,Rolf D.,808
+Heskes,Tom,266
+Hinton,Geoffrey E.,486
+Hirai,Yuzo,705
+Hofmann,Reimar,521
+Hofmann,Thomas,528
+Holleman,Jeremy H.,719
+Hopfield,John J.,166,329
+Horn,David,52
+Horne,Bill,535
+Houde,John E,38
+Hui,Kwok Fai,726
+Humphties,Colin,894
+Hush,Don R.,535
+Hyvarinen,Aapo,273
+Inbar,Gideon E,901
+Intrator,Nathan,423
+Iragui,Vicente,894
+Isabelle,Jean-Franqois,409
+Itti,Laurent,173
+Jaakkola,Tommi,416
+Jabd,Marwan,94
+James,Gareth,542
+Ji,Chuanyi,915
+Jordan,Michael I.,38,416,584
+Jousmaki,Veikko,229
+Jung,Tzyy-Ping,894
+Kanter,Ido,315
+Kappen,Hilbert J.,280
+Kasdan,Harvey,950
+Kersten,Daniel,829
+Kessler,David A.,315
+Kiviluoto,Kimmo,549
+Kivinen,Jyrld,287
+Koch,Chdstof,173,201,880
+Kohlmorgen,Jens,735
+Koistinen,Petri,294
+Kvale,Mark,180
+Kwon,Chulan,378
+Lagarias,Jeffrey C.,329
+Laham,Darrell,45
+Landauer,Thomas K.,45
+Lange,Daniel H.,901
+Latimer,Cyril,94
+Lawrence,Neil,416
+Lee,Dale K.,173
+Lee,Daniel D.,350,908
+Lee,Te-Won,894
+Lee,Wee Sun,259
+Leen,Todd K.,301
+Levy,Nir,52
+Lewicki,Michael S.,556,815
+Lewis,M. Anthony,822
+Lin,Juan K.,563
+Lin,Meng-Jang,943
+Lippman,Andrew,843
+Liu,Shih-Chii,712
+Liu,Zili,829
+Long,Theresa,117
+Lozano,Fernando,535
+Lozano-Perez,Tomils,570
+Lumer,Erik D.,187
+Muller,Klaus-Robert,735
+Ma,Sheng,915
+Maass,Wolfgang,194
+MacKay,David J. C.,479
+Magdon-Ismail,Malik,437
+Makeig,Scott,894
+Maloney,Laurance T.,794
+Manwani,Amit,201
+Marbach,Peter,922
+Maron,Oded,570
+Marts,Alan D.,577
+Mason,Llew,259
+Mato,German,836
+McClelland,James L.,73
+McKeown,Martin J.,894
+Meila,Marina,584
+Meir,Ron,308
+Meister,Markus,110
+Mel,Bartlett W.,208
+Metz,Christopher J.,591
+Merzenich,Michael M.,124,131
+Mihatsch,Oliver,922
+Miikkulainen,Risto,943
+Milostan,Jeanne C.,59
+Mineiro,Paul,598,742
+Monaco,Jeffrey E,1022
+Moteau,Yves,978
+Morris,Richard G. M.,145
+Moss,Eliot,929
+Movellan,Javier,598,742
+Mozer,Michael C.,66
+Munos,Remi,1029
+Mutz,Darren,444
+Nadal,Jean-Pierre,836
+Nakashima,Michio,1071
+Neumann,Heiko,801
+Neuneier,Ralph,936,992
+Niranjan,Mahesan,458
+Norman,Kenneth A.,73
+O'Reilly,Randall C.,73
+Obermayer,Klaus,430
+Oh,Jong-Hoon,378,605
+Oja,Erkki,229,549
+Olshausen,Bruno A.,815
+Palm,Gfinther,675
+Pareigis,Stephan,1036
+Parga,Nestor,836
+Parr,Ronald,1001,1043
+Patel,Girish N.,719
+Pawelzik,Klaus,735
+Pezaris,John S.,222
+Poggio,Tomaso,215
+Pouget,Alexandre,24
+Pratt,Hillel,901
+Precup,Doina,929,1050
+Priel,Avner,315
+Rahim,Mazin,749
+Rao,Rajesh P. N.,80
+Rappelsberger,Peter,964
+Ratsaby,Joel,612
+Rattray,Magnus,322
+Richardson,Tom J.,329
+Riesenhuber,Maximilian,215
+Rigoll,Gerhard,763
+Ring,Mark,619
+Rodriguez,F. B.,280
+Rodriguez,Paul,87
+Roth,Dan,500
+Roweis,Sam,166,626
+Ruderman,Daniel L.,208
+Rudra,Archismart,794
+Ruppin,Eytan,10,52
+Russell,Smart,1043
+Ryan,Jake,943
+Saad,David,301,322
+Sahani,Maneesh,222
+Saul,Lawrence,749
+Scholkopf,Bernhard,343,640
+Schaal,Stefan,633
+Schapire,Robert E.,451
+Scheeff,David,929
+Schenkel,Markus,94
+Schottky,Bernhard,301,402
+Schreiner,Christoph E.,103,180
+Schulte,Miriam,922
+Schwenk,Holger,647
+Sejnowski,Terrence J.,556,894
+Seung,H. Sebastian,329,350,605,654,908
+Shawe-Taylor,John,336
+Shi,Bertram E.,726
+Shouval,Harel,423
+Siegelmann,Hava T.,901
+Sill,Joseph,661,950
+Simard,Patrice,640
+Singer,Yoram,409,451
+Singh,Satinder,1057
+Sitton,Mark,66
+Smola,Alex J.,343,640
+Smyth,Padhraic,668
+Socci,Nicholas D.,350
+Sollich,Peter,357
+Sommex,Friedrich T.,675
+Song,Xubo,950
+Spangler,Randall R.,957
+Stechert,Andre,444
+Stefanovic,Darko,929
+Sutton,Richard S.,1050
+Sykacek,Peter,964
+Szepesvfixi,Csaba,1064
+Tenenbaum,Joshua B.,682
+Tibshitani,Robert,507
+Timmerman,Dirk,978
+Tishby,Naftali,465
+Torkkola,Kari,756
+Tresp,Volker,521,971
+Tsitsiklis,John N.,922
+Turiel,Antonio,836
+Utgoff,Paul,929
+Vandewalle,Joos,978
+Vapnik,Vladimir,640
+Vasconcelos,Nuno,843
+Verrelst,Herman,978
+Vigario,Ricardo,229
+Vijayahunar,Sethu,633
+Vinje,William E.,236
+Viola,Paul A.,773,787,866
+Vovk,Volodya,364
+Vu,Van H.,371
+Ward,David G.,1022
+Warmuth,Manfred K.,287
+Watanabe,Aldra,1071
+Weiss,Yak,850
+Wiles,Janet,87
+Willett,Daniel,763
+Williams,Christopher K.I.,493
+Williams,Peter M.,985
+Williams,Ruth J.,598
+Wilson,Richard C.,689
+Wolpert,David,668
+Xiong,Yuansheng,378
+Yamaria,Satoshi,1071
+Yang,Howard H.,385,696
+Zador,Anthony M.,194
+Zeitlhofer,Josef,964
+Zimmermann,Hans Georg,992

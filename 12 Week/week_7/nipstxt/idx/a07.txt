@@ -1,0 +1,270 @@
+Abu-Mostafa, Yaser, 411 
+Ahmad, Subutai, 689 
+Alexander, Jay, 609 
+Alspector, J., 803 
+Ando, Hiroshi, 949 
+Andreou, Andreas G., 795 
+Asogawa, Minoru, 1101 
+Back, Andrew, 883 
+Baird, Leemon C., 353 
+Baldi, Pierre, 1085 
+Ballard, Dana H., 893 
+Baluja, Shumeet, 451 
+Barkai, N., 303 
+Barto, Andrew G., 401 
+Becker, Suzanna, 933 
+Behrman, Elizabeth C., 771 
+Bell, Anthony, 467 
+Bengio, Yoshua, 427, 553,585 
+Bergen, Jim, 981 
+Berthold, Michael R., 521 
+Bischof, Horst, 941 
+Bishop, Chris M., 641, 1007 
+Bottou, Leon, 585 
+Boyan, Justin, 369 
+Bradtke, Steven, 393 
+Brashers-Krug, Tom, 19, 1117 
+Brauer, Wilfried, 247 
+Braver, Todd S., 141 
+Bregler, Christoph, 973 
+Brown, Thomas H., 69 
+Bmske, JOrg, 497 
+Buhmann, Joachim, 459 
+Burgess, Neil, 51 
+Burke, Harry, 1063 
+Burl, Michael, 1085 
+Camevale, Nicholas, 69 
+Camana, Rich, 657 
+Cauwenberghs, Gert, 779 
+Chang, Eric, 875 
+Chiang, Wan-Ping, 239 
+Churcher, S., 763 
+Claiborne, Brenda J., 69 
+Coggins, Richard, 739 
+Cohen, Jonathan D., 141 
+Cohn, David, 705 
+Cooper, Leon N., 747 
+Cortes, Corinna, 239 
+Cottrell, Garrison W., 481 
+Cowan, Jack D., 271 
+Crites, Robert, 401 
+Cmz-Cabrara, Alvaro A., 771 
+Darrell, Trevor, 909 
+Dayan, Peter, 1015 
+Deco, Gustavo, 247 
+Deffayet, Cedric, 125 
+Diamond, Jay, 521 
+Diorio, Chris, 739 
+Dong, Dawei, 925 
+Douglas, Rodney, 3 
+Doya, Kenji, 101 
+Dreyfus, Gerard, 1109 
+Duff, Michael O., 393 
+Edelman, Shimon, 117 
+Erwin, E., 93 
+Essa, Irfan, 909 
+Fayyad, Usama, 1085 
+Fels, S. Sidney, 843 
+Feng, Jianfeng, 319 
+Ferra, Herman, 215 
+Fine, Terrence L., 327, 335 
+Finke, Michael, 1093 
+Flower, Barry, 731 
+Frasconi, Paolo, 427, 553 
+Fritzke, Bemd, 625 
+Furlanello, Cesare, 867 
+Ghahramani, Zoubin, 43, 617, 705, 1125 
+Giles, C. Lee, 537, 649, 697 
+Giuliani, Diego, 867 
+Gold, Steven, 713, 957 
+Goodman, Philip H., 1063 
+Graham, Bruce, 513 
+Hadjifaradji, Saeed, 279 
+Hajto, J., 763 
+Hammer, Martin, 61 
+Han, Il-Song, 811 
+Hansen, Lars Kai, 673 
+Harmon, Mance, 353 
+Hasler, Paul, 739, 817 
+Hasselmo, Michael E., 77 
+Hassibi, Babak, 191 
+Hastie, Trevor, 999 
+Haynes, Paul S., 1007 
+Heil, Stefan, 1047 
+Hinton, Geoffrey, 843, 1015 
+Hinton, Geoffrey E., 633,965 
+Hochreiter, Sepp, 529 
+Hofmann, Thomas, 459 
+Holmes, A.J., 763 
+Horiuchi, Timothy, 787 
+Horn, David, 149 
+Horne, Bill G., 537, 649,697 
+Hornik, Kurt, 941 
+Huertas, J. L., 755 
+Jaakkola, Tommi, 345, 361 
+Jabri, Marwan, 537, 731 
+Jackel, L. D., 239 
+James, Daniel L., 577 
+Jim, Karo, 649 
+Jordan, Michael I., 43, 345,361,435, 633, 705, 1125 
+Kailath, Thomas, 191 
+Kairiss, Edward W., 85 
+Kambhatla, Nanda, 681 
+Kazlas, Peter, 721 
+Ke, Liu, 1031 
+Kim, Ki-Chul, 811 
+Kindermann, Jorg, 443 
+Klopf, A. Harry, 353 
+Knerr, Stefan, 1109 
+Knierim, James J., 173 
+Koch, Christof, 3 
+Kowalczyk, Adam, 215 
+Krogh, Anders, 231 
+Kudrimoti, Hemant S., 173 
+Kukolich, Linda, 1055 
+Kuo, Jyh-Ming, 311 
+Lee, Hwang-Soo, 811 
+Leen, Todd K., 223, 681 
+Leerink, Laurens, 537 
+Legleye, Claire, 641 
+Lemmon, Michael, 569 
+Linares-Barranco, B., 755 
+Lippe, D., 803 
+Lippmann, Richard P., 875, 1055 
+Lu, Chien Ping, 957
+Maass, Wolfgang, 183 
+Makhoul, John, 859 
+Malach, Rafael, 117 
+Malaka, Rainer, 61 
+Malpeli, Joseph G., 133 
+Manke, Stefan, 1093 
+Marchand, Mario, 279 
+Marion, Glenn, 255 
+Mathis, Donald, 11 
+McCallum, R. Andrew, 377 
+McNaughton, Bruce L., 173 
+McVey, Brian D., 1031 
+Mead, Carver, 739 
+Meir, Ronny, 295 
+Miikkulainen, Risto, 109, 577 
+Milgram, Maurice, 991 
+Minch, Bradley A., 739 
+Mjolsness, Eric, 713, 957 
+Moore, Andrew W., 369 
+Movellan, Javier, 851 
+Mozer, Michael C., 11,609 
+Mukherjee, Sayandev, 335 
+Murphy, Sean D., 85 
+Murray, A. F., 763 
+Mussa-lvaldi, Ferdinando, 1117 
+Nakano, Ryohei, 545 
+Negishi, Michiro, 27 
+Neuneier, Ralph, 689 
+Nix, David, 489 
+Niyogi, Partha, 593 
+Nowlan, Steven, 901 
+Obermayer, K., 93 
+Ohira, Toru, 271 
+Omohundro, Stephen M., 973 
+Oshima-Takane, Yuriko, 601 
+Paass, Gerhard, 443 
+Pan, H., 319 
+Pappu, Suguna, 957 
+Pearson, John C., 981 
+Pedersen, Motten, 673 
+Pedroni, Volnei, 779 
+Pentland, Alex, 909 
+Perona, Pietro, 1085 
+Perrone, Michael P., 747 
+Personnaz, Leon, 1109 
+Pickard, Stephen, 731 
+Pineda, Fernando, 795 
+Platt, John C., 901 
+Pomerleau, Dean A., 451, 1039 
+Pouget, Alexandre, 125, 157 
+Price, David, 1109 
+Principe, Jose, 311 
+Ragg, Thomas, 61 
+Rangarajan, Anand, 713, 957 
+Rao, Rajesh, 893 
+Reggia, James A., 35, 149 
+Revow, Michael D., 965, 1015 
+Robinson, A. J., 835 
+Rose, M. J., 763 
+Rosen, David B., 1063 
+Roychowdhury, V. P., 319 
+Ruppin, Eytan, 35, 149 
+Saad, David, 255,287 
+Sackinger, Eduard, 999 
+Sanger, Terence, 1023 
+Saul, Lawrence K., 435 
+Schmidhuber, Jurgen, 529, 1047 
+Schnell, Eric, 77 
+Schraudolph, Nicol, 475 
+Schulten, K., 93 
+Schulten, Klaus, 133 
+Schwartz, Anton, 385 
+Schwartz, Richard, 859 
+Schwenk, Holger, 991 
+Sejnowski, Terrence J., 101,125, 157, 165, 467, 475, 1077 
+Serrano-Gotarredona, T., 755 
+Servan-Schreiber, David, 141 
+Seung, H. S., 303 
+Shadmehr, Reza, 19, 1117 
+Shahian, David, 1055 
+Shultz, Thomas, 601 
+Simard, Patrice, 999 
+Singh, Satinder P., 345,361 
+Sirosh, Joseph, 109 
+Skaggs, William, 173 
+Skinner, Steven R., 771 
+Slaney, Malcolm, 827 
+Smith, Mike E. U., 1007 
+Smyth, Padhraic, 1085 
+Sollich, Peter, 207, 287 
+Sommer, Gerald, 497 
+Spector, Kalanit Grill, 117 
+Spence, Clay D., 981 
+Sperduti, Alessandro, 665 
+Sroka, Jason, 859 
+Steck, James E., 771 
+Stensmo, Magnus, 1077 
+Stork, David G., 665 
+Suarez, Humbert, 3 
+Sundareswaran, V., 917 
+Sung, Kah Kay, 593 
+Suzuki, Satoshi, 949 
+Szymanski, Peter T., 569 
+Takane, Yoshio, 601 
+Taniguchi, Michiaki, 419 
+Tenenbaum, Joshua, 561 
+Terman, David, 199 
+Thmn, Sebastian, 1069 
+Thrun, Sebastian, 385, 505 
+Todd, Tom N., 1007 
+Todorov, Emanual V., 19, 561 
+Tokar, Robert L., 1031 
+Trentin, Edmondo, 867 
+Tresp, Volker, 419, 689 
+Trotman, David L., 1007 
+Tsai, Kenneth Y., 69 
+Tsoi, Ah Chung, 883 
+Tsung, Fu-Sheng, 481 
+Tunnon, Michael, 327 
+Tzonev, Svilen, 133 
+Ueda, Naonori, 545 
+Vaina, Lucia M., 917 
+Vedelsby, Jesper, 231 
+Venkatesh, Santosh S., 263 
+Waibel, Alex, 1093 
+Wang, Changfeng, 263 
+Wang, DeLiang, 199 
+Waterhouse, S.R., 835 
+Weigend, Andreas S., 489, 721 
+Williams, Christopher, 965 
+Willshaw, David, 513 
+Windsor, Colin G., 1007 
+Wolpert, Daniel M., 43, 1125 
+Xu, Lei, 633 
+Zemel, Richard, 165 
+Zhao, Ying, 859 

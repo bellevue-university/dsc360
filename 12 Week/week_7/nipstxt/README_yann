@@ -1,0 +1,14 @@
+
+This directory contains the raw ASCII text
+obtained be applying Optical Character Recognition
+to the NIPS collection.
+
+The line breaks in the text files have
+respect the line breaks in the pages images.
+
+The directory structure and file names are
+identical to the DjVu counterparts, except
+that the .djvu extensions were changes to .txt
+
+  -- Yann LeCun
+     http://www.research.att.com/~yann
