@@ -1,1 +1,0 @@
-There are no files for week 3 - the book is not used.
